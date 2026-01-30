@@ -40,7 +40,7 @@ Chicago Public Media faces challenges common to merged media organizations:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        SOURCE SYSTEMS (Current State)                        │
+│                        SOURCE SYSTEMS (Current State)                       │
 ├─────────────────┬─────────────────┬─────────────────┬───────────────────────┤
 │  WBEZ Donations │ Sun-Times Subs  │  Event Tickets  │   Email Marketing     │
 │  (Allegiance?)  │ (Legacy System) │   (Eventbrite?) │    (Mailchimp?)       │
@@ -61,7 +61,7 @@ Chicago Public Media faces challenges common to merged media organizations:
                     │   src/identity_resolution/    │
                     │   • Deterministic matching    │
                     │   • Probabilistic scoring     │
-                    │   • Audit trail              │
+                    │   • Audit trail               │
                     └───────────────┬───────────────┘
                                     │
                     ┌───────────────▼───────────────┐
