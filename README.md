@@ -1,303 +1,330 @@
 # CPM Enterprise Data Platform Blueprint
 
-A comprehensive enterprise data platform blueprint designed for Chicago Public Media, demonstrating modern data engineering practices, constituent unification, and ML-driven engagement strategies.
+> **A working prototype demonstrating enterprise data unification for Chicago Public Media**
+>
+> Built to show exactly how I would approach the Director of Enterprise Systems role—not with slides, but with code that solves the specific challenges outlined in the job description.
 
-## 🎯 Executive Summary
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository provides a production-ready blueprint for unifying constituent data across multiple platforms (WBEZ donations, Sun-Times subscriptions, events) into a single golden record, enabling:
+---
 
-- **360° Constituent View**: Unified profiles across all touchpoints
-- **Predictive Analytics**: Churn prediction and upgrade propensity models
-- **Data Governance**: Single source of truth for all business metrics
-- **Multi-Platform Support**: SQL for Standard, Snowflake, and Databricks
+## 🎯 The Problems This Solves
+
+Chicago Public Media faces challenges common to merged media organizations:
+
+| Challenge | Current State | Impact |
+|-----------|--------------|--------|
+| **Fragmented Data** | WBEZ donors, Sun-Times subscribers, and event attendees exist in separate systems | Same person appears as 3+ records with no connection |
+| **Departmental Silos** | Membership, Development, and Marketing each have partial views | Missed cross-sell opportunities, conflicting outreach |
+| **No Predictive Capabilities** | Reactive to churn, can't identify upgrade opportunities | Lost revenue, inefficient resource allocation |
+| **Inconsistent Metrics** | "Active member" defined differently by each team | Leadership gets different numbers from different reports |
+
+---
+
+## ✅ How This Blueprint Addresses Each Challenge
+
+| JD Requirement | Solution | Evidence |
+|----------------|----------|----------|
+| *"Unify all CRMs, donor, subscription platforms"* | **Identity Resolution Engine** | Two-phase matching algorithm with configurable thresholds |
+| *"Reduce silos, enable personalization"* | **Golden Record Schema** | Single constituent view across all touchpoints |
+| *"Data governance practices"* | **Metrics Framework** | YAML definitions with business owners, quality checks |
+| *"Lifecycle marketing, behavioral triggers"* | **ML Models** | Churn prediction (AUC: 0.93), Upgrade propensity |
+| *"Hands-on...integrations, troubleshooting"* | **Connector Framework** | Production-ready patterns with retry logic, logging |
+
+📄 **[See detailed problem-solution mapping →](PROBLEM_SOLUTION_MAP.md)**
+
+---
+
+## 🏗️ Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        SOURCE SYSTEMS (Current State)                        │
+├─────────────────┬─────────────────┬─────────────────┬───────────────────────┤
+│  WBEZ Donations │ Sun-Times Subs  │  Event Tickets  │   Email Marketing     │
+│  (Allegiance?)  │ (Legacy System) │   (Eventbrite?) │    (Mailchimp?)       │
+└────────┬────────┴────────┬────────┴────────┬────────┴───────────┬───────────┘
+         │                 │                 │                    │
+         └─────────────────┴────────┬────────┴────────────────────┘
+                                    │
+                    ┌───────────────▼───────────────┐
+                    │      INTEGRATION LAYER        │
+                    │   src/integrations/           │
+                    │   • Standardized connectors   │
+                    │   • Retry logic & logging     │
+                    │   • Data quality checks       │
+                    └───────────────┬───────────────┘
+                                    │
+                    ┌───────────────▼───────────────┐
+                    │     IDENTITY RESOLUTION       │
+                    │   src/identity_resolution/    │
+                    │   • Deterministic matching    │
+                    │   • Probabilistic scoring     │
+                    │   • Audit trail              │
+                    └───────────────┬───────────────┘
+                                    │
+                    ┌───────────────▼───────────────┐
+                    │        GOLDEN RECORD          │
+                    │   sql/schemas/                │
+                    │   • Unified constituent       │
+                    │   • 360° view                 │
+                    │   • Platform-specific SQL     │
+                    └───────────────┬───────────────┘
+                                    │
+         ┌──────────────────────────┼──────────────────────────┐
+         │                          │                          │
+┌────────▼────────┐    ┌───────────▼───────────┐    ┌────────▼────────┐
+│   ML MODELS     │    │   METRICS ENGINE      │    │   DATA QUALITY  │
+│ src/ml_models/  │    │ src/metrics/          │    │ src/data_quality│
+│ • Churn (0.93)  │    │ • YAML definitions    │    │ • Completeness  │
+│ • Upgrade prop  │    │ • Business owners     │    │ • Validity      │
+│ • Prioritization│    │ • Multi-platform SQL  │    │ • Uniqueness    │
+└─────────────────┘    └───────────────────────┘    └─────────────────┘
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Setup
+```bash
+git clone https://github.com/[your-username]/cpm-enterprise-blueprint.git
+cd cpm-enterprise-blueprint
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 2. Generate Test Data
+```bash
+python src/data_generator.py
+# Creates realistic Chicago-area constituent data:
+# - 5,000 base constituents
+# - 96,000+ donation records
+# - 750+ subscriptions
+# - 3,700+ event tickets
+```
+
+### 3. Run Identity Resolution
+```bash
+python src/identity_resolution/identity_resolver.py
+# Demonstrates unification across systems
+```
+
+### 4. Train Churn Model
+```bash
+python src/ml_models/churn_prediction.py
+# Output:
+# Churn Model Performance:
+#   AUC: 0.928
+#   Precision: 0.784
+#   Recall: 0.712
+```
+
+---
 
 ## 📁 Repository Structure
 
 ```
 cpm-enterprise-blueprint/
-├── README.md                 # This file
-├── requirements.txt          # Python dependencies
-├── setup.py                  # Package installation
-├── pyproject.toml           # Modern Python config
+│
+├── README.md                          ← You are here
+├── PROBLEM_SOLUTION_MAP.md            ← JD requirements → code mapping
 │
 ├── config/
-│   └── metrics_definitions.yaml    # Canonical metric definitions
+│   └── metrics_definitions.yaml       ← Single source of truth (11 metrics)
 │
 ├── docs/
 │   └── architecture/
-│       └── system-overview.md      # Complete architecture documentation
+│       └── system-overview.md         ← Technical deep-dive
 │
 ├── src/
-│   ├── data_generator.py           # Synthetic data generation
-│   ├── constituent_unification/
-│   │   └── identity_resolver.py    # Identity resolution engine
+│   ├── data_generator.py              ← Synthetic test data
+│   │
+│   ├── identity_resolution/
+│   │   └── identity_resolver.py       ← Two-phase matching engine
+│   │
 │   ├── metrics/
-│   │   └── engine.py               # YAML-driven metrics engine
+│   │   └── engine.py                  ← YAML → SQL generator
+│   │
 │   ├── ml_models/
-│   │   ├── churn_prediction.py     # Churn prediction model
-│   │   └── upgrade_propensity.py   # Upgrade propensity model
+│   │   ├── churn_prediction.py        ← Sustainer retention
+│   │   └── upgrade_propensity.py      ← Donor upgrade targeting
+│   │
 │   ├── integrations/
-│   │   └── base_connector.py       # Data source connector framework
+│   │   └── base_connector.py          ← Standardized source connectors
+│   │
 │   └── data_quality/
-│       └── validator.py            # Data quality validation
+│       └── validator.py               ← Automated quality checks
 │
 ├── sql/
 │   └── schemas/
-│       ├── standard/               # ANSI SQL schemas
-│       ├── snowflake/              # Snowflake-specific schemas
-│       └── databricks/             # Databricks/Delta Lake schemas
+│       ├── standard/                  ← ANSI SQL (portable)
+│       ├── snowflake/                 ← Snowflake-optimized
+│       └── databricks/                ← Delta Lake + Unity Catalog
 │
-├── examples/
-│   └── notebooks/
-│       └── 01_data_generation_demo.py  # Complete pipeline demo
-│
-└── data/
-    ├── synthetic/                  # Generated test data
-    └── models/                     # Trained ML models
+└── examples/
+    └── notebooks/
+        └── full_pipeline_demo.py      ← End-to-end demonstration
 ```
 
-## 🚀 Quick Start
+---
 
-### Installation
+## 🔑 Key Components
 
-```bash
-# Clone the repository
-git clone https://github.com/ckiriakos/cpm-enterprise-blueprint.git
-cd cpm-enterprise-blueprint
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Or install as package
-pip install -e .
-```
-
-### Generate Synthetic Data
-
-```bash
-python src/data_generator.py
-```
-
-This creates realistic test data in `data/synthetic/`:
-- `wbez_donations.csv` - Donation records (one-time and recurring)
-- `suntimes_subscriptions.csv` - Sun-Times subscription data
-- `event_tickets.csv` - Event attendance records
-- `email_engagement.csv` - Email open/click data
-- `ground_truth.csv` - Person-to-source mapping
-
-### Run Identity Resolution
+### Identity Resolution Engine
+Unifies records across systems using configurable matching:
 
 ```python
-from src.constituent_unification.identity_resolver import (
-    IdentityResolver, SourceRecord, ConstituentUnifier
-)
+# Matching weights (configurable)
+MATCH_WEIGHTS = {
+    'name_similarity': 0.35,    # Fuzzy match on first + last
+    'address_similarity': 0.25, # Street address comparison
+    'phone_match': 0.20,        # Exact or partial phone
+    'zip_match': 0.10,          # Geographic proximity
+    'email_domain': 0.10        # Same email provider
+}
 
-# Create source records from your data
-records = [SourceRecord(...), ...]
-
-# Unify into golden records
-unifier = ConstituentUnifier()
-constituents = unifier.unify_records(records)
-
-print(f"Unified {len(records)} records into {len(constituents)} constituents")
+# Thresholds
+AUTO_MATCH = 0.85      # High confidence → automatic merge
+REVIEW_QUEUE = 0.70    # Medium confidence → human review
+NO_MATCH = below 0.70  # Keep as separate records
 ```
-
-### Train ML Models
-
-```python
-from src.ml_models.churn_prediction import ChurnPredictor, generate_sample_data
-
-# Generate training data
-df, labels = generate_sample_data(5000)
-
-# Train model
-model = ChurnPredictor()
-metrics = model.train(df, labels)
-print(f"AUC: {metrics['auc']:.3f}")
-
-# Save model
-model.save('data/models/churn_model.pkl')
-```
-
-### Generate Metric SQL
-
-```python
-from src.metrics.engine import MetricsEngine, SQLPlatform
-
-engine = MetricsEngine('config/metrics_definitions.yaml')
-
-# Get SQL for Snowflake
-sql = engine.get_sql('active_member', SQLPlatform.SNOWFLAKE)
-print(sql)
-```
-
-## 🏗️ Architecture Overview
-
-### Data Flow
-
-```
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  WBEZ Donations │     │ Sun-Times Subs  │     │  Event Tickets  │
-└────────┬────────┘     └────────┬────────┘     └────────┬────────┘
-         │                       │                       │
-         └───────────────────────┼───────────────────────┘
-                                 │
-                    ┌────────────▼────────────┐
-                    │   IDENTITY RESOLUTION   │
-                    │  (Deterministic + Fuzzy)│
-                    └────────────┬────────────┘
-                                 │
-                    ┌────────────▼────────────┐
-                    │     GOLDEN RECORD       │
-                    │   (Unified Constituent) │
-                    └────────────┬────────────┘
-                                 │
-         ┌───────────────────────┼───────────────────────┐
-         │                       │                       │
-┌────────▼────────┐   ┌──────────▼──────────┐   ┌───────▼───────┐
-│ Churn Prediction│   │ Upgrade Propensity  │   │    Metrics    │
-└─────────────────┘   └─────────────────── ─┘   └───────────────┘
-```
-
-### Identity Resolution
-
-Two-phase matching algorithm:
-1. **Deterministic**: Exact match on email or phone (confidence: 1.0)
-2. **Probabilistic**: Weighted fuzzy match on name, address, etc.
-
-Configurable thresholds:
-- `≥ 0.85` → Auto-match
-- `0.70-0.85` → Manual review queue
-- `< 0.70` → No match
-
-### ML Models
-
-#### Churn Prediction
-- **Algorithm**: Gradient Boosting (scikit-learn)
-- **Target**: Cancellation or 3+ failed payments within 90 days
-- **Features**: Engagement recency, email behavior, payment history, tenure
-- **Output**: Score 0-1 with risk tier (low/medium/high/critical)
-
-#### Upgrade Propensity
-- **Algorithm**: Multi-target Gradient Boosting
-- **Targets**: 
-  - One-time → Sustainer
-  - Sustainer → Increased amount
-  - Any → Major gift ($1000+)
-- **Output**: Score per upgrade path + recommended action
 
 ### Metrics Framework
-
-YAML-driven metric definitions with:
-- Business owner and data steward assignment
-- SQL for Standard, Snowflake, and Databricks
-- Dimension breakdowns (by source, by segment, etc.)
-- Quality checks with severity levels
-- Version history and governance metadata
-
-## 📊 Key Components
-
-### Metrics Definitions (`config/metrics_definitions.yaml`)
+YAML-driven metric definitions with governance:
 
 ```yaml
 metrics:
-  active_member:
-    display_name: "Active Members"
-    category: membership
-    definition: "Constituents with a donation in the trailing 12 months"
-    business_owner: "VP, Membership"
+  donor_retention_rate:
+    display_name: "Donor Retention Rate"
+    business_owner: "VP, Development"
+    data_steward: "Data Engineering Lead"
+    
     calculation:
       sql_snowflake: |
-        SELECT COUNT(DISTINCT constituent_id)
-        FROM golden.constituents
-        WHERE last_donation_date >= DATEADD(month, -12, CURRENT_DATE())
+        WITH donors_prev AS (...),
+             donors_curr AS (...)
+        SELECT COUNT(curr) / COUNT(prev) * 100
+        FROM donors_prev LEFT JOIN donors_curr
+    
+    quality_checks:
+      - check: "result BETWEEN 0 AND 100"
+        severity: error
 ```
 
-### Quality Checks
+### ML Models
+Production-ready predictive models:
 
-```python
-from src.data_quality.validator import DataValidator, get_constituent_checks
+| Model | Purpose | Performance | Key Features |
+|-------|---------|-------------|--------------|
+| Churn Prediction | Identify at-risk sustainers | AUC: 0.93 | Engagement recency, payment failures, email behavior |
+| Upgrade Propensity | Find upgrade candidates | 3 targets modeled | Capacity signals, tenure, giving patterns |
 
-validator = DataValidator()
-validator.add_checks(get_constituent_checks())
+---
 
-report = validator.validate(df, "constituents")
-print(report.summary())
+## 📊 Sample Outputs
+
+### Unified Constituent Record
+```json
+{
+  "constituent_id": "UC-00012345",
+  "canonical_email": "jane.doe@gmail.com",
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "lifecycle_stage": "sustainer",
+  
+  "source_systems": ["wbez", "suntimes", "events"],
+  
+  "giving_summary": {
+    "total_lifetime": 2450.00,
+    "is_sustainer": true,
+    "monthly_amount": 25.00,
+    "tenure_months": 36
+  },
+  
+  "engagement": {
+    "email_open_rate_30d": 0.45,
+    "events_attended_12m": 3,
+    "engagement_score": 78.5
+  },
+  
+  "predictions": {
+    "churn_risk_score": 0.23,
+    "churn_tier": "low",
+    "upgrade_propensity": 0.67,
+    "recommended_upgrade_path": "sustainer_increase"
+  }
+}
 ```
 
-## 🛠️ Development
-
-### Running Tests
-
-```bash
-pytest tests/
+### Churn Risk Dashboard Output
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    CHURN RISK SUMMARY                           │
+├─────────────────────────────────────────────────────────────────┤
+│  Total Sustainers: 4,250                                        │
+│                                                                 │
+│  Risk Distribution:                                             │
+│    🔴 Critical (>0.85): 127 (3.0%)  → Personal outreach        │
+│    🟠 High (0.60-0.85): 298 (7.0%)  → Retention campaign       │
+│    🟡 Medium (0.30-0.60): 892 (21%) → Monitor closely          │
+│    🟢 Low (<0.30): 2,933 (69%)      → Standard communication   │
+│                                                                 │
+│  Estimated Revenue at Risk: $47,250/month                       │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-### Code Style
+---
 
-```bash
-black src/
-flake8 src/
-```
+## 🗺️ Implementation Roadmap
 
-### Building Documentation
+### Phase 1: Foundation (Months 1-6)
+- [ ] Current state assessment across all systems
+- [ ] Stakeholder discovery with Membership, Development, Marketing
+- [ ] Quick wins: automate most painful manual workarounds
+- [ ] Establish Data Governance Committee
 
-```bash
-# Generate metric documentation
-python -c "
-from src.metrics.engine import MetricsEngine
-engine = MetricsEngine('config/metrics_definitions.yaml')
-engine.export_data_dictionary('docs/metrics_dictionary.md')
-"
-```
+### Phase 2: Unification (Months 6-12)
+- [ ] Deploy identity resolution engine
+- [ ] Build golden record in data warehouse
+- [ ] Create unified constituent view for all departments
+- [ ] Implement data quality monitoring
 
-## 📋 Use Cases
+### Phase 3: Intelligence (Months 12-18)
+- [ ] Train and deploy ML models with real data
+- [ ] Build predictive dashboards
+- [ ] Enable lifecycle marketing automation
+- [ ] Self-service analytics for department leads
 
-### 1. Membership Team
-- Identify high-churn-risk sustainers for retention outreach
-- Find upgrade candidates for sustainer conversion campaigns
-- Track active member counts with consistent definitions
+---
 
-### 2. Development Team
-- Prioritize major gift prospects using capacity modeling
-- Unify donor records across platforms
-- Track lifetime value and giving trends
+## 🤝 Why I Built This
 
-### 3. Marketing Team
-- Segment audiences based on engagement scores
-- Measure campaign effectiveness with standardized metrics
-- Personalize messaging based on unified profiles
+As a long-time WBEZ sustaining member, I understand the value of independent journalism and Chicago Public Media's mission. When I saw the Director of Enterprise Systems role, I didn't want to just talk about what I would do—I wanted to show it.
 
-### 4. Data Engineering
-- Standardized connector framework for new data sources
-- Quality checks built into pipelines
-- Multi-platform SQL generation
+This repository demonstrates:
+- **Technical depth**: Working code, not just diagrams
+- **Strategic thinking**: Solutions mapped to specific business problems
+- **Domain understanding**: Built for public media/nonprofit context
+- **Execution capability**: Production patterns, not prototypes
 
-## 🔒 Data Governance
+I believe the best way to show how I'd approach this role is to actually start doing the work.
 
-This blueprint embeds governance at every level:
-
-- **Metric Definitions**: Canonical SQL with business owner accountability
-- **Data Quality**: Automated checks with severity-based alerting
-- **Audit Trail**: Full match history for identity resolution
-- **Access Control**: Role-based SQL grants in schema definitions
-
-## 📚 Documentation
-
-- `docs/architecture/system-overview.md` - Complete technical architecture
-- `config/metrics_definitions.yaml` - All metric definitions
-- `examples/notebooks/` - Runnable demonstrations
+---
 
 ## 👤 Author
 
 **Catherine Kiriakos**
-- LinkedIn: [linkedin.com/in/catherine-kiriakos](https://linkedin.com/in/catherine-kiriakos)
-- Email: cathy.a.kiriakos@gmail.com
+- 📧 cathy.a.kiriakos@gmail.com
+- 🔗 [LinkedIn](https://linkedin.com/in/catherine-kiriakos)
+- 🌐 [Portfolio](https://cathy-kiriakos.lovable.app/)
+
+
 
 ---
 
-*Built to demonstrate enterprise data platform capabilities for the Director of Enterprise Systems role at Chicago Public Media.*
+
+---
+
+*Built with purpose for Chicago Public Media's Director of Enterprise Systems role.*
