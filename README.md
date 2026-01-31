@@ -40,7 +40,7 @@ Chicago Public Media faces challenges common to merged media organizations:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        SOURCE SYSTEMS (Current State)                       │
+│                        SOURCE SYSTEMS (Current State)                        │
 ├─────────────────┬─────────────────┬─────────────────┬───────────────────────┤
 │  WBEZ Donations │ Sun-Times Subs  │  Event Tickets  │   Email Marketing     │
 │  (Allegiance?)  │ (Legacy System) │   (Eventbrite?) │    (Mailchimp?)       │
@@ -61,7 +61,7 @@ Chicago Public Media faces challenges common to merged media organizations:
                     │   src/identity_resolution/    │
                     │   • Deterministic matching    │
                     │   • Probabilistic scoring     │
-                    │   • Audit trail               │
+                    │   • Audit trail              │
                     └───────────────┬───────────────┘
                                     │
                     ┌───────────────▼───────────────┐
@@ -279,19 +279,19 @@ Production-ready predictive models:
 
 ## 🗺️ Implementation Roadmap
 
-### Phase 1: Foundation (Months 1-6)
+### Phase 1: Foundation 
 - [ ] Current state assessment across all systems
 - [ ] Stakeholder discovery with Membership, Development, Marketing
 - [ ] Quick wins: automate most painful manual workarounds
 - [ ] Establish Data Governance Committee
 
-### Phase 2: Unification (Months 6-12)
+### Phase 2: Unification 
 - [ ] Deploy identity resolution engine
 - [ ] Build golden record in data warehouse
 - [ ] Create unified constituent view for all departments
 - [ ] Implement data quality monitoring
 
-### Phase 3: Intelligence (Months 12-18)
+### Phase 3: Intelligence 
 - [ ] Train and deploy ML models with real data
 - [ ] Build predictive dashboards
 - [ ] Enable lifecycle marketing automation
@@ -300,9 +300,6 @@ Production-ready predictive models:
 ---
 
 ## 🤝 Why I Built This
-
-As a long-time WBEZ sustaining member, I understand the value of independent journalism and Chicago Public Media's mission. When I saw the Director of Enterprise Systems role, I didn't want to just talk about what I would do—I wanted to show it.
-
 This repository demonstrates:
 - **Technical depth**: Working code, not just diagrams
 - **Strategic thinking**: Solutions mapped to specific business problems
@@ -319,12 +316,5 @@ I believe the best way to show how I'd approach this role is to actually start d
 - 📧 cathy.a.kiriakos@gmail.com
 - 🔗 [LinkedIn](https://linkedin.com/in/catherine-kiriakos)
 - 🌐 [Portfolio](https://cathy-kiriakos.lovable.app/)
-
-
-
----
-
-
----
 
 *Built with purpose for Chicago Public Media's Director of Enterprise Systems role.*

@@ -72,7 +72,7 @@ print(datasets['wbez_donations'].head())
 # Now we unify records across systems to create golden constituent records.
 
 # %%
-from constituent_unification.identity_resolver import (
+from identity_resolution.identity_resolver import (
     IdentityResolver, SourceRecord, MatchConfig, ConstituentUnifier
 )
 
