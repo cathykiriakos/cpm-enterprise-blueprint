@@ -50,7 +50,7 @@ This blueprint provides a **modular, configurable framework** for unifying const
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        TYPICAL PUBLIC MEDIA DATA SILOS                       │
+│                        TYPICAL PUBLIC MEDIA DATA SILOS                      │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │   WBEZ World                              Sun-Times World                   │
@@ -73,13 +73,13 @@ This blueprint provides a **modular, configurable framework** for unifying const
 │                                                                             │
 │   Shared Systems (But Not Integrated)                                       │
 │   ───────────────────────────────────                                       │
-│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                     │
-│   │   Email      │  │   Events     │  │   Website    │                     │
-│   │   Marketing  │  │   Ticketing  │  │   Analytics  │                     │
-│   │              │  │              │  │              │                     │
-│   │ • contact_id │  │ • ticket_id  │  │ • user_id    │                     │
-│   │ • email      │  │ • email      │  │ • cookie_id  │                     │
-│   └──────────────┘  └──────────────┘  └──────────────┘                     │
+│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                      │
+│   │   Email      │  │   Events     │  │   Website    │                      │
+│   │   Marketing  │  │   Ticketing  │  │   Analytics  │                      │
+│   │              │  │              │  │              │                      │
+│   │ • contact_id │  │ • ticket_id  │  │ • user_id    │                      │
+│   │ • email      │  │ • email      │  │ • cookie_id  │                      │
+│   └──────────────┘  └──────────────┘  └──────────────┘                      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -125,16 +125,16 @@ WHY can't we get a unified view of our audience?
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         CPM UNIFIED DATA ECOSYSTEM                           │
+│                         CPM UNIFIED DATA ECOSYSTEM                          │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  ╔═══════════════════════════════════════════════════════════════════════╗  │
 │  ║                        SOURCE SYSTEMS LAYER                           ║  │
 │  ╠═══════════════════════════════════════════════════════════════════════╣  │
-│  ║  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐         ║  │
-│  ║  │  WBEZ   │ │Sun-Times│ │ Events  │ │  Email  │ │ Website │         ║  │
-│  ║  │Donation │ │  Subs   │ │ Tickets │ │Marketing│ │Analytics│         ║  │
-│  ║  └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘         ║  │
+│  ║  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐          ║  │
+│  ║  │  WBEZ   │ │Sun-Times│ │ Events  │ │  Email  │ │ Website │          ║  │
+│  ║  │Donation │ │  Subs   │ │ Tickets │ │Marketing│ │Analytics│          ║  │
+│  ║  └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘          ║  │
 │  ╚═══════╪══════════╪══════════╪══════════╪══════════╪═══════════════════╝  │
 │          │          │          │          │          │                      │
 │          ▼          ▼          ▼          ▼          ▼                      │
@@ -142,15 +142,15 @@ WHY can't we get a unified view of our audience?
 │  ║                       INTEGRATION LAYER                               ║  │
 │  ╠═══════════════════════════════════════════════════════════════════════╣  │
 │  ║                                                                       ║  │
-│  ║   ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐  ║  │
-│  ║   │   Connectors    │    │  Schema Registry │    │   ETL Engine    │  ║  │
-│  ║   │  (Standardized) │    │  (Mapping Rules) │    │  (Idempotent)   │  ║  │
-│  ║   └─────────────────┘    └─────────────────┘    └─────────────────┘  ║  │
+│  ║   ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐   ║  │
+│  ║   │   Connectors    │    │  Schema Registry│    │   ETL Engine    │   ║  │
+│  ║   │  (Standardized) │    │  (Mapping Rules)│    │  (Idempotent)   │   ║  │
+│  ║   └─────────────────┘    └─────────────────┘    └─────────────────┘   ║  │
 │  ║                                                                       ║  │
-│  ║   ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐  ║  │
-│  ║   │  Data Quality   │    │ Identity Resolver│    │  Audit Logger   │  ║  │
-│  ║   │    Checks       │    │ (Matching Engine)│    │  (Lineage)      │  ║  │
-│  ║   └─────────────────┘    └─────────────────┘    └─────────────────┘  ║  │
+│  ║   ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐   ║  │
+│  ║   │  Data Quality   │    │ Identity Resolver│    │  Audit Logger  │   ║  │
+│  ║   │    Checks       │    │ (Matching Engine)│    │  (Lineage)     │   ║  │
+│  ║   └─────────────────┘    └─────────────────┘    └─────────────────┘   ║  │
 │  ║                                                                       ║  │
 │  ╚═══════════════════════════════════════════════════════════════════════╝  │
 │                                    │                                        │
@@ -179,7 +179,7 @@ WHY can't we get a unified view of our audience?
 │  ║   │  │  • canonical_email, canonical_name, canonical_address     │  │ ║  │
 │  ║   │  │  • source_system_ids[] (links back to all source records) │  │ ║  │
 │  ║   │  │  • engagement_history[] (cross-platform events)           │  │ ║  │
-│  ║   │  │  • lifecycle_stage (prospect/member/sustainer/major/legacy)│  │ ║  │
+│  ║   │  │  • lifecycle_stage (prospect/member/sustainer/major/legacy│  │ ║  │
 │  ║   │  │  • propensity_scores (churn, upgrade, capacity)           │  │ ║  │
 │  ║   │  └───────────────────────────────────────────────────────────┘  │ ║  │
 │  ║   └─────────────────────────────────────────────────────────────────┘ ║  │
@@ -193,17 +193,17 @@ WHY can't we get a unified view of our audience?
 │  ║                                                                       ║  │
 │  ╚═══════════════════════════════════════════════════════════════════════╝  │
 │                                    │                                        │
-│          ┌─────────────────────────┼─────────────────────────┐             │
-│          │                         │                         │             │
-│          ▼                         ▼                         ▼             │
-│  ┌───────────────┐      ┌───────────────────┐      ┌───────────────┐      │
-│  │   ANALYTICS   │      │   OPERATIONAL     │      │    ML/AI      │      │
-│  │    & BI       │      │   APPLICATIONS    │      │   MODELS      │      │
-│  │               │      │                   │      │               │      │
-│  │ • Dashboards  │      │ • Campaign tools  │      │ • Churn pred  │      │
-│  │ • Ad-hoc SQL  │      │ • Segmentation    │      │ • Upgrade prop│      │
-│  │ • Self-service│      │ • Personalization │      │ • LTV scoring │      │
-│  └───────────────┘      └───────────────────┘      └───────────────┘      │
+│          ┌─────────────────────────┼─────────────────────────┐              │
+│          │                         │                         │              │
+│          ▼                         ▼                         ▼              │
+│  ┌───────────────┐      ┌───────────────────┐      ┌───────────────┐        │
+│  │   ANALYTICS   │      │   OPERATIONAL     │      │    ML/AI      │        │
+│  │    & BI       │      │   APPLICATIONS    │      │   MODELS      │        │
+│  │               │      │                   │      │               │        │
+│  │ • Dashboards  │      │ • Campaign tools  │      │ • Churn pred  │        │
+│  │ • Ad-hoc SQL  │      │ • Segmentation    │      │ • Upgrade prop│        │
+│  │ • Self-service│      │ • Personalization │      │ • LTV scoring │        │
+│  └───────────────┘      └───────────────────┘      └───────────────┘        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -305,70 +305,70 @@ OUTPUT: Unified constituent with confidence score
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    IDENTITY RESOLUTION ALGORITHM                             │
+│                    IDENTITY RESOLUTION ALGORITHM                            │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  PHASE 1: DETERMINISTIC MATCHING                                            │
 │  ═══════════════════════════════                                            │
 │  High-confidence matches on exact identifiers                               │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ Rule D1: Email Exact Match                                          │   │
-│  │   IF email_a.lower().strip() == email_b.lower().strip()             │   │
-│  │   AND email is not in [generic_emails]  # e.g., info@, admin@       │   │
-│  │   THEN match_type = 'deterministic', confidence = 1.0               │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ Rule D1: Email Exact Match                                          │    │
+│  │   IF email_a.lower().strip() == email_b.lower().strip()             │    │
+│  │   AND email is not in [generic_emails]  # e.g., info@, admin@       │    │
+│  │   THEN match_type = 'deterministic', confidence = 1.0               │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ Rule D2: Phone Exact Match (normalized)                             │   │
-│  │   IF normalize_phone(phone_a) == normalize_phone(phone_b)           │   │
-│  │   AND phone is not null                                             │   │
-│  │   THEN match_type = 'deterministic', confidence = 0.95              │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ Rule D2: Phone Exact Match (normalized)                             │    │
+│  │   IF normalize_phone(phone_a) == normalize_phone(phone_b)           │    │
+│  │   AND phone is not null                                             │    │
+│  │   THEN match_type = 'deterministic', confidence = 0.95              │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 │  PHASE 2: PROBABILISTIC MATCHING                                            │
 │  ═══════════════════════════════                                            │
 │  For records not matched deterministically                                  │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ Feature Extraction:                                                 │   │
-│  │   • name_similarity = jaro_winkler(name_a, name_b)                  │   │
-│  │   • address_similarity = address_match_score(addr_a, addr_b)        │   │
-│  │   • phone_partial = partial_phone_match(phone_a, phone_b)           │   │
-│  │   • email_domain = same_email_domain(email_a, email_b)              │   │
-│  │   • zip_match = exact_zip_match(zip_a, zip_b)                       │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ Feature Extraction:                                                 │    │
+│  │   • name_similarity = jaro_winkler(name_a, name_b)                  │    │
+│  │   • address_similarity = address_match_score(addr_a, addr_b)        │    │
+│  │   • phone_partial = partial_phone_match(phone_a, phone_b)           │    │
+│  │   • email_domain = same_email_domain(email_a, email_b)              │    │
+│  │   • zip_match = exact_zip_match(zip_a, zip_b)                       │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ Scoring Model:                                                      │   │
-│  │                                                                     │   │
-│  │   confidence = (                                                    │   │
-│  │       name_similarity * 0.35 +                                      │   │
-│  │       address_similarity * 0.30 +                                   │   │
-│  │       phone_partial * 0.15 +                                        │   │
-│  │       email_domain * 0.10 +                                         │   │
-│  │       zip_match * 0.10                                              │   │
-│  │   )                                                                 │   │
-│  │                                                                     │   │
-│  │   IF confidence >= 0.85: auto_match = True                          │   │
-│  │   ELIF confidence >= 0.70: review_queue = True                      │   │
-│  │   ELSE: no_match = True                                             │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ Scoring Model:                                                      │    │
+│  │                                                                     │    │
+│  │   confidence = (                                                    │    │
+│  │       name_similarity * 0.35 +                                      │    │
+│  │       address_similarity * 0.30 +                                   │    │
+│  │       phone_partial * 0.15 +                                        │    │
+│  │       email_domain * 0.10 +                                         │    │
+│  │       zip_match * 0.10                                              │    │
+│  │   )                                                                 │    │
+│  │                                                                     │    │
+│  │   IF confidence >= 0.85: auto_match = True                          │    │
+│  │   ELIF confidence >= 0.70: review_queue = True                      │    │
+│  │   ELSE: no_match = True                                             │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 │  PHASE 3: CONFLICT RESOLUTION                                               │
 │  ═══════════════════════════════                                            │
 │  When matched records have conflicting data                                 │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ Resolution Rules (configurable):                                    │   │
-│  │                                                                     │   │
-│  │   • email: prefer most recently used (engagement activity)          │   │
-│  │   • name: prefer longest (most complete) version                    │   │
-│  │   • address: prefer most recent update timestamp                    │   │
-│  │   • phone: prefer mobile over landline; most recent                 │   │
-│  │                                                                     │   │
-│  │ All conflicts logged for audit                                      │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ Resolution Rules (configurable):                                    │    │
+│  │                                                                     │    │
+│  │   • email: prefer most recently used (engagement activity)          │    │
+│  │   • name: prefer longest (most complete) version                    │    │
+│  │   • address: prefer most recent update timestamp                    │    │
+│  │   • phone: prefer mobile over landline; most recent                 │    │
+│  │                                                                     │    │
+│  │ All conflicts logged for audit                                      │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -396,7 +396,7 @@ OUTPUT: Unified constituent with confidence score
 SCENARIO: Leadership asks "How many active members do we have?"
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         THREE DIFFERENT ANSWERS                              │
+│                         THREE DIFFERENT ANSWERS                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  MEMBERSHIP TEAM:          DEVELOPMENT TEAM:        FINANCE TEAM:           │
@@ -407,14 +407,14 @@ SCENARIO: Leadership asks "How many active members do we have?"
 │                                                                             │
 │  COUNT: 77,000             COUNT: 82,000            COUNT: 71,000           │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                                                                     │   │
-│  │   LEADERSHIP: "Which number is right?!"                             │   │
-│  │                                                                     │   │
-│  │   REAL ANSWER: They're all "right" given their definitions.         │   │
-│  │   The problem is there's no agreed single source of truth.          │   │
-│  │                                                                     │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                                                                     │    │
+│  │   LEADERSHIP: "Which number is right?!"                             │    │
+│  │                                                                     │    │
+│  │   REAL ANSWER: They're all "right" given their definitions.         │    │
+│  │   The problem is there's no agreed single source of truth.          │    │
+│  │                                                                     │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -466,7 +466,7 @@ metrics:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         METRICS ENGINE FLOW                                  │
+│                         METRICS ENGINE FLOW                                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │   ┌─────────────────┐                                                       │
@@ -487,30 +487,30 @@ metrics:
 │            │                                                                │
 │            ├──────────────────┬──────────────────┐                          │
 │            ▼                  ▼                  ▼                          │
-│   ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐              │
-│   │ Standard SQL    │ │ Snowflake SQL   │ │ Databricks SQL  │              │
-│   │                 │ │                 │ │                 │              │
-│   │ DATE_ADD(...)   │ │ DATEADD(...)    │ │ DATE_ADD(...)   │              │
-│   │ INTERVAL syntax │ │ Snowflake funcs │ │ Spark SQL funcs │              │
-│   └────────┬────────┘ └────────┬────────┘ └────────┬────────┘              │
+│   ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐               │
+│   │ Standard SQL    │ │ Snowflake SQL   │ │ Databricks SQL  │               │
+│   │                 │ │                 │ │                 │               │
+│   │ DATE_ADD(...)   │ │ DATEADD(...)    │ │ DATE_ADD(...)   │               │
+│   │ INTERVAL syntax │ │ Snowflake funcs │ │ Spark SQL funcs │               │
+│   └────────┬────────┘ └────────┬────────┘ └────────┬────────┘               │
 │            │                   │                   │                        │
 │            └───────────────────┴───────────────────┘                        │
 │                                │                                            │
 │                                ▼                                            │
-│   ┌─────────────────────────────────────────────────────────────────────┐  │
-│   │                        METRICS OUTPUT                               │  │
-│   │                                                                     │  │
-│   │  {                                                                  │  │
-│   │    "metric": "active_member",                                       │  │
-│   │    "value": 77432,                                                  │  │
-│   │    "as_of_date": "2024-01-15",                                      │  │
-│   │    "definition_version": "1.2.0",                                   │  │
-│   │    "dimensions": {                                                  │  │
-│   │      "by_source": {"WBEZ": 52100, "Sun-Times": 25332}               │  │
-│   │    }                                                                │  │
-│   │  }                                                                  │  │
-│   │                                                                     │  │
-│   └─────────────────────────────────────────────────────────────────────┘  │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │ 
+│   │                        METRICS OUTPUT                               │   │
+│   │                                                                     │   │
+│   │  {                                                                  │   │
+│   │    "metric": "active_member",                                       │   │
+│   │    "value": 77432,                                                  │   │
+│   │    "as_of_date": "2024-01-15",                                      │   │
+│   │    "definition_version": "1.2.0",                                   │   │
+│   │    "dimensions": {                                                  │   │
+│   │      "by_source": {"WBEZ": 52100, "Sun-Times": 25332}               │   │
+│   │    }                                                                │   │
+│   │  }                                                                  │   │
+│   │                                                                     │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -727,14 +727,14 @@ CREATE TABLE dimensions.dim_campaign (
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         ETL vs ELT DECISION MATRIX                           │
+│                         ETL vs ELT DECISION MATRIX                          │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  TRADITIONAL ETL:                                                           │
-│  ┌─────────┐    ┌───────────┐    ┌─────────┐                               │
-│  │ Extract │───►│ Transform │───►│  Load   │                               │
-│  │         │    │ (outside) │    │         │                               │
-│  └─────────┘    └───────────┘    └─────────┘                               │
+│  ┌─────────┐    ┌───────────┐    ┌─────────┐                                │
+│  │ Extract │───►│ Transform │───►│  Load   │                                │
+│  │         │    │ (outside) │    │         │                                │
+│  └─────────┘    └───────────┘    └─────────┘                                │
 │                                                                             │
 │  Pros: Smaller data warehouse; cleaner data arrives                         │
 │  Cons: Transformation logic outside warehouse; harder to debug              │
@@ -742,10 +742,10 @@ CREATE TABLE dimensions.dim_campaign (
 │  ─────────────────────────────────────────────────────────────────────────  │
 │                                                                             │
 │  MODERN ELT (OUR CHOICE):                                                   │
-│  ┌─────────┐    ┌─────────┐    ┌───────────┐                               │
-│  │ Extract │───►│  Load   │───►│ Transform │                               │
-│  │         │    │  (raw)  │    │ (inside)  │                               │
-│  └─────────┘    └─────────┘    └───────────┘                               │
+│  ┌─────────┐    ┌─────────┐    ┌───────────┐                                │
+│  │ Extract │───►│  Load   │───►│ Transform │                                │
+│  │         │    │  (raw)  │    │ (inside)  │                                │
+│  └─────────┘    └─────────┘    └───────────┘                                │
 │                                                                             │
 │  Pros:                                                                      │
 │  • Raw data preserved (can replay transformations)                          │
@@ -766,55 +766,55 @@ CREATE TABLE dimensions.dim_campaign (
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                       INCREMENTAL LOAD PATTERN                               │
+│                       INCREMENTAL LOAD PATTERN                              │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  GOAL: Process only changed records, not full table scans                   │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ 1. WATERMARK TRACKING                                               │   │
-│  │                                                                     │   │
-│  │    Each source has a "high watermark" - the last processed value    │   │
-│  │                                                                     │   │
-│  │    watermarks table:                                                │   │
-│  │    ┌──────────────┬─────────────────────┬───────────────────────┐   │   │
-│  │    │ source       │ watermark_column    │ last_value            │   │   │
-│  │    ├──────────────┼─────────────────────┼───────────────────────┤   │   │
-│  │    │ wbez_gifts   │ modified_at         │ 2024-01-15 03:42:17   │   │   │
-│  │    │ suntimes_sub │ updated_timestamp   │ 2024-01-15 03:40:22   │   │   │
-│  │    └──────────────┴─────────────────────┴───────────────────────┘   │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ 1. WATERMARK TRACKING                                               │    │
+│  │                                                                     │    │
+│  │    Each source has a "high watermark" - the last processed value    │    │
+│  │                                                                     │    │
+│  │    watermarks table:                                                │    │
+│  │    ┌──────────────┬─────────────────────┬───────────────────────┐   │    │
+│  │    │ source       │ watermark_column    │ last_value            │   │    │
+│  │    ├──────────────┼─────────────────────┼───────────────────────┤   │    │
+│  │    │ wbez_gifts   │ modified_at         │ 2024-01-15 03:42:17   │   │    │
+│  │    │ suntimes_sub │ updated_timestamp   │ 2024-01-15 03:40:22   │   │    │
+│  │    └──────────────┴─────────────────────┴───────────────────────┘   │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ 2. EXTRACT DELTA                                                    │   │
-│  │                                                                     │   │
-│  │    SELECT * FROM source_table                                       │   │
-│  │    WHERE modified_at > [last_watermark]                             │   │
-│  │      AND modified_at <= [current_max]                               │   │
-│  │                                                                     │   │
-│  │    Note: Upper bound prevents missing records if source is updating │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ 2. EXTRACT DELTA                                                    │    │
+│  │                                                                     │    │
+│  │    SELECT * FROM source_table                                       │    │
+│  │    WHERE modified_at > [last_watermark]                             │    │
+│  │      AND modified_at <= [current_max]                               │    │
+│  │                                                                     │    │
+│  │    Note: Upper bound prevents missing records if source is updating │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ 3. UPSERT (MERGE) INTO TARGET                                       │   │
-│  │                                                                     │   │
-│  │    MERGE INTO target AS t                                           │   │
-│  │    USING delta AS d                                                 │   │
-│  │    ON t.id = d.id                                                   │   │
-│  │    WHEN MATCHED THEN UPDATE SET ...                                 │   │
-│  │    WHEN NOT MATCHED THEN INSERT ...                                 │   │
-│  │                                                                     │   │
-│  │    This is IDEMPOTENT - can re-run safely                           │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ 3. UPSERT (MERGE) INTO TARGET                                       │    │
+│  │                                                                     │    │
+│  │    MERGE INTO target AS t                                           │    │
+│  │    USING delta AS d                                                 │    │
+│  │    ON t.id = d.id                                                   │    │
+│  │    WHEN MATCHED THEN UPDATE SET ...                                 │    │
+│  │    WHEN NOT MATCHED THEN INSERT ...                                 │    │
+│  │                                                                     │    │
+│  │    This is IDEMPOTENT - can re-run safely                           │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ 4. UPDATE WATERMARK                                                 │   │
-│  │                                                                     │   │
-│  │    Only after successful load:                                      │   │
-│  │    UPDATE watermarks                                                │   │
-│  │    SET last_value = [current_max]                                   │   │
-│  │    WHERE source = [source_name]                                     │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ 4. UPDATE WATERMARK                                                 │    │
+│  │                                                                     │    │
+│  │    Only after successful load:                                      │    │
+│  │    UPDATE watermarks                                                │    │
+│  │    SET last_value = [current_max]                                   │    │
+│  │    WHERE source = [source_name]                                     │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -837,80 +837,80 @@ CREATE TABLE dimensions.dim_campaign (
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                      CHURN PREDICTION ARCHITECTURE                           │
+│                      CHURN PREDICTION ARCHITECTURE                          │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  DEFINITION OF CHURN:                                                       │
 │  • Sustaining member: Cancellation or 3 consecutive failed payments         │
 │  • One-time donor: No donation in 13 months after previous gift             │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  FEATURE ENGINEERING:                                                       │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ ENGAGEMENT FEATURES                                                 │   │
-│  │ • days_since_last_engagement                                        │   │
-│  │ • email_open_rate_30d, email_open_rate_90d                          │   │
-│  │ • email_click_rate_30d                                              │   │
-│  │ • events_attended_12m                                               │   │
-│  │ • website_visits_30d                                                │   │
-│  │ • content_types_consumed (news, podcasts, events)                   │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ ENGAGEMENT FEATURES                                                 │    │
+│  │ • days_since_last_engagement                                        │    │
+│  │ • email_open_rate_30d, email_open_rate_90d                          │    │
+│  │ • email_click_rate_30d                                              │    │
+│  │ • events_attended_12m                                               │    │
+│  │ • website_visits_30d                                                │    │
+│  │ • content_types_consumed (news, podcasts, events)                   │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ GIVING HISTORY FEATURES                                             │   │
-│  │ • tenure_months                                                     │   │
-│  │ • total_lifetime_giving                                             │   │
-│  │ • gift_count                                                        │   │
-│  │ • avg_gift_amount                                                   │   │
-│  │ • gift_amount_trend (increasing/stable/decreasing)                  │   │
-│  │ • months_since_last_gift                                            │   │
-│  │ • is_sustainer                                                      │   │
-│  │ • sustainer_months_active                                           │   │
-│  │ • payment_failures_12m                                              │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ GIVING HISTORY FEATURES                                             │    │
+│  │ • tenure_months                                                     │    │
+│  │ • total_lifetime_giving                                             │    │
+│  │ • gift_count                                                        │    │
+│  │ • avg_gift_amount                                                   │    │
+│  │ • gift_amount_trend (increasing/stable/decreasing)                  │    │
+│  │ • months_since_last_gift                                            │    │
+│  │ • is_sustainer                                                      │    │
+│  │ • sustainer_months_active                                           │    │
+│  │ • payment_failures_12m                                              │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ DEMOGRAPHIC FEATURES                                                │   │
-│  │ • zip_code_median_income (external enrichment)                      │   │
-│  │ • distance_to_chicago_center                                        │   │
-│  │ • acquisition_channel                                               │   │
-│  │ • first_gift_campaign                                               │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ DEMOGRAPHIC FEATURES                                                │    │
+│  │ • zip_code_median_income (external enrichment)                      │    │
+│  │ • distance_to_chicago_center                                        │    │
+│  │ • acquisition_channel                                               │    │
+│  │ • first_gift_campaign                                               │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  MODEL ARCHITECTURE:                                                        │
 │                                                                             │
-│  ┌──────────────┐                                                          │
-│  │   Features   │                                                          │
-│  │   (30+)      │                                                          │
-│  └──────┬───────┘                                                          │
+│  ┌──────────────┐                                                           │
+│  │   Features   │                                                           │
+│  │   (30+)      │                                                           │
+│  └──────┬───────┘                                                           │
 │         │                                                                   │
 │         ▼                                                                   │
-│  ┌──────────────┐    We use Gradient Boosting (XGBoost/LightGBM)           │
-│  │   XGBoost    │    because:                                              │
-│  │   Classifier │    • Handles mixed feature types                         │
-│  │              │    • Robust to missing values                            │
-│  └──────┬───────┘    • Interpretable feature importance                    │
-│         │            • Good performance on tabular data                    │
+│  ┌──────────────┐    We use Gradient Boosting (XGBoost/LightGBM)            │
+│  │   XGBoost    │    because:                                               │
+│  │   Classifier │    • Handles mixed feature types                          │
+│  │              │    • Robust to missing values                             │
+│  └──────┬───────┘    • Interpretable feature importance                     │
+│         │            • Good performance on tabular data                     │
 │         ▼                                                                   │
-│  ┌──────────────┐                                                          │
-│  │ Probability  │    Output: 0.0 to 1.0 churn probability                  │
-│  │   Score      │    Threshold: 0.6 = "high risk"                          │
-│  └──────────────┘                                                          │
+│  ┌──────────────┐                                                           │
+│  │ Probability  │    Output: 0.0 to 1.0 churn probability                   │
+│  │   Score      │    Threshold: 0.6 = "high risk"                           │
+│  └──────────────┘                                                           │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  MODEL OUTPUTS & ACTIONS:                                                   │
 │                                                                             │
-│  Score Range    │ Risk Level │ Recommended Action                          │
-│  ───────────────┼────────────┼──────────────────────────────────────────   │
-│  0.00 - 0.30    │ Low        │ Standard communications                     │
-│  0.30 - 0.60    │ Medium     │ Engagement campaign; survey                 │
-│  0.60 - 0.85    │ High       │ Personal outreach; retention offer          │
-│  0.85 - 1.00    │ Critical   │ Urgent intervention; executive contact      │
+│  Score Range    │ Risk Level │ Recommended Action                           │
+│  ───────────────┼────────────┼──────────────────────────────────────────    │
+│  0.00 - 0.30    │ Low        │ Standard communications                      │
+│  0.30 - 0.60    │ Medium     │ Engagement campaign; survey                  │
+│  0.60 - 0.85    │ High       │ Personal outreach; retention offer           │
+│  0.85 - 1.00    │ Critical   │ Urgent intervention; executive contact       │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -919,7 +919,7 @@ CREATE TABLE dimensions.dim_campaign (
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    UPGRADE PROPENSITY ARCHITECTURE                           │
+│                    UPGRADE PROPENSITY ARCHITECTURE                          │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  UPGRADE PATHS:                                                             │
@@ -929,40 +929,40 @@ CREATE TABLE dimensions.dim_campaign (
 │                                                                             │
 │  We model each separately with shared feature framework                     │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  ADDITIONAL FEATURES (beyond churn model):                                  │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ CAPACITY INDICATORS                                                 │   │
-│  │ • zip_code_wealth_index                                             │   │
-│  │ • home_value_estimate (if available)                                │   │
-│  │ • recent_gift_vs_historical_ratio                                   │   │
-│  │ • multiple_nonprofit_donor (external data)                          │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ CAPACITY INDICATORS                                                 │    │
+│  │ • zip_code_wealth_index                                             │    │
+│  │ • home_value_estimate (if available)                                │    │
+│  │ • recent_gift_vs_historical_ratio                                   │    │
+│  │ • multiple_nonprofit_donor (external data)                          │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ TIMING SIGNALS                                                      │   │
-│  │ • days_since_last_upgrade                                           │   │
-│  │ • upgrade_history_count                                             │   │
-│  │ • seasonality_giving_pattern                                        │   │
-│  │ • responded_to_upgrade_ask_before                                   │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ TIMING SIGNALS                                                      │    │
+│  │ • days_since_last_upgrade                                           │    │
+│  │ • upgrade_history_count                                             │    │
+│  │ • seasonality_giving_pattern                                        │    │
+│  │ • responded_to_upgrade_ask_before                                   │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  OUTPUT: Priority matrix for outreach                                       │
 │                                                                             │
-│                     LOW CHURN RISK          HIGH CHURN RISK                │
-│                   ┌─────────────────────┬─────────────────────┐            │
-│  HIGH UPGRADE     │ 🎯 PRIME TARGET     │ ⚠️ CAREFUL ASK      │            │
-│  PROPENSITY       │ Ask for upgrade     │ Steward first,      │            │
-│                   │ confidently         │ then gentle ask     │            │
-│                   ├─────────────────────┼─────────────────────┤            │
-│  LOW UPGRADE      │ 📧 NURTURE          │ 🚨 SAVE FIRST       │            │
-│  PROPENSITY       │ Continue engagement │ Retention focus;    │            │
-│                   │ build relationship  │ no upgrade ask      │            │
-│                   └─────────────────────┴─────────────────────┘            │
+│                     LOW CHURN RISK          HIGH CHURN RISK                 │
+│                   ┌─────────────────────┬─────────────────────┐             │
+│  HIGH UPGRADE     │ 🎯 PRIME TARGET     │ ⚠️ CAREFUL ASK     │             │
+│  PROPENSITY       │ Ask for upgrade     │ Steward first,      │             │
+│                   │ confidently         │ then gentle ask     │             │
+│                   ├─────────────────────┼─────────────────────┤             │
+│  LOW UPGRADE      │ 📧 NURTURE          │ 🚨 SAVE FIRST      │             │
+│  PROPENSITY       │ Continue engagement │ Retention focus;    │             │
+│                   │ build relationship  │ no upgrade ask      │             │
+│                   └─────────────────────┴─────────────────────┘             │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -975,88 +975,88 @@ CREATE TABLE dimensions.dim_campaign (
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                      IMPLEMENTATION PHASES                                   │
+│                      IMPLEMENTATION PHASES                                  │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  PHASE 1: FOUNDATION (Months 1-3)                                           │
 │  ════════════════════════════════                                           │
 │                                                                             │
 │  Week 1-4: Discovery & Assessment                                           │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Stakeholder interviews (all revenue teams)                        │   │
-│  │ • System inventory and access provisioning                          │   │
-│  │ • Data quality assessment on each source                            │   │
-│  │ • Pain point prioritization workshop                                │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: Current State Assessment Document                      │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Stakeholder interviews (all revenue teams)                        │    │
+│  │ • System inventory and access provisioning                          │    │
+│  │ • Data quality assessment on each source                            │    │
+│  │ • Pain point prioritization workshop                                │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: Current State Assessment Document                      │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 │  Week 5-8: Governance Setup                                                 │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Establish Data Governance Committee                               │   │
-│  │ • Draft metrics dictionary (get stakeholder sign-off)               │   │
-│  │ • Define data ownership RACI                                        │   │
-│  │ • Create development standards document                             │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: Governance Framework v1.0                              │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Establish Data Governance Committee                               │    │
+│  │ • Draft metrics dictionary (get stakeholder sign-off)               │    │
+│  │ • Define data ownership RACI                                        │    │
+│  │ • Create development standards document                             │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: Governance Framework v1.0                              │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 │  Week 9-12: Quick Wins                                                      │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Automate one painful manual process per team                      │   │
-│  │ • Build first integration connector (e.g., WBEZ donations)          │   │
-│  │ • Create prototype dashboard with agreed metrics                    │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: 3+ Quick Wins Deployed; Credibility Established        │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Automate one painful manual process per team                      │    │
+│  │ • Build first integration connector (e.g., WBEZ donations)          │    │
+│  │ • Create prototype dashboard with agreed metrics                    │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: 3+ Quick Wins Deployed; Credibility Established        │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  PHASE 2: UNIFICATION (Months 4-8)                                          │
 │  ═════════════════════════════════                                          │
 │                                                                             │
 │  Month 4: Identity Resolution                                               │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Deploy identity resolution algorithm                              │   │
-│  │ • Build match rules with stakeholder input                          │   │
-│  │ • Create golden record v1.0 (internal testing)                      │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: Golden Record with 80%+ match rate                     │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Deploy identity resolution algorithm                              │    │
+│  │ • Build match rules with stakeholder input                          │    │
+│  │ • Create golden record v1.0 (internal testing)                      │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: Golden Record with 80%+ match rate                     │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 │  Month 5-6: Full Integration                                                │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Connect all major source systems                                  │   │
-│  │ • Implement data quality monitoring                                 │   │
-│  │ • Build 360° constituent view                                       │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: All Sources Integrated; Quality Alerts Active          │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Connect all major source systems                                  │    │
+│  │ • Implement data quality monitoring                                 │    │
+│  │ • Build 360° constituent view                                       │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: All Sources Integrated; Quality Alerts Active          │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 │  Month 7-8: Validation & Rollout                                            │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Parallel run: compare new metrics to old                          │   │
-│  │ • Stakeholder validation sessions                                   │   │
-│  │ • Training and documentation                                        │   │
-│  │ • Production cutover                                                │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: Golden Record in Production; Teams Trained             │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Parallel run: compare new metrics to old                          │    │
+│  │ • Stakeholder validation sessions                                   │    │
+│  │ • Training and documentation                                        │    │
+│  │ • Production cutover                                                │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: Golden Record in Production; Teams Trained             │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ═══════════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════════    │
 │                                                                             │
 │  PHASE 3: OPTIMIZATION (Months 9-12)                                        │
 │  ═════════════════════════════════                                          │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ • Deploy churn prediction model                                     │   │
-│  │ • Deploy upgrade propensity model                                   │   │
-│  │ • Enable lifecycle automation (lapsed reactivation, etc.)           │   │
-│  │ • Build self-service analytics layer                                │   │
-│  │ • A/B testing infrastructure                                        │   │
-│  │                                                                     │   │
-│  │ DELIVERABLE: ML Models in Production; Self-Service Active           │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ • Deploy churn prediction model                                     │    │
+│  │ • Deploy upgrade propensity model                                   │    │
+│  │ • Enable lifecycle automation (lapsed reactivation, etc.)           │    │
+│  │ • Build self-service analytics layer                                │    │
+│  │ • A/B testing infrastructure                                        │    │
+│  │                                                                     │    │
+│  │ DELIVERABLE: ML Models in Production; Self-Service Active           │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1095,34 +1095,34 @@ Every major deployment has a documented rollback:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         ROLLBACK DECISION TREE                               │
+│                         ROLLBACK DECISION TREE                              │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  Production Issue Detected                                                  │
 │           │                                                                 │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │ Data corruption │──Yes──► IMMEDIATE ROLLBACK                            │
-│  │ or loss?        │         • Restore from backup                         │
-│  └────────┬────────┘         • Notify all stakeholders                     │
-│           │ No               • Post-incident review                        │
+│  │ Data corruption │──Yes──► IMMEDIATE ROLLBACK                             │
+│  │ or loss?        │         • Restore from backup                          │
+│  └────────┬────────┘         • Notify all stakeholders                      │
+│           │ No               • Post-incident review                         │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │ Metrics wrong   │──Yes──► INVESTIGATE FIRST                             │
-│  │ by >5%?         │         • May be real change, not bug                 │
-│  └────────┬────────┘         • Compare to source systems                   │
-│           │ No               • Rollback if confirmed bug                   │
+│  │ Metrics wrong   │──Yes──► INVESTIGATE FIRST                              │
+│  │ by >5%?         │         • May be real change, not bug                  │
+│  └────────┬────────┘         • Compare to source systems                    │
+│           │ No               • Rollback if confirmed bug                    │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │ Performance     │──Yes──► SCALE/OPTIMIZE                                │
-│  │ degraded?       │         • Add resources if possible                   │
-│  └────────┬────────┘         • Rollback if critical path affected          │
+│  │ Performance     │──Yes──► SCALE/OPTIMIZE                                 │
+│  │ degraded?       │         • Add resources if possible                    │
+│  └────────┬────────┘         • Rollback if critical path affected           │
 │           │ No                                                              │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │ User-facing     │──Yes──► FIX FORWARD IF POSSIBLE                       │
-│  │ but non-critical│         • Hotfix within 24h                           │
-│  └────────┬────────┘         • Rollback if hotfix not feasible             │
+│  │ User-facing     │──Yes──► FIX FORWARD IF POSSIBLE                        │
+│  │ but non-critical│         • Hotfix within 24h                            │
+│  └────────┬────────┘         • Rollback if hotfix not feasible              │
 │           │ No                                                              │
 │           ▼                                                                 │
 │       MONITOR                                                               │
