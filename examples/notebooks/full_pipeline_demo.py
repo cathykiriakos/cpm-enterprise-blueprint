@@ -1,242 +1,170 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-CPM Enterprise Blueprint - Data Generation Demo
-================================================
+#!/usr/bin/env python3
+"""CPM Enterprise Blueprint - Full Pipeline Demo"""
 
-This notebook demonstrates:
-1. Generating synthetic constituent data
-2. Running identity resolution
-3. Training ML models (churn + upgrade)
-4. Generating predictions
-
-Run as: python 01_data_generation_demo.py
-Or convert to Jupyter: jupytext --to notebook 01_data_generation_demo.py
-"""
-
-# %% [markdown]
-# # CPM Enterprise Blueprint Demo
-# 
-# This notebook walks through the complete data pipeline from synthetic data
-# generation through ML predictions.
-
-# %% Setup
 import sys
 from pathlib import Path
+import warnings
+import logging
+warnings.filterwarnings("ignore")
 
-# Add src to path
-project_root = Path(__file__).parent.parent.parent
-sys.path.insert(0, str(project_root))
-sys.path.insert(0, str(project_root / "src"))
+print("=" * 60)
+print("CPM ENTERPRISE BLUEPRINT - FULL PIPELINE DEMO")
+print("=" * 60)
+
+# Setup paths
+SCRIPT_PATH = Path(__file__).resolve()
+REPO_ROOT = SCRIPT_PATH.parent.parent.parent
+SRC_DIR = REPO_ROOT / "src"
+
+print(f"\nRepo root: {REPO_ROOT}")
+sys.path.insert(0, str(SRC_DIR))
+sys.path.insert(0, str(REPO_ROOT))
 
 import pandas as pd
 import numpy as np
 from datetime import datetime
 
+# Configure logging
+logging.basicConfig(level=logging.WARNING)
+
+# Imports
+print("\n--- Verifying Imports ---")
+from data_generator import SyntheticDataGenerator, GeneratorConfig
+print("✓ data_generator")
+from constituent_unification.identity_resolver import ConstituentUnifier, SourceRecord, MatchConfig
+print("✓ identity_resolver")
+from ml_models.churn_prediction import ChurnPredictor, generate_sample_data as gen_churn_data
+print("✓ churn_prediction")
+from ml_models.upgrade_propensity import UpgradePropensityModel, generate_sample_data as gen_upgrade_data
+print("✓ upgrade_propensity")
+from metrics.engine import MetricsEngine
+print("✓ metrics_engine")
+from data_quality.validator import DataValidator, QualityCheck, CheckType, CheckSeverity
+print("✓ data_quality")
+print("\n✓ All imports successful!")
+
+# Step 1: Generate Data
+print("\n" + "=" * 60)
+print("STEP 1: GENERATING SYNTHETIC DATA")
 print("=" * 60)
-print("CPM ENTERPRISE BLUEPRINT - DEMO")
-print("=" * 60)
 
-# %% [markdown]
-# ## 1. Generate Synthetic Data
-# 
-# We'll create realistic public media constituent data including:
-# - WBEZ donations (one-time and recurring)
-# - Sun-Times subscriptions
-# - Event tickets
-# - Email engagement
-
-# %%
-from src.data_generator import SyntheticDataGenerator, GeneratorConfig
-
-config = GeneratorConfig(
-    num_constituents=100,  # Reduced for faster testing
-    overlap_rate=0.25,  # 25% of people appear in multiple systems
-    sustainer_rate=0.35,
-    churn_rate=0.15,
-)
-
+config = GeneratorConfig(num_constituents=1000, sustainer_rate=0.25, churn_rate=0.15, overlap_rate=0.40)
 generator = SyntheticDataGenerator(config)
 datasets = generator.generate_all()
 
-print("\nGenerated Datasets:")
+output_dir = REPO_ROOT / "data" / "demo"
+output_dir.mkdir(parents=True, exist_ok=True)
 for name, df in datasets.items():
-    print(f"  {name}: {len(df):,} records")
+    df.to_csv(output_dir / f"{name}.csv", index=False)
+    print(f"  ✓ {name}: {len(df):,} records")
 
-# Limit to first 500 records per dataset for faster demo
-print("\n⚡ Limiting datasets to 500 records each for faster processing...")
-for name in datasets:
-    datasets[name] = datasets[name].head(500)
+# Step 2: Identity Resolution
+print("\n" + "=" * 60)
+print("STEP 2: IDENTITY RESOLUTION")
+print("=" * 60)
 
-# %%
-# Preview WBEZ donations
-print("\n📊 WBEZ Donations Sample:")
-print(datasets['wbez_donations'].head())
+match_config = MatchConfig(auto_match_threshold=0.85, review_threshold=0.70)
+unifier = ConstituentUnifier(match_config)
 
-# %% [markdown]
-# ## 2. Identity Resolution
-# 
-# Now we unify records across systems to create golden constituent records.
-
-# %%
-from src.identity_resolution.identity_resolver import (
-    IdentityResolver, SourceRecord, MatchConfig, ConstituentUnifier
-)
-
-# Convert donations to source records
-source_records = []
-
-for _, row in datasets['wbez_donations'].iterrows():
-    source_records.append(SourceRecord(
-        source_system="wbez",
-        source_id=row['donation_id'],
-        email=row.get('email'),
-        first_name=row.get('first_name'),
-        last_name=row.get('last_name'),
-        phone=row.get('phone'),
-        city=row.get('city'),
-        state=row.get('state'),
-        zip_code=row.get('zip'),
-        raw_data=row.to_dict()
+wbez_records = []
+wbez_df = datasets.get("wbez_donations", pd.DataFrame())
+for _, row in wbez_df.drop_duplicates("person_id").head(500).iterrows():
+    wbez_records.append(SourceRecord(
+        source_system="wbez", source_id=str(row["person_id"]),
+        email=row.get("email"), phone=row.get("phone"),
+        first_name=row.get("first_name"), last_name=row.get("last_name"),
+        address_line1=row.get("address"), city=row.get("city"),
+        state=row.get("state"), zip_code=str(row.get("zip", ""))
     ))
+print(f"  ✓ WBEZ: {len(wbez_records)} records")
 
-# Add Sun-Times subscriptions
-for _, row in datasets['suntimes_subscriptions'].iterrows():
-    source_records.append(SourceRecord(
-        source_system="suntimes",
-        source_id=row['subscription_id'],
-        email=row.get('email'),
-        first_name=row.get('first_name'),
-        last_name=row.get('last_name'),
-        phone=row.get('phone'),
-        city=row.get('city'),
-        state=row.get('state'),
-        zip_code=row.get('zip'),
-        raw_data=row.to_dict()
+suntimes_records = []
+suntimes_df = datasets.get("suntimes_subscriptions", pd.DataFrame())
+for _, row in suntimes_df.iterrows():
+    suntimes_records.append(SourceRecord(
+        source_system="suntimes", source_id=str(row["subscription_id"]),
+        email=row.get("email"), phone=row.get("phone"),
+        first_name=row.get("first_name"), last_name=row.get("last_name"),
+        address_line1=row.get("address"), city=row.get("city"),
+        state=row.get("state"), zip_code=str(row.get("zip", ""))
     ))
+print(f"  ✓ Sun-Times: {len(suntimes_records)} records")
 
-print(f"\nTotal source records: {len(source_records):,}")
+all_records = wbez_records + suntimes_records
+print(f"\nTotal: {len(all_records)} records")
 
-# Run unification with timeout and limit
-print("\n⏱️ Starting identity resolution (limited to 1000 source records for demo)...")
-limited_source_records = source_records[:1000]  # Limit to 1000 for faster processing
+# Suppress identity resolver logging for cleaner output
+logging.getLogger("constituent_unification.identity_resolver").setLevel(logging.WARNING)
+golden_records = unifier.unify_records(all_records)
+print(f"✓ Created {len(golden_records)} unified records")
+consolidation = (len(all_records) - len(golden_records)) / len(all_records) * 100
+print(f"  Consolidation rate: {consolidation:.1f}%")
 
-unifier = ConstituentUnifier(MatchConfig())
-constituents = unifier.unify_records(limited_source_records)
+# Step 3: Churn Model (using model's sample data)
+print("\n" + "=" * 60)
+print("STEP 3: CHURN PREDICTION MODEL")
+print("=" * 60)
 
-print(f"Unified constituents: {len(constituents):,}")
+print("  Generating sample churn data...")
+churn_df, churn_labels = gen_churn_data(n=2000)
+print(f"  ✓ Sample data: {len(churn_df)} records")
 
-# Get statistics
-stats = unifier.get_match_statistics()
-print(f"\nMatch Statistics:")
-print(f"  Average records per constituent: {stats['avg_records_per_constituent']:.2f}")
+predictor = ChurnPredictor()
+print("  Training model...")
+metrics = predictor.train(churn_df, churn_labels)
+print(f"✓ AUC: {metrics.get('auc', 0):.3f}")
+print(f"  Precision: {metrics.get('precision', 0):.3f}")
+print(f"  Recall: {metrics.get('recall', 0):.3f}")
 
-# %% [markdown]
-# ## 3. Prepare Features & Train Churn Model
+# Step 4: Upgrade Model
+print("\n" + "=" * 60)
+print("STEP 4: UPGRADE PROPENSITY MODEL")
+print("=" * 60)
 
-# %%
-from src.ml_models.churn_prediction import ChurnPredictor, generate_sample_data
+print("  Generating sample upgrade data...")
+upgrade_df, upgrade_labels = gen_upgrade_data(n=2000)
+print(f"  ✓ Sample data: {len(upgrade_df)} records")
 
-# For demo, use generated sample data
-# In production, would use unified constituent data
-df, churn_labels = generate_sample_data(n=2000)
+model = UpgradePropensityModel()
+print("  Training model...")
+metrics = model.train(upgrade_df, upgrade_labels)
+print(f"✓ One-Time → Sustainer AUC: {metrics['to_sustainer'].get('auc', 0):.3f}")
+print(f"  Sustainer Upgrade AUC: {metrics['sustainer_increase'].get('auc', 0):.3f}")
+print(f"  Major Gift AUC: {metrics['to_major'].get('auc', 0):.3f}")
 
-print(f"\nTraining data: {len(df):,} samples")
-print(f"Churn rate: {churn_labels.mean()*100:.1f}%")
+# Step 5: Data Quality
+print("\n" + "=" * 60)
+print("STEP 5: DATA QUALITY VALIDATION")
+print("=" * 60)
 
-# Train model
-churn_model = ChurnPredictor()
-metrics = churn_model.train(df, churn_labels)
-
-print(f"\nChurn Model Performance:")
-print(f"  AUC: {metrics['auc']:.3f}")
-print(f"  Precision: {metrics['precision']:.3f}")
-print(f"  Recall: {metrics['recall']:.3f}")
-
-# %% [markdown]
-# ## 4. Train Upgrade Propensity Model
-
-# %%
-from src.ml_models.upgrade_propensity import UpgradePropensityModel, generate_sample_data as gen_upgrade_data
-
-df_upgrade, upgrade_labels = gen_upgrade_data(n=2000)
-
-upgrade_model = UpgradePropensityModel()
-upgrade_metrics = upgrade_model.train(df_upgrade, upgrade_labels)
-
-print("\nUpgrade Model Performance:")
-for target, m in upgrade_metrics.items():
-    print(f"  {target}: AUC={m['auc']:.3f}")
-
-# %% [markdown]
-# ## 5. Generate Predictions
-
-# %%
-# Get predictions
-test_sample = df.head(20)
-churn_preds = churn_model.predict(test_sample)
-
-print("\n🎯 Churn Predictions (Top 10):")
-print(churn_preds[['constituent_id', 'churn_score', 'churn_tier']].head(10))
-
-# %%
-# Upgrade predictions
-upgrade_preds = upgrade_model.predict(df_upgrade.head(20))
-
-print("\n📈 Upgrade Predictions (Top 10):")
-print(upgrade_preds[['constituent_id', 'upgrade_propensity', 'best_path']].head(10))
-
-# %% [markdown]
-# ## 6. Combined Recommendations
-# 
-# Combine churn risk and upgrade propensity for actionable recommendations.
-
-# %%
-# Merge for recommendations
-combined = upgrade_preds.merge(
-    churn_preds[['constituent_id', 'churn_score']],
-    on='constituent_id',
-    how='left'
-)
-
-recommendations = upgrade_model.get_recommendations(upgrade_preds, churn_preds)
-
-print("\n🎬 Action Recommendations:")
-print(recommendations[['constituent_id', 'action', 'priority', 'best_path']].head(10))
-
-# %% [markdown]
-# ## 7. Data Quality Validation
-
-# %%
-from src.data_quality.validator import DataValidator, get_constituent_checks
-
+ground_truth = datasets.get("ground_truth", pd.DataFrame())
 validator = DataValidator()
-validator.add_checks(get_constituent_checks())
-
-# Create sample constituent data for validation
-sample_constituents = pd.DataFrame({
-    'constituent_id': churn_preds['constituent_id'],
-    'canonical_email': [f'test{i}@example.com' for i in range(len(churn_preds))],
-    'lifecycle_stage': ['sustainer'] * len(churn_preds),
-    'churn_risk_score': churn_preds['churn_score']
-})
-
-report = validator.validate(sample_constituents, "demo_constituents")
+validator.add_check(QualityCheck(name="person_id_complete", check_type=CheckType.COMPLETENESS, severity=CheckSeverity.ERROR, description="Person ID must be present", field="person_id"))
+validator.add_check(QualityCheck(name="email_complete", check_type=CheckType.COMPLETENESS, severity=CheckSeverity.WARNING, description="Email should be present", field="email"))
+validator.add_check(QualityCheck(name="person_id_unique", check_type=CheckType.UNIQUENESS, severity=CheckSeverity.ERROR, description="Person ID must be unique", field="person_id"))
+report = validator.validate(ground_truth, dataset_name="ground_truth")
 print(report.summary())
 
-# %% [markdown]
-# ## Summary
-# 
-# This demo showed the complete pipeline:
-# 1. ✅ Synthetic data generation
-# 2. ✅ Identity resolution across systems
-# 3. ✅ Churn prediction model training
-# 4. ✅ Upgrade propensity model training
-# 5. ✅ Combined recommendations
-# 6. ✅ Data quality validation
-# 
-# For production deployment, the same patterns apply with real data sources.
-
+# Step 6: Metrics
 print("\n" + "=" * 60)
-print("DEMO COMPLETE")
+print("STEP 6: METRICS ENGINE")
 print("=" * 60)
+
+metrics_file = REPO_ROOT / "config" / "metrics_definitions.yaml"
+engine = MetricsEngine(str(metrics_file))
+loaded_metrics = engine.list_metrics()
+print(f"✓ Loaded {len(loaded_metrics)} certified metrics")
+for m in loaded_metrics[:5]:
+    print(f"  📊 {m}")
+
+# Summary
+print("\n" + "=" * 60)
+print("DEMO COMPLETE!")
+print("=" * 60)
+print(f"\n  ✓ Generated {sum(len(df) for df in datasets.values()):,} synthetic records")
+print(f"  ✓ Created {len(golden_records):,} golden records (consolidated {consolidation:.0f}%)")
+print(f"  ✓ Churn model trained")
+print(f"  ✓ Upgrade model trained (3 paths)")
+print(f"  ✓ Data quality validated")
+print(f"  ✓ Loaded {len(loaded_metrics)} certified metrics")
+print("\nThank you for reviewing!")
