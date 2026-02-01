@@ -46,9 +46,9 @@ class UpgradePropensityModel:
         else:
             f['tenure_months'] = 12
         
-        f['total_gifts'] = df.get('total_gift_count', 1).fillna(1)
-        f['avg_gift'] = df.get('average_gift_amount', 50).fillna(50)
-        f['max_gift'] = df.get('largest_single_gift', f['avg_gift']).fillna(50)
+        f['total_gifts'] = df['total_gift_count'].fillna(1) if 'total_gift_count' in df.columns else 1
+        f['avg_gift'] = df['average_gift_amount'].fillna(50) if 'average_gift_amount' in df.columns else 50
+        f['max_gift'] = df['largest_single_gift'].fillna(50) if 'largest_single_gift' in df.columns else 50
         f['gift_frequency'] = (f['total_gifts'] / (f['tenure_months'] / 12).clip(1)).clip(0, 24)
         
         if 'last_donation_date' in df.columns:
@@ -57,8 +57,8 @@ class UpgradePropensityModel:
         else:
             f['days_since_gift'] = 30
         
-        f['email_open_rate'] = df.get('email_open_rate_30d', 0.3).fillna(0.3)
-        f['events_attended'] = df.get('events_attended_12m', 0).fillna(0)
+        f['email_open_rate'] = df['email_open_rate_30d'].fillna(0.3) if 'email_open_rate_30d' in df.columns else 0.3
+        f['events_attended'] = df['events_attended_12m'].fillna(0) if 'events_attended_12m' in df.columns else 0
         f['engagement_score'] = ((1 - f['days_since_gift']/365)*40 + f['email_open_rate']*30 + 
                                  f['gift_frequency'].clip(0,4)/4*30).clip(0, 100)
         f['capacity_score'] = (np.log1p(f['max_gift'])*10 + np.log1p(f['total_gifts']*f['avg_gift'])*5).clip(0, 100)
@@ -74,7 +74,9 @@ class UpgradePropensityModel:
         metrics = {}
         
         for target, y in labels.items():
-            X_tr, X_val, y_tr, y_val = train_test_split(X, y.values, test_size=0.2, 
+            # Handle both Series and array-like inputs
+            y_values = y.values if hasattr(y, 'values') else y
+            X_tr, X_val, y_tr, y_val = train_test_split(X, y_values, test_size=0.2, 
                                                          random_state=self.seed)
             scaler = StandardScaler()
             X_tr_s = scaler.fit_transform(X_tr)

@@ -25,7 +25,9 @@ import sys
 from pathlib import Path
 
 # Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+sys.path.insert(0, str(project_root / "src"))
 
 import pandas as pd
 import numpy as np
@@ -45,10 +47,10 @@ print("=" * 60)
 # - Email engagement
 
 # %%
-from data_generator import SyntheticDataGenerator, GeneratorConfig
+from src.data_generator import SyntheticDataGenerator, GeneratorConfig
 
 config = GeneratorConfig(
-    num_constituents=1000,
+    num_constituents=100,  # Reduced for faster testing
     overlap_rate=0.25,  # 25% of people appear in multiple systems
     sustainer_rate=0.35,
     churn_rate=0.15,
@@ -61,6 +63,11 @@ print("\nGenerated Datasets:")
 for name, df in datasets.items():
     print(f"  {name}: {len(df):,} records")
 
+# Limit to first 500 records per dataset for faster demo
+print("\n⚡ Limiting datasets to 500 records each for faster processing...")
+for name in datasets:
+    datasets[name] = datasets[name].head(500)
+
 # %%
 # Preview WBEZ donations
 print("\n📊 WBEZ Donations Sample:")
@@ -72,7 +79,7 @@ print(datasets['wbez_donations'].head())
 # Now we unify records across systems to create golden constituent records.
 
 # %%
-from identity_resolution.identity_resolver import (
+from src.identity_resolution.identity_resolver import (
     IdentityResolver, SourceRecord, MatchConfig, ConstituentUnifier
 )
 
@@ -87,7 +94,6 @@ for _, row in datasets['wbez_donations'].iterrows():
         first_name=row.get('first_name'),
         last_name=row.get('last_name'),
         phone=row.get('phone'),
-        address=row.get('address'),
         city=row.get('city'),
         state=row.get('state'),
         zip_code=row.get('zip'),
@@ -103,7 +109,6 @@ for _, row in datasets['suntimes_subscriptions'].iterrows():
         first_name=row.get('first_name'),
         last_name=row.get('last_name'),
         phone=row.get('phone'),
-        address=row.get('address'),
         city=row.get('city'),
         state=row.get('state'),
         zip_code=row.get('zip'),
@@ -112,9 +117,12 @@ for _, row in datasets['suntimes_subscriptions'].iterrows():
 
 print(f"\nTotal source records: {len(source_records):,}")
 
-# Run unification
+# Run unification with timeout and limit
+print("\n⏱️ Starting identity resolution (limited to 1000 source records for demo)...")
+limited_source_records = source_records[:1000]  # Limit to 1000 for faster processing
+
 unifier = ConstituentUnifier(MatchConfig())
-constituents = unifier.unify_records(source_records)
+constituents = unifier.unify_records(limited_source_records)
 
 print(f"Unified constituents: {len(constituents):,}")
 
@@ -127,7 +135,7 @@ print(f"  Average records per constituent: {stats['avg_records_per_constituent']
 # ## 3. Prepare Features & Train Churn Model
 
 # %%
-from ml_models.churn_prediction import ChurnPredictor, generate_sample_data
+from src.ml_models.churn_prediction import ChurnPredictor, generate_sample_data
 
 # For demo, use generated sample data
 # In production, would use unified constituent data
@@ -149,7 +157,7 @@ print(f"  Recall: {metrics['recall']:.3f}")
 # ## 4. Train Upgrade Propensity Model
 
 # %%
-from ml_models.upgrade_propensity import UpgradePropensityModel, generate_sample_data as gen_upgrade_data
+from src.ml_models.upgrade_propensity import UpgradePropensityModel, generate_sample_data as gen_upgrade_data
 
 df_upgrade, upgrade_labels = gen_upgrade_data(n=2000)
 
@@ -200,7 +208,7 @@ print(recommendations[['constituent_id', 'action', 'priority', 'best_path']].hea
 # ## 7. Data Quality Validation
 
 # %%
-from data_quality.validator import DataValidator, get_constituent_checks
+from src.data_quality.validator import DataValidator, get_constituent_checks
 
 validator = DataValidator()
 validator.add_checks(get_constituent_checks())

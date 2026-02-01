@@ -1,0 +1,37 @@
+crm_household_id,crm_person_id,household_address_line,first_name,street,address_altline1,city,state_code,country_name,postal_code,membership_sub_level_code,member_journey_type_name,most_recent_one_time_amount,most_recent_one_time_date,DirectMailSubType
+HH-00104,PER-00104,105 Main St,John,105 Main Street,Suite 100,Hyde Park,IL,USA,60605,SUSTAINER,One-Time,469.19657741423936,2025-10-20,Additional gift target - first year of giving
+HH-00108,PER-00108,109 Main St,John,109 Main Street,,Chicago,IL,USA,60609,BASIC,One-Time,60.865409812167,2026-01-26,Additional gift target - first year of giving
+HH-00011,PER-00011,12 Main St,Michael,12 Main Street,Suite 100,Chicago,IL,USA,60612,,One-Time,253.71943798830688,2026-01-18,Additional gift target - first year of giving
+HH-00015,PER-00015,16 Main St,Sarah,16 Main Street,,Evanston,IL,USA,60616,SUSTAINER,One-Time,1181.1695721534848,2025-11-07,Additional gift target - first year of giving
+HH-00115,PER-00115,116 Main St,Jane,116 Main Street,Apt 200,Chicago,IL,USA,60616,,One-Time,29.677846084481654,2025-09-01,Additional gift target - first year of giving
+HH-00127,PER-00127,128 Main St,Michael,128 Main Street,,Hyde Park,IL,USA,60628,LEADERSHIP,One-Time,269.43003906480874,2025-08-15,Additional gift target - first year of giving
+HH-00128,PER-00128,129 Main St,Michael,129 Main Street,,Chicago,IL,USA,60629,LEADERSHIP,One-Time,44.070898891991135,2025-08-17,Additional gift target - first year of giving
+HH-00030,PER-00030,31 Main St,Michael,31 Main Street,Floor 3,Hyde Park,IL,USA,60631,BASIC,One-Time,478.8685491992712,2025-07-13,Additional gift target - first year of giving
+HH-00131,PER-00131,132 Main St,Robert,132 Main Street,,Oak Park,IL,USA,60632,LEADERSHIP,One-Time,205.34871536586513,2025-08-16,Additional gift target - first year of giving
+HH-00132,PER-00132,133 Main St,Mary,133 Main Street,Apt 200,Evanston,IL,USA,60633,SUSTAINER,One-Time,347.3041637153427,2025-09-17,Additional gift target - first year of giving
+HH-00034,PER-00034,35 Main St,Mary,35 Main Street,Apt 200,Chicago,IL,USA,60635,BASIC,One-Time,163.91757403326716,2025-09-06,Additional gift target - first year of giving
+HH-00037,PER-00037,38 Main St,Michael,38 Main Street,Apt 200,Evanston,IL,USA,60638,,One-Time,306.0600414129829,2025-09-17,Additional gift target - first year of giving
+HH-00044,PER-00044,45 Main St,Robert,45 Main Street,,Oak Park,IL,USA,60645,,One-Time,14.746557870287537,2025-12-05,Additional gift target - first year of giving
+HH-00048,PER-00048,49 Main St,John,49 Main Street,Apt 200,Chicago,IL,USA,60649,,One-Time,639.7666127202174,2025-09-13,Additional gift target - first year of giving
+HH-00051,PER-00051,52 Main St,Jane,52 Main Street,Floor 3,Hyde Park,IL,USA,60652,LEADERSHIP,One-Time,83.08120362225844,2025-09-11,Additional gift target - first year of giving
+HH-00152,PER-00152,153 Main St,Michael,153 Main Street,Suite 100,Chicago,IL,USA,60653,,One-Time,257.2771472896994,2025-08-20,Additional gift target - first year of giving
+HH-00056,PER-00056,57 Main St,Jane,57 Main Street,Floor 3,Hyde Park,IL,USA,60657,,One-Time,386.76441709921824,2025-07-03,Additional gift target - first year of giving
+HH-00061,PER-00061,62 Main St,Robert,62 Main Street,Floor 3,Chicago,IL,USA,60662,,One-Time,78.04117530520831,2026-01-01,Additional gift target - first year of giving
+HH-00063,PER-00063,64 Main St,Mary,64 Main Street,,Chicago,IL,USA,60664,,One-Time,479.48314028842486,2026-01-26,Additional gift target - first year of giving
+HH-00066,PER-00066,67 Main St,Jane,67 Main Street,Suite 100,Chicago,IL,USA,60667,BASIC,One-Time,206.38000968864105,2026-01-26,Additional gift target - first year of giving
+HH-00166,PER-00166,167 Main St,Mary,167 Main Street,Floor 3,Oak Park,IL,USA,60667,LEADERSHIP,One-Time,113.01858094165607,2025-12-16,Additional gift target - first year of giving
+HH-00167,PER-00167,168 Main St,Sarah,168 Main Street,,Oak Park,IL,USA,60668,LEADERSHIP,One-Time,329.78534769079835,2025-07-07,Additional gift target - first year of giving
+HH-00071,PER-00071,72 Main St,Mary,72 Main Street,Floor 3,Evanston,IL,USA,60672,LEADERSHIP,One-Time,67.55364999525545,2025-11-29,Additional gift target - first year of giving
+HH-00074,PER-00074,75 Main St,Mary,75 Main Street,Suite 100,Oak Park,IL,USA,60675,,One-Time,34.2380832101786,2025-07-20,Additional gift target - first year of giving
+HH-00177,PER-00177,178 Main St,John,178 Main Street,Floor 3,Hyde Park,IL,USA,60678,LEADERSHIP,One-Time,166.0714190133404,2025-08-22,Additional gift target - first year of giving
+HH-00182,PER-00182,183 Main St,Michael,183 Main Street,Floor 3,Hyde Park,IL,USA,60683,LEADERSHIP,One-Time,975.3011570981578,2025-07-01,Additional gift target - first year of giving
+HH-00183,PER-00183,184 Main St,Mary,184 Main Street,Suite 100,Chicago,IL,USA,60684,,One-Time,266.8758211966762,2026-01-06,Additional gift target - first year of giving
+HH-00084,PER-00084,85 Main St,Mary,85 Main Street,Suite 100,Hyde Park,IL,USA,60685,SUSTAINER,One-Time,53.048028659176516,2025-11-14,Additional gift target - first year of giving
+HH-00085,PER-00085,86 Main St,Sarah,86 Main Street,Apt 200,Evanston,IL,USA,60686,BASIC,One-Time,103.22181053111144,2025-07-10,Additional gift target - first year of giving
+HH-00091,PER-00091,92 Main St,Robert,92 Main Street,Apt 200,Oak Park,IL,USA,60692,SUSTAINER,One-Time,318.2485973269157,2025-11-25,Additional gift target - first year of giving
+HH-00191,PER-00191,192 Main St,John,192 Main Street,,Evanston,IL,USA,60692,SUSTAINER,One-Time,907.250977972642,2025-07-15,Additional gift target - first year of giving
+HH-00094,PER-00094,95 Main St,Sarah,95 Main Street,Floor 3,Chicago,IL,USA,60695,BASIC,One-Time,287.80880527161736,2025-08-20,Additional gift target - first year of giving
+HH-00195,PER-00195,196 Main St,Michael,196 Main Street,,Chicago,IL,USA,60696,BASIC,One-Time,29.343779962294477,2025-09-16,Additional gift target - first year of giving
+HH-00096,PER-00096,97 Main St,Sarah,97 Main Street,,Hyde Park,IL,USA,60697,BASIC,One-Time,984.5509631117237,2025-08-16,Additional gift target - first year of giving
+HH-00097,PER-00097,98 Main St,Robert,98 Main Street,Suite 100,Chicago,IL,USA,60698,,One-Time,64.50152990290943,2026-01-26,Additional gift target - first year of giving
+HH-00198,PER-00198,199 Main St,Michael,199 Main Street,Apt 200,Chicago,IL,USA,60699,,One-Time,578.9074789190195,2025-09-18,Additional gift target - first year of giving

@@ -1,0 +1,759 @@
+subscription_id,person_id,email,first_name,last_name,phone,address,city,state,zip,subscription_type,monthly_rate,start_date,status
+S-00000000,P-00000004,lcampbell@sbcglobal.net,Linda,Campbell,6307249859,3173 Fullerton Ave,Chicago,IL,60610,WEEKEND,14.99,2020-03-14,active
+S-00000001,P-00000009,david.rodriguez12@yahoo.com,David,Rodriguez,3125545583,2554 Fullerton Ave,Chicago,IL,60615,DIGITAL,9.99,2022-12-12,active
+S-00000002,P-00000014,mharris@att.net,Margaret,Harris,3126895544,1406 Fullerton Ave,Chicago,IL,60647,PREMIUM,34.99,2022-04-04,active
+S-00000003,P-00000025,paul.brown14@icloud.com,Paul,Brown,6306134207,1318 Cermak Rd,Chicago,IL,60601,DIGITAL,9.99,2020-12-18,active
+S-00000004,P-00000026,lisa.perez51@aol.com,Lisa,Perez,8724438618,325 California Ave,Chicago,IL,60622,DAILY,24.99,2022-12-17,active
+S-00000005,P-00000032,amanda.thomas87@yahoo.com,Amanda,Thomas,7735183839,953 Ashland Ave,Chicago,IL,60610,PREMIUM,34.99,2022-12-06,active
+S-00000006,P-00000040,patricia.thomas80@comcast.net,Patricia,Thomas,7731049115,9187 Armitage Ave,Chicago,IL,60615,DIGITAL,9.99,2023-11-04,active
+S-00000007,P-00000046,kevin.jackson71@outlook.com,Kevin,Jackson,8724599865,5586 Roosevelt Rd,Oak Park,IL,60302,DIGITAL,9.99,2021-01-01,active
+S-00000008,P-00000054,daniel.hernandez36@hotmail.com,Daniel,Hernandez,8723373139,6290 Madison St,Chicago,IL,60657,DIGITAL,9.99,2023-10-28,active
+S-00000009,P-00000056,betty.davis60@yahoo.com,Betty,Davis,6305166500,4935 Armitage Ave,Evanston,IL,60201,WEEKEND,14.99,2022-01-07,active
+S-00000010,P-00000057,william.allen84@hotmail.com,William,Allen,8473496081,7126 Armitage Ave,Chicago,IL,60657,DAILY,24.99,2023-11-28,active
+S-00000011,P-00000073,chill@sbcglobal.net,Christopher,Hill,3126642264,9895 Monroe St,Chicago,IL,60622,WEEKEND,14.99,2022-05-28,active
+S-00000012,P-00000075,betty.king59@aol.com,Betty,King,8471421240,9604 California Ave,Chicago,IL,60615,DIGITAL,9.99,2023-03-04,cancelled
+S-00000013,P-00000089,bclark@att.net,Brian,Clark,7739464685,8654 Jackson Blvd,Chicago,IL,60657,WEEKEND,14.99,2021-10-31,active
+S-00000014,P-00000090,sharris@att.net,Sarah,Harris,6305390020,3976 Wacker Dr,Chicago,IL,60601,DAILY,24.99,2023-05-19,cancelled
+S-00000015,P-00000094,mark.taylor54@att.net,Mark,Taylor,3127231219,3672 Cicero Ave,Chicago,IL,60610,DIGITAL,9.99,2020-06-14,active
+S-00000016,P-00000109,mary.nelson51@icloud.com,Mary,Nelson,6307247794,4224 California Ave,Chicago,IL,60601,WEEKEND,14.99,2020-11-29,active
+S-00000017,P-00000112,brian.flores25@comcast.net,Brian,Flores,8726787749,7109 Jackson Blvd,Evanston,IL,60201,DIGITAL,9.99,2020-05-06,active
+S-00000018,P-00000124,linda.martin74@yahoo.com,Linda,Martin,3128456985,1036 Cermak Rd,Chicago,IL,60622,PREMIUM,34.99,2020-08-15,active
+S-00000019,P-00000140,jennifer.jackson69@hotmail.com,Jennifer,Jackson,8722847865,1033 Harrison St,Oak Park,IL,60302,DAILY,24.99,2020-06-20,active
+S-00000020,P-00000164,bking@hotmail.com,Brian,King,8723428081,9210 Jackson Blvd,Oak Park,IL,60302,DIGITAL,9.99,2021-03-02,active
+S-00000021,P-00000166,tperez@gmail.com,Timothy,Perez,7739121757,6357 Archer Ave,Chicago,IL,60654,DIGITAL,9.99,2021-02-15,active
+S-00000022,P-00000170,george.hernandez88@aol.com,George,Hernandez,3122100500,3826 Michigan Ave,Chicago,IL,60601,DIGITAL,9.99,2020-11-02,cancelled
+S-00000023,P-00000173,janderson@comcast.net,Joshua,Anderson,7733779499,6670 Van Buren St,Chicago,IL,60614,PREMIUM,34.99,2020-11-08,active
+S-00000024,P-00000177,dorothy.scott68@aol.com,Dorothy,Scott,3122906039,6384 Pulaski Rd,Chicago,IL,60614,DAILY,24.99,2022-03-08,active
+S-00000025,P-00000192,susan.rodriguez35@yahoo.com,Susan,Rodriguez,8725115362,7473 Western Ave,Chicago,IL,60657,WEEKEND,14.99,2023-04-24,active
+S-00000026,P-00000198,jessica.allen4@comcast.net,Jessica,Allen,3129324454,1503 Western Ave,Chicago,IL,60614,PREMIUM,34.99,2021-09-21,active
+S-00000027,P-00000204,jgreen@outlook.com,Joseph,Green,3122244289,671 Roosevelt Rd,Chicago,IL,60601,PREMIUM,34.99,2023-10-27,active
+S-00000028,P-00000216,lnelson@sbcglobal.net,Lisa,Nelson,8723892478,1753 Ashland Ave,Chicago,IL,60657,PREMIUM,34.99,2020-05-29,active
+S-00000029,P-00000220,karen.hernandez95@comcast.net,Karen,Hernandez,8722033316,797 Dearborn St,Chicago,IL,60610,WEEKEND,14.99,2022-03-26,cancelled
+S-00000030,P-00000229,khill@hotmail.com,Kenneth,Hill,3124651387,7631 Irving Park Rd,Chicago,IL,60654,PREMIUM,34.99,2020-08-30,active
+S-00000031,P-00000233,nancy.anderson21@msn.com,Nancy,Anderson,7734541483,4059 Armitage Ave,Chicago,IL,60647,PREMIUM,34.99,2020-06-11,active
+S-00000032,P-00000238,kperez@icloud.com,Kenneth,Perez,6303167354,710 Armitage Ave,Chicago,IL,60615,DIGITAL,9.99,2022-09-27,cancelled
+S-00000033,P-00000241,dorothy.wright39@outlook.com,Dorothy,Wright,3127501553,5646 Ashland Ave,Chicago,IL,60622,DIGITAL,9.99,2022-06-03,active
+S-00000034,P-00000256,george.miller19@outlook.com,George,Miller,8478026492,2823 Wacker Dr,Oak Park,IL,60302,DIGITAL,9.99,2023-05-14,cancelled
+S-00000035,P-00000263,christopher.lopez90@att.net,Christopher,Lopez,8724830121,7716 Central Ave,Chicago,IL,60622,DIGITAL,9.99,2021-05-16,cancelled
+S-00000036,P-00000265,linda.nelson97@msn.com,Linda,Nelson,8475460276,2068 Armitage Ave,Chicago,IL,60614,DIGITAL,9.99,2020-12-08,active
+S-00000037,P-00000269,timothy.martin18@yahoo.com,Timothy,Martin,6305408285,3844 Diversey Pkwy,Chicago,IL,60654,WEEKEND,14.99,2021-06-10,active
+S-00000038,P-00000270,tramirez@msn.com,Timothy,Ramirez,3129143179,8022 Harrison St,Chicago,IL,60615,DIGITAL,9.99,2021-08-06,active
+S-00000039,P-00000280,brian.clark51@yahoo.com,Brian,Clark,8727407054,4440 Fullerton Ave,Evanston,IL,60201,PREMIUM,34.99,2022-12-02,active
+S-00000040,P-00000286,mark.king45@aol.com,Mark,King,8477216074,9802 Irving Park Rd,Chicago,IL,60622,WEEKEND,14.99,2021-05-24,active
+S-00000041,P-00000294,michelle.davis60@sbcglobal.net,Michelle,Davis,3124502626,3275 Pulaski Rd,Chicago,IL,60657,DIGITAL,9.99,2020-11-26,active
+S-00000042,P-00000309,george.king88@att.net,George,King,6302358097,7270 Irving Park Rd,Oak Park,IL,60302,WEEKEND,14.99,2020-04-27,active
+S-00000043,P-00000313,barbara.clark53@msn.com,Barbara,Clark,8723345704,9989 LaSalle St,Chicago,IL,60622,DIGITAL,9.99,2022-02-25,active
+S-00000044,P-00000318,rgonzalez@att.net,Richard,Gonzalez,6307214638,7106 Irving Park Rd,Chicago,IL,60657,DIGITAL,9.99,2021-08-26,active
+S-00000045,P-00000320,paul.nguyen15@msn.com,Paul,Nguyen,8476895725,7657 Wells St,Chicago,IL,60654,WEEKEND,14.99,2020-07-26,active
+S-00000046,P-00000321,susan.martinez94@aol.com,Susan,Martinez,8474713543,592 Adams St,Chicago,IL,60610,PREMIUM,34.99,2022-01-10,active
+S-00000047,P-00000340,daniel.torres65@sbcglobal.net,Daniel,Torres,8729990499,1204 Madison St,Chicago,IL,60622,DIGITAL,9.99,2023-01-19,active
+S-00000048,P-00000345,paul.flores65@icloud.com,Paul,Flores,8728712079,489 Wacker Dr,Chicago,IL,60610,WEEKEND,14.99,2022-01-02,active
+S-00000049,P-00000346,andrew.jackson89@outlook.com,Andrew,Jackson,6301125355,9829 Cicero Ave,Evanston,IL,60201,DIGITAL,9.99,2021-04-21,cancelled
+S-00000050,P-00000351,sarah.martinez57@att.net,Sarah,Martinez,7734855933,5888 Monroe St,Oak Park,IL,60302,DIGITAL,9.99,2021-08-12,active
+S-00000051,P-00000353,eking@att.net,Elizabeth,King,6303173513,6409 Kedzie Ave,Oak Park,IL,60302,DIGITAL,9.99,2020-04-20,active
+S-00000052,P-00000355,lisa.williams79@msn.com,Lisa,Williams,3121777567,4295 Harlem Ave,Chicago,IL,60622,WEEKEND,14.99,2022-06-08,active
+S-00000053,P-00000357,kimberly.robinson28@gmail.com,Kimberly,Robinson,3124843139,916 Madison St,Oak Park,IL,60302,DIGITAL,9.99,2021-10-17,active
+S-00000054,P-00000359,daniel.harris93@sbcglobal.net,Daniel,Harris,8726332889,3062 Cicero Ave,Chicago,IL,60614,WEEKEND,14.99,2023-03-10,cancelled
+S-00000055,P-00000374,charles.anderson72@sbcglobal.net,Charles,Anderson,3122609184,118 Clark St,Chicago,IL,60615,PREMIUM,34.99,2022-03-17,active
+S-00000056,P-00000378,james.lewis86@sbcglobal.net,James,Lewis,8727859698,6873 Madison St,Oak Park,IL,60302,PREMIUM,34.99,2023-02-28,active
+S-00000057,P-00000381,george.moore77@aol.com,George,Moore,6305675519,734 Monroe St,Chicago,IL,60654,WEEKEND,14.99,2020-10-27,active
+S-00000058,P-00000387,jessica.davis59@sbcglobal.net,Jessica,Davis,8471295866,1729 Fullerton Ave,Chicago,IL,60615,DIGITAL,9.99,2020-05-16,active
+S-00000059,P-00000396,andrew.williams85@msn.com,Andrew,Williams,8727886940,4578 Ashland Ave,Chicago,IL,60657,DAILY,24.99,2023-02-16,cancelled
+S-00000060,P-00000399,richard.moore54@yahoo.com,Richard,Moore,8722543812,3514 Madison St,Chicago,IL,60647,DIGITAL,9.99,2022-03-01,active
+S-00000061,P-00000401,karen.mitchell59@att.net,Karen,Mitchell,6301243877,2790 Irving Park Rd,Chicago,IL,60601,DIGITAL,9.99,2020-09-07,active
+S-00000062,P-00000404,jessica.hall48@icloud.com,Jessica,Hall,3125914082,2359 LaSalle St,Chicago,IL,60615,DIGITAL,9.99,2021-07-18,cancelled
+S-00000063,P-00000415,kdavis@yahoo.com,Kenneth,Davis,6306324852,5670 Irving Park Rd,Oak Park,IL,60302,WEEKEND,14.99,2023-03-28,active
+S-00000064,P-00000420,timothy.gonzalez28@sbcglobal.net,Timothy,Gonzalez,8479471414,821 Diversey Pkwy,Chicago,IL,60647,PREMIUM,34.99,2023-12-11,active
+S-00000065,P-00000432,jessica.anderson76@sbcglobal.net,Jessica,Anderson,8475472089,6405 Pulaski Rd,Chicago,IL,60610,WEEKEND,14.99,2022-09-09,active
+S-00000066,P-00000444,patricia.taylor14@comcast.net,Patricia,Taylor,6303497934,4770 Adams St,Oak Park,IL,60302,DIGITAL,9.99,2020-06-02,active
+S-00000067,P-00000476,sarah.white58@aol.com,Sarah,White,6302652131,7289 Congress Pkwy,Chicago,IL,60654,DIGITAL,9.99,2020-07-15,active
+S-00000068,P-00000479,aanderson@sbcglobal.net,Ashley,Anderson,6306800545,8040 Van Buren St,Chicago,IL,60601,WEEKEND,14.99,2023-03-23,active
+S-00000069,P-00000482,mark.harris1@outlook.com,Mark,Harris,6305791882,4178 Kedzie Ave,Chicago,IL,60615,DIGITAL,9.99,2023-12-22,active
+S-00000070,P-00000484,llewis@gmail.com,Linda,Lewis,6302578458,7631 Jackson Blvd,Chicago,IL,60610,DIGITAL,9.99,2020-01-15,active
+S-00000071,P-00000490,joshua.rivera88@sbcglobal.net,Joshua,Rivera,8474875416,8672 Kedzie Ave,Chicago,IL,60657,DIGITAL,9.99,2020-12-12,active
+S-00000072,P-00000498,melissa.hill4@aol.com,Melissa,Hill,8726097579,6511 Fullerton Ave,Oak Park,IL,60302,PREMIUM,34.99,2020-04-19,active
+S-00000073,P-00000504,daniel.thomas28@hotmail.com,Daniel,Thomas,3126562632,9245 Van Buren St,Chicago,IL,60647,WEEKEND,14.99,2020-02-15,active
+S-00000074,P-00000509,lharris@att.net,Linda,Harris,3124739469,7180 Dearborn St,Chicago,IL,60654,DAILY,24.99,2023-10-20,active
+S-00000075,P-00000512,jessica.white94@icloud.com,Jessica,White,3121831635,1241 Archer Ave,Chicago,IL,60647,DIGITAL,9.99,2021-01-03,active
+S-00000076,P-00000527,rjones@icloud.com,Robert,Jones,7739817164,7015 Monroe St,Chicago,IL,60614,WEEKEND,14.99,2023-02-16,active
+S-00000077,P-00000550,kimberly.brown71@att.net,Kimberly,Brown,7733848039,4665 Oak Park Ave,Chicago,IL,60610,WEEKEND,14.99,2023-01-13,active
+S-00000078,P-00000553,arobinson@hotmail.com,Andrew,Robinson,8479722856,2701 State St,Chicago,IL,60622,PREMIUM,34.99,2021-10-20,active
+S-00000079,P-00000567,william.brown17@icloud.com,William,Brown,7735245871,9409 Wacker Dr,Chicago,IL,60601,DIGITAL,9.99,2023-04-05,active
+S-00000080,P-00000569,dwalker@comcast.net,Donald,Walker,8727630604,7346 Harlem Ave,Chicago,IL,60614,DIGITAL,9.99,2023-12-20,active
+S-00000081,P-00000570,charles.sanchez26@sbcglobal.net,Charles,Sanchez,7731138925,6581 Armitage Ave,Chicago,IL,60614,WEEKEND,14.99,2023-01-07,active
+S-00000082,P-00000574,paul.sanchez45@outlook.com,Paul,Sanchez,8721458819,2606 State St,Oak Park,IL,60302,DIGITAL,9.99,2022-03-20,active
+S-00000083,P-00000576,mtaylor@yahoo.com,Matthew,Taylor,8726216813,5094 Pulaski Rd,Chicago,IL,60654,DIGITAL,9.99,2020-06-04,active
+S-00000084,P-00000578,jennifer.martin48@comcast.net,Jennifer,Martin,8723993220,6766 Harrison St,Chicago,IL,60657,WEEKEND,14.99,2022-07-01,cancelled
+S-00000085,P-00000580,linda.adams35@comcast.net,Linda,Adams,7733051723,463 Pulaski Rd,Chicago,IL,60615,DIGITAL,9.99,2023-07-03,cancelled
+S-00000086,P-00000584,donald.adams85@aol.com,Donald,Adams,8471542955,9621 Fullerton Ave,Chicago,IL,60622,DIGITAL,9.99,2023-06-06,active
+S-00000087,P-00000586,dwhite@gmail.com,Donna,White,8474886932,6300 Fullerton Ave,Chicago,IL,60610,DAILY,24.99,2020-06-04,cancelled
+S-00000088,P-00000587,sramirez@aol.com,Sarah,Ramirez,8727215241,8401 Central Ave,Oak Park,IL,60302,PREMIUM,34.99,2020-03-17,cancelled
+S-00000089,P-00000605,patricia.miller2@gmail.com,Patricia,Miller,8729355425,4122 Cicero Ave,Chicago,IL,60647,DIGITAL,9.99,2023-04-25,active
+S-00000090,P-00000608,charles.robinson78@outlook.com,Charles,Robinson,6303307539,8310 Van Buren St,Chicago,IL,60654,DIGITAL,9.99,2023-02-11,active
+S-00000091,P-00000626,david.green34@aol.com,David,Green,7736583161,3350 Fullerton Ave,Chicago,IL,60610,DIGITAL,9.99,2020-04-18,active
+S-00000092,P-00000630,ptorres@att.net,Patricia,Torres,8726023198,3227 Jackson Blvd,Chicago,IL,60615,DIGITAL,9.99,2020-09-14,cancelled
+S-00000093,P-00000632,bsanchez@msn.com,Brian,Sanchez,8725354489,2543 Cicero Ave,Chicago,IL,60622,DIGITAL,9.99,2021-10-15,active
+S-00000094,P-00000638,steven.martinez48@yahoo.com,Steven,Martinez,3128104527,921 Wells St,Evanston,IL,60201,DIGITAL,9.99,2022-11-09,cancelled
+S-00000095,P-00000646,daniel.hall26@att.net,Daniel,Hall,8472079037,4466 Harlem Ave,Evanston,IL,60201,DAILY,24.99,2020-04-24,active
+S-00000096,P-00000651,paul.rodriguez91@att.net,Paul,Rodriguez,8474665842,1940 Adams St,Oak Park,IL,60302,WEEKEND,14.99,2021-08-01,active
+S-00000097,P-00000655,james.hall3@comcast.net,James,Hall,8725330453,5711 Van Buren St,Oak Park,IL,60302,WEEKEND,14.99,2023-04-25,cancelled
+S-00000098,P-00000656,elizabeth.wright28@outlook.com,Elizabeth,Wright,8726998544,1394 Central Ave,Chicago,IL,60615,DIGITAL,9.99,2022-04-04,active
+S-00000099,P-00000689,anthony.mitchell53@hotmail.com,Anthony,Mitchell,7733518929,1516 Wells St,Chicago,IL,60601,DIGITAL,9.99,2021-03-10,cancelled
+S-00000100,P-00000691,bhill@hotmail.com,Barbara,Hill,8471377224,1208 Adams St,Chicago,IL,60654,DIGITAL,9.99,2023-12-20,active
+S-00000101,P-00000693,kevin.clark2@comcast.net,Kevin,Clark,8478863353,9704 Western Ave,Chicago,IL,60610,DIGITAL,9.99,2021-11-17,cancelled
+S-00000102,P-00000700,jessica.wright82@comcast.net,Jessica,Wright,8472407757,8724 Michigan Ave,Evanston,IL,60201,DIGITAL,9.99,2022-09-08,cancelled
+S-00000103,P-00000707,donald.adams14@att.net,Donald,Adams,6303867695,5922 Kedzie Ave,Chicago,IL,60601,DIGITAL,9.99,2020-12-10,active
+S-00000104,P-00000713,anthony.lee43@hotmail.com,Anthony,Lee,8476579123,6223 Armitage Ave,Evanston,IL,60201,PREMIUM,34.99,2022-03-24,active
+S-00000105,P-00000714,patricia.ramirez9@sbcglobal.net,Patricia,Ramirez,8721480674,7211 Ashland Ave,Chicago,IL,60615,WEEKEND,14.99,2021-12-30,active
+S-00000106,P-00000729,aperez@gmail.com,Amanda,Perez,3128392053,1342 Irving Park Rd,Chicago,IL,60615,WEEKEND,14.99,2021-01-14,active
+S-00000107,P-00000737,mharris@msn.com,Mark,Harris,7734337013,9704 Van Buren St,Chicago,IL,60647,DIGITAL,9.99,2020-10-25,cancelled
+S-00000108,P-00000752,william.lopez63@outlook.com,William,Lopez,6305394203,2588 Van Buren St,Chicago,IL,60610,WEEKEND,14.99,2022-12-30,active
+S-00000109,P-00000755,cmiller@sbcglobal.net,Charles,Miller,7732768407,672 Oak Park Ave,Chicago,IL,60622,WEEKEND,14.99,2021-03-26,active
+S-00000110,P-00000760,jlee@yahoo.com,Jennifer,Lee,6302653005,1179 Dearborn St,Chicago,IL,60622,DIGITAL,9.99,2023-12-22,active
+S-00000111,P-00000761,athomas@icloud.com,Amanda,Thomas,8729399122,7333 Harrison St,Chicago,IL,60615,WEEKEND,14.99,2022-09-13,cancelled
+S-00000112,P-00000774,dorothy.wilson94@msn.com,Dorothy,Wilson,7738318898,4580 Cicero Ave,Evanston,IL,60201,WEEKEND,14.99,2021-12-06,active
+S-00000113,P-00000777,kenneth.rodriguez83@comcast.net,Kenneth,Rodriguez,8477259471,5092 Ashland Ave,Chicago,IL,60622,DIGITAL,9.99,2023-11-06,cancelled
+S-00000114,P-00000778,joshua.taylor86@att.net,Joshua,Taylor,8473603680,338 Western Ave,Evanston,IL,60201,WEEKEND,14.99,2021-02-16,cancelled
+S-00000115,P-00000788,swalker@icloud.com,Sandra,Walker,3124742849,3303 Dearborn St,Chicago,IL,60601,WEEKEND,14.99,2021-10-26,active
+S-00000116,P-00000793,jlewis@gmail.com,Jennifer,Lewis,7738458136,6402 Oak Park Ave,Oak Park,IL,60302,WEEKEND,14.99,2021-12-23,active
+S-00000117,P-00000799,michael.baker81@outlook.com,Michael,Baker,3122644173,2668 Fullerton Ave,Chicago,IL,60622,WEEKEND,14.99,2023-08-12,active
+S-00000118,P-00000803,eperez@icloud.com,Elizabeth,Perez,8474462511,7351 Harrison St,Evanston,IL,60201,DIGITAL,9.99,2021-01-02,active
+S-00000119,P-00000805,ballen@aol.com,Brian,Allen,3122346365,5682 Franklin St,Chicago,IL,60654,WEEKEND,14.99,2021-10-31,cancelled
+S-00000120,P-00000818,betty.taylor87@outlook.com,Betty,Taylor,8474452097,1503 Ashland Ave,Chicago,IL,60647,DAILY,24.99,2021-07-14,active
+S-00000121,P-00000820,joshua.lewis47@aol.com,Joshua,Lewis,3126811303,4399 California Ave,Chicago,IL,60654,DAILY,24.99,2020-07-29,active
+S-00000122,P-00000831,melissa.hill68@sbcglobal.net,Melissa,Hill,8473285362,8562 Wacker Dr,Chicago,IL,60610,WEEKEND,14.99,2023-11-22,active
+S-00000123,P-00000835,gsanchez@outlook.com,George,Sanchez,8473760451,9361 Cicero Ave,Chicago,IL,60622,DIGITAL,9.99,2023-10-26,active
+S-00000124,P-00000842,timothy.smith88@aol.com,Timothy,Smith,3128527872,356 Armitage Ave,Chicago,IL,60657,DIGITAL,9.99,2022-03-25,active
+S-00000125,P-00000848,karen.scott54@comcast.net,Karen,Scott,3124682796,7169 Clark St,Chicago,IL,60622,WEEKEND,14.99,2023-07-24,cancelled
+S-00000126,P-00000853,cmiller@msn.com,Charles,Miller,7737425148,2746 State St,Oak Park,IL,60302,DIGITAL,9.99,2021-08-18,active
+S-00000127,P-00000860,bbrown@gmail.com,Betty,Brown,8724936642,9786 California Ave,Chicago,IL,60601,DIGITAL,9.99,2020-12-14,cancelled
+S-00000128,P-00000866,lisa.hall30@yahoo.com,Lisa,Hall,8479214491,7904 Wacker Dr,Chicago,IL,60647,WEEKEND,14.99,2022-12-06,active
+S-00000129,P-00000868,paul.davis16@icloud.com,Paul,Davis,8473854135,1506 Oak Park Ave,Chicago,IL,60614,DIGITAL,9.99,2022-01-29,cancelled
+S-00000130,P-00000869,dorothy.lopez73@hotmail.com,Dorothy,Lopez,6309173192,6349 Ashland Ave,Chicago,IL,60601,WEEKEND,14.99,2022-12-01,active
+S-00000131,P-00000872,kadams@icloud.com,Kevin,Adams,6307523229,6069 Oak Park Ave,Chicago,IL,60622,DIGITAL,9.99,2023-10-21,active
+S-00000132,P-00000874,paul.walker12@att.net,Paul,Walker,3122413285,2489 State St,Chicago,IL,60647,DIGITAL,9.99,2021-08-08,active
+S-00000133,P-00000876,wrodriguez@yahoo.com,William,Rodriguez,8471903057,1246 Michigan Ave,Chicago,IL,60601,DIGITAL,9.99,2021-10-02,active
+S-00000134,P-00000881,paul.perez56@sbcglobal.net,Paul,Perez,3123873382,8126 Dearborn St,Chicago,IL,60654,DIGITAL,9.99,2023-04-14,active
+S-00000135,P-00000886,janderson@outlook.com,Joshua,Anderson,6303903561,8706 Michigan Ave,Chicago,IL,60615,DIGITAL,9.99,2023-09-11,active
+S-00000136,P-00000887,matthew.flores67@comcast.net,Matthew,Flores,6307965410,9330 Wacker Dr,Chicago,IL,60610,DIGITAL,9.99,2020-01-02,active
+S-00000137,P-00000911,michael.taylor79@yahoo.com,Michael,Taylor,6307945685,7271 Central Ave,Chicago,IL,60654,DIGITAL,9.99,2024-01-14,cancelled
+S-00000138,P-00000914,dwright@aol.com,Daniel,Wright,8726082070,8624 Diversey Pkwy,Evanston,IL,60201,DIGITAL,9.99,2021-04-01,active
+S-00000139,P-00000917,mark.campbell97@outlook.com,Mark,Campbell,6304695611,8155 Harrison St,Chicago,IL,60615,PREMIUM,34.99,2021-08-28,active
+S-00000140,P-00000926,george.johnson31@yahoo.com,George,Johnson,3125209229,4967 Cermak Rd,Chicago,IL,60615,DAILY,24.99,2023-04-22,active
+S-00000141,P-00000928,elizabeth.lewis52@hotmail.com,Elizabeth,Lewis,7739584036,8352 Belmont Ave,Oak Park,IL,60302,DIGITAL,9.99,2020-11-09,active
+S-00000142,P-00000936,emily.mitchell97@comcast.net,Emily,Mitchell,7737153283,4953 Kedzie Ave,Chicago,IL,60610,WEEKEND,14.99,2022-10-18,active
+S-00000143,P-00000948,elizabeth.walker17@yahoo.com,Elizabeth,Walker,8472079229,2900 Kedzie Ave,Chicago,IL,60622,DIGITAL,9.99,2023-01-18,active
+S-00000144,P-00000962,lisa.campbell76@gmail.com,Lisa,Campbell,6305151538,7987 Diversey Pkwy,Chicago,IL,60657,PREMIUM,34.99,2020-12-02,cancelled
+S-00000145,P-00000974,klewis@gmail.com,Kenneth,Lewis,8471287249,6735 Wells St,Chicago,IL,60614,WEEKEND,14.99,2022-05-12,cancelled
+S-00000146,P-00000976,rmartin@gmail.com,Robert,Martin,6307371332,688 Armitage Ave,Evanston,IL,60201,WEEKEND,14.99,2023-03-06,active
+S-00000147,P-00000996,bthompson@sbcglobal.net,Betty,Thompson,8721699438,6842 California Ave,Evanston,IL,60201,PREMIUM,34.99,2023-08-06,active
+S-00000148,P-00001014,llopez@yahoo.com,Lisa,Lopez,7738251204,8876 Congress Pkwy,Chicago,IL,60647,WEEKEND,14.99,2022-12-08,active
+S-00000149,P-00001017,kcampbell@gmail.com,Karen,Campbell,8479145618,7499 Wells St,Chicago,IL,60654,DIGITAL,9.99,2023-09-28,cancelled
+S-00000150,P-00001022,kevin.gonzalez94@sbcglobal.net,Kevin,Gonzalez,7736023331,9717 LaSalle St,Chicago,IL,60654,PREMIUM,34.99,2020-01-13,active
+S-00000151,P-00001026,barbara.campbell5@comcast.net,Barbara,Campbell,8727778105,4766 Adams St,Chicago,IL,60654,PREMIUM,34.99,2021-08-20,active
+S-00000152,P-00001031,barbara.gonzalez44@sbcglobal.net,Barbara,Gonzalez,8729304932,2172 Roosevelt Rd,Chicago,IL,60610,DIGITAL,9.99,2020-07-30,active
+S-00000153,P-00001057,brian.sanchez48@yahoo.com,Brian,Sanchez,6304019332,4141 Archer Ave,Chicago,IL,60647,DAILY,24.99,2023-12-23,cancelled
+S-00000154,P-00001064,jclark@outlook.com,Jennifer,Clark,8728213741,4164 Monroe St,Chicago,IL,60615,WEEKEND,14.99,2020-03-18,cancelled
+S-00000155,P-00001071,michelle.thompson90@outlook.com,Michelle,Thompson,8726320218,7996 Wacker Dr,Chicago,IL,60610,PREMIUM,34.99,2021-02-15,active
+S-00000156,P-00001074,emily.garcia38@icloud.com,Emily,Garcia,3126176367,3181 Madison St,Chicago,IL,60614,WEEKEND,14.99,2023-12-20,cancelled
+S-00000157,P-00001084,margaret.mitchell40@msn.com,Margaret,Mitchell,8473751691,2667 Harrison St,Chicago,IL,60647,DAILY,24.99,2022-10-12,cancelled
+S-00000158,P-00001098,matthew.campbell71@outlook.com,Matthew,Campbell,8471185639,2658 Western Ave,Chicago,IL,60601,WEEKEND,14.99,2021-05-17,active
+S-00000159,P-00001108,jhernandez@comcast.net,James,Hernandez,6306342479,1485 Archer Ave,Chicago,IL,60647,WEEKEND,14.99,2023-07-08,active
+S-00000160,P-00001114,nhill@hotmail.com,Nancy,Hill,3122497060,3859 Kedzie Ave,Chicago,IL,60657,DIGITAL,9.99,2022-10-10,cancelled
+S-00000161,P-00001115,mjackson@icloud.com,Michelle,Jackson,8725400726,8749 Clark St,Chicago,IL,60657,WEEKEND,14.99,2022-11-14,active
+S-00000162,P-00001116,djackson@msn.com,Dorothy,Jackson,3126798089,1061 Jackson Blvd,Chicago,IL,60615,WEEKEND,14.99,2021-07-18,active
+S-00000163,P-00001128,kevin.miller4@yahoo.com,Kevin,Miller,8725250050,8487 Wells St,Chicago,IL,60657,DAILY,24.99,2021-08-11,active
+S-00000164,P-00001131,cmiller@gmail.com,Charles,Miller,6303885364,9823 Harlem Ave,Chicago,IL,60654,DIGITAL,9.99,2020-08-02,active
+S-00000165,P-00001136,joshua.thompson76@sbcglobal.net,Joshua,Thompson,8728356505,1351 Harrison St,Chicago,IL,60647,DAILY,24.99,2023-06-26,active
+S-00000166,P-00001138,thomas.hill5@msn.com,Thomas,Hill,8471778639,1626 Madison St,Chicago,IL,60601,DIGITAL,9.99,2020-10-18,active
+S-00000167,P-00001139,trivera@gmail.com,Thomas,Rivera,8472354832,1996 Armitage Ave,Chicago,IL,60614,WEEKEND,14.99,2020-09-07,active
+S-00000168,P-00001143,joseph.thompson92@msn.com,Joseph,Thompson,8729222496,4389 Fullerton Ave,Oak Park,IL,60302,DAILY,24.99,2021-02-03,active
+S-00000169,P-00001147,ashley.thompson80@aol.com,Ashley,Thompson,8727015673,4190 Harrison St,Chicago,IL,60601,DIGITAL,9.99,2023-11-05,active
+S-00000170,P-00001151,mary.campbell51@msn.com,Mary,Campbell,6302203049,7871 Cicero Ave,Evanston,IL,60201,PREMIUM,34.99,2023-12-10,active
+S-00000171,P-00001158,amanda.rodriguez81@hotmail.com,Amanda,Rodriguez,6308190063,7289 Dearborn St,Chicago,IL,60622,DIGITAL,9.99,2021-12-29,cancelled
+S-00000172,P-00001160,lking@comcast.net,Linda,King,6307688986,2553 Armitage Ave,Oak Park,IL,60302,DIGITAL,9.99,2023-02-12,active
+S-00000173,P-00001164,mking@sbcglobal.net,Melissa,King,3126160593,3935 Pulaski Rd,Chicago,IL,60610,DAILY,24.99,2021-12-29,active
+S-00000174,P-00001166,jwilson@att.net,Jennifer,Wilson,6301929441,894 Franklin St,Chicago,IL,60614,PREMIUM,34.99,2023-06-02,active
+S-00000175,P-00001177,linda.perez66@hotmail.com,Linda,Perez,3127110664,1584 Wells St,Oak Park,IL,60302,WEEKEND,14.99,2020-07-25,active
+S-00000176,P-00001183,thomas.thompson3@icloud.com,Thomas,Thompson,8474336967,4025 California Ave,Evanston,IL,60201,DAILY,24.99,2021-07-15,active
+S-00000177,P-00001188,richard.nelson13@comcast.net,Richard,Nelson,3124986752,7593 Western Ave,Chicago,IL,60601,DIGITAL,9.99,2021-12-03,active
+S-00000178,P-00001196,mjackson@icloud.com,Mary,Jackson,6308114070,9601 Wells St,Oak Park,IL,60302,DIGITAL,9.99,2020-06-10,active
+S-00000179,P-00001200,thomas.baker43@hotmail.com,Thomas,Baker,7736801116,8167 Oak Park Ave,Chicago,IL,60610,DAILY,24.99,2020-11-10,active
+S-00000180,P-00001202,ashley.jones73@icloud.com,Ashley,Jones,7738679124,9899 Jackson Blvd,Chicago,IL,60647,DAILY,24.99,2021-05-03,active
+S-00000181,P-00001206,mark.garcia38@hotmail.com,Mark,Garcia,6303602021,4695 Harlem Ave,Chicago,IL,60610,DIGITAL,9.99,2020-04-09,active
+S-00000182,P-00001211,joshua.rodriguez39@att.net,Joshua,Rodriguez,8728280054,9426 Wacker Dr,Chicago,IL,60615,DAILY,24.99,2023-09-24,cancelled
+S-00000183,P-00001212,kwilson@aol.com,Kimberly,Wilson,3126710333,7062 Kedzie Ave,Chicago,IL,60654,DIGITAL,9.99,2022-06-20,active
+S-00000184,P-00001217,jjones@aol.com,James,Jones,6306368492,893 Irving Park Rd,Chicago,IL,60615,DAILY,24.99,2023-12-07,cancelled
+S-00000185,P-00001230,jmartin@msn.com,Jessica,Martin,6306372625,5531 Congress Pkwy,Chicago,IL,60647,DAILY,24.99,2023-07-07,cancelled
+S-00000186,P-00001232,dsmith@outlook.com,Donald,Smith,6308427925,6069 Kedzie Ave,Chicago,IL,60615,DIGITAL,9.99,2020-02-16,active
+S-00000187,P-00001239,mjones@aol.com,Melissa,Jones,3121687055,1611 Archer Ave,Chicago,IL,60610,DIGITAL,9.99,2022-06-16,cancelled
+S-00000188,P-00001245,crobinson@aol.com,Christopher,Robinson,8479980052,4408 California Ave,Evanston,IL,60201,PREMIUM,34.99,2020-01-29,cancelled
+S-00000189,P-00001252,shall@gmail.com,Steven,Hall,7738968737,2663 Archer Ave,Chicago,IL,60657,DIGITAL,9.99,2023-12-01,active
+S-00000190,P-00001253,william.thomas25@outlook.com,William,Thomas,3123816300,9865 California Ave,Evanston,IL,60201,PREMIUM,34.99,2023-07-22,cancelled
+S-00000191,P-00001275,mwalker@icloud.com,Matthew,Walker,8471259201,4007 Michigan Ave,Chicago,IL,60614,DIGITAL,9.99,2021-09-15,active
+S-00000192,P-00001277,lisa.robinson91@aol.com,Lisa,Robinson,8722932457,6755 Diversey Pkwy,Chicago,IL,60614,PREMIUM,34.99,2023-02-28,active
+S-00000193,P-00001279,elizabeth.scott23@att.net,Elizabeth,Scott,8476093409,8059 Cermak Rd,Chicago,IL,60601,DAILY,24.99,2023-07-20,cancelled
+S-00000194,P-00001290,melissa.young11@yahoo.com,Melissa,Young,8471988144,7443 Pulaski Rd,Chicago,IL,60657,DAILY,24.99,2020-02-15,active
+S-00000195,P-00001292,barbara.martinez42@outlook.com,Barbara,Martinez,8472754741,5088 Madison St,Evanston,IL,60201,WEEKEND,14.99,2023-12-14,active
+S-00000196,P-00001296,alewis@outlook.com,Anthony,Lewis,7735184737,803 Pulaski Rd,Chicago,IL,60622,WEEKEND,14.99,2021-06-13,active
+S-00000197,P-00001319,donna.white65@gmail.com,Donna,White,8473980631,6142 Franklin St,Oak Park,IL,60302,PREMIUM,34.99,2023-07-20,cancelled
+S-00000198,P-00001334,kmartin@yahoo.com,Kenneth,Martin,7732792803,6570 Monroe St,Chicago,IL,60615,PREMIUM,34.99,2021-12-30,active
+S-00000199,P-00001337,kevin.jackson95@aol.com,Kevin,Jackson,6307791466,870 Michigan Ave,Evanston,IL,60201,DIGITAL,9.99,2022-02-06,cancelled
+S-00000200,P-00001340,susan.scott40@icloud.com,Susan,Scott,8473443413,4011 Harrison St,Chicago,IL,60615,DIGITAL,9.99,2021-03-05,active
+S-00000201,P-00001341,patricia.hernandez42@gmail.com,Patricia,Hernandez,8472466478,7115 Madison St,Chicago,IL,60654,PREMIUM,34.99,2021-10-06,active
+S-00000202,P-00001353,daniel.baker71@aol.com,Daniel,Baker,7738863550,1722 Harrison St,Chicago,IL,60610,WEEKEND,14.99,2023-07-21,active
+S-00000203,P-00001356,barbara.sanchez61@hotmail.com,Barbara,Sanchez,6308878601,3351 Archer Ave,Evanston,IL,60201,WEEKEND,14.99,2023-10-05,cancelled
+S-00000204,P-00001360,abrown@aol.com,Ashley,Brown,3121350912,9973 Kedzie Ave,Chicago,IL,60614,PREMIUM,34.99,2023-06-02,active
+S-00000205,P-00001373,michelle.baker23@gmail.com,Michelle,Baker,3124834254,9443 Cermak Rd,Oak Park,IL,60302,DIGITAL,9.99,2022-03-19,active
+S-00000206,P-00001379,sandra.robinson49@att.net,Sandra,Robinson,7736118168,4916 Armitage Ave,Evanston,IL,60201,WEEKEND,14.99,2021-11-01,cancelled
+S-00000207,P-00001382,kimberly.williams5@msn.com,Kimberly,Williams,6308925660,6018 State St,Chicago,IL,60614,WEEKEND,14.99,2020-03-28,active
+S-00000208,P-00001391,mary.young67@yahoo.com,Mary,Young,3125535211,7794 LaSalle St,Chicago,IL,60622,DAILY,24.99,2021-08-13,active
+S-00000209,P-00001406,daniel.miller27@att.net,Daniel,Miller,3129337102,6437 Franklin St,Chicago,IL,60647,DIGITAL,9.99,2020-07-05,active
+S-00000210,P-00001412,grodriguez@msn.com,George,Rodriguez,6306109661,9245 Clark St,Chicago,IL,60654,DIGITAL,9.99,2020-06-28,active
+S-00000211,P-00001413,elizabeth.rivera47@msn.com,Elizabeth,Rivera,3121975288,2849 Harrison St,Chicago,IL,60654,DIGITAL,9.99,2023-03-22,cancelled
+S-00000212,P-00001420,thomas.wright92@comcast.net,Thomas,Wright,6301982207,5421 Wells St,Chicago,IL,60614,DIGITAL,9.99,2021-11-13,active
+S-00000213,P-00001422,clopez@icloud.com,Charles,Lopez,8724229198,4626 Harlem Ave,Chicago,IL,60615,DIGITAL,9.99,2023-07-12,active
+S-00000214,P-00001428,mtorres@msn.com,Margaret,Torres,7731799800,5261 State St,Oak Park,IL,60302,DIGITAL,9.99,2023-01-15,cancelled
+S-00000215,P-00001434,sking@outlook.com,Susan,King,3127299633,7730 Irving Park Rd,Chicago,IL,60601,DAILY,24.99,2021-01-01,active
+S-00000216,P-00001439,steven.thomas90@gmail.com,Steven,Thomas,6308637431,3703 State St,Oak Park,IL,60302,PREMIUM,34.99,2023-07-09,cancelled
+S-00000217,P-00001444,andrew.sanchez69@yahoo.com,Andrew,Sanchez,8723602807,823 Fullerton Ave,Oak Park,IL,60302,PREMIUM,34.99,2021-07-10,active
+S-00000218,P-00001445,karen.harris25@icloud.com,Karen,Harris,6301376430,3151 Adams St,Chicago,IL,60614,DIGITAL,9.99,2022-06-19,active
+S-00000219,P-00001447,khernandez@hotmail.com,Kenneth,Hernandez,8473108086,4121 Belmont Ave,Chicago,IL,60647,WEEKEND,14.99,2022-12-03,active
+S-00000220,P-00001457,ctaylor@att.net,Christopher,Taylor,6303034730,7483 Fullerton Ave,Chicago,IL,60601,DAILY,24.99,2021-03-08,active
+S-00000221,P-00001458,elizabeth.lewis65@outlook.com,Elizabeth,Lewis,8477509000,5663 Jackson Blvd,Chicago,IL,60615,DIGITAL,9.99,2021-06-05,cancelled
+S-00000222,P-00001459,andrew.scott36@aol.com,Andrew,Scott,3123588160,5164 LaSalle St,Evanston,IL,60201,DIGITAL,9.99,2020-07-20,active
+S-00000223,P-00001461,mbrown@yahoo.com,Mary,Brown,8474799038,1400 Cicero Ave,Chicago,IL,60615,PREMIUM,34.99,2023-06-30,active
+S-00000224,P-00001471,nancy.wright32@comcast.net,Nancy,Wright,7734555090,1445 Irving Park Rd,Chicago,IL,60647,DIGITAL,9.99,2023-03-16,active
+S-00000225,P-00001476,david.taylor29@aol.com,David,Taylor,8727103537,9985 Pulaski Rd,Chicago,IL,60610,DIGITAL,9.99,2022-01-14,active
+S-00000226,P-00001479,christopher.hall58@att.net,Christopher,Hall,8728157788,4297 Harlem Ave,Chicago,IL,60657,DIGITAL,9.99,2023-09-10,active
+S-00000227,P-00001484,sarah.lopez7@gmail.com,Sarah,Lopez,8724681246,1481 Harrison St,Chicago,IL,60601,DIGITAL,9.99,2021-01-10,active
+S-00000228,P-00001487,ssmith@aol.com,Steven,Smith,7736312003,2513 Central Ave,Chicago,IL,60614,DIGITAL,9.99,2023-05-26,active
+S-00000229,P-00001501,lisa.mitchell75@sbcglobal.net,Lisa,Mitchell,7737701447,1068 Harrison St,Chicago,IL,60610,DIGITAL,9.99,2023-04-07,cancelled
+S-00000230,P-00001504,esmith@yahoo.com,Elizabeth,Smith,3127989823,3204 Dearborn St,Chicago,IL,60622,WEEKEND,14.99,2023-10-05,active
+S-00000231,P-00001505,sdavis@icloud.com,Sandra,Davis,3129282577,5389 Armitage Ave,Chicago,IL,60615,PREMIUM,34.99,2023-10-21,cancelled
+S-00000232,P-00001510,susan.williams93@aol.com,Susan,Williams,3125058518,6065 Congress Pkwy,Chicago,IL,60654,WEEKEND,14.99,2020-09-07,active
+S-00000233,P-00001528,linda.davis96@yahoo.com,Linda,Davis,6301298510,3903 Pulaski Rd,Chicago,IL,60647,DAILY,24.99,2023-07-05,active
+S-00000234,P-00001529,wdavis@gmail.com,William,Davis,7739763576,3111 Diversey Pkwy,Chicago,IL,60610,DIGITAL,9.99,2020-10-11,active
+S-00000235,P-00001539,linda.baker67@hotmail.com,Linda,Baker,7735420047,7093 Congress Pkwy,Evanston,IL,60201,DAILY,24.99,2021-03-08,cancelled
+S-00000236,P-00001540,cwalker@icloud.com,Christopher,Walker,7737626871,8136 Van Buren St,Oak Park,IL,60302,PREMIUM,34.99,2020-08-04,cancelled
+S-00000237,P-00001542,linda.anderson17@comcast.net,Linda,Anderson,7733653381,1472 Harlem Ave,Oak Park,IL,60302,DAILY,24.99,2023-01-27,active
+S-00000238,P-00001549,joseph.davis85@aol.com,Joseph,Davis,3126621548,2238 Wacker Dr,Chicago,IL,60657,PREMIUM,34.99,2021-04-28,cancelled
+S-00000239,P-00001572,lisa.sanchez7@att.net,Lisa,Sanchez,7736911319,6995 Jackson Blvd,Chicago,IL,60647,WEEKEND,14.99,2020-01-28,active
+S-00000240,P-00001587,james.thomas39@gmail.com,James,Thomas,8475942312,4421 Cermak Rd,Evanston,IL,60201,WEEKEND,14.99,2021-05-31,cancelled
+S-00000241,P-00001592,sjohnson@aol.com,Susan,Johnson,6306617789,9708 Oak Park Ave,Chicago,IL,60654,DIGITAL,9.99,2022-03-06,active
+S-00000242,P-00001596,amanda.smith23@sbcglobal.net,Amanda,Smith,8724255298,8021 Armitage Ave,Evanston,IL,60201,DIGITAL,9.99,2023-01-19,active
+S-00000243,P-00001615,bharris@hotmail.com,Betty,Harris,7734459633,9722 Wacker Dr,Evanston,IL,60201,DIGITAL,9.99,2021-07-02,active
+S-00000244,P-00001616,mwalker@aol.com,Matthew,Walker,7739337388,9426 Monroe St,Oak Park,IL,60302,DAILY,24.99,2020-01-04,cancelled
+S-00000245,P-00001633,kevin.hernandez80@hotmail.com,Kevin,Hernandez,8722055374,573 Cicero Ave,Chicago,IL,60622,DIGITAL,9.99,2024-02-01,active
+S-00000246,P-00001634,nancy.rodriguez4@msn.com,Nancy,Rodriguez,3128199186,3670 State St,Chicago,IL,60647,WEEKEND,14.99,2021-05-16,active
+S-00000247,P-00001638,nancy.hill20@gmail.com,Nancy,Hill,8721014425,2429 Dearborn St,Chicago,IL,60614,DAILY,24.99,2020-11-18,cancelled
+S-00000248,P-00001642,awilson@comcast.net,Andrew,Wilson,8725132857,2572 Kedzie Ave,Chicago,IL,60647,WEEKEND,14.99,2023-06-16,cancelled
+S-00000249,P-00001643,kevin.walker66@aol.com,Kevin,Walker,3123974633,8803 Dearborn St,Chicago,IL,60657,DAILY,24.99,2021-07-16,active
+S-00000250,P-00001644,george.hill4@aol.com,George,Hill,6304699618,5419 Franklin St,Chicago,IL,60647,PREMIUM,34.99,2020-07-11,active
+S-00000251,P-00001656,emily.thomas71@aol.com,Emily,Thomas,8725094290,8203 Cicero Ave,Chicago,IL,60654,DIGITAL,9.99,2023-04-06,active
+S-00000252,P-00001667,jessica.sanchez56@comcast.net,Jessica,Sanchez,8721032799,8468 California Ave,Chicago,IL,60615,WEEKEND,14.99,2022-12-15,active
+S-00000253,P-00001670,cwright@icloud.com,Charles,Wright,6301549634,7429 Van Buren St,Chicago,IL,60615,DAILY,24.99,2021-04-14,cancelled
+S-00000254,P-00001679,david.wilson34@hotmail.com,David,Wilson,8479520749,5662 Wells St,Chicago,IL,60622,WEEKEND,14.99,2023-01-02,cancelled
+S-00000255,P-00001686,jessica.rodriguez59@comcast.net,Jessica,Rodriguez,7737290413,6190 State St,Chicago,IL,60601,WEEKEND,14.99,2020-10-29,cancelled
+S-00000256,P-00001703,jessica.sanchez23@gmail.com,Jessica,Sanchez,3128575221,8510 Western Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-03-01,cancelled
+S-00000257,P-00001712,sandra.robinson67@yahoo.com,Sandra,Robinson,8727511287,8564 Roosevelt Rd,Evanston,IL,60201,DAILY,24.99,2021-02-19,active
+S-00000258,P-00001714,daniel.green22@hotmail.com,Daniel,Green,8471565904,689 Franklin St,Chicago,IL,60615,WEEKEND,14.99,2020-03-14,active
+S-00000259,P-00001720,sandra.rivera90@comcast.net,Sandra,Rivera,7737943638,8900 California Ave,Chicago,IL,60614,DIGITAL,9.99,2021-12-14,active
+S-00000260,P-00001723,emily.lee83@outlook.com,Emily,Lee,8729008974,6355 Harrison St,Chicago,IL,60657,DIGITAL,9.99,2021-04-16,cancelled
+S-00000261,P-00001725,daniel.garcia53@hotmail.com,Daniel,Garcia,6308191629,8725 Irving Park Rd,Chicago,IL,60615,WEEKEND,14.99,2021-12-22,active
+S-00000262,P-00001728,donna.harris86@icloud.com,Donna,Harris,8728997294,4271 Madison St,Chicago,IL,60647,DIGITAL,9.99,2020-01-13,cancelled
+S-00000263,P-00001729,david.davis89@gmail.com,David,Davis,8728981415,6783 Adams St,Chicago,IL,60601,DIGITAL,9.99,2022-08-31,active
+S-00000264,P-00001741,melissa.robinson18@outlook.com,Melissa,Robinson,6309193858,9205 Harrison St,Chicago,IL,60614,DIGITAL,9.99,2021-11-09,active
+S-00000265,P-00001755,linda.brown31@outlook.com,Linda,Brown,8479782184,2732 Pulaski Rd,Chicago,IL,60654,DIGITAL,9.99,2021-02-26,active
+S-00000266,P-00001760,rsanchez@att.net,Robert,Sanchez,8476901014,688 Michigan Ave,Chicago,IL,60601,WEEKEND,14.99,2020-04-01,active
+S-00000267,P-00001770,christopher.allen73@aol.com,Christopher,Allen,7739089410,3059 Central Ave,Chicago,IL,60647,PREMIUM,34.99,2023-06-12,active
+S-00000268,P-00001774,matthew.scott1@att.net,Matthew,Scott,8729800581,9128 Congress Pkwy,Oak Park,IL,60302,DAILY,24.99,2023-08-22,active
+S-00000269,P-00001777,paul.taylor29@icloud.com,Paul,Taylor,7734269875,8365 Armitage Ave,Chicago,IL,60615,DIGITAL,9.99,2023-01-26,cancelled
+S-00000270,P-00001785,tmoore@att.net,Timothy,Moore,7738099388,7783 Western Ave,Oak Park,IL,60302,DAILY,24.99,2023-09-28,active
+S-00000271,P-00001786,carol.thompson47@msn.com,Carol,Thompson,7737866112,4570 LaSalle St,Oak Park,IL,60302,DIGITAL,9.99,2020-01-09,active
+S-00000272,P-00001806,ptorres@att.net,Patricia,Torres,6303653611,7990 Monroe St,Chicago,IL,60610,DIGITAL,9.99,2021-12-23,active
+S-00000273,P-00001824,jessica.sanchez81@comcast.net,Jessica,Sanchez,7737517726,284 Western Ave,Chicago,IL,60610,DIGITAL,9.99,2021-12-23,active
+S-00000274,P-00001830,kevin.williams65@gmail.com,Kevin,Williams,6308232716,5700 State St,Evanston,IL,60201,DAILY,24.99,2020-04-05,active
+S-00000275,P-00001832,dorothy.baker48@gmail.com,Dorothy,Baker,6306085291,3285 Franklin St,Chicago,IL,60615,WEEKEND,14.99,2021-07-19,active
+S-00000276,P-00001846,lmiller@yahoo.com,Lisa,Miller,8474143053,2035 Clark St,Chicago,IL,60622,DAILY,24.99,2020-08-04,cancelled
+S-00000277,P-00001847,sandra.robinson42@comcast.net,Sandra,Robinson,8729336512,4006 Central Ave,Evanston,IL,60201,DIGITAL,9.99,2021-07-22,active
+S-00000278,P-00001848,michael.brown78@icloud.com,Michael,Brown,8471036417,6990 Kedzie Ave,Chicago,IL,60654,WEEKEND,14.99,2020-04-08,active
+S-00000279,P-00001858,jessica.torres29@yahoo.com,Jessica,Torres,8475120116,5087 Monroe St,Chicago,IL,60657,WEEKEND,14.99,2022-08-25,cancelled
+S-00000280,P-00001868,donna.gonzalez92@aol.com,Donna,Gonzalez,6306658553,5804 Jackson Blvd,Oak Park,IL,60302,WEEKEND,14.99,2021-01-30,active
+S-00000281,P-00001877,thomas.taylor45@msn.com,Thomas,Taylor,6307907605,6904 Monroe St,Chicago,IL,60610,DIGITAL,9.99,2023-03-15,cancelled
+S-00000282,P-00001882,kimberly.hernandez75@sbcglobal.net,Kimberly,Hernandez,7733024249,8402 LaSalle St,Chicago,IL,60614,DIGITAL,9.99,2020-04-16,active
+S-00000283,P-00001902,swilliams@sbcglobal.net,Sandra,Williams,8728109636,8319 Fullerton Ave,Chicago,IL,60610,DIGITAL,9.99,2023-10-25,active
+S-00000284,P-00001910,david.lopez44@aol.com,David,Lopez,8722467770,9730 Dearborn St,Chicago,IL,60622,DAILY,24.99,2023-02-15,cancelled
+S-00000285,P-00001913,dtorres@sbcglobal.net,Dorothy,Torres,7733370231,3884 Adams St,Chicago,IL,60647,DIGITAL,9.99,2023-11-28,active
+S-00000286,P-00001917,mark.rodriguez70@gmail.com,Mark,Rodriguez,8475309098,4792 Harlem Ave,Chicago,IL,60647,WEEKEND,14.99,2020-08-25,active
+S-00000287,P-00001928,jessica.king71@gmail.com,Jessica,King,6306588138,8867 Western Ave,Chicago,IL,60615,DIGITAL,9.99,2022-01-31,active
+S-00000288,P-00001932,melissa.hernandez36@hotmail.com,Melissa,Hernandez,3126531345,7798 Franklin St,Chicago,IL,60654,PREMIUM,34.99,2021-12-25,active
+S-00000289,P-00001937,elizabeth.thompson34@hotmail.com,Elizabeth,Thompson,3127252654,7177 Wacker Dr,Chicago,IL,60647,DAILY,24.99,2020-08-02,cancelled
+S-00000290,P-00001951,timothy.anderson51@outlook.com,Timothy,Anderson,6307561407,6940 Oak Park Ave,Chicago,IL,60654,PREMIUM,34.99,2022-04-04,active
+S-00000291,P-00001965,kenneth.lee28@att.net,Kenneth,Lee,7735443798,2067 Western Ave,Chicago,IL,60601,WEEKEND,14.99,2023-11-02,active
+S-00000292,P-00001974,kmiller@hotmail.com,Karen,Miller,8721590940,1256 Jackson Blvd,Chicago,IL,60601,WEEKEND,14.99,2021-10-17,active
+S-00000293,P-00001987,karen.thompson15@aol.com,Karen,Thompson,6309540322,1070 Wacker Dr,Chicago,IL,60622,DIGITAL,9.99,2023-12-01,cancelled
+S-00000294,P-00001994,sandra.miller66@hotmail.com,Sandra,Miller,8473865057,2650 Diversey Pkwy,Evanston,IL,60201,PREMIUM,34.99,2023-09-25,active
+S-00000295,P-00001995,kjohnson@yahoo.com,Kenneth,Johnson,7736531231,302 Archer Ave,Chicago,IL,60657,DIGITAL,9.99,2022-03-11,active
+S-00000296,P-00001997,mark.thomas3@outlook.com,Mark,Thomas,3126053057,9098 Diversey Pkwy,Chicago,IL,60615,DIGITAL,9.99,2021-07-05,active
+S-00000297,P-00001998,tmiller@outlook.com,Thomas,Miller,3125395511,6831 Fullerton Ave,Oak Park,IL,60302,WEEKEND,14.99,2021-05-22,active
+S-00000298,P-00002005,amanda.lee38@icloud.com,Amanda,Lee,3122399347,5412 Kedzie Ave,Chicago,IL,60610,WEEKEND,14.99,2020-09-11,active
+S-00000299,P-00002008,bsmith@aol.com,Betty,Smith,7733661653,4384 Kedzie Ave,Evanston,IL,60201,DIGITAL,9.99,2022-03-02,active
+S-00000300,P-00002009,lisa.garcia42@yahoo.com,Lisa,Garcia,8476968147,1765 Franklin St,Oak Park,IL,60302,DAILY,24.99,2022-06-27,active
+S-00000301,P-00002018,linda.martinez85@sbcglobal.net,Linda,Martinez,8475484781,3281 Monroe St,Chicago,IL,60601,DIGITAL,9.99,2020-08-18,active
+S-00000302,P-00002022,mary.brown33@sbcglobal.net,Mary,Brown,3129246311,1097 Western Ave,Chicago,IL,60622,DIGITAL,9.99,2023-09-21,cancelled
+S-00000303,P-00002025,donald.thomas5@outlook.com,Donald,Thomas,8473941937,9064 Adams St,Chicago,IL,60657,DIGITAL,9.99,2021-05-27,cancelled
+S-00000304,P-00002028,matthew.anderson19@sbcglobal.net,Matthew,Anderson,3122157060,307 Irving Park Rd,Chicago,IL,60601,DIGITAL,9.99,2020-01-28,active
+S-00000305,P-00002032,sscott@yahoo.com,Sarah,Scott,3121306688,2566 Monroe St,Chicago,IL,60610,DIGITAL,9.99,2020-06-07,active
+S-00000306,P-00002036,andrew.harris81@yahoo.com,Andrew,Harris,7735195659,8156 Central Ave,Chicago,IL,60615,DAILY,24.99,2021-08-26,cancelled
+S-00000307,P-00002044,richard.gonzalez20@sbcglobal.net,Richard,Gonzalez,7732244588,9751 Roosevelt Rd,Oak Park,IL,60302,DAILY,24.99,2023-04-30,cancelled
+S-00000308,P-00002047,donna.martin26@comcast.net,Donna,Martin,8725816564,7227 Diversey Pkwy,Chicago,IL,60622,DIGITAL,9.99,2023-04-10,active
+S-00000309,P-00002050,bjohnson@yahoo.com,Betty,Johnson,7732908924,5706 California Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-06-26,active
+S-00000310,P-00002061,sarah.thompson97@hotmail.com,Sarah,Thompson,6304617104,8650 State St,Chicago,IL,60610,WEEKEND,14.99,2020-08-19,active
+S-00000311,P-00002064,christopher.campbell86@comcast.net,Christopher,Campbell,7735080092,5383 Cicero Ave,Chicago,IL,60614,DIGITAL,9.99,2021-04-13,active
+S-00000312,P-00002068,richard.adams30@sbcglobal.net,Richard,Adams,6303874726,1749 Michigan Ave,Chicago,IL,60647,DIGITAL,9.99,2022-01-27,active
+S-00000313,P-00002079,mrodriguez@gmail.com,Melissa,Rodriguez,7739696087,6203 Archer Ave,Chicago,IL,60601,DIGITAL,9.99,2020-09-09,active
+S-00000314,P-00002090,kwilliams@hotmail.com,Karen,Williams,7739631328,3848 State St,Oak Park,IL,60302,WEEKEND,14.99,2023-02-19,cancelled
+S-00000315,P-00002093,dflores@outlook.com,Donald,Flores,8474093307,5365 Western Ave,Chicago,IL,60610,DAILY,24.99,2023-08-02,cancelled
+S-00000316,P-00002097,thomas.wright63@icloud.com,Thomas,Wright,3123443647,1487 Wacker Dr,Chicago,IL,60601,DIGITAL,9.99,2023-11-01,active
+S-00000317,P-00002098,mrivera@sbcglobal.net,Mary,Rivera,8471873356,784 Belmont Ave,Chicago,IL,60615,PREMIUM,34.99,2023-10-26,active
+S-00000318,P-00002100,christopher.williams13@aol.com,Christopher,Williams,8476459868,656 Congress Pkwy,Evanston,IL,60201,DIGITAL,9.99,2023-03-15,cancelled
+S-00000319,P-00002105,mnguyen@yahoo.com,Michael,Nguyen,8727713960,5952 Jackson Blvd,Chicago,IL,60657,DIGITAL,9.99,2020-03-06,active
+S-00000320,P-00002117,sharris@outlook.com,Steven,Harris,7734528771,1140 Adams St,Chicago,IL,60654,DAILY,24.99,2020-08-08,active
+S-00000321,P-00002122,paul.clark26@hotmail.com,Paul,Clark,8477734822,5904 Oak Park Ave,Chicago,IL,60615,DIGITAL,9.99,2024-01-31,active
+S-00000322,P-00002123,michael.gonzalez77@gmail.com,Michael,Gonzalez,8476723300,1652 Madison St,Oak Park,IL,60302,DIGITAL,9.99,2022-06-16,active
+S-00000323,P-00002128,michael.walker44@hotmail.com,Michael,Walker,6303825119,4294 Van Buren St,Chicago,IL,60601,DIGITAL,9.99,2022-11-28,cancelled
+S-00000324,P-00002131,margaret.taylor21@yahoo.com,Margaret,Taylor,6303123361,7086 Pulaski Rd,Oak Park,IL,60302,PREMIUM,34.99,2020-01-29,active
+S-00000325,P-00002133,kbaker@yahoo.com,Kimberly,Baker,8472713196,7736 Irving Park Rd,Oak Park,IL,60302,DIGITAL,9.99,2023-12-17,cancelled
+S-00000326,P-00002134,cbrown@outlook.com,Carol,Brown,8477644891,6778 Wacker Dr,Chicago,IL,60657,WEEKEND,14.99,2021-06-27,cancelled
+S-00000327,P-00002145,tsanchez@msn.com,Thomas,Sanchez,7739253229,4857 Clark St,Chicago,IL,60647,WEEKEND,14.99,2021-03-13,active
+S-00000328,P-00002147,kimberly.hill88@aol.com,Kimberly,Hill,6309837528,9868 Clark St,Chicago,IL,60601,DIGITAL,9.99,2021-01-29,active
+S-00000329,P-00002149,michelle.jackson92@hotmail.com,Michelle,Jackson,6309852174,1267 Van Buren St,Chicago,IL,60657,DIGITAL,9.99,2023-06-26,active
+S-00000330,P-00002155,susan.flores73@att.net,Susan,Flores,8729247243,1126 Archer Ave,Evanston,IL,60201,DIGITAL,9.99,2023-07-28,cancelled
+S-00000331,P-00002163,daniel.torres19@icloud.com,Daniel,Torres,8476973581,3117 California Ave,Chicago,IL,60601,DIGITAL,9.99,2021-08-11,active
+S-00000332,P-00002169,jallen@icloud.com,Joseph,Allen,3122615957,2024 Belmont Ave,Chicago,IL,60654,WEEKEND,14.99,2023-06-19,active
+S-00000333,P-00002170,steven.taylor39@aol.com,Steven,Taylor,8477119491,1742 Congress Pkwy,Chicago,IL,60601,PREMIUM,34.99,2023-10-10,active
+S-00000334,P-00002187,ksmith@yahoo.com,Kenneth,Smith,8471490226,5182 Oak Park Ave,Chicago,IL,60622,DAILY,24.99,2022-09-12,cancelled
+S-00000335,P-00002199,pallen@gmail.com,Patricia,Allen,8472887491,3447 California Ave,Chicago,IL,60615,DIGITAL,9.99,2023-09-13,active
+S-00000336,P-00002205,ashley.sanchez90@icloud.com,Ashley,Sanchez,6302762108,2773 Congress Pkwy,Chicago,IL,60654,PREMIUM,34.99,2020-10-08,active
+S-00000337,P-00002217,lisa.clark75@outlook.com,Lisa,Clark,6301114527,4449 Wacker Dr,Chicago,IL,60657,DAILY,24.99,2020-09-26,active
+S-00000338,P-00002229,margaret.perez53@att.net,Margaret,Perez,8477058548,468 Roosevelt Rd,Chicago,IL,60610,DIGITAL,9.99,2023-11-09,active
+S-00000339,P-00002232,paul.wilson8@gmail.com,Paul,Wilson,7737738246,1514 Madison St,Chicago,IL,60657,WEEKEND,14.99,2021-09-03,active
+S-00000340,P-00002244,amanda.walker66@comcast.net,Amanda,Walker,8475207673,5144 Dearborn St,Oak Park,IL,60302,DIGITAL,9.99,2022-11-25,active
+S-00000341,P-00002246,mary.king5@sbcglobal.net,Mary,King,6308207294,9844 Jackson Blvd,Chicago,IL,60622,PREMIUM,34.99,2021-09-08,active
+S-00000342,P-00002256,nancy.torres78@msn.com,Nancy,Torres,8472215746,6122 Dearborn St,Evanston,IL,60201,DIGITAL,9.99,2021-10-06,active
+S-00000343,P-00002260,mark.walker30@yahoo.com,Mark,Walker,8472359934,4323 Roosevelt Rd,Chicago,IL,60614,WEEKEND,14.99,2022-10-03,cancelled
+S-00000344,P-00002261,kenneth.torres10@outlook.com,Kenneth,Torres,6307000711,4513 Clark St,Chicago,IL,60610,WEEKEND,14.99,2021-03-01,active
+S-00000345,P-00002265,donald.jones61@outlook.com,Donald,Jones,3121166449,4009 Western Ave,Chicago,IL,60654,DIGITAL,9.99,2023-06-12,cancelled
+S-00000346,P-00002273,kallen@hotmail.com,Kimberly,Allen,8479722465,8538 Pulaski Rd,Chicago,IL,60615,WEEKEND,14.99,2022-12-14,cancelled
+S-00000347,P-00002286,mary.mitchell17@outlook.com,Mary,Mitchell,6306984573,801 California Ave,Chicago,IL,60657,DAILY,24.99,2023-11-17,cancelled
+S-00000348,P-00002287,daniel.anderson82@comcast.net,Daniel,Anderson,7732048372,8357 Franklin St,Evanston,IL,60201,WEEKEND,14.99,2020-06-29,active
+S-00000349,P-00002298,mary.campbell12@msn.com,Mary,Campbell,7739761862,6576 LaSalle St,Chicago,IL,60615,DIGITAL,9.99,2021-11-30,active
+S-00000350,P-00002300,mary.scott38@yahoo.com,Mary,Scott,8473046282,2915 Madison St,Chicago,IL,60610,DIGITAL,9.99,2021-12-31,active
+S-00000351,P-00002327,richard.white15@att.net,Richard,White,8729074282,5389 Western Ave,Chicago,IL,60614,DIGITAL,9.99,2022-03-19,active
+S-00000352,P-00002333,george.allen60@yahoo.com,George,Allen,8476630764,5970 Belmont Ave,Chicago,IL,60657,DIGITAL,9.99,2022-12-27,active
+S-00000353,P-00002335,robert.miller92@yahoo.com,Robert,Miller,7733572034,9613 Cicero Ave,Chicago,IL,60614,DIGITAL,9.99,2020-07-08,active
+S-00000354,P-00002341,mmartinez@sbcglobal.net,Matthew,Martinez,8723686636,5159 Harrison St,Chicago,IL,60610,DAILY,24.99,2021-01-16,active
+S-00000355,P-00002364,dwilliams@att.net,Donna,Williams,6309062187,2320 State St,Oak Park,IL,60302,WEEKEND,14.99,2021-03-02,active
+S-00000356,P-00002373,dorothy.thomas2@sbcglobal.net,Dorothy,Thomas,8723930986,9206 Irving Park Rd,Oak Park,IL,60302,DIGITAL,9.99,2020-01-11,active
+S-00000357,P-00002390,dflores@outlook.com,Donna,Flores,3127361844,6695 Oak Park Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-04-08,cancelled
+S-00000358,P-00002409,mtorres@gmail.com,Mark,Torres,8474414804,1625 State St,Chicago,IL,60654,DIGITAL,9.99,2022-02-15,active
+S-00000359,P-00002410,tlee@att.net,Timothy,Lee,7735577277,7632 Dearborn St,Oak Park,IL,60302,WEEKEND,14.99,2020-03-22,active
+S-00000360,P-00002422,rwilliams@aol.com,Robert,Williams,7734524177,7105 Wells St,Chicago,IL,60622,DIGITAL,9.99,2022-11-05,cancelled
+S-00000361,P-00002439,dorothy.hernandez29@att.net,Dorothy,Hernandez,3129155531,8019 Harrison St,Chicago,IL,60610,DIGITAL,9.99,2021-05-08,active
+S-00000362,P-00002441,linda.johnson83@msn.com,Linda,Johnson,6308182959,1597 Harlem Ave,Evanston,IL,60201,PREMIUM,34.99,2021-09-15,active
+S-00000363,P-00002443,david.campbell31@gmail.com,David,Campbell,7733531846,2785 Ashland Ave,Chicago,IL,60622,PREMIUM,34.99,2021-12-27,cancelled
+S-00000364,P-00002445,richard.moore88@aol.com,Richard,Moore,7739650930,5917 Irving Park Rd,Chicago,IL,60614,PREMIUM,34.99,2023-05-15,active
+S-00000365,P-00002467,matthew.campbell31@sbcglobal.net,Matthew,Campbell,8479422038,8299 Jackson Blvd,Chicago,IL,60657,DAILY,24.99,2023-01-20,active
+S-00000366,P-00002472,dorothy.harris41@hotmail.com,Dorothy,Harris,6308730858,4625 Central Ave,Oak Park,IL,60302,DIGITAL,9.99,2021-11-10,active
+S-00000367,P-00002476,elizabeth.allen93@icloud.com,Elizabeth,Allen,8478083250,8197 Jackson Blvd,Chicago,IL,60614,WEEKEND,14.99,2021-07-28,cancelled
+S-00000368,P-00002507,timothy.anderson97@gmail.com,Timothy,Anderson,6307065804,6699 Van Buren St,Chicago,IL,60614,WEEKEND,14.99,2023-10-02,cancelled
+S-00000369,P-00002521,patricia.thompson22@gmail.com,Patricia,Thompson,8726176899,7158 Fullerton Ave,Chicago,IL,60610,DIGITAL,9.99,2022-03-04,active
+S-00000370,P-00002526,emily.martin38@hotmail.com,Emily,Martin,7732024017,3809 Ashland Ave,Oak Park,IL,60302,DIGITAL,9.99,2020-05-13,cancelled
+S-00000371,P-00002541,susan.sanchez36@outlook.com,Susan,Sanchez,7737529254,3882 Franklin St,Chicago,IL,60654,DIGITAL,9.99,2021-09-04,cancelled
+S-00000372,P-00002549,dcampbell@comcast.net,Donna,Campbell,8727231397,9463 Madison St,Chicago,IL,60647,DIGITAL,9.99,2023-03-17,active
+S-00000373,P-00002552,nancy.hernandez1@sbcglobal.net,Nancy,Hernandez,7734122971,3532 Harlem Ave,Chicago,IL,60654,DIGITAL,9.99,2023-10-10,active
+S-00000374,P-00002554,margaret.johnson27@icloud.com,Margaret,Johnson,8475536189,7761 Fullerton Ave,Chicago,IL,60654,DIGITAL,9.99,2023-01-09,active
+S-00000375,P-00002563,mmoore@icloud.com,Michelle,Moore,3121493441,4533 Dearborn St,Chicago,IL,60647,DIGITAL,9.99,2020-11-20,cancelled
+S-00000376,P-00002572,jessica.king37@outlook.com,Jessica,King,3121594399,4672 Central Ave,Evanston,IL,60201,DIGITAL,9.99,2020-10-29,active
+S-00000377,P-00002596,arobinson@aol.com,Amanda,Robinson,8723116285,7885 Armitage Ave,Oak Park,IL,60302,WEEKEND,14.99,2020-11-24,cancelled
+S-00000378,P-00002599,matthew.adams35@comcast.net,Matthew,Adams,6307535274,1163 Diversey Pkwy,Chicago,IL,60622,DIGITAL,9.99,2023-05-18,active
+S-00000379,P-00002602,amiller@gmail.com,Amanda,Miller,7734095354,540 Oak Park Ave,Chicago,IL,60657,DIGITAL,9.99,2023-01-31,active
+S-00000380,P-00002603,david.williams86@comcast.net,David,Williams,8471521579,2037 Jackson Blvd,Chicago,IL,60614,DAILY,24.99,2023-01-12,active
+S-00000381,P-00002613,michael.anderson67@yahoo.com,Michael,Anderson,6305541739,4164 Congress Pkwy,Chicago,IL,60647,WEEKEND,14.99,2020-01-11,active
+S-00000382,P-00002619,radams@icloud.com,Richard,Adams,6304128543,4206 Franklin St,Chicago,IL,60610,PREMIUM,34.99,2022-02-07,active
+S-00000383,P-00002620,kgonzalez@icloud.com,Kenneth,Gonzalez,8726252870,7472 LaSalle St,Evanston,IL,60201,DIGITAL,9.99,2022-02-05,active
+S-00000384,P-00002636,betty.flores92@aol.com,Betty,Flores,3127228412,9636 Fullerton Ave,Chicago,IL,60615,DIGITAL,9.99,2023-06-23,active
+S-00000385,P-00002642,amanda.anderson85@sbcglobal.net,Amanda,Anderson,3121349001,3014 California Ave,Chicago,IL,60622,PREMIUM,34.99,2021-03-30,active
+S-00000386,P-00002650,james.hill57@aol.com,James,Hill,6309155691,6967 Harrison St,Chicago,IL,60601,WEEKEND,14.99,2021-03-27,active
+S-00000387,P-00002651,mmoore@comcast.net,Mary,Moore,3122223901,4424 Wells St,Chicago,IL,60614,DIGITAL,9.99,2022-04-30,active
+S-00000388,P-00002660,christopher.gonzalez34@hotmail.com,Christopher,Gonzalez,8478481327,301 Armitage Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-02-12,active
+S-00000389,P-00002665,sarah.green59@hotmail.com,Sarah,Green,3125131048,9247 Belmont Ave,Chicago,IL,60657,DIGITAL,9.99,2023-08-23,active
+S-00000390,P-00002685,anthony.taylor61@hotmail.com,Anthony,Taylor,7732504139,7691 Roosevelt Rd,Evanston,IL,60201,WEEKEND,14.99,2022-11-10,cancelled
+S-00000391,P-00002686,susan.thompson56@icloud.com,Susan,Thompson,6306340076,9192 Clark St,Chicago,IL,60654,WEEKEND,14.99,2022-07-13,active
+S-00000392,P-00002693,athomas@aol.com,Ashley,Thomas,3126028803,1778 Michigan Ave,Chicago,IL,60622,DIGITAL,9.99,2021-11-05,active
+S-00000393,P-00002696,dorothy.white43@yahoo.com,Dorothy,White,6302307090,3430 Dearborn St,Chicago,IL,60614,DAILY,24.99,2022-01-15,cancelled
+S-00000394,P-00002697,charles.baker38@hotmail.com,Charles,Baker,3121435938,2212 Clark St,Chicago,IL,60601,DAILY,24.99,2021-08-26,active
+S-00000395,P-00002701,donald.white11@comcast.net,Donald,White,3124914988,4960 Wells St,Oak Park,IL,60302,DIGITAL,9.99,2020-08-19,active
+S-00000396,P-00002704,amanda.garcia1@comcast.net,Amanda,Garcia,7731668882,4172 California Ave,Chicago,IL,60610,WEEKEND,14.99,2023-03-13,active
+S-00000397,P-00002706,paul.perez10@hotmail.com,Paul,Perez,6307541206,3851 Monroe St,Chicago,IL,60601,PREMIUM,34.99,2023-08-20,active
+S-00000398,P-00002719,dorothy.torres94@comcast.net,Dorothy,Torres,6308840519,127 Western Ave,Oak Park,IL,60302,PREMIUM,34.99,2022-05-09,cancelled
+S-00000399,P-00002727,dcampbell@sbcglobal.net,Donna,Campbell,8726743482,2976 Armitage Ave,Chicago,IL,60654,DIGITAL,9.99,2021-11-18,active
+S-00000400,P-00002738,charris@aol.com,Christopher,Harris,8729865006,7759 Central Ave,Chicago,IL,60601,DIGITAL,9.99,2021-04-13,cancelled
+S-00000401,P-00002744,joshua.williams95@hotmail.com,Joshua,Williams,8471387344,9714 LaSalle St,Chicago,IL,60657,DAILY,24.99,2022-07-17,cancelled
+S-00000402,P-00002756,drivera@outlook.com,Dorothy,Rivera,8476573488,7525 Western Ave,Oak Park,IL,60302,PREMIUM,34.99,2021-03-28,active
+S-00000403,P-00002762,ksmith@comcast.net,Kenneth,Smith,8722029116,6155 Armitage Ave,Chicago,IL,60614,WEEKEND,14.99,2022-05-12,cancelled
+S-00000404,P-00002773,kevin.ramirez11@aol.com,Kevin,Ramirez,3127762868,8760 Dearborn St,Evanston,IL,60201,DIGITAL,9.99,2020-12-20,active
+S-00000405,P-00002781,anthony.ramirez8@outlook.com,Anthony,Ramirez,6307834184,9355 California Ave,Chicago,IL,60657,DAILY,24.99,2020-08-12,active
+S-00000406,P-00002784,carol.torres29@hotmail.com,Carol,Torres,8477014164,4308 California Ave,Chicago,IL,60610,WEEKEND,14.99,2021-10-05,active
+S-00000407,P-00002787,wwright@msn.com,William,Wright,7735371480,5451 Jackson Blvd,Chicago,IL,60610,WEEKEND,14.99,2023-10-23,active
+S-00000408,P-00002799,charris@hotmail.com,Carol,Harris,7739727014,8531 Roosevelt Rd,Oak Park,IL,60302,WEEKEND,14.99,2022-12-07,active
+S-00000409,P-00002804,andrew.nguyen50@aol.com,Andrew,Nguyen,6307670724,7187 Van Buren St,Evanston,IL,60201,WEEKEND,14.99,2022-10-21,active
+S-00000410,P-00002805,mark.clark25@aol.com,Mark,Clark,6301642446,1405 Diversey Pkwy,Chicago,IL,60622,DIGITAL,9.99,2021-09-24,active
+S-00000411,P-00002811,rtaylor@sbcglobal.net,Richard,Taylor,6309869287,3825 Armitage Ave,Chicago,IL,60610,DIGITAL,9.99,2022-11-06,cancelled
+S-00000412,P-00002815,erobinson@icloud.com,Elizabeth,Robinson,6303201597,3180 Adams St,Chicago,IL,60622,DIGITAL,9.99,2021-05-13,active
+S-00000413,P-00002816,kevin.sanchez16@comcast.net,Kevin,Sanchez,6305511681,3727 Western Ave,Chicago,IL,60654,DIGITAL,9.99,2020-06-20,active
+S-00000414,P-00002824,dorothy.nguyen31@hotmail.com,Dorothy,Nguyen,8475162407,2924 Michigan Ave,Chicago,IL,60622,WEEKEND,14.99,2020-07-26,cancelled
+S-00000415,P-00002828,michelle.robinson7@sbcglobal.net,Michelle,Robinson,7739735056,3779 Michigan Ave,Oak Park,IL,60302,DIGITAL,9.99,2020-09-19,active
+S-00000416,P-00002830,richard.davis1@icloud.com,Richard,Davis,7736472801,2633 Oak Park Ave,Chicago,IL,60614,WEEKEND,14.99,2023-08-22,cancelled
+S-00000417,P-00002837,ahill@aol.com,Anthony,Hill,7734592586,555 Irving Park Rd,Chicago,IL,60610,DIGITAL,9.99,2021-06-06,active
+S-00000418,P-00002839,kthompson@outlook.com,Kimberly,Thompson,6308050107,3521 Central Ave,Chicago,IL,60647,DIGITAL,9.99,2021-05-18,active
+S-00000419,P-00002842,jessica.lee12@att.net,Jessica,Lee,3122544397,7385 LaSalle St,Oak Park,IL,60302,WEEKEND,14.99,2021-01-02,active
+S-00000420,P-00002847,elizabeth.perez23@att.net,Elizabeth,Perez,8473714495,1098 Roosevelt Rd,Chicago,IL,60647,WEEKEND,14.99,2023-07-27,active
+S-00000421,P-00002854,lisa.lewis34@msn.com,Lisa,Lewis,3129124168,1582 Franklin St,Evanston,IL,60201,WEEKEND,14.99,2023-02-01,active
+S-00000422,P-00002862,dorothy.torres38@icloud.com,Dorothy,Torres,7732176813,8205 Fullerton Ave,Chicago,IL,60610,PREMIUM,34.99,2020-11-22,active
+S-00000423,P-00002863,tthompson@outlook.com,Thomas,Thompson,6302967487,9692 Archer Ave,Oak Park,IL,60302,DIGITAL,9.99,2021-11-10,active
+S-00000424,P-00002867,james.scott92@comcast.net,James,Scott,8475609546,889 Cermak Rd,Oak Park,IL,60302,DAILY,24.99,2021-08-10,active
+S-00000425,P-00002870,knelson@aol.com,Karen,Nelson,6307827357,6696 Monroe St,Chicago,IL,60657,WEEKEND,14.99,2021-06-23,cancelled
+S-00000426,P-00002871,kmitchell@outlook.com,Kenneth,Mitchell,7735411306,6765 Central Ave,Chicago,IL,60622,DAILY,24.99,2021-10-03,active
+S-00000427,P-00002874,patricia.sanchez69@icloud.com,Patricia,Sanchez,8474611226,5990 Wells St,Chicago,IL,60615,WEEKEND,14.99,2023-08-05,active
+S-00000428,P-00002882,charles.gonzalez27@aol.com,Charles,Gonzalez,7737147768,6381 Belmont Ave,Chicago,IL,60615,DAILY,24.99,2021-09-21,active
+S-00000429,P-00002887,lthompson@hotmail.com,Lisa,Thompson,7739938453,330 Franklin St,Oak Park,IL,60302,DIGITAL,9.99,2022-05-21,active
+S-00000430,P-00002893,christopher.nguyen13@icloud.com,Christopher,Nguyen,3129853118,3021 Oak Park Ave,Chicago,IL,60657,DIGITAL,9.99,2022-01-18,active
+S-00000431,P-00002894,jessica.robinson79@icloud.com,Jessica,Robinson,8727009028,3822 State St,Chicago,IL,60615,PREMIUM,34.99,2023-02-11,active
+S-00000432,P-00002911,emily.flores87@sbcglobal.net,Emily,Flores,8475027058,635 Van Buren St,Chicago,IL,60622,DIGITAL,9.99,2020-06-18,active
+S-00000433,P-00002925,ashley.allen61@outlook.com,Ashley,Allen,3126883092,5011 Wacker Dr,Chicago,IL,60654,DIGITAL,9.99,2023-06-11,active
+S-00000434,P-00002926,mhall@comcast.net,Mary,Hall,8729310272,1240 Cicero Ave,Chicago,IL,60622,WEEKEND,14.99,2023-12-15,active
+S-00000435,P-00002931,dlewis@hotmail.com,Donna,Lewis,6308355072,8903 Pulaski Rd,Chicago,IL,60615,DIGITAL,9.99,2023-07-31,active
+S-00000436,P-00002937,thomas.gonzalez5@aol.com,Thomas,Gonzalez,6304966188,3303 Archer Ave,Chicago,IL,60657,DAILY,24.99,2021-12-16,cancelled
+S-00000437,P-00002940,dorothy.martinez63@aol.com,Dorothy,Martinez,6304967054,2304 Franklin St,Oak Park,IL,60302,WEEKEND,14.99,2022-05-10,active
+S-00000438,P-00002944,dadams@msn.com,Daniel,Adams,8721528057,3731 Franklin St,Chicago,IL,60615,WEEKEND,14.99,2022-06-14,active
+S-00000439,P-00002947,thomas.lewis75@icloud.com,Thomas,Lewis,7738127873,8503 Madison St,Chicago,IL,60654,DAILY,24.99,2023-12-16,active
+S-00000440,P-00002952,sarah.nguyen63@aol.com,Sarah,Nguyen,3125580061,4621 Pulaski Rd,Chicago,IL,60657,DIGITAL,9.99,2022-07-19,active
+S-00000441,P-00002958,susan.smith70@yahoo.com,Susan,Smith,8726521968,7646 Irving Park Rd,Oak Park,IL,60302,DIGITAL,9.99,2020-01-23,cancelled
+S-00000442,P-00002966,linda.jones60@icloud.com,Linda,Jones,8474570258,4103 Harlem Ave,Chicago,IL,60615,DAILY,24.99,2022-07-19,active
+S-00000443,P-00002979,donna.wilson26@att.net,Donna,Wilson,8472259485,4237 Madison St,Chicago,IL,60654,WEEKEND,14.99,2020-05-06,active
+S-00000444,P-00002990,robert.hill46@gmail.com,Robert,Hill,7732482937,5500 Madison St,Oak Park,IL,60302,DAILY,24.99,2022-09-25,cancelled
+S-00000445,P-00003003,barbara.anderson79@gmail.com,Barbara,Anderson,8728728822,6842 Harrison St,Chicago,IL,60614,DIGITAL,9.99,2020-12-20,active
+S-00000446,P-00003004,david.gonzalez13@outlook.com,David,Gonzalez,6304453665,3949 Archer Ave,Chicago,IL,60622,DAILY,24.99,2023-05-22,active
+S-00000447,P-00003008,linda.baker98@sbcglobal.net,Linda,Baker,7735436334,8547 Van Buren St,Chicago,IL,60614,PREMIUM,34.99,2023-05-04,active
+S-00000448,P-00003010,esmith@comcast.net,Elizabeth,Smith,3121132309,5043 Fullerton Ave,Chicago,IL,60622,DAILY,24.99,2023-09-27,active
+S-00000449,P-00003011,joshua.thompson91@comcast.net,Joshua,Thompson,6308316105,219 Michigan Ave,Evanston,IL,60201,DIGITAL,9.99,2024-01-08,active
+S-00000450,P-00003013,elizabeth.anderson49@aol.com,Elizabeth,Anderson,8727743847,7407 Irving Park Rd,Chicago,IL,60615,DIGITAL,9.99,2020-05-29,cancelled
+S-00000451,P-00003027,thomas.robinson95@sbcglobal.net,Thomas,Robinson,6301264278,2336 Franklin St,Chicago,IL,60614,DIGITAL,9.99,2020-07-03,active
+S-00000452,P-00003028,dorothy.ramirez40@yahoo.com,Dorothy,Ramirez,8475198100,2634 LaSalle St,Chicago,IL,60610,DIGITAL,9.99,2022-07-20,active
+S-00000453,P-00003030,kenneth.williams22@gmail.com,Kenneth,Williams,8724602030,5855 Belmont Ave,Chicago,IL,60614,DIGITAL,9.99,2022-07-25,active
+S-00000454,P-00003032,blewis@outlook.com,Barbara,Lewis,8724706825,1989 Belmont Ave,Chicago,IL,60622,DIGITAL,9.99,2020-04-01,active
+S-00000455,P-00003035,dclark@outlook.com,Dorothy,Clark,3121439706,4203 Michigan Ave,Chicago,IL,60615,DIGITAL,9.99,2023-09-19,active
+S-00000456,P-00003038,matthew.rivera61@sbcglobal.net,Matthew,Rivera,8722347518,8427 State St,Chicago,IL,60610,WEEKEND,14.99,2022-03-04,active
+S-00000457,P-00003040,mark.adams68@att.net,Mark,Adams,3125003374,981 California Ave,Chicago,IL,60614,WEEKEND,14.99,2022-11-09,active
+S-00000458,P-00003046,carol.harris68@yahoo.com,Carol,Harris,8474467549,1363 Pulaski Rd,Chicago,IL,60657,DIGITAL,9.99,2022-08-30,active
+S-00000459,P-00003059,mallen@att.net,Michael,Allen,8728025383,3468 Armitage Ave,Chicago,IL,60610,DIGITAL,9.99,2021-10-10,active
+S-00000460,P-00003061,sclark@att.net,Steven,Clark,3127413203,5333 Dearborn St,Chicago,IL,60647,DAILY,24.99,2022-04-14,active
+S-00000461,P-00003066,lisa.nguyen66@comcast.net,Lisa,Nguyen,6303314472,3688 Van Buren St,Chicago,IL,60654,DAILY,24.99,2022-04-25,active
+S-00000462,P-00003067,sandra.anderson36@yahoo.com,Sandra,Anderson,6302167354,9063 Archer Ave,Chicago,IL,60614,DAILY,24.99,2020-04-27,active
+S-00000463,P-00003068,djohnson@sbcglobal.net,Dorothy,Johnson,8479816965,6942 Cermak Rd,Chicago,IL,60654,PREMIUM,34.99,2023-02-11,cancelled
+S-00000464,P-00003069,michael.rivera70@gmail.com,Michael,Rivera,8726765296,4690 Clark St,Oak Park,IL,60302,PREMIUM,34.99,2021-11-16,active
+S-00000465,P-00003071,smiller@yahoo.com,Sarah,Miller,3129620780,7848 Cicero Ave,Chicago,IL,60654,DIGITAL,9.99,2023-10-08,active
+S-00000466,P-00003075,karen.sanchez69@att.net,Karen,Sanchez,7735673313,8413 Irving Park Rd,Chicago,IL,60601,DIGITAL,9.99,2022-10-08,active
+S-00000467,P-00003082,cdavis@icloud.com,Carol,Davis,3127110736,2236 California Ave,Chicago,IL,60622,DAILY,24.99,2020-07-17,active
+S-00000468,P-00003098,karen.jones51@aol.com,Karen,Jones,8728689402,4614 Pulaski Rd,Evanston,IL,60201,DIGITAL,9.99,2022-09-27,active
+S-00000469,P-00003101,mary.lee88@sbcglobal.net,Mary,Lee,7731490553,6286 Monroe St,Evanston,IL,60201,PREMIUM,34.99,2021-04-15,cancelled
+S-00000470,P-00003115,mary.white97@comcast.net,Mary,White,6302151219,338 LaSalle St,Chicago,IL,60610,WEEKEND,14.99,2023-08-11,active
+S-00000471,P-00003116,kenneth.king46@yahoo.com,Kenneth,King,8723071963,9227 California Ave,Chicago,IL,60601,DIGITAL,9.99,2022-07-04,active
+S-00000472,P-00003118,susan.baker31@icloud.com,Susan,Baker,3128205449,6426 Roosevelt Rd,Chicago,IL,60615,DIGITAL,9.99,2021-04-02,active
+S-00000473,P-00003120,bwhite@outlook.com,Betty,White,3129792178,2227 Cicero Ave,Chicago,IL,60622,DIGITAL,9.99,2024-01-29,cancelled
+S-00000474,P-00003125,charles.clark29@hotmail.com,Charles,Clark,3121180482,1210 Fullerton Ave,Chicago,IL,60622,WEEKEND,14.99,2022-03-01,active
+S-00000475,P-00003142,christopher.young94@gmail.com,Christopher,Young,3124098906,785 Diversey Pkwy,Oak Park,IL,60302,DIGITAL,9.99,2023-09-08,active
+S-00000476,P-00003146,anthony.baker73@aol.com,Anthony,Baker,8473758950,6274 Clark St,Chicago,IL,60610,DIGITAL,9.99,2023-02-06,active
+S-00000477,P-00003158,sdavis@sbcglobal.net,Sandra,Davis,3127122674,5678 Fullerton Ave,Evanston,IL,60201,PREMIUM,34.99,2020-02-20,active
+S-00000478,P-00003163,plee@gmail.com,Paul,Lee,3128754780,2032 Central Ave,Chicago,IL,60622,DAILY,24.99,2023-02-22,active
+S-00000479,P-00003190,dorothy.nguyen18@outlook.com,Dorothy,Nguyen,7736216582,6746 Pulaski Rd,Oak Park,IL,60302,DIGITAL,9.99,2021-12-09,active
+S-00000480,P-00003195,william.robinson51@hotmail.com,William,Robinson,3126021273,9569 Western Ave,Chicago,IL,60615,DIGITAL,9.99,2022-06-15,cancelled
+S-00000481,P-00003201,steven.smith93@sbcglobal.net,Steven,Smith,8729046000,9629 Franklin St,Chicago,IL,60615,DIGITAL,9.99,2023-05-22,active
+S-00000482,P-00003202,michelle.nelson89@comcast.net,Michelle,Nelson,7735512683,5398 Ashland Ave,Chicago,IL,60610,WEEKEND,14.99,2020-01-02,active
+S-00000483,P-00003203,joshua.ramirez41@aol.com,Joshua,Ramirez,8727864073,9355 Madison St,Oak Park,IL,60302,WEEKEND,14.99,2022-07-02,cancelled
+S-00000484,P-00003221,jsanchez@icloud.com,Joshua,Sanchez,7734395908,9042 Michigan Ave,Evanston,IL,60201,DAILY,24.99,2023-07-07,active
+S-00000485,P-00003222,thomas.wright65@aol.com,Thomas,Wright,3122435471,9444 Clark St,Chicago,IL,60615,DIGITAL,9.99,2023-10-03,active
+S-00000486,P-00003224,karen.campbell41@yahoo.com,Karen,Campbell,7734920121,977 Diversey Pkwy,Chicago,IL,60622,DIGITAL,9.99,2021-10-02,cancelled
+S-00000487,P-00003233,christopher.johnson58@comcast.net,Christopher,Johnson,8728479117,9778 Wacker Dr,Chicago,IL,60654,DIGITAL,9.99,2022-09-10,cancelled
+S-00000488,P-00003238,amanda.clark33@outlook.com,Amanda,Clark,8479339903,1921 Jackson Blvd,Chicago,IL,60601,WEEKEND,14.99,2023-09-26,active
+S-00000489,P-00003241,patricia.white11@icloud.com,Patricia,White,7739375573,9832 State St,Chicago,IL,60654,DAILY,24.99,2023-01-13,active
+S-00000490,P-00003253,mdavis@comcast.net,Melissa,Davis,8727849112,4682 Wells St,Evanston,IL,60201,DIGITAL,9.99,2020-10-09,active
+S-00000491,P-00003255,william.green5@sbcglobal.net,William,Green,7732932912,8733 Monroe St,Chicago,IL,60647,DIGITAL,9.99,2020-03-29,active
+S-00000492,P-00003259,mhernandez@aol.com,Michelle,Hernandez,7735134228,5548 Cermak Rd,Chicago,IL,60657,WEEKEND,14.99,2020-08-10,cancelled
+S-00000493,P-00003262,kmartinez@hotmail.com,Kenneth,Martinez,6301152135,8040 Franklin St,Oak Park,IL,60302,DIGITAL,9.99,2021-01-17,active
+S-00000494,P-00003275,mary.nguyen14@icloud.com,Mary,Nguyen,6308497074,6940 Wacker Dr,Evanston,IL,60201,DIGITAL,9.99,2022-10-16,active
+S-00000495,P-00003278,michelle.moore61@msn.com,Michelle,Moore,7732841942,9351 Wells St,Chicago,IL,60610,DIGITAL,9.99,2023-01-31,cancelled
+S-00000496,P-00003281,kbaker@outlook.com,Kimberly,Baker,8723232373,5948 Madison St,Oak Park,IL,60302,DIGITAL,9.99,2021-04-18,active
+S-00000497,P-00003283,ewilson@icloud.com,Emily,Wilson,6306770394,9277 Madison St,Chicago,IL,60614,DIGITAL,9.99,2021-10-30,cancelled
+S-00000498,P-00003287,michael.lewis54@msn.com,Michael,Lewis,8479077429,1968 Archer Ave,Chicago,IL,60614,WEEKEND,14.99,2021-12-12,active
+S-00000499,P-00003292,kgonzalez@msn.com,Kenneth,Gonzalez,8477647857,3105 Pulaski Rd,Chicago,IL,60615,DIGITAL,9.99,2020-01-31,active
+S-00000500,P-00003302,david.williams13@msn.com,David,Williams,3123600142,9115 Franklin St,Chicago,IL,60622,DIGITAL,9.99,2022-07-06,active
+S-00000501,P-00003305,chill@msn.com,Carol,Hill,8478314539,8815 Harlem Ave,Chicago,IL,60614,DAILY,24.99,2024-02-02,active
+S-00000502,P-00003329,jessica.robinson60@sbcglobal.net,Jessica,Robinson,8479433385,5589 Adams St,Chicago,IL,60657,DIGITAL,9.99,2020-11-29,active
+S-00000503,P-00003331,tdavis@yahoo.com,Timothy,Davis,8477173426,4991 Cermak Rd,Chicago,IL,60601,DAILY,24.99,2021-10-15,active
+S-00000504,P-00003342,amanda.walker15@outlook.com,Amanda,Walker,6302813177,1072 Belmont Ave,Chicago,IL,60615,PREMIUM,34.99,2023-12-04,cancelled
+S-00000505,P-00003345,kenneth.green49@yahoo.com,Kenneth,Green,8727736536,5054 Harlem Ave,Chicago,IL,60601,DIGITAL,9.99,2021-12-22,active
+S-00000506,P-00003346,david.white93@icloud.com,David,White,6303986127,8910 Roosevelt Rd,Chicago,IL,60647,WEEKEND,14.99,2021-08-31,cancelled
+S-00000507,P-00003347,robert.wilson6@sbcglobal.net,Robert,Wilson,8474210465,6372 Harlem Ave,Chicago,IL,60615,DIGITAL,9.99,2022-05-21,active
+S-00000508,P-00003348,lmoore@sbcglobal.net,Lisa,Moore,6307998581,2236 Roosevelt Rd,Chicago,IL,60601,WEEKEND,14.99,2023-11-18,cancelled
+S-00000509,P-00003351,barbara.jackson61@comcast.net,Barbara,Jackson,8473995982,930 Wells St,Oak Park,IL,60302,PREMIUM,34.99,2022-04-09,active
+S-00000510,P-00003370,donna.perez24@msn.com,Donna,Perez,7739164897,4641 Pulaski Rd,Chicago,IL,60657,WEEKEND,14.99,2020-06-14,active
+S-00000511,P-00003372,mmartin@att.net,Michelle,Martin,3125916919,5772 Kedzie Ave,Chicago,IL,60615,DIGITAL,9.99,2021-05-26,active
+S-00000512,P-00003378,nmartin@outlook.com,Nancy,Martin,8476124220,7347 Cicero Ave,Chicago,IL,60615,DIGITAL,9.99,2021-01-17,active
+S-00000513,P-00003382,charles.scott38@sbcglobal.net,Charles,Scott,7732596744,3700 Monroe St,Chicago,IL,60610,WEEKEND,14.99,2023-07-20,active
+S-00000514,P-00003385,jscott@sbcglobal.net,James,Scott,7731171550,1932 Ashland Ave,Chicago,IL,60601,DIGITAL,9.99,2021-12-24,active
+S-00000515,P-00003390,karen.campbell70@aol.com,Karen,Campbell,3123091901,3445 Van Buren St,Chicago,IL,60610,DIGITAL,9.99,2020-03-14,cancelled
+S-00000516,P-00003398,margaret.thomas3@icloud.com,Margaret,Thomas,8478130166,7760 Archer Ave,Chicago,IL,60657,DAILY,24.99,2022-04-14,active
+S-00000517,P-00003400,anthony.torres55@icloud.com,Anthony,Torres,3122941272,4986 Irving Park Rd,Chicago,IL,60622,PREMIUM,34.99,2020-03-12,active
+S-00000518,P-00003409,paul.king64@outlook.com,Paul,King,7732094390,6057 Oak Park Ave,Chicago,IL,60614,DIGITAL,9.99,2022-10-13,active
+S-00000519,P-00003415,timothy.clark65@hotmail.com,Timothy,Clark,8476403454,9152 Cicero Ave,Chicago,IL,60657,DIGITAL,9.99,2023-12-15,active
+S-00000520,P-00003417,jwright@att.net,Jennifer,Wright,7737879020,4242 Cermak Rd,Oak Park,IL,60302,DIGITAL,9.99,2022-04-14,active
+S-00000521,P-00003421,michael.king41@comcast.net,Michael,King,8476019155,3779 Michigan Ave,Oak Park,IL,60302,DIGITAL,9.99,2021-05-05,active
+S-00000522,P-00003424,timothy.allen26@sbcglobal.net,Timothy,Allen,7732369218,129 Ashland Ave,Chicago,IL,60654,DIGITAL,9.99,2022-01-31,cancelled
+S-00000523,P-00003425,brian.lee51@msn.com,Brian,Lee,7733283256,8249 Central Ave,Chicago,IL,60622,WEEKEND,14.99,2021-02-15,active
+S-00000524,P-00003426,mscott@hotmail.com,Mary,Scott,6306372020,363 LaSalle St,Chicago,IL,60654,DIGITAL,9.99,2021-10-15,active
+S-00000525,P-00003429,dorothy.hernandez93@icloud.com,Dorothy,Hernandez,8474682267,265 Archer Ave,Chicago,IL,60657,WEEKEND,14.99,2021-08-23,active
+S-00000526,P-00003432,jjackson@sbcglobal.net,Joshua,Jackson,3124042522,2043 Fullerton Ave,Chicago,IL,60657,DIGITAL,9.99,2022-08-20,cancelled
+S-00000527,P-00003443,nancy.moore73@yahoo.com,Nancy,Moore,8475901503,6696 Roosevelt Rd,Chicago,IL,60601,WEEKEND,14.99,2023-01-28,cancelled
+S-00000528,P-00003450,carol.clark4@sbcglobal.net,Carol,Clark,6302893082,5149 Kedzie Ave,Chicago,IL,60614,DAILY,24.99,2022-04-25,cancelled
+S-00000529,P-00003455,asmith@aol.com,Ashley,Smith,7739812152,6979 Pulaski Rd,Chicago,IL,60654,DIGITAL,9.99,2023-08-09,active
+S-00000530,P-00003470,anthony.clark7@sbcglobal.net,Anthony,Clark,3129347535,3714 Roosevelt Rd,Oak Park,IL,60302,PREMIUM,34.99,2022-05-01,active
+S-00000531,P-00003488,carol.brown89@gmail.com,Carol,Brown,8476500986,7911 California Ave,Chicago,IL,60610,WEEKEND,14.99,2020-05-10,active
+S-00000532,P-00003489,anthony.anderson47@outlook.com,Anthony,Anderson,6307365537,3033 Van Buren St,Chicago,IL,60647,DIGITAL,9.99,2023-05-16,active
+S-00000533,P-00003492,dwright@att.net,David,Wright,7738656631,3675 Armitage Ave,Chicago,IL,60615,DIGITAL,9.99,2020-01-25,active
+S-00000534,P-00003496,kenneth.clark71@gmail.com,Kenneth,Clark,8478992649,5926 Clark St,Chicago,IL,60647,WEEKEND,14.99,2020-03-12,active
+S-00000535,P-00003499,donna.thomas90@hotmail.com,Donna,Thomas,8471778443,3449 Harrison St,Chicago,IL,60610,PREMIUM,34.99,2021-05-19,active
+S-00000536,P-00003501,betty.ramirez96@aol.com,Betty,Ramirez,3123091731,7704 Diversey Pkwy,Chicago,IL,60614,DIGITAL,9.99,2022-11-26,active
+S-00000537,P-00003506,kimberly.white8@icloud.com,Kimberly,White,3121501213,2947 Cicero Ave,Chicago,IL,60654,DIGITAL,9.99,2022-05-14,active
+S-00000538,P-00003514,asanchez@outlook.com,Andrew,Sanchez,7732083958,6970 Madison St,Oak Park,IL,60302,DIGITAL,9.99,2020-11-05,active
+S-00000539,P-00003526,christopher.wright64@outlook.com,Christopher,Wright,8478865105,327 Western Ave,Chicago,IL,60647,DIGITAL,9.99,2021-09-11,cancelled
+S-00000540,P-00003541,susan.moore63@att.net,Susan,Moore,8475015047,3647 Wacker Dr,Chicago,IL,60654,DIGITAL,9.99,2023-05-01,active
+S-00000541,P-00003584,thomas.harris79@att.net,Thomas,Harris,7733939609,6952 Belmont Ave,Chicago,IL,60615,DIGITAL,9.99,2020-05-24,active
+S-00000542,P-00003585,daniel.harris30@hotmail.com,Daniel,Harris,6305636474,8671 Dearborn St,Chicago,IL,60622,WEEKEND,14.99,2022-12-27,active
+S-00000543,P-00003586,christopher.flores87@yahoo.com,Christopher,Flores,6302252217,7793 Van Buren St,Chicago,IL,60614,WEEKEND,14.99,2020-05-05,active
+S-00000544,P-00003592,jessica.adams74@msn.com,Jessica,Adams,6309073854,3019 Harlem Ave,Evanston,IL,60201,DAILY,24.99,2020-10-15,active
+S-00000545,P-00003594,sarah.lee41@msn.com,Sarah,Lee,3124922474,7537 Pulaski Rd,Oak Park,IL,60302,DIGITAL,9.99,2022-11-19,active
+S-00000546,P-00003606,emily.williams79@yahoo.com,Emily,Williams,8722488470,9972 Oak Park Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-11-05,active
+S-00000547,P-00003614,carol.white39@comcast.net,Carol,White,3125551020,2477 Irving Park Rd,Chicago,IL,60601,WEEKEND,14.99,2023-06-02,active
+S-00000548,P-00003616,sarah.wright71@yahoo.com,Sarah,Wright,7738415511,4924 Roosevelt Rd,Chicago,IL,60601,PREMIUM,34.99,2021-05-13,active
+S-00000549,P-00003621,timothy.wilson93@yahoo.com,Timothy,Wilson,7739490464,3575 Harrison St,Evanston,IL,60201,DIGITAL,9.99,2021-06-06,active
+S-00000550,P-00003641,barbara.baker83@comcast.net,Barbara,Baker,8478298192,6025 Fullerton Ave,Chicago,IL,60601,DIGITAL,9.99,2021-06-20,active
+S-00000551,P-00003650,patricia.torres77@sbcglobal.net,Patricia,Torres,6306120685,7906 Diversey Pkwy,Chicago,IL,60614,DIGITAL,9.99,2021-06-15,active
+S-00000552,P-00003658,nancy.walker7@msn.com,Nancy,Walker,6302001021,2528 Western Ave,Chicago,IL,60657,DIGITAL,9.99,2021-06-25,active
+S-00000553,P-00003675,sclark@att.net,Susan,Clark,8473441754,1880 Congress Pkwy,Chicago,IL,60614,DAILY,24.99,2022-03-07,active
+S-00000554,P-00003698,michael.flores51@comcast.net,Michael,Flores,3121368549,1830 Western Ave,Chicago,IL,60614,PREMIUM,34.99,2022-07-02,cancelled
+S-00000555,P-00003702,margaret.scott14@aol.com,Margaret,Scott,8477154948,7258 Cicero Ave,Evanston,IL,60201,DAILY,24.99,2021-04-09,active
+S-00000556,P-00003703,shernandez@hotmail.com,Susan,Hernandez,8726440396,4562 Western Ave,Chicago,IL,60657,DIGITAL,9.99,2022-04-10,active
+S-00000557,P-00003704,wjackson@icloud.com,William,Jackson,3125075469,2151 Clark St,Chicago,IL,60614,DIGITAL,9.99,2020-06-14,active
+S-00000558,P-00003705,donald.ramirez30@comcast.net,Donald,Ramirez,8725931029,3214 Jackson Blvd,Chicago,IL,60647,WEEKEND,14.99,2022-05-20,active
+S-00000559,P-00003711,mark.anderson96@icloud.com,Mark,Anderson,6303203046,9632 Wells St,Chicago,IL,60614,DIGITAL,9.99,2023-01-04,cancelled
+S-00000560,P-00003723,dorothy.harris93@outlook.com,Dorothy,Harris,8729891485,847 Pulaski Rd,Chicago,IL,60654,PREMIUM,34.99,2020-06-17,active
+S-00000561,P-00003726,kevin.hernandez33@comcast.net,Kevin,Hernandez,8476832100,6800 Harrison St,Chicago,IL,60647,DIGITAL,9.99,2021-03-24,active
+S-00000562,P-00003739,kbaker@aol.com,Kenneth,Baker,8722909235,4214 Fullerton Ave,Chicago,IL,60622,WEEKEND,14.99,2024-02-05,active
+S-00000563,P-00003742,elizabeth.smith84@aol.com,Elizabeth,Smith,6302655397,1203 State St,Chicago,IL,60601,WEEKEND,14.99,2023-08-29,active
+S-00000564,P-00003749,jessica.robinson82@att.net,Jessica,Robinson,8472647827,5482 Roosevelt Rd,Chicago,IL,60610,WEEKEND,14.99,2020-03-07,active
+S-00000565,P-00003757,anthony.flores75@icloud.com,Anthony,Flores,7734515813,7509 California Ave,Chicago,IL,60614,DIGITAL,9.99,2020-02-20,active
+S-00000566,P-00003763,kimberly.jones51@icloud.com,Kimberly,Jones,7734692479,3520 Wells St,Chicago,IL,60614,DIGITAL,9.99,2022-01-04,cancelled
+S-00000567,P-00003770,amartin@hotmail.com,Anthony,Martin,8474309161,9964 Belmont Ave,Chicago,IL,60657,DIGITAL,9.99,2023-02-02,active
+S-00000568,P-00003785,karen.nelson71@msn.com,Karen,Nelson,3124619667,7448 Western Ave,Chicago,IL,60647,WEEKEND,14.99,2022-10-22,active
+S-00000569,P-00003793,susan.nguyen61@gmail.com,Susan,Nguyen,7731653450,9481 Fullerton Ave,Evanston,IL,60201,PREMIUM,34.99,2022-01-08,active
+S-00000570,P-00003806,mthompson@icloud.com,Michael,Thompson,3128245243,2416 California Ave,Chicago,IL,60654,DIGITAL,9.99,2021-04-27,cancelled
+S-00000571,P-00003808,rmartin@yahoo.com,Robert,Martin,8728616673,6145 LaSalle St,Evanston,IL,60201,DIGITAL,9.99,2022-05-31,active
+S-00000572,P-00003817,jessica.perez84@outlook.com,Jessica,Perez,6302028275,1433 Madison St,Chicago,IL,60610,WEEKEND,14.99,2022-05-12,cancelled
+S-00000573,P-00003824,timothy.baker74@icloud.com,Timothy,Baker,8476066783,4692 Cermak Rd,Chicago,IL,60610,PREMIUM,34.99,2020-04-09,active
+S-00000574,P-00003832,michael.lee38@comcast.net,Michael,Lee,7732497605,7541 Madison St,Chicago,IL,60610,DIGITAL,9.99,2021-05-12,active
+S-00000575,P-00003837,donna.harris50@att.net,Donna,Harris,8727128593,5653 Harrison St,Chicago,IL,60601,PREMIUM,34.99,2021-09-29,active
+S-00000576,P-00003849,linda.adams84@yahoo.com,Linda,Adams,8729248623,5800 Franklin St,Chicago,IL,60614,DIGITAL,9.99,2020-03-15,active
+S-00000577,P-00003854,christopher.adams11@gmail.com,Christopher,Adams,6309921894,7879 Adams St,Chicago,IL,60622,DAILY,24.99,2020-11-16,active
+S-00000578,P-00003859,matthew.thomas45@aol.com,Matthew,Thomas,7739386801,8660 Ashland Ave,Chicago,IL,60601,DIGITAL,9.99,2023-01-23,active
+S-00000579,P-00003860,kevin.flores49@aol.com,Kevin,Flores,7738017639,6003 Cicero Ave,Chicago,IL,60615,DIGITAL,9.99,2020-11-25,active
+S-00000580,P-00003865,jennifer.adams10@aol.com,Jennifer,Adams,7731848683,5275 Dearborn St,Chicago,IL,60610,WEEKEND,14.99,2021-05-27,active
+S-00000581,P-00003867,jennifer.lewis15@sbcglobal.net,Jennifer,Lewis,8474806699,1686 Franklin St,Chicago,IL,60610,DIGITAL,9.99,2020-11-30,active
+S-00000582,P-00003877,kimberly.nelson89@comcast.net,Kimberly,Nelson,8476651314,4965 Oak Park Ave,Chicago,IL,60657,WEEKEND,14.99,2024-01-16,cancelled
+S-00000583,P-00003890,steven.mitchell76@msn.com,Steven,Mitchell,7739837865,1603 Irving Park Rd,Oak Park,IL,60302,WEEKEND,14.99,2020-02-06,active
+S-00000584,P-00003897,emily.brown60@sbcglobal.net,Emily,Brown,6308020861,6006 Jackson Blvd,Chicago,IL,60615,DIGITAL,9.99,2023-10-04,active
+S-00000585,P-00003916,sarah.rivera6@att.net,Sarah,Rivera,8473348176,5895 Jackson Blvd,Chicago,IL,60622,WEEKEND,14.99,2022-06-18,cancelled
+S-00000586,P-00003919,jessica.davis6@yahoo.com,Jessica,Davis,7731226780,4830 Monroe St,Chicago,IL,60610,WEEKEND,14.99,2021-12-30,active
+S-00000587,P-00003920,karen.williams8@hotmail.com,Karen,Williams,6309253169,3984 California Ave,Chicago,IL,60610,DIGITAL,9.99,2022-11-03,active
+S-00000588,P-00003922,lharris@outlook.com,Lisa,Harris,7735067252,5777 Archer Ave,Chicago,IL,60647,PREMIUM,34.99,2020-09-02,cancelled
+S-00000589,P-00003924,james.perez8@hotmail.com,James,Perez,8722718074,2783 Roosevelt Rd,Chicago,IL,60647,DIGITAL,9.99,2022-01-11,active
+S-00000590,P-00003928,karen.garcia9@icloud.com,Karen,Garcia,8478276815,131 Western Ave,Chicago,IL,60601,DIGITAL,9.99,2021-09-25,cancelled
+S-00000591,P-00003930,jharris@aol.com,Joseph,Harris,7737871885,3047 Irving Park Rd,Chicago,IL,60654,DAILY,24.99,2021-09-13,active
+S-00000592,P-00003932,anthony.rivera16@hotmail.com,Anthony,Rivera,6302231823,2890 Clark St,Oak Park,IL,60302,DIGITAL,9.99,2023-11-02,active
+S-00000593,P-00003935,alewis@yahoo.com,Andrew,Lewis,3126006210,1602 Congress Pkwy,Chicago,IL,60647,DIGITAL,9.99,2021-11-01,active
+S-00000594,P-00003937,michelle.johnson27@icloud.com,Michelle,Johnson,3123196608,3844 Wells St,Chicago,IL,60647,WEEKEND,14.99,2023-05-13,active
+S-00000595,P-00003938,agonzalez@sbcglobal.net,Ashley,Gonzalez,7733739194,9583 Oak Park Ave,Chicago,IL,60657,DIGITAL,9.99,2023-10-23,active
+S-00000596,P-00003952,linda.smith8@hotmail.com,Linda,Smith,3128864680,2074 Roosevelt Rd,Chicago,IL,60615,WEEKEND,14.99,2020-08-15,cancelled
+S-00000597,P-00003955,barbara.taylor14@icloud.com,Barbara,Taylor,3122719131,4390 Fullerton Ave,Chicago,IL,60614,WEEKEND,14.99,2021-11-30,cancelled
+S-00000598,P-00003999,kenneth.lopez82@att.net,Kenneth,Lopez,3122246049,6128 Harrison St,Chicago,IL,60657,DAILY,24.99,2022-07-16,active
+S-00000599,P-00004008,sarah.mitchell66@gmail.com,Sarah,Mitchell,7737998585,689 Ashland Ave,Chicago,IL,60601,DIGITAL,9.99,2024-02-04,cancelled
+S-00000600,P-00004015,david.perez53@icloud.com,David,Perez,6301535306,3931 Jackson Blvd,Chicago,IL,60654,WEEKEND,14.99,2021-03-06,active
+S-00000601,P-00004018,steven.adams42@msn.com,Steven,Adams,8729519165,1720 Dearborn St,Chicago,IL,60614,DIGITAL,9.99,2020-08-06,active
+S-00000602,P-00004026,mflores@att.net,Michael,Flores,8728680948,579 Fullerton Ave,Chicago,IL,60614,DIGITAL,9.99,2022-08-03,cancelled
+S-00000603,P-00004034,james.brown22@aol.com,James,Brown,7734897562,6666 Harlem Ave,Oak Park,IL,60302,DIGITAL,9.99,2023-09-22,active
+S-00000604,P-00004036,kevin.walker16@comcast.net,Kevin,Walker,3129309905,2055 Jackson Blvd,Chicago,IL,60657,DIGITAL,9.99,2021-03-15,active
+S-00000605,P-00004049,dking@outlook.com,Donna,King,6305858051,6303 Pulaski Rd,Oak Park,IL,60302,WEEKEND,14.99,2021-02-06,active
+S-00000606,P-00004050,richard.hill59@msn.com,Richard,Hill,3127891867,2144 Congress Pkwy,Evanston,IL,60201,DIGITAL,9.99,2020-09-12,cancelled
+S-00000607,P-00004054,joseph.perez65@gmail.com,Joseph,Perez,8473629376,858 Armitage Ave,Chicago,IL,60615,WEEKEND,14.99,2024-01-30,active
+S-00000608,P-00004059,mark.thomas4@hotmail.com,Mark,Thomas,8729780101,8528 Harrison St,Chicago,IL,60610,DIGITAL,9.99,2020-03-25,cancelled
+S-00000609,P-00004062,timothy.wilson87@comcast.net,Timothy,Wilson,6308951304,6586 Franklin St,Evanston,IL,60201,DAILY,24.99,2022-12-07,active
+S-00000610,P-00004069,michelle.walker33@msn.com,Michelle,Walker,8479283850,8741 California Ave,Chicago,IL,60610,DAILY,24.99,2020-02-22,cancelled
+S-00000611,P-00004071,amitchell@hotmail.com,Amanda,Mitchell,3128173504,2041 Kedzie Ave,Chicago,IL,60614,DIGITAL,9.99,2023-06-12,active
+S-00000612,P-00004081,sandra.king22@sbcglobal.net,Sandra,King,6305889062,5892 State St,Chicago,IL,60657,DIGITAL,9.99,2020-05-08,active
+S-00000613,P-00004084,emily.williams38@att.net,Emily,Williams,8723366601,9689 California Ave,Evanston,IL,60201,DIGITAL,9.99,2022-11-12,active
+S-00000614,P-00004094,linda.baker48@sbcglobal.net,Linda,Baker,3126534069,6947 Cermak Rd,Chicago,IL,60647,DIGITAL,9.99,2023-09-05,cancelled
+S-00000615,P-00004098,ddavis@hotmail.com,Daniel,Davis,8726152499,166 Pulaski Rd,Chicago,IL,60614,DIGITAL,9.99,2021-03-01,active
+S-00000616,P-00004101,rlopez@msn.com,Robert,Lopez,8724479257,5706 Harrison St,Chicago,IL,60654,DAILY,24.99,2022-04-04,active
+S-00000617,P-00004106,bsmith@att.net,Brian,Smith,3128303455,9530 Oak Park Ave,Chicago,IL,60601,DAILY,24.99,2021-05-30,active
+S-00000618,P-00004115,bbrown@yahoo.com,Brian,Brown,8728625537,6709 Archer Ave,Evanston,IL,60201,WEEKEND,14.99,2023-06-02,active
+S-00000619,P-00004117,athomas@sbcglobal.net,Amanda,Thomas,8473433484,1204 Diversey Pkwy,Chicago,IL,60622,DIGITAL,9.99,2021-04-25,active
+S-00000620,P-00004124,james.johnson74@msn.com,James,Johnson,3126287519,1915 LaSalle St,Evanston,IL,60201,WEEKEND,14.99,2024-02-06,active
+S-00000621,P-00004131,sandra.sanchez51@aol.com,Sandra,Sanchez,8728588889,7624 Michigan Ave,Chicago,IL,60654,DIGITAL,9.99,2023-10-10,active
+S-00000622,P-00004132,llee@aol.com,Linda,Lee,6302048589,7497 Harlem Ave,Evanston,IL,60201,DIGITAL,9.99,2022-01-26,active
+S-00000623,P-00004133,nancy.clark88@hotmail.com,Nancy,Clark,8728051280,4073 Harrison St,Chicago,IL,60610,DIGITAL,9.99,2022-07-03,cancelled
+S-00000624,P-00004143,mary.flores9@comcast.net,Mary,Flores,6306590304,3589 Fullerton Ave,Chicago,IL,60647,DIGITAL,9.99,2022-07-31,active
+S-00000625,P-00004159,jadams@icloud.com,James,Adams,3123755560,4544 Central Ave,Chicago,IL,60601,DIGITAL,9.99,2021-01-11,active
+S-00000626,P-00004164,patricia.sanchez57@icloud.com,Patricia,Sanchez,3126831065,5002 Van Buren St,Chicago,IL,60610,WEEKEND,14.99,2021-06-18,cancelled
+S-00000627,P-00004169,dorothy.hill47@comcast.net,Dorothy,Hill,6303458556,317 Adams St,Chicago,IL,60610,DIGITAL,9.99,2022-08-26,cancelled
+S-00000628,P-00004170,timothy.allen32@outlook.com,Timothy,Allen,3125983814,6738 Clark St,Chicago,IL,60615,WEEKEND,14.99,2023-01-05,active
+S-00000629,P-00004186,jessica.brown1@att.net,Jessica,Brown,6304469054,4158 Van Buren St,Chicago,IL,60654,DAILY,24.99,2021-10-08,active
+S-00000630,P-00004189,brian.lewis33@sbcglobal.net,Brian,Lewis,7735386015,2123 Van Buren St,Chicago,IL,60622,DIGITAL,9.99,2020-08-13,active
+S-00000631,P-00004190,jharris@sbcglobal.net,Jennifer,Harris,3128040776,5334 Irving Park Rd,Oak Park,IL,60302,DIGITAL,9.99,2023-04-01,active
+S-00000632,P-00004195,joseph.white86@outlook.com,Joseph,White,8476479911,5679 Central Ave,Chicago,IL,60657,DIGITAL,9.99,2020-09-01,active
+S-00000633,P-00004196,elewis@hotmail.com,Emily,Lewis,3124533921,8541 Archer Ave,Evanston,IL,60201,DIGITAL,9.99,2023-06-19,cancelled
+S-00000634,P-00004201,charles.young52@icloud.com,Charles,Young,6301790381,604 Diversey Pkwy,Chicago,IL,60614,WEEKEND,14.99,2020-11-17,active
+S-00000635,P-00004212,dflores@outlook.com,Donald,Flores,7732625414,8486 Belmont Ave,Chicago,IL,60622,DIGITAL,9.99,2024-01-15,cancelled
+S-00000636,P-00004220,slee@icloud.com,Steven,Lee,6304561661,7865 Dearborn St,Chicago,IL,60647,DIGITAL,9.99,2023-12-05,active
+S-00000637,P-00004224,rgreen@aol.com,Richard,Green,6303358203,1171 Kedzie Ave,Chicago,IL,60657,DIGITAL,9.99,2021-12-24,active
+S-00000638,P-00004247,dorothy.thomas9@att.net,Dorothy,Thomas,7739220661,2440 Western Ave,Chicago,IL,60622,DIGITAL,9.99,2020-10-08,active
+S-00000639,P-00004252,susan.mitchell84@gmail.com,Susan,Mitchell,3129985495,3437 Franklin St,Chicago,IL,60647,WEEKEND,14.99,2023-12-14,active
+S-00000640,P-00004261,anthony.nelson91@att.net,Anthony,Nelson,3126405162,5902 Congress Pkwy,Chicago,IL,60622,DIGITAL,9.99,2022-05-17,active
+S-00000641,P-00004269,thomas.martin21@icloud.com,Thomas,Martin,8723238636,1730 Michigan Ave,Oak Park,IL,60302,DIGITAL,9.99,2020-10-03,cancelled
+S-00000642,P-00004275,paul.miller44@aol.com,Paul,Miller,8727885200,1227 Monroe St,Evanston,IL,60201,WEEKEND,14.99,2020-01-07,active
+S-00000643,P-00004279,andrew.jones61@icloud.com,Andrew,Jones,7735211408,4426 Congress Pkwy,Chicago,IL,60654,DAILY,24.99,2022-12-04,cancelled
+S-00000644,P-00004280,susan.green1@att.net,Susan,Green,7736013436,6343 California Ave,Chicago,IL,60610,WEEKEND,14.99,2023-09-25,active
+S-00000645,P-00004283,david.nguyen21@sbcglobal.net,David,Nguyen,3124908193,7288 Irving Park Rd,Chicago,IL,60614,DIGITAL,9.99,2023-04-23,active
+S-00000646,P-00004286,djohnson@sbcglobal.net,Dorothy,Johnson,7735437858,6938 Congress Pkwy,Chicago,IL,60615,DAILY,24.99,2021-11-02,active
+S-00000647,P-00004297,krodriguez@hotmail.com,Kimberly,Rodriguez,3128017313,6644 State St,Chicago,IL,60614,DIGITAL,9.99,2022-02-15,cancelled
+S-00000648,P-00004301,sandra.ramirez81@icloud.com,Sandra,Ramirez,8478579735,3521 Armitage Ave,Chicago,IL,60614,DIGITAL,9.99,2020-02-23,active
+S-00000649,P-00004302,jlee@yahoo.com,Jennifer,Lee,7731683294,8285 Armitage Ave,Chicago,IL,60615,DIGITAL,9.99,2020-06-15,active
+S-00000650,P-00004305,mramirez@aol.com,Matthew,Ramirez,8476135863,5152 Oak Park Ave,Chicago,IL,60601,WEEKEND,14.99,2022-10-26,active
+S-00000651,P-00004306,robert.wright16@outlook.com,Robert,Wright,3122782420,126 Wacker Dr,Chicago,IL,60647,DIGITAL,9.99,2021-06-29,active
+S-00000652,P-00004315,donna.sanchez49@att.net,Donna,Sanchez,3125899518,1650 Roosevelt Rd,Chicago,IL,60610,DIGITAL,9.99,2022-04-06,active
+S-00000653,P-00004321,matthew.lewis12@outlook.com,Matthew,Lewis,6306213133,1554 Western Ave,Evanston,IL,60201,PREMIUM,34.99,2022-03-23,cancelled
+S-00000654,P-00004340,joseph.torres78@aol.com,Joseph,Torres,7734362878,1888 Central Ave,Chicago,IL,60622,PREMIUM,34.99,2020-01-22,active
+S-00000655,P-00004342,cgonzalez@att.net,Carol,Gonzalez,8479529819,9337 Western Ave,Chicago,IL,60657,DIGITAL,9.99,2020-05-30,active
+S-00000656,P-00004363,paul.ramirez63@comcast.net,Paul,Ramirez,7735900800,7399 Wacker Dr,Chicago,IL,60647,DIGITAL,9.99,2020-04-16,active
+S-00000657,P-00004369,george.garcia20@msn.com,George,Garcia,7732606085,4704 Roosevelt Rd,Chicago,IL,60601,DIGITAL,9.99,2021-01-07,active
+S-00000658,P-00004370,mgreen@msn.com,Mark,Green,6306604323,2211 LaSalle St,Chicago,IL,60610,DIGITAL,9.99,2023-07-01,active
+S-00000659,P-00004374,anthony.johnson1@comcast.net,Anthony,Johnson,6304727079,8530 Wacker Dr,Chicago,IL,60614,DIGITAL,9.99,2021-12-09,cancelled
+S-00000660,P-00004379,donna.king26@comcast.net,Donna,King,8471458479,7220 California Ave,Chicago,IL,60610,DIGITAL,9.99,2022-07-03,active
+S-00000661,P-00004381,patricia.walker4@yahoo.com,Patricia,Walker,6308670567,6603 California Ave,Chicago,IL,60615,WEEKEND,14.99,2020-10-23,active
+S-00000662,P-00004390,snguyen@aol.com,Sandra,Nguyen,6307406653,2095 Pulaski Rd,Chicago,IL,60615,PREMIUM,34.99,2022-12-27,active
+S-00000663,P-00004400,sgreen@icloud.com,Sarah,Green,6306126170,9968 Harrison St,Chicago,IL,60622,WEEKEND,14.99,2020-06-04,active
+S-00000664,P-00004404,ashley.brown57@comcast.net,Ashley,Brown,7734164757,7216 Kedzie Ave,Chicago,IL,60647,PREMIUM,34.99,2021-10-04,active
+S-00000665,P-00004410,kanderson@yahoo.com,Karen,Anderson,8477669047,5338 Harlem Ave,Oak Park,IL,60302,DIGITAL,9.99,2020-07-18,active
+S-00000666,P-00004423,cscott@sbcglobal.net,Carol,Scott,6307322353,5681 Van Buren St,Oak Park,IL,60302,WEEKEND,14.99,2024-01-06,active
+S-00000667,P-00004425,ashley.king50@gmail.com,Ashley,King,8726151254,2778 Oak Park Ave,Chicago,IL,60610,DAILY,24.99,2023-11-20,active
+S-00000668,P-00004430,dorothy.lee96@outlook.com,Dorothy,Lee,3123162704,8104 Jackson Blvd,Chicago,IL,60622,DIGITAL,9.99,2020-07-18,active
+S-00000669,P-00004431,psanchez@yahoo.com,Patricia,Sanchez,7734190884,6330 Monroe St,Chicago,IL,60654,WEEKEND,14.99,2020-07-28,active
+S-00000670,P-00004438,dlee@aol.com,Donna,Lee,7735757316,9717 Harlem Ave,Chicago,IL,60647,WEEKEND,14.99,2020-07-23,cancelled
+S-00000671,P-00004448,joseph.taylor1@att.net,Joseph,Taylor,8726222686,9957 Central Ave,Chicago,IL,60601,WEEKEND,14.99,2022-05-04,cancelled
+S-00000672,P-00004449,patricia.lopez85@aol.com,Patricia,Lopez,6303900071,4147 Diversey Pkwy,Chicago,IL,60601,DIGITAL,9.99,2020-03-23,active
+S-00000673,P-00004451,steven.perez65@sbcglobal.net,Steven,Perez,8472681488,3296 Monroe St,Oak Park,IL,60302,WEEKEND,14.99,2022-02-28,active
+S-00000674,P-00004452,margaret.campbell31@yahoo.com,Margaret,Campbell,8727567387,2970 Diversey Pkwy,Chicago,IL,60614,WEEKEND,14.99,2021-11-15,active
+S-00000675,P-00004454,carol.lewis11@yahoo.com,Carol,Lewis,6309394854,1835 Fullerton Ave,Chicago,IL,60657,PREMIUM,34.99,2023-09-13,active
+S-00000676,P-00004464,dgreen@outlook.com,Dorothy,Green,3126386800,4179 Jackson Blvd,Chicago,IL,60601,DAILY,24.99,2020-10-08,cancelled
+S-00000677,P-00004472,margaret.torres37@att.net,Margaret,Torres,3124649158,1637 Michigan Ave,Chicago,IL,60610,DAILY,24.99,2020-02-23,active
+S-00000678,P-00004473,matthew.jones84@yahoo.com,Matthew,Jones,8476030061,4412 Congress Pkwy,Chicago,IL,60615,DIGITAL,9.99,2021-01-14,active
+S-00000679,P-00004474,swilliams@sbcglobal.net,Susan,Williams,8479095942,6845 Franklin St,Evanston,IL,60201,DIGITAL,9.99,2021-03-12,active
+S-00000680,P-00004487,william.martin81@gmail.com,William,Martin,7739609769,1070 Clark St,Evanston,IL,60201,DIGITAL,9.99,2022-09-16,active
+S-00000681,P-00004489,sandra.wright68@gmail.com,Sandra,Wright,8726056189,9609 Cermak Rd,Oak Park,IL,60302,DIGITAL,9.99,2020-07-21,active
+S-00000682,P-00004494,amanda.young67@outlook.com,Amanda,Young,3123468808,9786 Congress Pkwy,Chicago,IL,60610,WEEKEND,14.99,2021-07-12,active
+S-00000683,P-00004496,christopher.robinson78@msn.com,Christopher,Robinson,6302828123,8751 Dearborn St,Oak Park,IL,60302,DIGITAL,9.99,2021-03-16,active
+S-00000684,P-00004506,michelle.wright98@comcast.net,Michelle,Wright,6302875404,9326 Archer Ave,Chicago,IL,60601,DIGITAL,9.99,2023-09-27,active
+S-00000685,P-00004507,robert.harris5@aol.com,Robert,Harris,7732750116,6647 Irving Park Rd,Evanston,IL,60201,WEEKEND,14.99,2020-09-29,cancelled
+S-00000686,P-00004517,dking@sbcglobal.net,Donald,King,6304930736,830 Cicero Ave,Chicago,IL,60614,WEEKEND,14.99,2021-07-09,active
+S-00000687,P-00004520,anthony.adams96@yahoo.com,Anthony,Adams,7737065304,1340 Madison St,Chicago,IL,60615,DIGITAL,9.99,2023-11-21,cancelled
+S-00000688,P-00004532,jennifer.campbell68@icloud.com,Jennifer,Campbell,3124132118,8368 Adams St,Chicago,IL,60647,PREMIUM,34.99,2021-03-07,cancelled
+S-00000689,P-00004543,elizabeth.smith90@yahoo.com,Elizabeth,Smith,8721872596,4753 Jackson Blvd,Evanston,IL,60201,WEEKEND,14.99,2022-12-07,active
+S-00000690,P-00004545,wlewis@aol.com,William,Lewis,6304325948,2470 Jackson Blvd,Chicago,IL,60647,DAILY,24.99,2023-05-06,active
+S-00000691,P-00004563,charles.brown11@hotmail.com,Charles,Brown,8729948687,7157 Fullerton Ave,Chicago,IL,60615,DIGITAL,9.99,2022-06-01,cancelled
+S-00000692,P-00004572,sallen@att.net,Sarah,Allen,7736819515,2314 Roosevelt Rd,Evanston,IL,60201,WEEKEND,14.99,2023-12-18,active
+S-00000693,P-00004592,swright@yahoo.com,Sarah,Wright,7735867535,8859 Roosevelt Rd,Chicago,IL,60614,DIGITAL,9.99,2023-07-16,active
+S-00000694,P-00004601,joshua.clark74@aol.com,Joshua,Clark,6303641445,1238 Central Ave,Chicago,IL,60654,WEEKEND,14.99,2020-08-29,active
+S-00000695,P-00004612,michael.rivera13@comcast.net,Michael,Rivera,3121569066,1350 State St,Chicago,IL,60614,DIGITAL,9.99,2020-05-05,active
+S-00000696,P-00004615,mperez@att.net,Michael,Perez,8729037701,7458 Kedzie Ave,Chicago,IL,60615,PREMIUM,34.99,2021-04-14,active
+S-00000697,P-00004616,ewright@yahoo.com,Emily,Wright,7733196844,8911 Wacker Dr,Oak Park,IL,60302,DAILY,24.99,2023-03-02,active
+S-00000698,P-00004618,daniel.nguyen58@yahoo.com,Daniel,Nguyen,7733384055,3708 Congress Pkwy,Chicago,IL,60615,WEEKEND,14.99,2021-05-02,active
+S-00000699,P-00004621,thomas.hall4@msn.com,Thomas,Hall,3124525557,6411 Western Ave,Chicago,IL,60622,WEEKEND,14.99,2021-12-06,active
+S-00000700,P-00004624,sandra.torres3@sbcglobal.net,Sandra,Torres,3121151952,5883 Wacker Dr,Chicago,IL,60601,DIGITAL,9.99,2021-05-31,active
+S-00000701,P-00004630,susan.garcia29@yahoo.com,Susan,Garcia,6305674907,1318 Jackson Blvd,Chicago,IL,60610,DAILY,24.99,2023-09-05,active
+S-00000702,P-00004640,lisa.martin41@aol.com,Lisa,Martin,3123625425,9464 Kedzie Ave,Chicago,IL,60654,DIGITAL,9.99,2021-07-31,active
+S-00000703,P-00004653,david.robinson54@msn.com,David,Robinson,8472170790,236 Pulaski Rd,Chicago,IL,60601,DIGITAL,9.99,2020-09-26,active
+S-00000704,P-00004657,charles.baker41@att.net,Charles,Baker,3127640287,2033 Cermak Rd,Chicago,IL,60601,DIGITAL,9.99,2021-04-23,active
+S-00000705,P-00004663,william.nelson80@sbcglobal.net,William,Nelson,6302256054,7610 Diversey Pkwy,Oak Park,IL,60302,DIGITAL,9.99,2020-07-23,active
+S-00000706,P-00004683,bwalker@comcast.net,Brian,Walker,3125154112,883 Archer Ave,Chicago,IL,60615,PREMIUM,34.99,2023-08-16,cancelled
+S-00000707,P-00004692,carol.martin73@msn.com,Carol,Martin,8729591251,6226 Franklin St,Chicago,IL,60622,DIGITAL,9.99,2023-05-22,active
+S-00000708,P-00004702,jrivera@msn.com,Jennifer,Rivera,3124912805,5438 Western Ave,Chicago,IL,60615,DIGITAL,9.99,2022-08-24,active
+S-00000709,P-00004703,cjackson@msn.com,Charles,Jackson,8475705533,5027 Adams St,Chicago,IL,60622,DIGITAL,9.99,2021-07-17,active
+S-00000710,P-00004705,mary.brown1@yahoo.com,Mary,Brown,8473621671,6676 Pulaski Rd,Chicago,IL,60614,DIGITAL,9.99,2020-11-07,active
+S-00000711,P-00004707,daniel.perez58@msn.com,Daniel,Perez,8721687626,1459 Archer Ave,Oak Park,IL,60302,DAILY,24.99,2022-03-01,active
+S-00000712,P-00004729,thomas.gonzalez74@att.net,Thomas,Gonzalez,3121438794,7691 Wacker Dr,Chicago,IL,60654,WEEKEND,14.99,2020-07-31,active
+S-00000713,P-00004741,james.jackson19@comcast.net,James,Jackson,7738497537,4288 Monroe St,Chicago,IL,60615,WEEKEND,14.99,2020-12-27,active
+S-00000714,P-00004746,jennifer.williams52@att.net,Jennifer,Williams,6307708615,2762 Roosevelt Rd,Oak Park,IL,60302,DIGITAL,9.99,2023-06-01,active
+S-00000715,P-00004753,ashley.mitchell87@icloud.com,Ashley,Mitchell,3121189694,7718 Wells St,Chicago,IL,60615,WEEKEND,14.99,2021-02-18,active
+S-00000716,P-00004768,mary.thomas43@gmail.com,Mary,Thomas,7736697932,2208 California Ave,Chicago,IL,60601,DIGITAL,9.99,2021-11-11,active
+S-00000717,P-00004771,matthew.campbell87@msn.com,Matthew,Campbell,8474959876,8514 Wacker Dr,Chicago,IL,60615,DIGITAL,9.99,2020-02-28,active
+S-00000718,P-00004778,james.hall45@comcast.net,James,Hall,7735112816,8851 Irving Park Rd,Chicago,IL,60647,DIGITAL,9.99,2021-08-09,active
+S-00000719,P-00004780,amanda.johnson38@att.net,Amanda,Johnson,8472201534,7576 Armitage Ave,Chicago,IL,60601,DAILY,24.99,2020-04-04,active
+S-00000720,P-00004781,michael.moore10@yahoo.com,Michael,Moore,8722917725,5390 Ashland Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-03-26,active
+S-00000721,P-00004792,thill@comcast.net,Timothy,Hill,3124535417,428 Ashland Ave,Chicago,IL,60647,PREMIUM,34.99,2022-11-03,cancelled
+S-00000722,P-00004794,ashley.anderson46@att.net,Ashley,Anderson,8723572174,6813 Harlem Ave,Chicago,IL,60647,WEEKEND,14.99,2022-10-02,active
+S-00000723,P-00004795,lisa.rivera37@aol.com,Lisa,Rivera,8474275405,1127 Cicero Ave,Chicago,IL,60654,DAILY,24.99,2022-11-28,cancelled
+S-00000724,P-00004799,bthompson@att.net,Betty,Thompson,8725959390,6473 Adams St,Chicago,IL,60622,DAILY,24.99,2021-06-18,active
+S-00000725,P-00004801,kmiller@icloud.com,Kimberly,Miller,8475713862,1476 Irving Park Rd,Oak Park,IL,60302,DIGITAL,9.99,2020-02-06,active
+S-00000726,P-00004802,aperez@icloud.com,Ashley,Perez,8729039370,1305 Armitage Ave,Oak Park,IL,60302,DIGITAL,9.99,2022-12-06,active
+S-00000727,P-00004813,margaret.allen4@gmail.com,Margaret,Allen,3122864137,9190 LaSalle St,Evanston,IL,60201,WEEKEND,14.99,2022-12-16,active
+S-00000728,P-00004816,bmiller@yahoo.com,Betty,Miller,8477412679,3417 California Ave,Chicago,IL,60654,PREMIUM,34.99,2020-01-30,active
+S-00000729,P-00004817,cbaker@hotmail.com,Christopher,Baker,8724935144,5736 Central Ave,Chicago,IL,60614,DIGITAL,9.99,2021-11-30,active
+S-00000730,P-00004819,anthony.taylor45@yahoo.com,Anthony,Taylor,3125480622,2571 State St,Chicago,IL,60601,DIGITAL,9.99,2023-09-21,cancelled
+S-00000731,P-00004823,charles.martinez90@att.net,Charles,Martinez,3128047003,7456 Belmont Ave,Chicago,IL,60610,DIGITAL,9.99,2020-02-25,active
+S-00000732,P-00004824,pwilson@icloud.com,Patricia,Wilson,6308343547,7927 Irving Park Rd,Chicago,IL,60622,WEEKEND,14.99,2022-11-24,active
+S-00000733,P-00004827,nhernandez@msn.com,Nancy,Hernandez,7736966641,8550 Clark St,Chicago,IL,60614,DIGITAL,9.99,2020-01-31,active
+S-00000734,P-00004845,margaret.anderson93@hotmail.com,Margaret,Anderson,6305290967,9720 State St,Chicago,IL,60614,DIGITAL,9.99,2021-08-06,active
+S-00000735,P-00004852,anthony.thompson5@hotmail.com,Anthony,Thompson,8724237387,3018 Central Ave,Chicago,IL,60610,WEEKEND,14.99,2022-12-11,active
+S-00000736,P-00004857,george.allen96@icloud.com,George,Allen,6307012573,3049 Fullerton Ave,Chicago,IL,60647,DIGITAL,9.99,2023-04-16,active
+S-00000737,P-00004860,carol.robinson46@comcast.net,Carol,Robinson,3129078086,1698 Harrison St,Chicago,IL,60657,DIGITAL,9.99,2021-11-22,active
+S-00000738,P-00004863,brian.hernandez19@gmail.com,Brian,Hernandez,7731007272,7188 LaSalle St,Chicago,IL,60614,WEEKEND,14.99,2020-07-08,cancelled
+S-00000739,P-00004865,cmartin@hotmail.com,Carol,Martin,6304420710,8422 Armitage Ave,Chicago,IL,60615,DIGITAL,9.99,2022-06-13,active
+S-00000740,P-00004872,sgreen@yahoo.com,Steven,Green,6307633896,8907 Western Ave,Chicago,IL,60647,WEEKEND,14.99,2022-02-17,active
+S-00000741,P-00004877,ascott@comcast.net,Anthony,Scott,8477866209,1078 Wacker Dr,Chicago,IL,60601,DIGITAL,9.99,2021-11-19,active
+S-00000742,P-00004878,sadams@aol.com,Steven,Adams,3122751771,3866 Dearborn St,Chicago,IL,60601,DAILY,24.99,2020-01-21,active
+S-00000743,P-00004890,djones@yahoo.com,Donna,Jones,8476673047,6011 Van Buren St,Chicago,IL,60654,DIGITAL,9.99,2022-08-06,cancelled
+S-00000744,P-00004892,andrew.perez53@msn.com,Andrew,Perez,6302456422,1821 Adams St,Chicago,IL,60647,DIGITAL,9.99,2020-01-12,active
+S-00000745,P-00004904,cwhite@att.net,Charles,White,6308492002,5329 California Ave,Chicago,IL,60610,PREMIUM,34.99,2021-06-09,active
+S-00000746,P-00004909,karen.young86@att.net,Karen,Young,6307862348,6592 Oak Park Ave,Chicago,IL,60657,WEEKEND,14.99,2021-01-04,cancelled
+S-00000747,P-00004926,melissa.torres88@gmail.com,Melissa,Torres,3128552021,5494 Cermak Rd,Chicago,IL,60657,DIGITAL,9.99,2022-11-06,active
+S-00000748,P-00004927,william.harris11@att.net,William,Harris,8475805662,6846 Diversey Pkwy,Chicago,IL,60622,DIGITAL,9.99,2021-10-13,active
+S-00000749,P-00004935,thomas.lopez6@att.net,Thomas,Lopez,6302434520,6582 Ashland Ave,Chicago,IL,60647,DIGITAL,9.99,2022-07-12,active
+S-00000750,P-00004946,jmitchell@sbcglobal.net,James,Mitchell,6309437225,2745 California Ave,Chicago,IL,60654,DIGITAL,9.99,2023-10-14,active
+S-00000751,P-00004952,etorres@sbcglobal.net,Elizabeth,Torres,8729877154,7257 Ashland Ave,Evanston,IL,60201,DIGITAL,9.99,2021-07-03,cancelled
+S-00000752,P-00004967,jessica.williams31@msn.com,Jessica,Williams,3121205516,2760 Western Ave,Chicago,IL,60610,WEEKEND,14.99,2023-04-17,cancelled
+S-00000753,P-00004970,karen.miller87@gmail.com,Karen,Miller,7737596273,812 Pulaski Rd,Chicago,IL,60657,DIGITAL,9.99,2021-02-25,active
+S-00000754,P-00004971,dorothy.johnson22@sbcglobal.net,Dorothy,Johnson,3124700639,1770 Armitage Ave,Oak Park,IL,60302,DAILY,24.99,2022-04-02,cancelled
+S-00000755,P-00004986,mbaker@outlook.com,Mark,Baker,6304660124,4762 Irving Park Rd,Chicago,IL,60610,DIGITAL,9.99,2021-11-18,active
+S-00000756,P-00004989,paul.sanchez61@outlook.com,Paul,Sanchez,3127495963,7081 Central Ave,Chicago,IL,60647,WEEKEND,14.99,2023-05-27,cancelled
+S-00000757,P-00004998,sandra.williams56@yahoo.com,Sandra,Williams,3126578501,3369 Adams St,Evanston,IL,60201,WEEKEND,14.99,2020-04-06,active

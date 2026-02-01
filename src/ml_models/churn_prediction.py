@@ -71,11 +71,11 @@ class ChurnPredictor:
                 features[f'days_since_{col.replace("_date", "")}'] = 999
         
         # Direct copies with defaults
-        features['email_open_rate_30d'] = df.get('email_open_rate_30d', 0).fillna(0)
-        features['email_click_rate_30d'] = df.get('email_click_rate_30d', 0).fillna(0)
-        features['total_gifts'] = df.get('total_gift_count', 0).fillna(0)
-        features['avg_gift_amount'] = df.get('average_gift_amount', 0).fillna(0)
-        features['consecutive_failed_payments'] = df.get('consecutive_failed_payments', 0).fillna(0)
+        features['email_open_rate_30d'] = df['email_open_rate_30d'].fillna(0) if 'email_open_rate_30d' in df.columns else 0
+        features['email_click_rate_30d'] = df['email_click_rate_30d'].fillna(0) if 'email_click_rate_30d' in df.columns else 0
+        features['total_gifts'] = df['total_gift_count'].fillna(0) if 'total_gift_count' in df.columns else 0
+        features['avg_gift_amount'] = df['average_gift_amount'].fillna(0) if 'average_gift_amount' in df.columns else 0
+        features['consecutive_failed_payments'] = df['consecutive_failed_payments'].fillna(0) if 'consecutive_failed_payments' in df.columns else 0
         
         # Tenure calculations
         if 'first_donation_date' in df.columns:

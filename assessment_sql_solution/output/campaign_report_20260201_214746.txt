@@ -1,0 +1,20 @@
+CPM DIRECT MAIL CAMPAIGN - VALIDATION REPORT
+Generated: 2026-02-01 21:47:46
+
+============================================================
+CAMPAIGN PARAMETERS
+============================================================
+Recent gift period: 2025-07-01 to 2026-01-26
+First-year donor cutoff: 2025-02-01
+Leadership threshold: $1,200
+
+============================================================
+RESULTS
+============================================================
+Total mailable: 36
+
+Bucket breakdown:
+  Additional gift target - first year of giving: 36
+
+Total value: $11,234.90
+Average value: $312.08
