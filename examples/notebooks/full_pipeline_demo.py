@@ -31,7 +31,7 @@ logging.basicConfig(level=logging.WARNING)
 print("\n--- Verifying Imports ---")
 from data_generator import SyntheticDataGenerator, GeneratorConfig
 print("✓ data_generator")
-from constituent_unification.identity_resolver import ConstituentUnifier, SourceRecord, MatchConfig
+from identity_resolution.identity_resolver import ConstituentUnifier, SourceRecord, MatchConfig
 print("✓ identity_resolver")
 from ml_models.churn_prediction import ChurnPredictor, generate_sample_data as gen_churn_data
 print("✓ churn_prediction")

@@ -1,0 +1,743 @@
+ticket_id,person_id,email,first_name,last_name,event_name,event_date,ticket_price,quantity
+T-00000000,P-00000002,dorothy.ramirez55@outlook.com,Dorothy,Ramirez,Annual Gala,2020-06-17,250,2
+T-00000001,P-00000003,patricia.harris9@msn.com,Patricia,Harris,Annual Gala,2020-07-24,250,1
+T-00000002,P-00000004,linda.campbell78@gmail.com,Linda,Campbell,StoryCorps Recording,2020-10-30,0,1
+T-00000003,P-00000005,donald.moore44@yahoo.com,Donald,Moore,Podcast Festival,2024-09-17,35,2
+T-00000004,P-00000010,michelle.perez65@hotmail.com,Michelle,Perez,Election Watch,2021-11-09,25,2
+T-00000005,P-00000012,ashley.brown23@comcast.net,Ashley,Brown,StoryCorps Recording,2021-08-21,0,1
+T-00000006,P-00000013,lisa.ramirez42@sbcglobal.net,Lisa,Ramirez,Wait Wait Live,2022-07-12,75,1
+T-00000007,P-00000014,margaret.harris62@gmail.com,Margaret,Harris,Podcast Festival,2020-10-04,35,1
+T-00000008,P-00000016,nancy.green62@gmail.com,Nancy,Green,StoryCorps Recording,2022-12-14,0,2
+T-00000009,P-00000018,mary.baker32@aol.com,Mary,Baker,Election Watch,2023-11-12,25,1
+T-00000010,P-00000019,lisa.hernandez73@aol.com,Lisa,Hernandez,News Night,2021-04-26,50,2
+T-00000011,P-00000020,charles.martin52@sbcglobal.net,Charles,Martin,Wait Wait Live,2021-05-01,75,1
+T-00000012,P-00000020,charles.martin52@sbcglobal.net,Charles,Martin,Annual Gala,2021-10-20,250,2
+T-00000013,P-00000022,joshua.young9@sbcglobal.net,Joshua,Young,Election Watch,2022-06-22,25,2
+T-00000014,P-00000022,joshua.young9@sbcglobal.net,Joshua,Young,Annual Gala,2020-10-03,250,2
+T-00000015,P-00000024,anthony.wright93@yahoo.com,Anthony,Wright,StoryCorps Recording,2024-10-19,0,1
+T-00000016,P-00000027,paul.jones4@hotmail.com,Paul,Jones,Annual Gala,2022-04-25,250,2
+T-00000017,P-00000027,paul.jones4@hotmail.com,Paul,Jones,Annual Gala,2021-12-28,250,2
+T-00000018,P-00000027,paul.jones4@hotmail.com,Paul,Jones,Podcast Festival,2023-12-26,35,1
+T-00000019,P-00000028,jennifer.wright37@att.net,Jennifer,Wright,News Night,2021-01-03,50,1
+T-00000020,P-00000030,nancy.young23@yahoo.com,Nancy,Young,News Night,2024-10-07,50,1
+T-00000021,P-00000031,donald.adams26@hotmail.com,Donald,Adams,News Night,2020-12-08,50,1
+T-00000022,P-00000035,charles.ramirez55@msn.com,Charles,Ramirez,Annual Gala,2020-01-11,250,1
+T-00000023,P-00000036,james.smith96@aol.com,James,Smith,StoryCorps Recording,2021-09-13,0,2
+T-00000024,P-00000038,timothy.robinson69@msn.com,Timothy,Robinson,StoryCorps Recording,2020-09-07,0,2
+T-00000025,P-00000039,elizabeth.jones34@outlook.com,Elizabeth,Jones,StoryCorps Recording,2023-09-13,0,2
+T-00000026,P-00000039,elizabeth.jones34@outlook.com,Elizabeth,Jones,StoryCorps Recording,2021-08-07,0,1
+T-00000027,P-00000040,patricia.thomas80@comcast.net,Patricia,Thomas,News Night,2022-06-28,50,2
+T-00000028,P-00000040,patricia.thomas80@comcast.net,Patricia,Thomas,Annual Gala,2021-10-01,250,2
+T-00000029,P-00000040,patricia.thomas80@comcast.net,Patricia,Thomas,Annual Gala,2021-11-01,250,1
+T-00000030,P-00000040,patricia.thomas80@comcast.net,Patricia,Thomas,Annual Gala,2020-07-07,250,1
+T-00000031,P-00000041,andrew.allen61@hotmail.com,Andrew,Allen,StoryCorps Recording,2021-10-30,0,2
+T-00000032,P-00000042,brian.baker35@comcast.net,Brian,Baker,Election Watch,2020-11-12,25,1
+T-00000033,P-00000044,andrew.wright82@gmail.com,Andrew,Wright,News Night,2022-07-21,50,1
+T-00000034,P-00000047,anthony.lee53@comcast.net,Anthony,Lee,Election Watch,2020-11-15,25,1
+T-00000035,P-00000047,anthony.lee53@comcast.net,Anthony,Lee,Podcast Festival,2021-09-25,35,1
+T-00000036,P-00000050,charles.davis86@outlook.com,Charles,Davis,Wait Wait Live,2020-08-19,75,1
+T-00000037,P-00000050,charles.davis86@outlook.com,Charles,Davis,Annual Gala,2021-07-26,250,1
+T-00000038,P-00000052,karen.ramirez61@sbcglobal.net,Karen,Ramirez,Annual Gala,2021-09-01,250,1
+T-00000039,P-00000052,karen.ramirez61@sbcglobal.net,Karen,Ramirez,Election Watch,2020-10-24,25,2
+T-00000040,P-00000054,daniel.hernandez36@hotmail.com,Daniel,Hernandez,StoryCorps Recording,2024-09-16,0,1
+T-00000041,P-00000058,elizabeth.robinson5@comcast.net,Elizabeth,Robinson,News Night,2020-11-25,50,2
+T-00000042,P-00000058,elizabeth.robinson5@comcast.net,Elizabeth,Robinson,Election Watch,2021-04-01,25,2
+T-00000043,P-00000058,elizabeth.robinson5@comcast.net,Elizabeth,Robinson,Election Watch,2023-11-06,25,2
+T-00000044,P-00000060,melissa.garcia69@icloud.com,Melissa,Garcia,Podcast Festival,2020-08-01,35,2
+T-00000045,P-00000063,barbara.smith5@sbcglobal.net,Barbara,Smith,News Night,2021-07-10,50,1
+T-00000046,P-00000067,timothy.thompson80@aol.com,Timothy,Thompson,Wait Wait Live,2022-03-14,75,1
+T-00000047,P-00000067,timothy.thompson80@aol.com,Timothy,Thompson,StoryCorps Recording,2023-01-05,0,1
+T-00000048,P-00000067,timothy.thompson80@aol.com,Timothy,Thompson,Podcast Festival,2020-08-09,35,2
+T-00000049,P-00000067,timothy.thompson80@aol.com,Timothy,Thompson,StoryCorps Recording,2021-07-24,0,1
+T-00000050,P-00000069,barbara.sanchez49@msn.com,Barbara,Sanchez,News Night,2023-04-10,50,2
+T-00000051,P-00000069,barbara.sanchez49@msn.com,Barbara,Sanchez,Annual Gala,2020-09-26,250,1
+T-00000052,P-00000072,michael.campbell18@msn.com,Michael,Campbell,Wait Wait Live,2022-08-21,75,2
+T-00000053,P-00000076,melissa.brown55@sbcglobal.net,Melissa,Brown,Annual Gala,2023-05-23,250,1
+T-00000054,P-00000081,richard.anderson38@comcast.net,Richard,Anderson,Annual Gala,2022-07-30,250,2
+T-00000055,P-00000081,richard.anderson38@comcast.net,Richard,Anderson,Election Watch,2022-11-20,25,1
+T-00000056,P-00000081,richard.anderson38@comcast.net,Richard,Anderson,News Night,2024-07-11,50,2
+T-00000057,P-00000081,richard.anderson38@comcast.net,Richard,Anderson,News Night,2020-10-13,50,1
+T-00000058,P-00000082,susan.hernandez34@hotmail.com,Susan,Hernandez,Podcast Festival,2020-01-04,35,1
+T-00000059,P-00000089,brian.clark20@msn.com,Brian,Clark,StoryCorps Recording,2024-01-03,0,1
+T-00000060,P-00000089,brian.clark20@msn.com,Brian,Clark,Election Watch,2020-06-01,25,1
+T-00000061,P-00000090,sarah.harris60@outlook.com,Sarah,Harris,News Night,2022-01-27,50,2
+T-00000062,P-00000095,brian.perez28@yahoo.com,Brian,Perez,StoryCorps Recording,2020-01-01,0,2
+T-00000063,P-00000097,sandra.thomas19@yahoo.com,Sandra,Thomas,Wait Wait Live,2024-08-19,75,1
+T-00000064,P-00000098,sandra.nguyen63@outlook.com,Sandra,Nguyen,Annual Gala,2023-08-15,250,1
+T-00000065,P-00000099,amanda.king87@comcast.net,Amanda,King,Podcast Festival,2022-12-20,35,2
+T-00000066,P-00000100,michael.white59@att.net,Michael,White,Annual Gala,2023-01-11,250,1
+T-00000067,P-00000109,mary.nelson51@icloud.com,Mary,Nelson,Annual Gala,2022-08-17,250,2
+T-00000068,P-00000109,mary.nelson51@icloud.com,Mary,Nelson,Annual Gala,2022-08-09,250,2
+T-00000069,P-00000109,mary.nelson51@icloud.com,Mary,Nelson,Election Watch,2023-05-12,25,2
+T-00000070,P-00000115,betty.campbell16@comcast.net,Betty,Campbell,StoryCorps Recording,2024-06-08,0,1
+T-00000071,P-00000115,betty.campbell16@comcast.net,Betty,Campbell,Wait Wait Live,2023-06-25,75,1
+T-00000072,P-00000116,thomas.miller48@att.net,Thomas,Miller,Wait Wait Live,2023-11-06,75,1
+T-00000073,P-00000117,dorothy.hill14@att.net,Dorothy,Hill,Podcast Festival,2023-12-13,35,1
+T-00000074,P-00000117,dorothy.hill14@att.net,Dorothy,Hill,Annual Gala,2020-05-22,250,1
+T-00000075,P-00000121,jessica.baker10@sbcglobal.net,Jessica,Baker,Wait Wait Live,2024-11-21,75,2
+T-00000076,P-00000121,jessica.baker10@sbcglobal.net,Jessica,Baker,Annual Gala,2020-12-06,250,1
+T-00000077,P-00000122,patricia.moore25@gmail.com,Patricia,Moore,Annual Gala,2022-09-10,250,1
+T-00000078,P-00000124,linda.martin74@yahoo.com,Linda,Martin,StoryCorps Recording,2023-05-26,0,2
+T-00000079,P-00000127,joshua.king56@hotmail.com,Joshua,King,Podcast Festival,2020-07-04,35,1
+T-00000080,P-00000127,joshua.king56@hotmail.com,Joshua,King,Podcast Festival,2020-10-19,35,2
+T-00000081,P-00000128,thomas.flores5@yahoo.com,Thomas,Flores,News Night,2020-06-04,50,2
+T-00000082,P-00000129,sarah.garcia60@icloud.com,Sarah,Garcia,StoryCorps Recording,2020-02-04,0,1
+T-00000083,P-00000129,sarah.garcia60@icloud.com,Sarah,Garcia,Wait Wait Live,2021-02-11,75,2
+T-00000084,P-00000130,michelle.king91@gmail.com,Michelle,King,Wait Wait Live,2020-11-18,75,1
+T-00000085,P-00000130,michelle.king91@gmail.com,Michelle,King,StoryCorps Recording,2020-02-08,0,2
+T-00000086,P-00000130,michelle.king91@gmail.com,Michelle,King,Wait Wait Live,2024-04-09,75,1
+T-00000087,P-00000137,donald.hernandez6@hotmail.com,Donald,Hernandez,Wait Wait Live,2022-01-05,75,1
+T-00000088,P-00000137,donald.hernandez6@hotmail.com,Donald,Hernandez,Annual Gala,2022-09-27,250,1
+T-00000089,P-00000137,donald.hernandez6@hotmail.com,Donald,Hernandez,News Night,2023-02-15,50,2
+T-00000090,P-00000141,anthony.white15@att.net,Anthony,White,Annual Gala,2020-12-03,250,1
+T-00000091,P-00000142,mark.rivera71@hotmail.com,Mark,Rivera,News Night,2022-07-01,50,2
+T-00000092,P-00000142,mark.rivera71@hotmail.com,Mark,Rivera,Annual Gala,2023-08-08,250,2
+T-00000093,P-00000143,amanda.anderson94@comcast.net,Amanda,Anderson,Wait Wait Live,2024-06-12,75,2
+T-00000094,P-00000146,amanda.young86@outlook.com,Amanda,Young,Election Watch,2023-08-23,25,2
+T-00000095,P-00000148,betty.rivera15@yahoo.com,Betty,Rivera,Podcast Festival,2020-04-24,35,2
+T-00000096,P-00000148,betty.rivera15@yahoo.com,Betty,Rivera,Wait Wait Live,2022-10-12,75,2
+T-00000097,P-00000150,david.hernandez80@outlook.com,David,Hernandez,StoryCorps Recording,2023-07-06,0,2
+T-00000098,P-00000151,richard.moore12@comcast.net,Richard,Moore,Wait Wait Live,2021-04-30,75,2
+T-00000099,P-00000152,george.davis53@comcast.net,George,Davis,StoryCorps Recording,2020-03-15,0,2
+T-00000100,P-00000152,george.davis53@comcast.net,George,Davis,Wait Wait Live,2020-12-22,75,1
+T-00000101,P-00000153,ashley.green28@msn.com,Ashley,Green,Podcast Festival,2023-02-27,35,2
+T-00000102,P-00000154,barbara.robinson31@msn.com,Barbara,Robinson,Annual Gala,2020-10-03,250,2
+T-00000103,P-00000154,barbara.robinson31@msn.com,Barbara,Robinson,StoryCorps Recording,2021-07-02,0,2
+T-00000104,P-00000155,ashley.green98@outlook.com,Ashley,Green,Podcast Festival,2021-03-26,35,1
+T-00000105,P-00000158,kenneth.harris2@comcast.net,Kenneth,Harris,News Night,2021-08-23,50,2
+T-00000106,P-00000158,kenneth.harris2@comcast.net,Kenneth,Harris,Wait Wait Live,2021-11-22,75,1
+T-00000107,P-00000160,barbara.robinson1@icloud.com,Barbara,Robinson,Wait Wait Live,2022-11-24,75,1
+T-00000108,P-00000161,margaret.nelson47@icloud.com,Margaret,Nelson,StoryCorps Recording,2022-05-05,0,2
+T-00000109,P-00000161,margaret.nelson47@icloud.com,Margaret,Nelson,Election Watch,2023-05-05,25,1
+T-00000110,P-00000163,jennifer.torres59@icloud.com,Jennifer,Torres,StoryCorps Recording,2023-03-22,0,1
+T-00000111,P-00000164,brian.king50@sbcglobal.net,Brian,King,Election Watch,2022-11-21,25,1
+T-00000112,P-00000164,brian.king50@sbcglobal.net,Brian,King,Wait Wait Live,2024-10-24,75,2
+T-00000113,P-00000168,margaret.johnson64@aol.com,Margaret,Johnson,Annual Gala,2020-09-23,250,1
+T-00000114,P-00000169,steven.green98@aol.com,Steven,Green,Podcast Festival,2023-06-13,35,1
+T-00000115,P-00000169,steven.green98@aol.com,Steven,Green,Podcast Festival,2020-01-14,35,2
+T-00000116,P-00000173,joshua.anderson15@comcast.net,Joshua,Anderson,Podcast Festival,2023-01-19,35,1
+T-00000117,P-00000173,joshua.anderson15@comcast.net,Joshua,Anderson,Annual Gala,2021-12-26,250,1
+T-00000118,P-00000173,joshua.anderson15@comcast.net,Joshua,Anderson,StoryCorps Recording,2022-09-19,0,2
+T-00000119,P-00000174,jessica.campbell15@sbcglobal.net,Jessica,Campbell,Election Watch,2020-05-23,25,1
+T-00000120,P-00000177,dorothy.scott68@aol.com,Dorothy,Scott,Podcast Festival,2023-11-28,35,1
+T-00000121,P-00000178,margaret.rodriguez9@msn.com,Margaret,Rodriguez,Annual Gala,2024-08-03,250,1
+T-00000122,P-00000180,paul.jones98@gmail.com,Paul,Jones,Election Watch,2021-02-17,25,2
+T-00000123,P-00000185,mary.thompson81@hotmail.com,Mary,Thompson,Annual Gala,2021-05-03,250,1
+T-00000124,P-00000185,mary.thompson81@hotmail.com,Mary,Thompson,Wait Wait Live,2023-05-06,75,2
+T-00000125,P-00000187,michael.thomas92@hotmail.com,Michael,Thomas,StoryCorps Recording,2024-09-20,0,1
+T-00000126,P-00000187,michael.thomas92@hotmail.com,Michael,Thomas,News Night,2024-07-07,50,1
+T-00000127,P-00000188,jennifer.perez72@comcast.net,Jennifer,Perez,StoryCorps Recording,2023-08-12,0,2
+T-00000128,P-00000189,matthew.hall85@yahoo.com,Matthew,Hall,Annual Gala,2023-07-07,250,2
+T-00000129,P-00000189,matthew.hall85@yahoo.com,Matthew,Hall,Podcast Festival,2023-04-30,35,2
+T-00000130,P-00000189,matthew.hall85@yahoo.com,Matthew,Hall,Podcast Festival,2021-03-04,35,1
+T-00000131,P-00000189,matthew.hall85@yahoo.com,Matthew,Hall,News Night,2022-07-28,50,1
+T-00000132,P-00000190,betty.brown55@aol.com,Betty,Brown,Wait Wait Live,2024-03-20,75,1
+T-00000133,P-00000191,timothy.adams82@hotmail.com,Timothy,Adams,News Night,2022-09-30,50,2
+T-00000134,P-00000192,susan.rodriguez35@yahoo.com,Susan,Rodriguez,Podcast Festival,2021-03-26,35,2
+T-00000135,P-00000192,susan.rodriguez35@yahoo.com,Susan,Rodriguez,Annual Gala,2024-01-24,250,2
+T-00000136,P-00000194,kevin.garcia13@icloud.com,Kevin,Garcia,Wait Wait Live,2020-01-05,75,2
+T-00000137,P-00000194,kevin.garcia13@icloud.com,Kevin,Garcia,Podcast Festival,2024-08-31,35,1
+T-00000138,P-00000195,george.lopez18@aol.com,George,Lopez,News Night,2024-10-06,50,1
+T-00000139,P-00000195,george.lopez18@aol.com,George,Lopez,Wait Wait Live,2021-10-23,75,1
+T-00000140,P-00000201,elizabeth.thompson39@icloud.com,Elizabeth,Thompson,Election Watch,2023-01-07,25,1
+T-00000141,P-00000201,elizabeth.thompson39@icloud.com,Elizabeth,Thompson,Election Watch,2024-02-17,25,2
+T-00000142,P-00000202,george.young81@hotmail.com,George,Young,Wait Wait Live,2020-05-09,75,1
+T-00000143,P-00000202,george.young81@hotmail.com,George,Young,News Night,2022-10-27,50,1
+T-00000144,P-00000205,michelle.lee34@att.net,Michelle,Lee,Wait Wait Live,2023-01-30,75,1
+T-00000145,P-00000207,george.white24@gmail.com,George,White,Annual Gala,2021-10-18,250,1
+T-00000146,P-00000208,richard.anderson7@hotmail.com,Richard,Anderson,News Night,2021-10-11,50,2
+T-00000147,P-00000208,richard.anderson7@hotmail.com,Richard,Anderson,Wait Wait Live,2021-07-02,75,2
+T-00000148,P-00000210,anthony.martinez36@att.net,Anthony,Martinez,Wait Wait Live,2020-05-27,75,1
+T-00000149,P-00000210,anthony.martinez36@att.net,Anthony,Martinez,Podcast Festival,2022-09-12,35,2
+T-00000150,P-00000212,anthony.perez30@outlook.com,Anthony,Perez,Annual Gala,2022-08-29,250,2
+T-00000151,P-00000214,linda.rivera7@comcast.net,Linda,Rivera,Wait Wait Live,2021-04-10,75,2
+T-00000152,P-00000214,linda.rivera7@comcast.net,Linda,Rivera,Wait Wait Live,2023-07-28,75,1
+T-00000153,P-00000215,donald.gonzalez2@icloud.com,Donald,Gonzalez,Podcast Festival,2023-10-13,35,2
+T-00000154,P-00000217,carol.campbell8@msn.com,Carol,Campbell,Wait Wait Live,2023-01-22,75,1
+T-00000155,P-00000218,michelle.wright98@sbcglobal.net,Michelle,Wright,Election Watch,2023-10-06,25,2
+T-00000156,P-00000221,elizabeth.white26@icloud.com,Elizabeth,White,News Night,2021-09-30,50,1
+T-00000157,P-00000223,patricia.white30@yahoo.com,Patricia,White,Annual Gala,2022-09-19,250,1
+T-00000158,P-00000225,margaret.campbell45@gmail.com,Margaret,Campbell,Podcast Festival,2020-06-10,35,1
+T-00000159,P-00000226,jennifer.campbell9@msn.com,Jennifer,Campbell,Annual Gala,2023-03-31,250,2
+T-00000160,P-00000226,jennifer.campbell9@msn.com,Jennifer,Campbell,News Night,2020-05-30,50,2
+T-00000161,P-00000228,betty.jones84@gmail.com,Betty,Jones,News Night,2022-09-28,50,1
+T-00000162,P-00000232,brian.lee50@gmail.com,Brian,Lee,Podcast Festival,2021-02-03,35,2
+T-00000163,P-00000234,daniel.moore3@comcast.net,Daniel,Moore,Annual Gala,2023-05-10,250,1
+T-00000164,P-00000237,elizabeth.lee2@aol.com,Elizabeth,Lee,Podcast Festival,2022-09-03,35,1
+T-00000165,P-00000237,elizabeth.lee2@aol.com,Elizabeth,Lee,Podcast Festival,2024-05-27,35,2
+T-00000166,P-00000237,elizabeth.lee2@aol.com,Elizabeth,Lee,Election Watch,2021-12-06,25,1
+T-00000167,P-00000237,elizabeth.lee2@aol.com,Elizabeth,Lee,Election Watch,2021-12-23,25,2
+T-00000168,P-00000241,dorothy.wright39@outlook.com,Dorothy,Wright,Election Watch,2021-04-13,25,2
+T-00000169,P-00000243,amanda.flores42@outlook.com,Amanda,Flores,Annual Gala,2022-09-15,250,1
+T-00000170,P-00000246,margaret.nguyen95@comcast.net,Margaret,Nguyen,Podcast Festival,2021-08-28,35,1
+T-00000171,P-00000248,mary.campbell85@att.net,Mary,Campbell,Wait Wait Live,2024-03-15,75,2
+T-00000172,P-00000248,mary.campbell85@att.net,Mary,Campbell,News Night,2022-09-13,50,2
+T-00000173,P-00000252,michael.brown25@aol.com,Michael,Brown,Election Watch,2022-07-25,25,2
+T-00000174,P-00000253,emily.lopez39@sbcglobal.net,Emily,Lopez,Election Watch,2021-11-20,25,1
+T-00000175,P-00000257,paul.harris59@sbcglobal.net,Paul,Harris,Annual Gala,2021-04-12,250,1
+T-00000176,P-00000257,paul.harris59@sbcglobal.net,Paul,Harris,Annual Gala,2020-09-15,250,1
+T-00000177,P-00000261,donald.perez21@hotmail.com,Donald,Perez,Podcast Festival,2024-08-07,35,1
+T-00000178,P-00000263,christopher.lopez90@att.net,Christopher,Lopez,Podcast Festival,2022-03-21,35,1
+T-00000179,P-00000264,michelle.wilson48@outlook.com,Michelle,Wilson,Annual Gala,2020-07-19,250,2
+T-00000180,P-00000264,michelle.wilson48@outlook.com,Michelle,Wilson,Annual Gala,2024-11-25,250,1
+T-00000181,P-00000267,kevin.hill11@gmail.com,Kevin,Hill,Podcast Festival,2021-02-02,35,2
+T-00000182,P-00000272,kenneth.ramirez84@aol.com,Kenneth,Ramirez,Annual Gala,2024-02-19,250,2
+T-00000183,P-00000272,kenneth.ramirez84@aol.com,Kenneth,Ramirez,News Night,2020-12-27,50,2
+T-00000184,P-00000277,joshua.smith47@outlook.com,Joshua,Smith,Annual Gala,2024-04-15,250,2
+T-00000185,P-00000278,timothy.walker38@icloud.com,Timothy,Walker,Wait Wait Live,2020-09-23,75,1
+T-00000186,P-00000280,brian.clark51@yahoo.com,Brian,Clark,Annual Gala,2021-01-16,250,1
+T-00000187,P-00000281,joshua.adams35@comcast.net,Joshua,Adams,Wait Wait Live,2024-10-10,75,1
+T-00000188,P-00000282,patricia.jones49@yahoo.com,Patricia,Jones,Election Watch,2023-06-24,25,1
+T-00000189,P-00000284,andrew.gonzalez11@outlook.com,Andrew,Gonzalez,News Night,2024-05-15,50,2
+T-00000190,P-00000284,andrew.gonzalez11@outlook.com,Andrew,Gonzalez,Election Watch,2024-01-26,25,1
+T-00000191,P-00000284,andrew.gonzalez11@outlook.com,Andrew,Gonzalez,Annual Gala,2020-07-29,250,1
+T-00000192,P-00000285,nancy.jackson85@att.net,Nancy,Jackson,Annual Gala,2024-11-25,250,1
+T-00000193,P-00000288,jennifer.scott75@gmail.com,Jennifer,Scott,Podcast Festival,2023-07-20,35,2
+T-00000194,P-00000291,steven.thomas96@aol.com,Steven,Thomas,Wait Wait Live,2020-07-23,75,1
+T-00000195,P-00000293,linda.sanchez71@comcast.net,Linda,Sanchez,Wait Wait Live,2020-04-15,75,2
+T-00000196,P-00000294,michelle.davis60@sbcglobal.net,Michelle,Davis,Annual Gala,2020-02-18,250,1
+T-00000197,P-00000296,mary.flores34@msn.com,Mary,Flores,StoryCorps Recording,2020-08-18,0,2
+T-00000198,P-00000297,timothy.walker39@hotmail.com,Timothy,Walker,Election Watch,2020-10-10,25,2
+T-00000199,P-00000298,sandra.gonzalez19@icloud.com,Sandra,Gonzalez,StoryCorps Recording,2021-09-24,0,1
+T-00000200,P-00000298,sandra.gonzalez19@icloud.com,Sandra,Gonzalez,News Night,2023-02-16,50,1
+T-00000201,P-00000299,emily.davis52@outlook.com,Emily,Davis,StoryCorps Recording,2021-01-31,0,1
+T-00000202,P-00000300,patricia.gonzalez8@yahoo.com,Patricia,Gonzalez,Wait Wait Live,2021-05-15,75,1
+T-00000203,P-00000300,patricia.gonzalez8@yahoo.com,Patricia,Gonzalez,Podcast Festival,2021-05-01,35,2
+T-00000204,P-00000305,brian.gonzalez33@att.net,Brian,Gonzalez,Annual Gala,2024-06-16,250,1
+T-00000205,P-00000309,george.king88@att.net,George,King,Podcast Festival,2020-01-28,35,1
+T-00000206,P-00000309,george.king88@att.net,George,King,Election Watch,2021-09-11,25,2
+T-00000207,P-00000310,margaret.flores54@gmail.com,Margaret,Flores,Podcast Festival,2024-03-30,35,1
+T-00000208,P-00000310,margaret.flores54@gmail.com,Margaret,Flores,Election Watch,2021-06-26,25,1
+T-00000209,P-00000310,margaret.flores54@gmail.com,Margaret,Flores,Annual Gala,2021-11-27,250,2
+T-00000210,P-00000311,carol.campbell74@icloud.com,Carol,Campbell,News Night,2021-07-28,50,1
+T-00000211,P-00000312,nancy.lewis60@msn.com,Nancy,Lewis,Annual Gala,2021-02-26,250,1
+T-00000212,P-00000312,nancy.lewis60@msn.com,Nancy,Lewis,Wait Wait Live,2023-02-28,75,1
+T-00000213,P-00000318,richard.gonzalez72@att.net,Richard,Gonzalez,Wait Wait Live,2023-12-02,75,2
+T-00000214,P-00000318,richard.gonzalez72@att.net,Richard,Gonzalez,Wait Wait Live,2024-03-09,75,1
+T-00000215,P-00000320,paul.nguyen15@msn.com,Paul,Nguyen,Election Watch,2020-03-13,25,1
+T-00000216,P-00000320,paul.nguyen15@msn.com,Paul,Nguyen,Podcast Festival,2023-06-02,35,2
+T-00000217,P-00000322,richard.gonzalez11@aol.com,Richard,Gonzalez,Annual Gala,2021-07-24,250,2
+T-00000218,P-00000323,barbara.hernandez89@yahoo.com,Barbara,Hernandez,Election Watch,2024-01-10,25,1
+T-00000219,P-00000324,carol.lewis17@icloud.com,Carol,Lewis,Annual Gala,2022-08-01,250,1
+T-00000220,P-00000324,carol.lewis17@icloud.com,Carol,Lewis,Annual Gala,2022-07-14,250,2
+T-00000221,P-00000325,sandra.smith81@outlook.com,Sandra,Smith,Annual Gala,2020-02-26,250,2
+T-00000222,P-00000325,sandra.smith81@outlook.com,Sandra,Smith,StoryCorps Recording,2021-02-27,0,1
+T-00000223,P-00000326,margaret.adams88@msn.com,Margaret,Adams,Wait Wait Live,2022-08-11,75,2
+T-00000224,P-00000326,margaret.adams88@msn.com,Margaret,Adams,Wait Wait Live,2022-02-01,75,1
+T-00000225,P-00000327,mark.lewis13@msn.com,Mark,Lewis,Podcast Festival,2021-06-17,35,1
+T-00000226,P-00000327,mark.lewis13@msn.com,Mark,Lewis,Wait Wait Live,2020-07-20,75,2
+T-00000227,P-00000327,mark.lewis13@msn.com,Mark,Lewis,Wait Wait Live,2021-12-09,75,1
+T-00000228,P-00000327,mark.lewis13@msn.com,Mark,Lewis,Election Watch,2021-01-14,25,1
+T-00000229,P-00000329,betty.wilson18@outlook.com,Betty,Wilson,StoryCorps Recording,2022-09-04,0,1
+T-00000230,P-00000331,kimberly.hall93@outlook.com,Kimberly,Hall,News Night,2024-08-09,50,1
+T-00000231,P-00000331,kimberly.hall93@outlook.com,Kimberly,Hall,Election Watch,2023-10-05,25,1
+T-00000232,P-00000333,karen.anderson93@att.net,Karen,Anderson,Podcast Festival,2022-02-06,35,1
+T-00000233,P-00000335,matthew.thompson95@icloud.com,Matthew,Thompson,Wait Wait Live,2023-02-13,75,1
+T-00000234,P-00000339,dorothy.martinez9@gmail.com,Dorothy,Martinez,Wait Wait Live,2022-08-18,75,1
+T-00000235,P-00000341,thomas.young70@gmail.com,Thomas,Young,StoryCorps Recording,2022-12-07,0,1
+T-00000236,P-00000341,thomas.young70@gmail.com,Thomas,Young,Wait Wait Live,2024-05-24,75,2
+T-00000237,P-00000341,thomas.young70@gmail.com,Thomas,Young,StoryCorps Recording,2024-09-16,0,2
+T-00000238,P-00000341,thomas.young70@gmail.com,Thomas,Young,News Night,2021-03-20,50,2
+T-00000239,P-00000346,andrew.jackson89@outlook.com,Andrew,Jackson,Election Watch,2023-04-23,25,2
+T-00000240,P-00000347,linda.miller67@yahoo.com,Linda,Miller,Wait Wait Live,2020-12-22,75,1
+T-00000241,P-00000349,paul.mitchell19@aol.com,Paul,Mitchell,Podcast Festival,2024-10-09,35,1
+T-00000242,P-00000350,joseph.martin7@comcast.net,Joseph,Martin,StoryCorps Recording,2024-08-07,0,1
+T-00000243,P-00000352,robert.ramirez69@yahoo.com,Robert,Ramirez,Wait Wait Live,2022-06-16,75,2
+T-00000244,P-00000363,elizabeth.nguyen91@att.net,Elizabeth,Nguyen,Election Watch,2023-07-22,25,1
+T-00000245,P-00000363,elizabeth.nguyen91@att.net,Elizabeth,Nguyen,StoryCorps Recording,2022-03-26,0,2
+T-00000246,P-00000363,elizabeth.nguyen91@att.net,Elizabeth,Nguyen,StoryCorps Recording,2021-05-20,0,1
+T-00000247,P-00000363,elizabeth.nguyen91@att.net,Elizabeth,Nguyen,StoryCorps Recording,2024-02-12,0,2
+T-00000248,P-00000364,anthony.hill60@gmail.com,Anthony,Hill,StoryCorps Recording,2020-06-03,0,2
+T-00000249,P-00000364,anthony.hill60@gmail.com,Anthony,Hill,News Night,2020-12-10,50,1
+T-00000250,P-00000364,anthony.hill60@gmail.com,Anthony,Hill,Wait Wait Live,2020-10-20,75,1
+T-00000251,P-00000366,patricia.perez61@aol.com,Patricia,Perez,Annual Gala,2021-09-22,250,2
+T-00000252,P-00000366,patricia.perez61@aol.com,Patricia,Perez,Wait Wait Live,2022-01-06,75,1
+T-00000253,P-00000369,anthony.hall46@comcast.net,Anthony,Hall,Annual Gala,2020-05-14,250,1
+T-00000254,P-00000370,william.garcia35@comcast.net,William,Garcia,StoryCorps Recording,2024-06-26,0,1
+T-00000255,P-00000375,james.lewis98@hotmail.com,James,Lewis,Annual Gala,2020-08-11,250,1
+T-00000256,P-00000375,james.lewis98@hotmail.com,James,Lewis,News Night,2024-07-29,50,2
+T-00000257,P-00000379,charles.johnson45@hotmail.com,Charles,Johnson,StoryCorps Recording,2021-04-02,0,1
+T-00000258,P-00000379,charles.johnson45@hotmail.com,Charles,Johnson,Wait Wait Live,2024-02-13,75,1
+T-00000259,P-00000379,charles.johnson45@hotmail.com,Charles,Johnson,Annual Gala,2021-06-21,250,1
+T-00000260,P-00000380,melissa.johnson22@aol.com,Melissa,Johnson,News Night,2022-07-10,50,2
+T-00000261,P-00000380,melissa.johnson22@aol.com,Melissa,Johnson,Annual Gala,2023-08-14,250,2
+T-00000262,P-00000385,christopher.wright83@comcast.net,Christopher,Wright,Wait Wait Live,2020-09-05,75,1
+T-00000263,P-00000385,christopher.wright83@comcast.net,Christopher,Wright,Podcast Festival,2021-12-21,35,1
+T-00000264,P-00000386,michael.lee36@msn.com,Michael,Lee,News Night,2021-02-24,50,1
+T-00000265,P-00000386,michael.lee36@msn.com,Michael,Lee,Election Watch,2021-06-21,25,2
+T-00000266,P-00000387,jessica.davis59@sbcglobal.net,Jessica,Davis,News Night,2021-06-23,50,1
+T-00000267,P-00000388,thomas.thomas90@yahoo.com,Thomas,Thomas,Election Watch,2024-09-22,25,1
+T-00000268,P-00000388,thomas.thomas90@yahoo.com,Thomas,Thomas,Podcast Festival,2022-10-25,35,1
+T-00000269,P-00000389,donna.campbell38@hotmail.com,Donna,Campbell,Election Watch,2021-02-23,25,2
+T-00000270,P-00000390,mark.scott22@msn.com,Mark,Scott,StoryCorps Recording,2024-06-30,0,2
+T-00000271,P-00000392,thomas.jones46@yahoo.com,Thomas,Jones,Podcast Festival,2021-04-21,35,1
+T-00000272,P-00000392,thomas.jones46@yahoo.com,Thomas,Jones,Election Watch,2020-11-12,25,2
+T-00000273,P-00000392,thomas.jones46@yahoo.com,Thomas,Jones,Election Watch,2023-07-23,25,1
+T-00000274,P-00000395,melissa.wright38@att.net,Melissa,Wright,Election Watch,2023-07-17,25,2
+T-00000275,P-00000395,melissa.wright38@att.net,Melissa,Wright,Annual Gala,2020-05-22,250,1
+T-00000276,P-00000397,brian.harris48@hotmail.com,Brian,Harris,Wait Wait Live,2024-01-27,75,2
+T-00000277,P-00000398,daniel.lopez4@aol.com,Daniel,Lopez,StoryCorps Recording,2024-11-11,0,1
+T-00000278,P-00000400,elizabeth.perez65@comcast.net,Elizabeth,Perez,Annual Gala,2020-02-21,250,1
+T-00000279,P-00000400,elizabeth.perez65@comcast.net,Elizabeth,Perez,Election Watch,2020-09-25,25,1
+T-00000280,P-00000400,elizabeth.perez65@comcast.net,Elizabeth,Perez,News Night,2024-05-15,50,1
+T-00000281,P-00000400,elizabeth.perez65@comcast.net,Elizabeth,Perez,Annual Gala,2022-07-16,250,2
+T-00000282,P-00000403,karen.davis90@gmail.com,Karen,Davis,Annual Gala,2021-04-15,250,1
+T-00000283,P-00000404,jessica.hall48@icloud.com,Jessica,Hall,Podcast Festival,2020-08-26,35,2
+T-00000284,P-00000404,jessica.hall48@icloud.com,Jessica,Hall,Annual Gala,2024-09-02,250,1
+T-00000285,P-00000404,jessica.hall48@icloud.com,Jessica,Hall,Wait Wait Live,2022-12-22,75,1
+T-00000286,P-00000405,linda.anderson94@outlook.com,Linda,Anderson,Wait Wait Live,2023-08-24,75,2
+T-00000287,P-00000405,linda.anderson94@outlook.com,Linda,Anderson,StoryCorps Recording,2024-08-03,0,2
+T-00000288,P-00000405,linda.anderson94@outlook.com,Linda,Anderson,Annual Gala,2021-08-22,250,2
+T-00000289,P-00000410,robert.nguyen40@att.net,Robert,Nguyen,Podcast Festival,2024-06-11,35,2
+T-00000290,P-00000411,dorothy.adams56@yahoo.com,Dorothy,Adams,Election Watch,2023-03-30,25,1
+T-00000291,P-00000411,dorothy.adams56@yahoo.com,Dorothy,Adams,Annual Gala,2022-03-13,250,2
+T-00000292,P-00000411,dorothy.adams56@yahoo.com,Dorothy,Adams,Podcast Festival,2021-07-31,35,2
+T-00000293,P-00000412,dorothy.anderson39@gmail.com,Dorothy,Anderson,Election Watch,2021-01-06,25,1
+T-00000294,P-00000412,dorothy.anderson39@gmail.com,Dorothy,Anderson,News Night,2023-07-14,50,1
+T-00000295,P-00000414,anthony.young13@gmail.com,Anthony,Young,StoryCorps Recording,2023-10-24,0,2
+T-00000296,P-00000416,jessica.perez72@comcast.net,Jessica,Perez,News Night,2024-11-25,50,2
+T-00000297,P-00000419,joseph.taylor58@att.net,Joseph,Taylor,StoryCorps Recording,2022-04-12,0,2
+T-00000298,P-00000420,timothy.gonzalez28@sbcglobal.net,Timothy,Gonzalez,Annual Gala,2023-03-06,250,2
+T-00000299,P-00000422,elizabeth.baker87@outlook.com,Elizabeth,Baker,News Night,2024-05-17,50,1
+T-00000300,P-00000422,elizabeth.baker87@outlook.com,Elizabeth,Baker,Annual Gala,2020-06-21,250,2
+T-00000301,P-00000425,donald.lee40@comcast.net,Donald,Lee,Wait Wait Live,2024-09-03,75,2
+T-00000302,P-00000426,kevin.wright11@att.net,Kevin,Wright,Podcast Festival,2020-05-13,35,1
+T-00000303,P-00000428,lisa.sanchez43@outlook.com,Lisa,Sanchez,News Night,2024-09-18,50,1
+T-00000304,P-00000429,andrew.rivera56@gmail.com,Andrew,Rivera,Annual Gala,2023-09-18,250,2
+T-00000305,P-00000429,andrew.rivera56@gmail.com,Andrew,Rivera,Annual Gala,2023-08-10,250,1
+T-00000306,P-00000431,michael.white73@msn.com,Michael,White,News Night,2021-09-17,50,1
+T-00000307,P-00000431,michael.white73@msn.com,Michael,White,Annual Gala,2024-10-07,250,1
+T-00000308,P-00000432,jessica.anderson76@sbcglobal.net,Jessica,Anderson,Podcast Festival,2021-12-26,35,1
+T-00000309,P-00000432,jessica.anderson76@sbcglobal.net,Jessica,Anderson,News Night,2023-05-03,50,1
+T-00000310,P-00000433,matthew.brown48@comcast.net,Matthew,Brown,Wait Wait Live,2020-03-17,75,1
+T-00000311,P-00000434,lisa.lee38@msn.com,Lisa,Lee,Annual Gala,2023-04-15,250,2
+T-00000312,P-00000434,lisa.lee38@msn.com,Lisa,Lee,Election Watch,2021-02-09,25,1
+T-00000313,P-00000435,robert.garcia47@comcast.net,Robert,Garcia,Election Watch,2020-11-25,25,1
+T-00000314,P-00000435,robert.garcia47@comcast.net,Robert,Garcia,StoryCorps Recording,2022-02-19,0,2
+T-00000315,P-00000436,michael.flores10@sbcglobal.net,Michael,Flores,Wait Wait Live,2021-03-13,75,1
+T-00000316,P-00000436,michael.flores10@sbcglobal.net,Michael,Flores,News Night,2024-08-13,50,1
+T-00000317,P-00000436,michael.flores10@sbcglobal.net,Michael,Flores,Annual Gala,2023-09-27,250,2
+T-00000318,P-00000440,james.smith63@msn.com,James,Smith,News Night,2020-05-31,50,2
+T-00000319,P-00000441,timothy.taylor90@gmail.com,Timothy,Taylor,News Night,2023-01-25,50,2
+T-00000320,P-00000445,andrew.jackson35@msn.com,Andrew,Jackson,News Night,2022-04-16,50,1
+T-00000321,P-00000445,andrew.jackson35@msn.com,Andrew,Jackson,StoryCorps Recording,2023-03-15,0,1
+T-00000322,P-00000446,jennifer.wilson79@outlook.com,Jennifer,Wilson,Wait Wait Live,2023-02-23,75,1
+T-00000323,P-00000447,margaret.young31@hotmail.com,Margaret,Young,Election Watch,2020-02-17,25,1
+T-00000324,P-00000447,margaret.young31@hotmail.com,Margaret,Young,Election Watch,2023-05-03,25,1
+T-00000325,P-00000448,carol.hill57@hotmail.com,Carol,Hill,StoryCorps Recording,2020-05-17,0,2
+T-00000326,P-00000448,carol.hill57@hotmail.com,Carol,Hill,Election Watch,2022-03-21,25,1
+T-00000327,P-00000451,richard.nelson96@outlook.com,Richard,Nelson,Annual Gala,2023-10-06,250,1
+T-00000328,P-00000452,andrew.perez84@aol.com,Andrew,Perez,Annual Gala,2021-08-18,250,1
+T-00000329,P-00000453,paul.moore73@comcast.net,Paul,Moore,Wait Wait Live,2022-03-31,75,1
+T-00000330,P-00000454,matthew.robinson28@yahoo.com,Matthew,Robinson,Podcast Festival,2020-01-18,35,1
+T-00000331,P-00000454,matthew.robinson28@yahoo.com,Matthew,Robinson,Annual Gala,2021-12-23,250,2
+T-00000332,P-00000454,matthew.robinson28@yahoo.com,Matthew,Robinson,Podcast Festival,2023-02-12,35,1
+T-00000333,P-00000454,matthew.robinson28@yahoo.com,Matthew,Robinson,News Night,2024-05-05,50,2
+T-00000334,P-00000455,sandra.green78@hotmail.com,Sandra,Green,Annual Gala,2021-09-13,250,1
+T-00000335,P-00000455,sandra.green78@hotmail.com,Sandra,Green,Wait Wait Live,2023-01-10,75,2
+T-00000336,P-00000456,christopher.johnson42@yahoo.com,Christopher,Johnson,News Night,2024-09-01,50,1
+T-00000337,P-00000457,betty.thomas57@msn.com,Betty,Thomas,Wait Wait Live,2023-11-06,75,1
+T-00000338,P-00000457,betty.thomas57@msn.com,Betty,Thomas,Wait Wait Live,2021-09-16,75,2
+T-00000339,P-00000459,christopher.scott8@icloud.com,Christopher,Scott,StoryCorps Recording,2020-02-02,0,1
+T-00000340,P-00000461,timothy.rivera19@msn.com,Timothy,Rivera,Podcast Festival,2022-09-10,35,1
+T-00000341,P-00000461,timothy.rivera19@msn.com,Timothy,Rivera,Wait Wait Live,2020-12-22,75,2
+T-00000342,P-00000461,timothy.rivera19@msn.com,Timothy,Rivera,StoryCorps Recording,2024-08-25,0,2
+T-00000343,P-00000463,kimberly.gonzalez93@outlook.com,Kimberly,Gonzalez,Election Watch,2024-04-19,25,1
+T-00000344,P-00000465,joshua.perez68@yahoo.com,Joshua,Perez,News Night,2022-11-29,50,1
+T-00000345,P-00000470,brian.hernandez12@hotmail.com,Brian,Hernandez,Podcast Festival,2023-03-02,35,1
+T-00000346,P-00000472,dorothy.campbell80@aol.com,Dorothy,Campbell,Election Watch,2020-12-11,25,2
+T-00000347,P-00000473,ashley.sanchez66@att.net,Ashley,Sanchez,Podcast Festival,2024-09-18,35,2
+T-00000348,P-00000474,melissa.martin60@yahoo.com,Melissa,Martin,Wait Wait Live,2020-02-20,75,1
+T-00000349,P-00000474,melissa.martin60@yahoo.com,Melissa,Martin,Podcast Festival,2023-11-18,35,1
+T-00000350,P-00000479,ashley.anderson41@aol.com,Ashley,Anderson,StoryCorps Recording,2022-04-06,0,2
+T-00000351,P-00000479,ashley.anderson41@aol.com,Ashley,Anderson,Podcast Festival,2021-02-15,35,1
+T-00000352,P-00000479,ashley.anderson41@aol.com,Ashley,Anderson,News Night,2021-05-14,50,2
+T-00000353,P-00000481,joseph.martin5@sbcglobal.net,Joseph,Martin,StoryCorps Recording,2020-07-22,0,1
+T-00000354,P-00000481,joseph.martin5@sbcglobal.net,Joseph,Martin,Annual Gala,2022-07-28,250,2
+T-00000355,P-00000484,linda.lewis33@hotmail.com,Linda,Lewis,Wait Wait Live,2022-08-15,75,2
+T-00000356,P-00000487,brian.gonzalez20@att.net,Brian,Gonzalez,Podcast Festival,2024-07-30,35,1
+T-00000357,P-00000491,patricia.hernandez7@msn.com,Patricia,Hernandez,News Night,2020-10-14,50,1
+T-00000358,P-00000492,timothy.sanchez54@hotmail.com,Timothy,Sanchez,Election Watch,2022-03-04,25,2
+T-00000359,P-00000492,timothy.sanchez54@hotmail.com,Timothy,Sanchez,Podcast Festival,2024-01-22,35,1
+T-00000360,P-00000493,jessica.rivera93@att.net,Jessica,Rivera,StoryCorps Recording,2021-05-26,0,1
+T-00000361,P-00000494,donna.thompson7@aol.com,Donna,Thompson,Election Watch,2024-10-25,25,2
+T-00000362,P-00000497,brian.clark18@hotmail.com,Brian,Clark,Election Watch,2021-04-19,25,1
+T-00000363,P-00000498,melissa.hill4@aol.com,Melissa,Hill,StoryCorps Recording,2021-08-16,0,2
+T-00000364,P-00000499,david.smith90@comcast.net,David,Smith,Podcast Festival,2022-05-22,35,2
+T-00000365,P-00000500,charles.torres95@icloud.com,Charles,Torres,Election Watch,2021-09-14,25,1
+T-00000366,P-00000500,charles.torres95@icloud.com,Charles,Torres,Election Watch,2023-08-03,25,2
+T-00000367,P-00000501,mark.hill21@comcast.net,Mark,Hill,Wait Wait Live,2020-08-31,75,1
+T-00000368,P-00000501,mark.hill21@comcast.net,Mark,Hill,Podcast Festival,2023-09-05,35,1
+T-00000369,P-00000502,carol.moore7@yahoo.com,Carol,Moore,StoryCorps Recording,2023-05-08,0,1
+T-00000370,P-00000502,carol.moore7@yahoo.com,Carol,Moore,Wait Wait Live,2024-10-31,75,2
+T-00000371,P-00000502,carol.moore7@yahoo.com,Carol,Moore,News Night,2022-06-16,50,1
+T-00000372,P-00000502,carol.moore7@yahoo.com,Carol,Moore,Election Watch,2020-01-20,25,1
+T-00000373,P-00000503,richard.brown68@gmail.com,Richard,Brown,Election Watch,2023-08-08,25,2
+T-00000374,P-00000503,richard.brown68@gmail.com,Richard,Brown,News Night,2022-05-30,50,1
+T-00000375,P-00000504,daniel.thomas28@hotmail.com,Daniel,Thomas,Podcast Festival,2024-05-24,35,1
+T-00000376,P-00000504,daniel.thomas28@hotmail.com,Daniel,Thomas,Podcast Festival,2023-12-14,35,1
+T-00000377,P-00000504,daniel.thomas28@hotmail.com,Daniel,Thomas,News Night,2023-01-16,50,2
+T-00000378,P-00000506,elizabeth.ramirez6@aol.com,Elizabeth,Ramirez,Podcast Festival,2020-03-01,35,2
+T-00000379,P-00000506,elizabeth.ramirez6@aol.com,Elizabeth,Ramirez,Annual Gala,2023-09-20,250,1
+T-00000380,P-00000511,ashley.campbell96@outlook.com,Ashley,Campbell,Wait Wait Live,2024-10-07,75,1
+T-00000381,P-00000511,ashley.campbell96@outlook.com,Ashley,Campbell,News Night,2022-06-12,50,1
+T-00000382,P-00000511,ashley.campbell96@outlook.com,Ashley,Campbell,Podcast Festival,2023-08-25,35,1
+T-00000383,P-00000512,jessica.white94@icloud.com,Jessica,White,StoryCorps Recording,2024-08-03,0,1
+T-00000384,P-00000512,jessica.white94@icloud.com,Jessica,White,Wait Wait Live,2024-06-29,75,1
+T-00000385,P-00000513,george.campbell55@hotmail.com,George,Campbell,StoryCorps Recording,2021-10-30,0,1
+T-00000386,P-00000513,george.campbell55@hotmail.com,George,Campbell,StoryCorps Recording,2023-03-02,0,1
+T-00000387,P-00000513,george.campbell55@hotmail.com,George,Campbell,Podcast Festival,2023-07-08,35,1
+T-00000388,P-00000513,george.campbell55@hotmail.com,George,Campbell,Podcast Festival,2023-01-05,35,2
+T-00000389,P-00000514,carol.white65@hotmail.com,Carol,White,StoryCorps Recording,2024-04-20,0,1
+T-00000390,P-00000515,barbara.ramirez19@outlook.com,Barbara,Ramirez,StoryCorps Recording,2022-05-23,0,2
+T-00000391,P-00000516,andrew.flores77@comcast.net,Andrew,Flores,Podcast Festival,2023-09-08,35,2
+T-00000392,P-00000519,dorothy.miller48@outlook.com,Dorothy,Miller,Podcast Festival,2020-05-26,35,1
+T-00000393,P-00000522,nancy.hall62@gmail.com,Nancy,Hall,News Night,2021-03-31,50,2
+T-00000394,P-00000524,carol.flores18@yahoo.com,Carol,Flores,News Night,2021-09-09,50,2
+T-00000395,P-00000525,kevin.mitchell31@msn.com,Kevin,Mitchell,Podcast Festival,2023-06-01,35,1
+T-00000396,P-00000526,william.walker63@att.net,William,Walker,News Night,2020-08-18,50,1
+T-00000397,P-00000529,joseph.lopez74@att.net,Joseph,Lopez,Annual Gala,2023-12-03,250,1
+T-00000398,P-00000531,anthony.gonzalez92@msn.com,Anthony,Gonzalez,Election Watch,2020-08-10,25,1
+T-00000399,P-00000532,charles.campbell68@sbcglobal.net,Charles,Campbell,Election Watch,2021-01-19,25,1
+T-00000400,P-00000533,anthony.thomas51@att.net,Anthony,Thomas,Podcast Festival,2021-10-04,35,1
+T-00000401,P-00000534,david.clark34@outlook.com,David,Clark,Wait Wait Live,2024-11-10,75,1
+T-00000402,P-00000534,david.clark34@outlook.com,David,Clark,Annual Gala,2023-05-16,250,2
+T-00000403,P-00000534,david.clark34@outlook.com,David,Clark,News Night,2023-11-04,50,1
+T-00000404,P-00000534,david.clark34@outlook.com,David,Clark,Annual Gala,2022-07-20,250,2
+T-00000405,P-00000537,george.smith56@aol.com,George,Smith,Annual Gala,2020-12-12,250,2
+T-00000406,P-00000538,mark.thomas71@comcast.net,Mark,Thomas,Election Watch,2024-08-29,25,1
+T-00000407,P-00000539,emily.torres59@gmail.com,Emily,Torres,News Night,2021-12-23,50,1
+T-00000408,P-00000539,emily.torres59@gmail.com,Emily,Torres,Annual Gala,2022-06-28,250,2
+T-00000409,P-00000541,thomas.scott8@hotmail.com,Thomas,Scott,News Night,2020-07-31,50,2
+T-00000410,P-00000541,thomas.scott8@hotmail.com,Thomas,Scott,Wait Wait Live,2021-11-09,75,2
+T-00000411,P-00000541,thomas.scott8@hotmail.com,Thomas,Scott,News Night,2022-10-17,50,1
+T-00000412,P-00000543,anthony.nguyen91@aol.com,Anthony,Nguyen,Wait Wait Live,2024-09-02,75,2
+T-00000413,P-00000544,joshua.thomas43@gmail.com,Joshua,Thomas,Annual Gala,2022-11-05,250,2
+T-00000414,P-00000550,kimberly.brown71@att.net,Kimberly,Brown,Annual Gala,2023-09-11,250,1
+T-00000415,P-00000553,andrew.robinson75@outlook.com,Andrew,Robinson,Podcast Festival,2021-08-02,35,1
+T-00000416,P-00000553,andrew.robinson75@outlook.com,Andrew,Robinson,Election Watch,2024-06-03,25,1
+T-00000417,P-00000554,sarah.taylor14@comcast.net,Sarah,Taylor,Election Watch,2021-09-23,25,1
+T-00000418,P-00000556,james.clark53@aol.com,James,Clark,Election Watch,2023-03-14,25,1
+T-00000419,P-00000557,matthew.miller71@yahoo.com,Matthew,Miller,Election Watch,2023-09-16,25,1
+T-00000420,P-00000560,mark.jones55@msn.com,Mark,Jones,Election Watch,2020-04-10,25,1
+T-00000421,P-00000567,william.brown17@icloud.com,William,Brown,StoryCorps Recording,2021-10-30,0,1
+T-00000422,P-00000569,donald.walker82@outlook.com,Donald,Walker,Annual Gala,2024-09-04,250,2
+T-00000423,P-00000570,charles.sanchez26@sbcglobal.net,Charles,Sanchez,Wait Wait Live,2022-05-25,75,1
+T-00000424,P-00000571,dorothy.jackson33@gmail.com,Dorothy,Jackson,Annual Gala,2023-07-28,250,1
+T-00000425,P-00000574,paul.sanchez45@outlook.com,Paul,Sanchez,Podcast Festival,2022-02-11,35,2
+T-00000426,P-00000575,barbara.sanchez13@att.net,Barbara,Sanchez,StoryCorps Recording,2021-10-18,0,2
+T-00000427,P-00000577,emily.wilson34@aol.com,Emily,Wilson,News Night,2024-09-19,50,2
+T-00000428,P-00000582,daniel.perez4@yahoo.com,Daniel,Perez,StoryCorps Recording,2021-09-26,0,1
+T-00000429,P-00000583,richard.lopez2@att.net,Richard,Lopez,Election Watch,2022-11-26,25,1
+T-00000430,P-00000583,richard.lopez2@att.net,Richard,Lopez,Election Watch,2020-06-02,25,2
+T-00000431,P-00000584,donald.adams85@aol.com,Donald,Adams,Podcast Festival,2023-01-02,35,2
+T-00000432,P-00000584,donald.adams85@aol.com,Donald,Adams,News Night,2020-05-28,50,2
+T-00000433,P-00000589,mary.moore98@outlook.com,Mary,Moore,Podcast Festival,2021-06-11,35,1
+T-00000434,P-00000590,linda.robinson10@comcast.net,Linda,Robinson,Election Watch,2023-01-11,25,1
+T-00000435,P-00000590,linda.robinson10@comcast.net,Linda,Robinson,Wait Wait Live,2024-08-18,75,2
+T-00000436,P-00000590,linda.robinson10@comcast.net,Linda,Robinson,Election Watch,2021-08-05,25,1
+T-00000437,P-00000592,jessica.smith34@icloud.com,Jessica,Smith,Podcast Festival,2021-11-29,35,1
+T-00000438,P-00000594,margaret.moore86@yahoo.com,Margaret,Moore,Wait Wait Live,2022-04-07,75,2
+T-00000439,P-00000595,ashley.anderson13@icloud.com,Ashley,Anderson,Annual Gala,2024-02-29,250,1
+T-00000440,P-00000606,timothy.gonzalez80@outlook.com,Timothy,Gonzalez,Wait Wait Live,2023-01-03,75,2
+T-00000441,P-00000609,patricia.king69@comcast.net,Patricia,King,Wait Wait Live,2023-09-30,75,1
+T-00000442,P-00000610,daniel.davis92@gmail.com,Daniel,Davis,Wait Wait Live,2023-08-27,75,1
+T-00000443,P-00000611,steven.flores43@hotmail.com,Steven,Flores,Podcast Festival,2020-07-19,35,1
+T-00000444,P-00000620,thomas.ramirez60@hotmail.com,Thomas,Ramirez,Wait Wait Live,2021-02-05,75,1
+T-00000445,P-00000621,james.martinez86@yahoo.com,James,Martinez,News Night,2021-02-27,50,1
+T-00000446,P-00000622,steven.king36@yahoo.com,Steven,King,Election Watch,2024-10-30,25,1
+T-00000447,P-00000625,barbara.adams50@msn.com,Barbara,Adams,Wait Wait Live,2021-12-23,75,1
+T-00000448,P-00000629,charles.jones9@hotmail.com,Charles,Jones,StoryCorps Recording,2023-05-06,0,1
+T-00000449,P-00000632,brian.sanchez55@hotmail.com,Brian,Sanchez,Podcast Festival,2021-06-18,35,2
+T-00000450,P-00000632,brian.sanchez55@hotmail.com,Brian,Sanchez,Election Watch,2023-04-20,25,2
+T-00000451,P-00000633,joseph.green53@att.net,Joseph,Green,Election Watch,2020-07-23,25,2
+T-00000452,P-00000634,michael.jones11@comcast.net,Michael,Jones,News Night,2021-10-01,50,1
+T-00000453,P-00000639,sandra.gonzalez80@icloud.com,Sandra,Gonzalez,StoryCorps Recording,2024-02-14,0,1
+T-00000454,P-00000640,sandra.hall7@msn.com,Sandra,Hall,Annual Gala,2020-01-17,250,2
+T-00000455,P-00000642,donald.hernandez58@gmail.com,Donald,Hernandez,Annual Gala,2022-05-31,250,1
+T-00000456,P-00000643,richard.campbell65@hotmail.com,Richard,Campbell,Election Watch,2023-03-31,25,1
+T-00000457,P-00000643,richard.campbell65@hotmail.com,Richard,Campbell,Annual Gala,2021-12-30,250,2
+T-00000458,P-00000644,karen.williams2@yahoo.com,Karen,Williams,News Night,2020-04-29,50,1
+T-00000459,P-00000644,karen.williams2@yahoo.com,Karen,Williams,StoryCorps Recording,2024-07-11,0,2
+T-00000460,P-00000645,steven.martinez76@outlook.com,Steven,Martinez,StoryCorps Recording,2023-12-11,0,1
+T-00000461,P-00000645,steven.martinez76@outlook.com,Steven,Martinez,Podcast Festival,2024-08-07,35,2
+T-00000462,P-00000647,michael.campbell80@comcast.net,Michael,Campbell,Annual Gala,2023-01-04,250,1
+T-00000463,P-00000647,michael.campbell80@comcast.net,Michael,Campbell,StoryCorps Recording,2020-11-04,0,1
+T-00000464,P-00000647,michael.campbell80@comcast.net,Michael,Campbell,Podcast Festival,2022-12-01,35,1
+T-00000465,P-00000647,michael.campbell80@comcast.net,Michael,Campbell,Annual Gala,2020-05-13,250,2
+T-00000466,P-00000648,linda.allen71@aol.com,Linda,Allen,Election Watch,2020-08-16,25,1
+T-00000467,P-00000648,linda.allen71@aol.com,Linda,Allen,Election Watch,2023-08-22,25,2
+T-00000468,P-00000649,amanda.walker93@sbcglobal.net,Amanda,Walker,Election Watch,2022-07-26,25,1
+T-00000469,P-00000649,amanda.walker93@sbcglobal.net,Amanda,Walker,Podcast Festival,2020-11-15,35,1
+T-00000470,P-00000649,amanda.walker93@sbcglobal.net,Amanda,Walker,Annual Gala,2020-09-05,250,2
+T-00000471,P-00000651,paul.rodriguez91@att.net,Paul,Rodriguez,Election Watch,2022-09-26,25,2
+T-00000472,P-00000651,paul.rodriguez91@att.net,Paul,Rodriguez,News Night,2024-05-25,50,2
+T-00000473,P-00000652,donald.jones7@msn.com,Donald,Jones,StoryCorps Recording,2023-06-01,0,1
+T-00000474,P-00000653,mark.smith74@msn.com,Mark,Smith,StoryCorps Recording,2023-10-31,0,2
+T-00000475,P-00000655,james.hall3@comcast.net,James,Hall,Wait Wait Live,2022-03-12,75,2
+T-00000476,P-00000655,james.hall3@comcast.net,James,Hall,News Night,2021-12-30,50,1
+T-00000477,P-00000655,james.hall3@comcast.net,James,Hall,Annual Gala,2020-06-19,250,2
+T-00000478,P-00000659,ashley.brown36@gmail.com,Ashley,Brown,Podcast Festival,2024-05-13,35,1
+T-00000479,P-00000659,ashley.brown36@gmail.com,Ashley,Brown,News Night,2024-07-18,50,1
+T-00000480,P-00000661,joshua.scott68@outlook.com,Joshua,Scott,News Night,2021-12-22,50,1
+T-00000481,P-00000662,mary.lee44@comcast.net,Mary,Lee,Election Watch,2024-08-30,25,1
+T-00000482,P-00000663,william.walker2@outlook.com,William,Walker,Annual Gala,2020-06-29,250,1
+T-00000483,P-00000666,william.allen18@sbcglobal.net,William,Allen,Election Watch,2020-08-18,25,1
+T-00000484,P-00000668,dorothy.nguyen82@msn.com,Dorothy,Nguyen,Annual Gala,2023-09-10,250,1
+T-00000485,P-00000669,margaret.torres44@yahoo.com,Margaret,Torres,Podcast Festival,2021-03-17,35,2
+T-00000486,P-00000670,michael.robinson76@hotmail.com,Michael,Robinson,News Night,2022-09-28,50,1
+T-00000487,P-00000670,michael.robinson76@hotmail.com,Michael,Robinson,StoryCorps Recording,2021-08-30,0,1
+T-00000488,P-00000673,joshua.robinson70@aol.com,Joshua,Robinson,StoryCorps Recording,2024-05-14,0,2
+T-00000489,P-00000678,paul.jackson83@gmail.com,Paul,Jackson,Annual Gala,2023-11-02,250,2
+T-00000490,P-00000678,paul.jackson83@gmail.com,Paul,Jackson,Wait Wait Live,2023-08-23,75,2
+T-00000491,P-00000678,paul.jackson83@gmail.com,Paul,Jackson,Election Watch,2023-10-07,25,1
+T-00000492,P-00000679,lisa.anderson23@gmail.com,Lisa,Anderson,Election Watch,2023-06-17,25,2
+T-00000493,P-00000680,betty.mitchell38@yahoo.com,Betty,Mitchell,Podcast Festival,2024-07-23,35,2
+T-00000494,P-00000683,daniel.green55@sbcglobal.net,Daniel,Green,Podcast Festival,2020-12-16,35,2
+T-00000495,P-00000684,andrew.nguyen59@aol.com,Andrew,Nguyen,News Night,2021-07-22,50,1
+T-00000496,P-00000684,andrew.nguyen59@aol.com,Andrew,Nguyen,News Night,2023-09-20,50,1
+T-00000497,P-00000684,andrew.nguyen59@aol.com,Andrew,Nguyen,News Night,2022-03-16,50,1
+T-00000498,P-00000684,andrew.nguyen59@aol.com,Andrew,Nguyen,News Night,2024-11-30,50,1
+T-00000499,P-00000685,robert.williams94@outlook.com,Robert,Williams,Wait Wait Live,2021-11-10,75,2
+T-00000500,P-00000686,kevin.johnson45@att.net,Kevin,Johnson,StoryCorps Recording,2024-08-08,0,1
+T-00000501,P-00000694,donna.martin25@yahoo.com,Donna,Martin,News Night,2023-01-13,50,1
+T-00000502,P-00000694,donna.martin25@yahoo.com,Donna,Martin,News Night,2022-07-25,50,2
+T-00000503,P-00000694,donna.martin25@yahoo.com,Donna,Martin,Podcast Festival,2023-10-13,35,2
+T-00000504,P-00000696,kenneth.gonzalez47@aol.com,Kenneth,Gonzalez,StoryCorps Recording,2020-03-05,0,2
+T-00000505,P-00000696,kenneth.gonzalez47@aol.com,Kenneth,Gonzalez,Election Watch,2021-04-10,25,1
+T-00000506,P-00000700,jessica.wright82@comcast.net,Jessica,Wright,News Night,2021-02-18,50,2
+T-00000507,P-00000700,jessica.wright82@comcast.net,Jessica,Wright,Podcast Festival,2023-04-28,35,1
+T-00000508,P-00000700,jessica.wright82@comcast.net,Jessica,Wright,News Night,2020-09-21,50,1
+T-00000509,P-00000701,brian.taylor14@outlook.com,Brian,Taylor,StoryCorps Recording,2020-12-30,0,1
+T-00000510,P-00000701,brian.taylor14@outlook.com,Brian,Taylor,Annual Gala,2021-06-25,250,1
+T-00000511,P-00000702,paul.hill18@sbcglobal.net,Paul,Hill,News Night,2021-12-23,50,2
+T-00000512,P-00000702,paul.hill18@sbcglobal.net,Paul,Hill,Election Watch,2021-10-07,25,1
+T-00000513,P-00000702,paul.hill18@sbcglobal.net,Paul,Hill,Wait Wait Live,2021-12-31,75,1
+T-00000514,P-00000706,jennifer.hall47@msn.com,Jennifer,Hall,Annual Gala,2021-05-23,250,2
+T-00000515,P-00000707,donald.adams14@att.net,Donald,Adams,Podcast Festival,2024-07-24,35,1
+T-00000516,P-00000707,donald.adams14@att.net,Donald,Adams,Wait Wait Live,2022-11-27,75,1
+T-00000517,P-00000709,charles.robinson92@hotmail.com,Charles,Robinson,StoryCorps Recording,2021-09-08,0,2
+T-00000518,P-00000711,donna.thompson75@att.net,Donna,Thompson,Election Watch,2022-01-25,25,1
+T-00000519,P-00000717,timothy.anderson24@gmail.com,Timothy,Anderson,Wait Wait Live,2021-01-02,75,1
+T-00000520,P-00000719,nancy.davis53@att.net,Nancy,Davis,News Night,2020-11-11,50,2
+T-00000521,P-00000720,kenneth.campbell57@icloud.com,Kenneth,Campbell,Podcast Festival,2022-10-05,35,1
+T-00000522,P-00000720,kenneth.campbell57@icloud.com,Kenneth,Campbell,Annual Gala,2024-09-29,250,2
+T-00000523,P-00000720,kenneth.campbell57@icloud.com,Kenneth,Campbell,Annual Gala,2022-07-05,250,1
+T-00000524,P-00000721,susan.nguyen82@sbcglobal.net,Susan,Nguyen,Election Watch,2023-03-01,25,2
+T-00000525,P-00000722,michael.thompson23@comcast.net,Michael,Thompson,Podcast Festival,2023-01-18,35,1
+T-00000526,P-00000726,donald.allen98@comcast.net,Donald,Allen,Podcast Festival,2023-08-24,35,2
+T-00000527,P-00000726,donald.allen98@comcast.net,Donald,Allen,Annual Gala,2022-06-18,250,1
+T-00000528,P-00000726,donald.allen98@comcast.net,Donald,Allen,News Night,2021-04-07,50,2
+T-00000529,P-00000728,david.anderson54@outlook.com,David,Anderson,StoryCorps Recording,2022-10-27,0,1
+T-00000530,P-00000731,daniel.jones6@att.net,Daniel,Jones,StoryCorps Recording,2023-02-11,0,2
+T-00000531,P-00000733,michelle.smith4@att.net,Michelle,Smith,Podcast Festival,2022-02-17,35,2
+T-00000532,P-00000733,michelle.smith4@att.net,Michelle,Smith,Annual Gala,2020-06-25,250,1
+T-00000533,P-00000734,jessica.miller93@att.net,Jessica,Miller,Annual Gala,2020-07-04,250,2
+T-00000534,P-00000734,jessica.miller93@att.net,Jessica,Miller,Annual Gala,2020-09-02,250,2
+T-00000535,P-00000734,jessica.miller93@att.net,Jessica,Miller,Wait Wait Live,2021-01-18,75,1
+T-00000536,P-00000734,jessica.miller93@att.net,Jessica,Miller,Podcast Festival,2022-09-14,35,1
+T-00000537,P-00000736,donald.ramirez79@gmail.com,Donald,Ramirez,StoryCorps Recording,2021-04-30,0,1
+T-00000538,P-00000736,donald.ramirez79@gmail.com,Donald,Ramirez,Election Watch,2023-12-22,25,1
+T-00000539,P-00000737,mark.harris85@icloud.com,Mark,Harris,Election Watch,2020-12-05,25,1
+T-00000540,P-00000737,mark.harris85@icloud.com,Mark,Harris,Annual Gala,2021-12-30,250,2
+T-00000541,P-00000738,andrew.campbell71@aol.com,Andrew,Campbell,Wait Wait Live,2021-12-19,75,1
+T-00000542,P-00000738,andrew.campbell71@aol.com,Andrew,Campbell,News Night,2024-04-13,50,2
+T-00000543,P-00000739,linda.taylor91@gmail.com,Linda,Taylor,News Night,2022-10-14,50,1
+T-00000544,P-00000740,matthew.adams64@yahoo.com,Matthew,Adams,Podcast Festival,2022-02-18,35,1
+T-00000545,P-00000743,jessica.davis96@msn.com,Jessica,Davis,News Night,2022-01-05,50,2
+T-00000546,P-00000743,jessica.davis96@msn.com,Jessica,Davis,Wait Wait Live,2021-03-26,75,1
+T-00000547,P-00000745,linda.martin78@comcast.net,Linda,Martin,News Night,2020-07-18,50,2
+T-00000548,P-00000746,carol.king71@msn.com,Carol,King,Wait Wait Live,2022-06-14,75,1
+T-00000549,P-00000747,anthony.williams84@yahoo.com,Anthony,Williams,StoryCorps Recording,2021-07-06,0,1
+T-00000550,P-00000751,joshua.white25@comcast.net,Joshua,White,Election Watch,2022-01-24,25,1
+T-00000551,P-00000752,william.lopez63@outlook.com,William,Lopez,Wait Wait Live,2021-04-02,75,2
+T-00000552,P-00000754,richard.king68@yahoo.com,Richard,King,News Night,2020-01-11,50,1
+T-00000553,P-00000760,jennifer.lee89@msn.com,Jennifer,Lee,Wait Wait Live,2022-07-29,75,2
+T-00000554,P-00000761,amanda.thomas84@att.net,Amanda,Thomas,StoryCorps Recording,2020-04-23,0,1
+T-00000555,P-00000761,amanda.thomas84@att.net,Amanda,Thomas,News Night,2022-11-10,50,1
+T-00000556,P-00000763,sandra.wright40@gmail.com,Sandra,Wright,StoryCorps Recording,2023-10-19,0,2
+T-00000557,P-00000765,kevin.white79@msn.com,Kevin,White,Election Watch,2020-10-15,25,2
+T-00000558,P-00000767,steven.allen41@msn.com,Steven,Allen,Podcast Festival,2022-01-07,35,2
+T-00000559,P-00000771,matthew.lee68@aol.com,Matthew,Lee,Wait Wait Live,2024-01-07,75,1
+T-00000560,P-00000771,matthew.lee68@aol.com,Matthew,Lee,Podcast Festival,2024-11-14,35,2
+T-00000561,P-00000771,matthew.lee68@aol.com,Matthew,Lee,Wait Wait Live,2024-03-29,75,1
+T-00000562,P-00000771,matthew.lee68@aol.com,Matthew,Lee,StoryCorps Recording,2022-06-13,0,1
+T-00000563,P-00000772,nancy.walker77@att.net,Nancy,Walker,Annual Gala,2023-11-01,250,2
+T-00000564,P-00000772,nancy.walker77@att.net,Nancy,Walker,Annual Gala,2022-08-11,250,2
+T-00000565,P-00000772,nancy.walker77@att.net,Nancy,Walker,Annual Gala,2023-12-31,250,1
+T-00000566,P-00000772,nancy.walker77@att.net,Nancy,Walker,Podcast Festival,2022-07-18,35,2
+T-00000567,P-00000779,elizabeth.white4@icloud.com,Elizabeth,White,Annual Gala,2024-03-29,250,2
+T-00000568,P-00000780,melissa.allen83@sbcglobal.net,Melissa,Allen,Election Watch,2024-03-25,25,1
+T-00000569,P-00000780,melissa.allen83@sbcglobal.net,Melissa,Allen,Wait Wait Live,2022-07-24,75,2
+T-00000570,P-00000785,daniel.smith60@outlook.com,Daniel,Smith,Election Watch,2022-10-23,25,1
+T-00000571,P-00000785,daniel.smith60@outlook.com,Daniel,Smith,News Night,2022-05-31,50,1
+T-00000572,P-00000786,elizabeth.martin77@gmail.com,Elizabeth,Martin,Wait Wait Live,2023-10-10,75,2
+T-00000573,P-00000786,elizabeth.martin77@gmail.com,Elizabeth,Martin,Podcast Festival,2022-01-25,35,1
+T-00000574,P-00000787,christopher.king96@hotmail.com,Christopher,King,StoryCorps Recording,2021-03-27,0,1
+T-00000575,P-00000788,sandra.walker75@outlook.com,Sandra,Walker,Election Watch,2021-10-31,25,1
+T-00000576,P-00000788,sandra.walker75@outlook.com,Sandra,Walker,StoryCorps Recording,2022-11-13,0,1
+T-00000577,P-00000790,ashley.adams72@yahoo.com,Ashley,Adams,News Night,2023-09-09,50,2
+T-00000578,P-00000790,ashley.adams72@yahoo.com,Ashley,Adams,StoryCorps Recording,2023-09-23,0,2
+T-00000579,P-00000792,sandra.rodriguez31@msn.com,Sandra,Rodriguez,Wait Wait Live,2024-10-28,75,1
+T-00000580,P-00000792,sandra.rodriguez31@msn.com,Sandra,Rodriguez,Podcast Festival,2024-08-28,35,1
+T-00000581,P-00000795,ashley.king59@sbcglobal.net,Ashley,King,News Night,2020-09-13,50,2
+T-00000582,P-00000795,ashley.king59@sbcglobal.net,Ashley,King,StoryCorps Recording,2023-02-01,0,1
+T-00000583,P-00000799,michael.baker81@outlook.com,Michael,Baker,Annual Gala,2021-10-21,250,1
+T-00000584,P-00000799,michael.baker81@outlook.com,Michael,Baker,News Night,2021-11-29,50,2
+T-00000585,P-00000800,ashley.hernandez35@icloud.com,Ashley,Hernandez,Podcast Festival,2024-03-24,35,1
+T-00000586,P-00000800,ashley.hernandez35@icloud.com,Ashley,Hernandez,StoryCorps Recording,2022-07-18,0,2
+T-00000587,P-00000802,melissa.sanchez77@comcast.net,Melissa,Sanchez,News Night,2023-12-29,50,1
+T-00000588,P-00000803,elizabeth.perez73@gmail.com,Elizabeth,Perez,Election Watch,2021-10-27,25,1
+T-00000589,P-00000806,donna.rivera44@sbcglobal.net,Donna,Rivera,Podcast Festival,2023-03-08,35,2
+T-00000590,P-00000811,matthew.lee13@hotmail.com,Matthew,Lee,StoryCorps Recording,2023-02-20,0,1
+T-00000591,P-00000811,matthew.lee13@hotmail.com,Matthew,Lee,Annual Gala,2022-04-04,250,1
+T-00000592,P-00000811,matthew.lee13@hotmail.com,Matthew,Lee,Election Watch,2020-07-10,25,1
+T-00000593,P-00000811,matthew.lee13@hotmail.com,Matthew,Lee,Podcast Festival,2022-12-29,35,1
+T-00000594,P-00000814,anthony.wright96@gmail.com,Anthony,Wright,News Night,2022-03-31,50,2
+T-00000595,P-00000815,sandra.thomas2@gmail.com,Sandra,Thomas,Wait Wait Live,2022-11-26,75,1
+T-00000596,P-00000817,margaret.thompson14@icloud.com,Margaret,Thompson,Election Watch,2021-04-11,25,2
+T-00000597,P-00000820,joshua.lewis47@aol.com,Joshua,Lewis,Wait Wait Live,2024-03-04,75,1
+T-00000598,P-00000821,karen.anderson58@sbcglobal.net,Karen,Anderson,StoryCorps Recording,2024-10-28,0,1
+T-00000599,P-00000822,michael.nelson52@icloud.com,Michael,Nelson,Annual Gala,2020-11-11,250,2
+T-00000600,P-00000822,michael.nelson52@icloud.com,Michael,Nelson,Podcast Festival,2024-03-21,35,1
+T-00000601,P-00000822,michael.nelson52@icloud.com,Michael,Nelson,Podcast Festival,2024-06-20,35,2
+T-00000602,P-00000825,paul.lee34@sbcglobal.net,Paul,Lee,Podcast Festival,2021-07-05,35,2
+T-00000603,P-00000825,paul.lee34@sbcglobal.net,Paul,Lee,StoryCorps Recording,2023-01-02,0,2
+T-00000604,P-00000828,susan.ramirez88@hotmail.com,Susan,Ramirez,Annual Gala,2021-04-18,250,1
+T-00000605,P-00000830,steven.williams89@gmail.com,Steven,Williams,StoryCorps Recording,2020-01-13,0,2
+T-00000606,P-00000833,charles.walker88@yahoo.com,Charles,Walker,Wait Wait Live,2022-07-20,75,1
+T-00000607,P-00000837,susan.mitchell24@icloud.com,Susan,Mitchell,StoryCorps Recording,2021-11-02,0,1
+T-00000608,P-00000839,joseph.rodriguez1@aol.com,Joseph,Rodriguez,Annual Gala,2024-02-21,250,1
+T-00000609,P-00000839,joseph.rodriguez1@aol.com,Joseph,Rodriguez,News Night,2023-01-02,50,2
+T-00000610,P-00000841,joseph.smith33@aol.com,Joseph,Smith,StoryCorps Recording,2021-03-30,0,2
+T-00000611,P-00000841,joseph.smith33@aol.com,Joseph,Smith,Wait Wait Live,2020-08-19,75,1
+T-00000612,P-00000844,karen.williams50@outlook.com,Karen,Williams,Election Watch,2020-11-13,25,2
+T-00000613,P-00000844,karen.williams50@outlook.com,Karen,Williams,StoryCorps Recording,2024-11-04,0,1
+T-00000614,P-00000845,karen.nguyen64@aol.com,Karen,Nguyen,Annual Gala,2023-10-15,250,1
+T-00000615,P-00000845,karen.nguyen64@aol.com,Karen,Nguyen,Election Watch,2022-12-08,25,2
+T-00000616,P-00000846,anthony.ramirez27@aol.com,Anthony,Ramirez,StoryCorps Recording,2020-04-02,0,2
+T-00000617,P-00000847,ashley.green53@icloud.com,Ashley,Green,News Night,2021-07-04,50,1
+T-00000618,P-00000847,ashley.green53@icloud.com,Ashley,Green,Wait Wait Live,2022-05-31,75,2
+T-00000619,P-00000847,ashley.green53@icloud.com,Ashley,Green,Annual Gala,2021-01-28,250,1
+T-00000620,P-00000849,brian.mitchell27@icloud.com,Brian,Mitchell,StoryCorps Recording,2021-09-23,0,1
+T-00000621,P-00000849,brian.mitchell27@icloud.com,Brian,Mitchell,News Night,2021-07-27,50,2
+T-00000622,P-00000853,charles.miller83@aol.com,Charles,Miller,Podcast Festival,2023-07-27,35,1
+T-00000623,P-00000856,christopher.hill68@comcast.net,Christopher,Hill,Wait Wait Live,2024-03-04,75,2
+T-00000624,P-00000860,betty.brown14@yahoo.com,Betty,Brown,Annual Gala,2022-03-24,250,2
+T-00000625,P-00000860,betty.brown14@yahoo.com,Betty,Brown,Annual Gala,2023-03-19,250,1
+T-00000626,P-00000861,joshua.nelson26@sbcglobal.net,Joshua,Nelson,Election Watch,2020-07-01,25,1
+T-00000627,P-00000861,joshua.nelson26@sbcglobal.net,Joshua,Nelson,Election Watch,2022-08-15,25,2
+T-00000628,P-00000862,michael.smith61@aol.com,Michael,Smith,Podcast Festival,2020-11-18,35,2
+T-00000629,P-00000865,kimberly.ramirez87@gmail.com,Kimberly,Ramirez,Annual Gala,2021-08-02,250,1
+T-00000630,P-00000865,kimberly.ramirez87@gmail.com,Kimberly,Ramirez,Wait Wait Live,2024-09-02,75,1
+T-00000631,P-00000865,kimberly.ramirez87@gmail.com,Kimberly,Ramirez,Annual Gala,2022-11-09,250,1
+T-00000632,P-00000866,lisa.hall30@yahoo.com,Lisa,Hall,News Night,2023-12-20,50,2
+T-00000633,P-00000866,lisa.hall30@yahoo.com,Lisa,Hall,Wait Wait Live,2022-09-16,75,1
+T-00000634,P-00000868,paul.davis16@icloud.com,Paul,Davis,Election Watch,2020-07-06,25,2
+T-00000635,P-00000869,dorothy.lopez73@hotmail.com,Dorothy,Lopez,StoryCorps Recording,2022-10-25,0,2
+T-00000636,P-00000869,dorothy.lopez73@hotmail.com,Dorothy,Lopez,Wait Wait Live,2021-05-23,75,1
+T-00000637,P-00000869,dorothy.lopez73@hotmail.com,Dorothy,Lopez,StoryCorps Recording,2020-08-04,0,2
+T-00000638,P-00000871,timothy.perez32@icloud.com,Timothy,Perez,News Night,2024-05-23,50,1
+T-00000639,P-00000871,timothy.perez32@icloud.com,Timothy,Perez,Election Watch,2022-08-16,25,1
+T-00000640,P-00000872,kevin.adams17@sbcglobal.net,Kevin,Adams,News Night,2024-06-05,50,2
+T-00000641,P-00000872,kevin.adams17@sbcglobal.net,Kevin,Adams,Wait Wait Live,2022-06-19,75,1
+T-00000642,P-00000873,christopher.walker97@outlook.com,Christopher,Walker,Podcast Festival,2023-06-23,35,1
+T-00000643,P-00000876,william.rodriguez44@sbcglobal.net,William,Rodriguez,Wait Wait Live,2024-08-28,75,2
+T-00000644,P-00000880,donald.thomas64@sbcglobal.net,Donald,Thomas,Wait Wait Live,2023-09-04,75,2
+T-00000645,P-00000881,paul.perez56@sbcglobal.net,Paul,Perez,Election Watch,2023-11-23,25,2
+T-00000646,P-00000882,amanda.williams14@hotmail.com,Amanda,Williams,Annual Gala,2023-05-03,250,1
+T-00000647,P-00000882,amanda.williams14@hotmail.com,Amanda,Williams,StoryCorps Recording,2022-05-17,0,1
+T-00000648,P-00000884,brian.gonzalez59@gmail.com,Brian,Gonzalez,StoryCorps Recording,2020-09-12,0,1
+T-00000649,P-00000885,david.thompson69@icloud.com,David,Thompson,Podcast Festival,2020-12-01,35,1
+T-00000650,P-00000886,joshua.anderson43@yahoo.com,Joshua,Anderson,StoryCorps Recording,2024-01-04,0,1
+T-00000651,P-00000890,robert.torres14@att.net,Robert,Torres,News Night,2022-09-29,50,2
+T-00000652,P-00000896,carol.johnson65@outlook.com,Carol,Johnson,News Night,2023-12-31,50,1
+T-00000653,P-00000896,carol.johnson65@outlook.com,Carol,Johnson,News Night,2021-05-03,50,2
+T-00000654,P-00000896,carol.johnson65@outlook.com,Carol,Johnson,StoryCorps Recording,2024-04-22,0,1
+T-00000655,P-00000896,carol.johnson65@outlook.com,Carol,Johnson,Wait Wait Live,2020-06-16,75,1
+T-00000656,P-00000898,brian.miller50@aol.com,Brian,Miller,Annual Gala,2024-10-18,250,1
+T-00000657,P-00000898,brian.miller50@aol.com,Brian,Miller,Podcast Festival,2022-05-13,35,1
+T-00000658,P-00000899,james.lewis35@comcast.net,James,Lewis,Election Watch,2020-04-06,25,2
+T-00000659,P-00000900,elizabeth.johnson72@outlook.com,Elizabeth,Johnson,Election Watch,2020-12-22,25,1
+T-00000660,P-00000900,elizabeth.johnson72@outlook.com,Elizabeth,Johnson,StoryCorps Recording,2020-09-10,0,1
+T-00000661,P-00000902,michael.clark28@aol.com,Michael,Clark,Podcast Festival,2024-01-26,35,1
+T-00000662,P-00000902,michael.clark28@aol.com,Michael,Clark,Election Watch,2023-02-02,25,1
+T-00000663,P-00000902,michael.clark28@aol.com,Michael,Clark,Wait Wait Live,2021-06-03,75,2
+T-00000664,P-00000904,sarah.allen56@icloud.com,Sarah,Allen,Wait Wait Live,2021-03-11,75,1
+T-00000665,P-00000905,kimberly.hill54@icloud.com,Kimberly,Hill,Podcast Festival,2022-12-22,35,1
+T-00000666,P-00000907,christopher.wilson62@hotmail.com,Christopher,Wilson,Election Watch,2020-12-08,25,2
+T-00000667,P-00000911,michael.taylor79@yahoo.com,Michael,Taylor,Wait Wait Live,2021-10-27,75,2
+T-00000668,P-00000912,richard.sanchez88@hotmail.com,Richard,Sanchez,Podcast Festival,2020-08-12,35,2
+T-00000669,P-00000912,richard.sanchez88@hotmail.com,Richard,Sanchez,Podcast Festival,2020-05-16,35,2
+T-00000670,P-00000913,melissa.green35@outlook.com,Melissa,Green,Podcast Festival,2022-03-22,35,1
+T-00000671,P-00000913,melissa.green35@outlook.com,Melissa,Green,Wait Wait Live,2020-09-23,75,1
+T-00000672,P-00000916,matthew.hall97@comcast.net,Matthew,Hall,Annual Gala,2024-10-04,250,2
+T-00000673,P-00000918,joseph.lewis79@att.net,Joseph,Lewis,Annual Gala,2020-04-16,250,1
+T-00000674,P-00000919,amanda.martinez19@yahoo.com,Amanda,Martinez,Annual Gala,2024-07-11,250,2
+T-00000675,P-00000920,donna.thomas95@comcast.net,Donna,Thomas,News Night,2022-04-29,50,2
+T-00000676,P-00000922,michael.nelson49@sbcglobal.net,Michael,Nelson,News Night,2022-10-28,50,2
+T-00000677,P-00000923,mark.clark32@outlook.com,Mark,Clark,Wait Wait Live,2021-09-08,75,1
+T-00000678,P-00000926,george.johnson31@yahoo.com,George,Johnson,Podcast Festival,2023-09-28,35,1
+T-00000679,P-00000928,elizabeth.lewis52@hotmail.com,Elizabeth,Lewis,Election Watch,2020-09-25,25,1
+T-00000680,P-00000928,elizabeth.lewis52@hotmail.com,Elizabeth,Lewis,Annual Gala,2021-02-03,250,2
+T-00000681,P-00000930,mark.lopez17@gmail.com,Mark,Lopez,News Night,2023-12-04,50,1
+T-00000682,P-00000932,barbara.gonzalez51@aol.com,Barbara,Gonzalez,Podcast Festival,2022-07-22,35,2
+T-00000683,P-00000933,patricia.campbell56@sbcglobal.net,Patricia,Campbell,Podcast Festival,2020-11-23,35,2
+T-00000684,P-00000934,kimberly.hernandez33@msn.com,Kimberly,Hernandez,StoryCorps Recording,2020-12-17,0,2
+T-00000685,P-00000937,donald.garcia75@att.net,Donald,Garcia,Wait Wait Live,2023-11-19,75,1
+T-00000686,P-00000938,brian.sanchez76@sbcglobal.net,Brian,Sanchez,StoryCorps Recording,2023-07-21,0,2
+T-00000687,P-00000938,brian.sanchez76@sbcglobal.net,Brian,Sanchez,Podcast Festival,2020-10-26,35,1
+T-00000688,P-00000940,anthony.mitchell23@icloud.com,Anthony,Mitchell,News Night,2022-03-10,50,1
+T-00000689,P-00000943,robert.garcia59@sbcglobal.net,Robert,Garcia,StoryCorps Recording,2022-07-19,0,1
+T-00000690,P-00000946,jennifer.smith97@hotmail.com,Jennifer,Smith,Annual Gala,2022-10-13,250,1
+T-00000691,P-00000946,jennifer.smith97@hotmail.com,Jennifer,Smith,Annual Gala,2020-08-10,250,1
+T-00000692,P-00000949,donald.young80@aol.com,Donald,Young,Election Watch,2021-06-06,25,2
+T-00000693,P-00000950,betty.rivera64@gmail.com,Betty,Rivera,News Night,2022-10-08,50,1
+T-00000694,P-00000950,betty.rivera64@gmail.com,Betty,Rivera,Election Watch,2021-04-30,25,1
+T-00000695,P-00000950,betty.rivera64@gmail.com,Betty,Rivera,Election Watch,2021-12-17,25,1
+T-00000696,P-00000950,betty.rivera64@gmail.com,Betty,Rivera,News Night,2022-09-07,50,2
+T-00000697,P-00000951,jessica.torres48@outlook.com,Jessica,Torres,Podcast Festival,2024-08-11,35,1
+T-00000698,P-00000951,jessica.torres48@outlook.com,Jessica,Torres,Wait Wait Live,2022-04-15,75,1
+T-00000699,P-00000952,kimberly.miller15@gmail.com,Kimberly,Miller,Podcast Festival,2021-07-17,35,1
+T-00000700,P-00000952,kimberly.miller15@gmail.com,Kimberly,Miller,Wait Wait Live,2022-08-11,75,1
+T-00000701,P-00000954,robert.brown18@hotmail.com,Robert,Brown,Annual Gala,2021-12-08,250,2
+T-00000702,P-00000955,thomas.jones37@icloud.com,Thomas,Jones,News Night,2023-01-10,50,1
+T-00000703,P-00000957,steven.lopez63@msn.com,Steven,Lopez,News Night,2023-04-27,50,1
+T-00000704,P-00000957,steven.lopez63@msn.com,Steven,Lopez,Annual Gala,2023-08-02,250,2
+T-00000705,P-00000957,steven.lopez63@msn.com,Steven,Lopez,StoryCorps Recording,2024-01-18,0,2
+T-00000706,P-00000959,christopher.rodriguez34@att.net,Christopher,Rodriguez,News Night,2024-07-10,50,1
+T-00000707,P-00000963,sarah.sanchez18@hotmail.com,Sarah,Sanchez,StoryCorps Recording,2023-06-17,0,1
+T-00000708,P-00000963,sarah.sanchez18@hotmail.com,Sarah,Sanchez,StoryCorps Recording,2023-04-21,0,2
+T-00000709,P-00000964,carol.clark89@att.net,Carol,Clark,Election Watch,2022-04-17,25,2
+T-00000710,P-00000965,carol.lee40@comcast.net,Carol,Lee,StoryCorps Recording,2023-10-13,0,2
+T-00000711,P-00000965,carol.lee40@comcast.net,Carol,Lee,Election Watch,2022-06-01,25,1
+T-00000712,P-00000969,anthony.thomas80@aol.com,Anthony,Thomas,Election Watch,2023-08-31,25,1
+T-00000713,P-00000969,anthony.thomas80@aol.com,Anthony,Thomas,News Night,2021-07-26,50,1
+T-00000714,P-00000970,david.perez65@outlook.com,David,Perez,Annual Gala,2020-04-22,250,2
+T-00000715,P-00000971,richard.clark39@att.net,Richard,Clark,Podcast Festival,2021-08-27,35,2
+T-00000716,P-00000971,richard.clark39@att.net,Richard,Clark,News Night,2022-10-07,50,1
+T-00000717,P-00000971,richard.clark39@att.net,Richard,Clark,Annual Gala,2022-10-10,250,1
+T-00000718,P-00000976,robert.martin70@msn.com,Robert,Martin,Podcast Festival,2020-05-03,35,2
+T-00000719,P-00000976,robert.martin70@msn.com,Robert,Martin,News Night,2022-04-21,50,2
+T-00000720,P-00000977,richard.davis40@att.net,Richard,Davis,Wait Wait Live,2020-07-18,75,1
+T-00000721,P-00000977,richard.davis40@att.net,Richard,Davis,StoryCorps Recording,2024-05-22,0,1
+T-00000722,P-00000978,thomas.clark45@sbcglobal.net,Thomas,Clark,Wait Wait Live,2024-02-01,75,1
+T-00000723,P-00000978,thomas.clark45@sbcglobal.net,Thomas,Clark,News Night,2021-10-15,50,1
+T-00000724,P-00000978,thomas.clark45@sbcglobal.net,Thomas,Clark,Podcast Festival,2023-05-31,35,1
+T-00000725,P-00000981,sandra.hill6@comcast.net,Sandra,Hill,Annual Gala,2024-07-12,250,1
+T-00000726,P-00000983,william.white13@icloud.com,William,White,Wait Wait Live,2023-07-24,75,1
+T-00000727,P-00000983,william.white13@icloud.com,William,White,Annual Gala,2020-01-29,250,1
+T-00000728,P-00000983,william.white13@icloud.com,William,White,Annual Gala,2023-08-10,250,2
+T-00000729,P-00000986,david.adams69@sbcglobal.net,David,Adams,Podcast Festival,2023-08-04,35,1
+T-00000730,P-00000988,thomas.wright43@sbcglobal.net,Thomas,Wright,Podcast Festival,2023-08-10,35,1
+T-00000731,P-00000989,barbara.allen20@icloud.com,Barbara,Allen,News Night,2024-03-10,50,2
+T-00000732,P-00000989,barbara.allen20@icloud.com,Barbara,Allen,Wait Wait Live,2020-08-06,75,2
+T-00000733,P-00000990,matthew.lopez21@msn.com,Matthew,Lopez,News Night,2024-08-25,50,1
+T-00000734,P-00000990,matthew.lopez21@msn.com,Matthew,Lopez,News Night,2021-07-21,50,1
+T-00000735,P-00000991,donald.green52@sbcglobal.net,Donald,Green,Annual Gala,2022-10-26,250,1
+T-00000736,P-00000992,robert.jones92@sbcglobal.net,Robert,Jones,Wait Wait Live,2020-11-30,75,1
+T-00000737,P-00000993,margaret.sanchez83@hotmail.com,Margaret,Sanchez,StoryCorps Recording,2021-08-16,0,2
+T-00000738,P-00000993,margaret.sanchez83@hotmail.com,Margaret,Sanchez,Annual Gala,2024-08-05,250,2
+T-00000739,P-00000997,charles.wilson12@msn.com,Charles,Wilson,Wait Wait Live,2021-08-09,75,1
+T-00000740,P-00000997,charles.wilson12@msn.com,Charles,Wilson,News Night,2022-08-13,50,1
+T-00000741,P-00000997,charles.wilson12@msn.com,Charles,Wilson,Podcast Festival,2020-09-16,35,2

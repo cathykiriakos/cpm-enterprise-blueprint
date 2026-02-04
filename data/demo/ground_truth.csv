@@ -1,0 +1,1001 @@
+person_id,first_name,last_name,email,phone,address,city,state,zip,engagement_level,giving_capacity
+P-00000000,Kenneth,Lewis,kenneth.lewis61@icloud.com,7738204212,8422 Kedzie Ave,Chicago,IL,60615,low,medium
+P-00000001,Sandra,Nguyen,sandra.nguyen64@icloud.com,3126664789,6496 Jackson Blvd,Chicago,IL,60654,low,medium
+P-00000002,Dorothy,Ramirez,dorothy.ramirez55@outlook.com,3123428388,3990 Franklin St,Chicago,IL,60610,low,low
+P-00000003,Patricia,Harris,patricia.harris9@msn.com,8472825665,9655 Irving Park Rd,Chicago,IL,60654,medium,low
+P-00000004,Linda,Campbell,linda.campbell78@gmail.com,6307249859,3173 Fullerton Ave,Chicago,IL,60610,medium,medium
+P-00000005,Donald,Moore,donald.moore44@yahoo.com,7732271741,1095 Congress Pkwy,Evanston,IL,60201,medium,low
+P-00000006,Susan,Thompson,susan.thompson62@att.net,8479411855,8016 Archer Ave,Oak Park,IL,60302,medium,medium
+P-00000007,Anthony,Hall,anthony.hall29@gmail.com,3127556168,5563 Michigan Ave,Oak Park,IL,60302,low,low
+P-00000008,Richard,Taylor,richard.taylor35@hotmail.com,3123109818,5992 Monroe St,Chicago,IL,60615,low,low
+P-00000009,David,Rodriguez,david.rodriguez12@yahoo.com,3125545583,2554 Fullerton Ave,Chicago,IL,60615,low,medium
+P-00000010,Michelle,Perez,michelle.perez65@hotmail.com,8476401218,3940 LaSalle St,Chicago,IL,60610,medium,medium
+P-00000011,Kenneth,Clark,kenneth.clark79@msn.com,7738887739,1584 Ashland Ave,Oak Park,IL,60302,low,medium
+P-00000012,Ashley,Brown,ashley.brown23@comcast.net,8474344014,3342 Belmont Ave,Chicago,IL,60657,low,low
+P-00000013,Lisa,Ramirez,lisa.ramirez42@sbcglobal.net,8472575557,3727 Western Ave,Chicago,IL,60654,high,medium
+P-00000014,Margaret,Harris,margaret.harris62@gmail.com,3126895544,1406 Fullerton Ave,Chicago,IL,60647,low,low
+P-00000015,Michael,Hill,michael.hill72@sbcglobal.net,8475422880,763 Harrison St,Chicago,IL,60622,low,low
+P-00000016,Nancy,Green,nancy.green62@gmail.com,7737484531,1391 Fullerton Ave,Chicago,IL,60614,medium,medium
+P-00000017,Joshua,Taylor,joshua.taylor2@yahoo.com,6303995765,954 LaSalle St,Chicago,IL,60601,low,medium
+P-00000018,Mary,Baker,mary.baker32@aol.com,6308103230,4489 Cicero Ave,Evanston,IL,60201,medium,major
+P-00000019,Lisa,Hernandez,lisa.hernandez73@aol.com,8475506259,2911 Harlem Ave,Chicago,IL,60601,low,medium
+P-00000020,Charles,Martin,charles.martin52@sbcglobal.net,3121071295,6794 Archer Ave,Chicago,IL,60647,high,medium
+P-00000021,Anthony,Thompson,anthony.thompson7@msn.com,3125341747,2149 Michigan Ave,Evanston,IL,60201,low,high
+P-00000022,Joshua,Young,joshua.young9@sbcglobal.net,8725892306,2355 Clark St,Chicago,IL,60647,high,low
+P-00000023,Paul,White,paul.white75@gmail.com,6301501157,4299 Western Ave,Chicago,IL,60614,medium,low
+P-00000024,Anthony,Wright,anthony.wright93@yahoo.com,7736320385,2969 Clark St,Oak Park,IL,60302,medium,low
+P-00000025,Paul,Brown,paul.brown14@icloud.com,6306134207,1318 Cermak Rd,Chicago,IL,60601,low,medium
+P-00000026,Lisa,Perez,lisa.perez51@aol.com,8724438618,325 California Ave,Chicago,IL,60622,medium,medium
+P-00000027,Paul,Jones,paul.jones4@hotmail.com,3123727423,8308 Jackson Blvd,Chicago,IL,60610,high,major
+P-00000028,Jennifer,Wright,jennifer.wright37@att.net,8479519981,706 Clark St,Oak Park,IL,60302,high,low
+P-00000029,Daniel,Young,daniel.young33@hotmail.com,7731688105,5954 Kedzie Ave,Chicago,IL,60647,medium,medium
+P-00000030,Nancy,Young,nancy.young23@yahoo.com,8725353127,8196 Madison St,Chicago,IL,60622,medium,low
+P-00000031,Donald,Adams,donald.adams26@hotmail.com,7736491590,8092 Dearborn St,Chicago,IL,60647,medium,medium
+P-00000032,Amanda,Thomas,amanda.thomas87@yahoo.com,7735183839,953 Ashland Ave,Chicago,IL,60610,medium,medium
+P-00000033,Lisa,Perez,lisa.perez52@msn.com,8729849851,3224 Irving Park Rd,Chicago,IL,60601,low,medium
+P-00000034,Patricia,Garcia,patricia.garcia94@hotmail.com,6304379569,735 Monroe St,Chicago,IL,60614,low,medium
+P-00000035,Charles,Ramirez,charles.ramirez55@msn.com,8474177945,8408 Fullerton Ave,Evanston,IL,60201,high,medium
+P-00000036,James,Smith,james.smith96@aol.com,3121176615,7504 California Ave,Chicago,IL,60654,medium,medium
+P-00000037,Robert,Perez,robert.perez67@msn.com,8721144356,7353 Central Ave,Chicago,IL,60647,low,low
+P-00000038,Timothy,Robinson,timothy.robinson69@msn.com,7734502630,9927 Michigan Ave,Chicago,IL,60614,medium,medium
+P-00000039,Elizabeth,Jones,elizabeth.jones34@outlook.com,7734693305,2589 Armitage Ave,Chicago,IL,60614,high,medium
+P-00000040,Patricia,Thomas,patricia.thomas80@comcast.net,7731049115,9187 Armitage Ave,Chicago,IL,60615,high,medium
+P-00000041,Andrew,Allen,andrew.allen61@hotmail.com,8721251492,5487 Clark St,Chicago,IL,60601,high,medium
+P-00000042,Brian,Baker,brian.baker35@comcast.net,3125833177,9917 Fullerton Ave,Chicago,IL,60654,high,low
+P-00000043,Patricia,Hall,patricia.hall36@sbcglobal.net,8474369720,8967 Monroe St,Chicago,IL,60615,medium,medium
+P-00000044,Andrew,Wright,andrew.wright82@gmail.com,8472355531,3540 Pulaski Rd,Chicago,IL,60614,medium,medium
+P-00000045,Kevin,Robinson,kevin.robinson62@outlook.com,3124264908,798 Ashland Ave,Chicago,IL,60601,low,low
+P-00000046,Kevin,Jackson,kevin.jackson71@outlook.com,8724599865,5586 Roosevelt Rd,Oak Park,IL,60302,medium,low
+P-00000047,Anthony,Lee,anthony.lee53@comcast.net,3121787494,2256 California Ave,Chicago,IL,60614,medium,low
+P-00000048,Steven,Jones,steven.jones87@yahoo.com,6303276360,7341 Oak Park Ave,Chicago,IL,60610,medium,low
+P-00000049,David,Rivera,david.rivera42@sbcglobal.net,7736462810,2781 State St,Chicago,IL,60615,low,low
+P-00000050,Charles,Davis,charles.davis86@outlook.com,3129315390,7594 Central Ave,Chicago,IL,60601,medium,low
+P-00000051,Steven,Jackson,steven.jackson39@msn.com,7738827494,4368 Van Buren St,Chicago,IL,60622,medium,medium
+P-00000052,Karen,Ramirez,karen.ramirez61@sbcglobal.net,3126806466,604 Diversey Pkwy,Chicago,IL,60615,medium,low
+P-00000053,Paul,Nguyen,paul.nguyen6@msn.com,6306747372,6416 Belmont Ave,Chicago,IL,60657,low,low
+P-00000054,Daniel,Hernandez,daniel.hernandez36@hotmail.com,8723373139,6290 Madison St,Chicago,IL,60657,low,low
+P-00000055,James,Williams,james.williams57@msn.com,6306528983,767 California Ave,Chicago,IL,60647,low,low
+P-00000056,Betty,Davis,betty.davis60@yahoo.com,6305166500,4935 Armitage Ave,Evanston,IL,60201,medium,low
+P-00000057,William,Allen,william.allen84@hotmail.com,8473496081,7126 Armitage Ave,Chicago,IL,60657,medium,high
+P-00000058,Elizabeth,Robinson,elizabeth.robinson5@comcast.net,3122110389,2293 Armitage Ave,Chicago,IL,60654,high,low
+P-00000059,Betty,Harris,betty.harris59@gmail.com,8475345760,1733 Madison St,Chicago,IL,60622,medium,low
+P-00000060,Melissa,Garcia,melissa.garcia69@icloud.com,8724196340,7290 LaSalle St,Chicago,IL,60601,medium,medium
+P-00000061,Charles,Taylor,charles.taylor78@sbcglobal.net,3124977266,4880 Van Buren St,Chicago,IL,60657,low,high
+P-00000062,Michelle,Young,michelle.young92@att.net,7739896761,8965 Kedzie Ave,Chicago,IL,60654,medium,medium
+P-00000063,Barbara,Smith,barbara.smith5@sbcglobal.net,3126165679,2914 Harrison St,Chicago,IL,60622,medium,medium
+P-00000064,Susan,Johnson,susan.johnson38@yahoo.com,7731317537,8117 Fullerton Ave,Chicago,IL,60610,medium,low
+P-00000065,Kimberly,Nguyen,kimberly.nguyen88@comcast.net,7732296516,4992 Dearborn St,Chicago,IL,60601,medium,high
+P-00000066,Christopher,Martin,christopher.martin69@yahoo.com,8473691276,6369 Adams St,Chicago,IL,60615,medium,low
+P-00000067,Timothy,Thompson,timothy.thompson80@aol.com,6306106563,8572 Clark St,Chicago,IL,60647,high,medium
+P-00000068,Ashley,Jackson,ashley.jackson5@yahoo.com,6306279548,6777 California Ave,Chicago,IL,60657,medium,medium
+P-00000069,Barbara,Sanchez,barbara.sanchez49@msn.com,8476455770,7340 Oak Park Ave,Chicago,IL,60654,medium,medium
+P-00000070,Timothy,Robinson,timothy.robinson26@outlook.com,3124982588,5911 Harrison St,Chicago,IL,60601,medium,high
+P-00000071,Susan,Sanchez,susan.sanchez78@att.net,7736914988,6909 Congress Pkwy,Chicago,IL,60647,low,low
+P-00000072,Michael,Campbell,michael.campbell18@msn.com,8722215502,8252 Pulaski Rd,Chicago,IL,60647,low,low
+P-00000073,Christopher,Hill,christopher.hill90@sbcglobal.net,3126642264,9895 Monroe St,Chicago,IL,60622,medium,low
+P-00000074,Timothy,Scott,timothy.scott34@att.net,3129411883,6838 Monroe St,Chicago,IL,60622,low,low
+P-00000075,Betty,King,betty.king59@aol.com,8471421240,9604 California Ave,Chicago,IL,60615,low,low
+P-00000076,Melissa,Brown,melissa.brown55@sbcglobal.net,8725612338,2690 Wacker Dr,Chicago,IL,60615,medium,major
+P-00000077,Jennifer,Johnson,jennifer.johnson92@outlook.com,3122030117,5660 State St,Chicago,IL,60614,medium,medium
+P-00000078,George,Baker,george.baker70@msn.com,6302237715,324 Western Ave,Chicago,IL,60657,low,low
+P-00000079,Betty,Wilson,betty.wilson37@outlook.com,8476752810,3844 Wells St,Chicago,IL,60622,low,low
+P-00000080,Matthew,Martinez,matthew.martinez13@att.net,7739291923,8612 Diversey Pkwy,Chicago,IL,60654,medium,medium
+P-00000081,Richard,Anderson,richard.anderson38@comcast.net,8726205597,9410 Cermak Rd,Chicago,IL,60615,high,medium
+P-00000082,Susan,Hernandez,susan.hernandez34@hotmail.com,8723869760,5515 Armitage Ave,Oak Park,IL,60302,medium,high
+P-00000083,Linda,Hernandez,linda.hernandez14@hotmail.com,8479910852,2998 Harlem Ave,Oak Park,IL,60302,medium,high
+P-00000084,Anthony,Hall,anthony.hall89@yahoo.com,8723562469,6084 Pulaski Rd,Evanston,IL,60201,medium,medium
+P-00000085,Christopher,Allen,christopher.allen66@icloud.com,8728905477,5865 Clark St,Chicago,IL,60647,medium,low
+P-00000086,Thomas,Campbell,thomas.campbell94@comcast.net,8727867100,1220 Belmont Ave,Chicago,IL,60601,low,medium
+P-00000087,Patricia,Perez,patricia.perez10@icloud.com,8724131209,6128 Diversey Pkwy,Chicago,IL,60654,low,low
+P-00000088,Thomas,Lewis,thomas.lewis5@outlook.com,6306525633,194 Ashland Ave,Chicago,IL,60615,medium,medium
+P-00000089,Brian,Clark,brian.clark20@msn.com,7739464685,8654 Jackson Blvd,Chicago,IL,60657,high,low
+P-00000090,Sarah,Harris,sarah.harris60@outlook.com,6305390020,3976 Wacker Dr,Chicago,IL,60601,medium,medium
+P-00000091,Steven,Rodriguez,steven.rodriguez51@att.net,3123276106,1892 Congress Pkwy,Chicago,IL,60622,low,low
+P-00000092,Emily,Thompson,emily.thompson1@aol.com,8727149031,2808 Harrison St,Oak Park,IL,60302,low,low
+P-00000093,Betty,Green,betty.green63@outlook.com,3122017433,8073 State St,Chicago,IL,60610,medium,low
+P-00000094,Mark,Taylor,mark.taylor54@att.net,3127231219,3672 Cicero Ave,Chicago,IL,60610,low,medium
+P-00000095,Brian,Perez,brian.perez28@yahoo.com,8471570451,3532 Cermak Rd,Evanston,IL,60201,medium,high
+P-00000096,Michelle,Miller,michelle.miller96@comcast.net,8728433533,2179 Fullerton Ave,Chicago,IL,60601,low,low
+P-00000097,Sandra,Thomas,sandra.thomas19@yahoo.com,3129976973,5590 Harrison St,Chicago,IL,60615,medium,medium
+P-00000098,Sandra,Nguyen,sandra.nguyen63@outlook.com,3126517366,8138 Clark St,Chicago,IL,60610,low,low
+P-00000099,Amanda,King,amanda.king87@comcast.net,6305846769,3562 Belmont Ave,Chicago,IL,60601,medium,medium
+P-00000100,Michael,White,michael.white59@att.net,3124185714,7876 Irving Park Rd,Chicago,IL,60647,low,low
+P-00000101,Ashley,White,ashley.white46@outlook.com,6301499876,6712 Congress Pkwy,Chicago,IL,60615,low,high
+P-00000102,David,Martinez,david.martinez33@comcast.net,8478229039,3552 Ashland Ave,Chicago,IL,60647,medium,low
+P-00000103,Mary,Smith,mary.smith20@msn.com,7732937878,4591 Western Ave,Chicago,IL,60657,medium,low
+P-00000104,Sandra,Rodriguez,sandra.rodriguez53@hotmail.com,6309121849,1487 Cicero Ave,Chicago,IL,60654,low,medium
+P-00000105,Amanda,Thompson,amanda.thompson81@sbcglobal.net,7733859244,1404 Franklin St,Chicago,IL,60601,low,medium
+P-00000106,Amanda,Brown,amanda.brown58@yahoo.com,8472014929,5575 Madison St,Evanston,IL,60201,low,medium
+P-00000107,Anthony,Nguyen,anthony.nguyen76@comcast.net,8471716756,2174 Central Ave,Evanston,IL,60201,low,medium
+P-00000108,Kimberly,Lopez,kimberly.lopez53@comcast.net,7732500844,3069 California Ave,Oak Park,IL,60302,low,medium
+P-00000109,Mary,Nelson,mary.nelson51@icloud.com,6307247794,4224 California Ave,Chicago,IL,60601,high,low
+P-00000110,Emily,Hill,emily.hill54@yahoo.com,8471415008,7815 Harrison St,Chicago,IL,60615,low,medium
+P-00000111,Brian,Taylor,brian.taylor73@msn.com,7735851188,2220 Madison St,Chicago,IL,60654,low,low
+P-00000112,Brian,Flores,brian.flores25@comcast.net,8726787749,7109 Jackson Blvd,Evanston,IL,60201,low,low
+P-00000113,Christopher,Martinez,christopher.martinez55@gmail.com,6305894287,8507 Ashland Ave,Oak Park,IL,60302,medium,high
+P-00000114,Matthew,Torres,matthew.torres80@aol.com,3125381137,5487 Harrison St,Chicago,IL,60622,medium,low
+P-00000115,Betty,Campbell,betty.campbell16@comcast.net,3124813270,6013 California Ave,Evanston,IL,60201,medium,low
+P-00000116,Thomas,Miller,thomas.miller48@att.net,7737691409,3394 Fullerton Ave,Oak Park,IL,60302,low,low
+P-00000117,Dorothy,Hill,dorothy.hill14@att.net,8729948331,8080 State St,Chicago,IL,60601,high,medium
+P-00000118,Betty,Thompson,betty.thompson15@att.net,3128132508,1020 Van Buren St,Chicago,IL,60647,medium,high
+P-00000119,Dorothy,Baker,dorothy.baker55@hotmail.com,7739847905,4446 Pulaski Rd,Chicago,IL,60654,low,low
+P-00000120,Ashley,Wright,ashley.wright46@outlook.com,8477714301,2132 Belmont Ave,Chicago,IL,60647,low,low
+P-00000121,Jessica,Baker,jessica.baker10@sbcglobal.net,6308744064,3860 Clark St,Oak Park,IL,60302,medium,low
+P-00000122,Patricia,Moore,patricia.moore25@gmail.com,8479555080,4594 Cermak Rd,Chicago,IL,60657,low,low
+P-00000123,Joshua,Torres,joshua.torres39@att.net,8726927997,1968 State St,Chicago,IL,60622,low,major
+P-00000124,Linda,Martin,linda.martin74@yahoo.com,3128456985,1036 Cermak Rd,Chicago,IL,60622,high,high
+P-00000125,Robert,Jones,robert.jones47@comcast.net,3129465506,2013 Cermak Rd,Chicago,IL,60622,low,low
+P-00000126,Sarah,Taylor,sarah.taylor3@hotmail.com,8475988023,992 Harrison St,Chicago,IL,60615,low,high
+P-00000127,Joshua,King,joshua.king56@hotmail.com,8723614235,1318 Central Ave,Oak Park,IL,60302,high,low
+P-00000128,Thomas,Flores,thomas.flores5@yahoo.com,6307849486,4233 Wacker Dr,Oak Park,IL,60302,medium,low
+P-00000129,Sarah,Garcia,sarah.garcia60@icloud.com,8471402732,417 Belmont Ave,Chicago,IL,60657,high,medium
+P-00000130,Michelle,King,michelle.king91@gmail.com,8725180303,3339 Irving Park Rd,Chicago,IL,60615,high,high
+P-00000131,Kevin,Gonzalez,kevin.gonzalez53@msn.com,6307115518,3838 Wells St,Oak Park,IL,60302,low,high
+P-00000132,George,Walker,george.walker42@msn.com,8729859060,3841 Franklin St,Chicago,IL,60647,low,high
+P-00000133,Susan,Gonzalez,susan.gonzalez66@gmail.com,3129551646,7109 Irving Park Rd,Chicago,IL,60647,low,high
+P-00000134,Melissa,Garcia,melissa.garcia30@comcast.net,7739824031,1535 Irving Park Rd,Chicago,IL,60610,low,medium
+P-00000135,Lisa,Brown,lisa.brown96@outlook.com,7739527171,1140 Jackson Blvd,Chicago,IL,60614,low,medium
+P-00000136,James,Perez,james.perez82@yahoo.com,8473773707,9054 Clark St,Evanston,IL,60201,medium,low
+P-00000137,Donald,Hernandez,donald.hernandez6@hotmail.com,8725421590,9745 State St,Chicago,IL,60601,high,low
+P-00000138,Joseph,Green,joseph.green15@comcast.net,8477440010,7127 Armitage Ave,Chicago,IL,60647,low,medium
+P-00000139,Lisa,Hernandez,lisa.hernandez81@att.net,6304441628,4216 Harrison St,Chicago,IL,60610,medium,medium
+P-00000140,Jennifer,Jackson,jennifer.jackson69@hotmail.com,8722847865,1033 Harrison St,Oak Park,IL,60302,medium,low
+P-00000141,Anthony,White,anthony.white15@att.net,6309296877,1084 Cermak Rd,Chicago,IL,60654,low,low
+P-00000142,Mark,Rivera,mark.rivera71@hotmail.com,8476150635,8984 Cicero Ave,Chicago,IL,60654,high,medium
+P-00000143,Amanda,Anderson,amanda.anderson94@comcast.net,3128892861,1975 Dearborn St,Oak Park,IL,60302,medium,low
+P-00000144,Lisa,Johnson,lisa.johnson72@gmail.com,8474303389,1489 Harrison St,Chicago,IL,60615,medium,low
+P-00000145,George,Harris,george.harris41@att.net,8721164053,3862 Cicero Ave,Chicago,IL,60601,low,low
+P-00000146,Amanda,Young,amanda.young86@outlook.com,3125530889,9227 Armitage Ave,Chicago,IL,60622,high,low
+P-00000147,Paul,Allen,paul.allen77@gmail.com,8472947763,7933 Kedzie Ave,Oak Park,IL,60302,low,major
+P-00000148,Betty,Rivera,betty.rivera15@yahoo.com,7738258746,2025 Madison St,Evanston,IL,60201,high,low
+P-00000149,Ashley,Green,ashley.green76@att.net,7732308507,3489 Western Ave,Chicago,IL,60654,low,high
+P-00000150,David,Hernandez,david.hernandez80@outlook.com,7732868670,614 Diversey Pkwy,Chicago,IL,60614,medium,medium
+P-00000151,Richard,Moore,richard.moore12@comcast.net,6303962732,1366 Oak Park Ave,Chicago,IL,60622,low,low
+P-00000152,George,Davis,george.davis53@comcast.net,8727512427,3765 Wells St,Chicago,IL,60647,medium,low
+P-00000153,Ashley,Green,ashley.green28@msn.com,8723322466,6336 Kedzie Ave,Chicago,IL,60610,low,low
+P-00000154,Barbara,Robinson,barbara.robinson31@msn.com,8475188891,9679 Fullerton Ave,Chicago,IL,60657,high,low
+P-00000155,Ashley,Green,ashley.green98@outlook.com,7731289102,9733 Dearborn St,Chicago,IL,60614,medium,low
+P-00000156,Barbara,Williams,barbara.williams40@icloud.com,3125214279,6995 Fullerton Ave,Chicago,IL,60654,low,low
+P-00000157,Susan,Johnson,susan.johnson37@icloud.com,8475884797,1625 Irving Park Rd,Chicago,IL,60647,medium,medium
+P-00000158,Kenneth,Harris,kenneth.harris2@comcast.net,3122960826,8319 State St,Chicago,IL,60614,high,low
+P-00000159,James,Flores,james.flores36@comcast.net,8724853321,729 Congress Pkwy,Chicago,IL,60615,low,low
+P-00000160,Barbara,Robinson,barbara.robinson1@icloud.com,6309361735,7215 Michigan Ave,Oak Park,IL,60302,low,low
+P-00000161,Margaret,Nelson,margaret.nelson47@icloud.com,6309480932,3668 Cicero Ave,Chicago,IL,60657,high,medium
+P-00000162,Thomas,Garcia,thomas.garcia78@yahoo.com,3123843940,9335 Oak Park Ave,Chicago,IL,60614,low,low
+P-00000163,Jennifer,Torres,jennifer.torres59@icloud.com,3124040267,4685 Western Ave,Chicago,IL,60657,high,major
+P-00000164,Brian,King,brian.king50@sbcglobal.net,8723428081,9210 Jackson Blvd,Oak Park,IL,60302,medium,low
+P-00000165,George,Thomas,george.thomas8@yahoo.com,8471647296,9306 Wacker Dr,Chicago,IL,60654,low,low
+P-00000166,Timothy,Perez,timothy.perez65@comcast.net,7739121757,6357 Archer Ave,Chicago,IL,60654,medium,high
+P-00000167,Michelle,Lopez,michelle.lopez89@outlook.com,3124570834,3224 Roosevelt Rd,Chicago,IL,60615,medium,low
+P-00000168,Margaret,Johnson,margaret.johnson64@aol.com,3123825896,5308 Roosevelt Rd,Chicago,IL,60654,medium,low
+P-00000169,Steven,Green,steven.green98@aol.com,6303887698,3653 Archer Ave,Chicago,IL,60614,high,low
+P-00000170,George,Hernandez,george.hernandez88@aol.com,3122100500,3826 Michigan Ave,Chicago,IL,60601,low,low
+P-00000171,Daniel,Jackson,daniel.jackson33@gmail.com,3124037099,7110 Wacker Dr,Oak Park,IL,60302,medium,medium
+P-00000172,Amanda,Rodriguez,amanda.rodriguez85@msn.com,7731747419,1277 Central Ave,Chicago,IL,60610,low,low
+P-00000173,Joshua,Anderson,joshua.anderson15@comcast.net,7733779499,6670 Van Buren St,Chicago,IL,60614,high,low
+P-00000174,Jessica,Campbell,jessica.campbell15@sbcglobal.net,6306382858,4246 Harrison St,Chicago,IL,60657,low,low
+P-00000175,Charles,King,charles.king52@hotmail.com,7735117923,9973 State St,Chicago,IL,60614,low,low
+P-00000176,Anthony,Robinson,anthony.robinson95@msn.com,8475257950,3754 Diversey Pkwy,Chicago,IL,60647,low,medium
+P-00000177,Dorothy,Scott,dorothy.scott68@aol.com,3122906039,6384 Pulaski Rd,Chicago,IL,60614,medium,medium
+P-00000178,Margaret,Rodriguez,margaret.rodriguez9@msn.com,7737002296,9952 Monroe St,Evanston,IL,60201,high,low
+P-00000179,Betty,Clark,betty.clark68@yahoo.com,8729002619,3373 Central Ave,Chicago,IL,60657,low,medium
+P-00000180,Paul,Jones,paul.jones98@gmail.com,8479437712,8953 Roosevelt Rd,Chicago,IL,60601,low,low
+P-00000181,David,Young,david.young73@sbcglobal.net,3125736319,4458 California Ave,Evanston,IL,60201,medium,low
+P-00000182,Kenneth,Green,kenneth.green75@comcast.net,6308116355,1341 Wells St,Chicago,IL,60601,medium,low
+P-00000183,Amanda,Scott,amanda.scott97@outlook.com,8721403322,5289 Madison St,Chicago,IL,60615,medium,low
+P-00000184,Mary,Jones,mary.jones8@aol.com,7732908802,8079 Belmont Ave,Chicago,IL,60657,medium,low
+P-00000185,Mary,Thompson,mary.thompson81@hotmail.com,7735466134,4311 Wacker Dr,Chicago,IL,60654,medium,low
+P-00000186,Robert,Gonzalez,robert.gonzalez55@msn.com,3127416438,3183 Cermak Rd,Oak Park,IL,60302,low,major
+P-00000187,Michael,Thomas,michael.thomas92@hotmail.com,8476238631,8655 Michigan Ave,Chicago,IL,60647,high,medium
+P-00000188,Jennifer,Perez,jennifer.perez72@comcast.net,3128940879,9815 State St,Chicago,IL,60654,low,low
+P-00000189,Matthew,Hall,matthew.hall85@yahoo.com,8724324664,2596 Adams St,Chicago,IL,60654,high,low
+P-00000190,Betty,Brown,betty.brown55@aol.com,8725809109,4537 Irving Park Rd,Chicago,IL,60654,high,low
+P-00000191,Timothy,Adams,timothy.adams82@hotmail.com,7734733149,7729 Wells St,Chicago,IL,60622,low,low
+P-00000192,Susan,Rodriguez,susan.rodriguez35@yahoo.com,8725115362,7473 Western Ave,Chicago,IL,60657,medium,high
+P-00000193,Mary,Harris,mary.harris33@outlook.com,3124368045,5017 Congress Pkwy,Chicago,IL,60622,low,medium
+P-00000194,Kevin,Garcia,kevin.garcia13@icloud.com,7738585159,3064 State St,Oak Park,IL,60302,medium,low
+P-00000195,George,Lopez,george.lopez18@aol.com,8479859690,4449 State St,Chicago,IL,60614,medium,low
+P-00000196,Robert,Jackson,robert.jackson10@sbcglobal.net,7731973181,3950 Archer Ave,Chicago,IL,60654,low,medium
+P-00000197,William,Thompson,william.thompson9@hotmail.com,8472250632,1279 Fullerton Ave,Chicago,IL,60610,low,low
+P-00000198,Jessica,Allen,jessica.allen4@comcast.net,3129324454,1503 Western Ave,Chicago,IL,60614,low,medium
+P-00000199,Donna,Hill,donna.hill63@icloud.com,6303430525,867 Belmont Ave,Chicago,IL,60654,low,medium
+P-00000200,Lisa,Wilson,lisa.wilson86@icloud.com,7735257341,7998 California Ave,Chicago,IL,60647,low,low
+P-00000201,Elizabeth,Thompson,elizabeth.thompson39@icloud.com,3122726676,8533 Van Buren St,Evanston,IL,60201,high,high
+P-00000202,George,Young,george.young81@hotmail.com,3125657851,4898 California Ave,Chicago,IL,60614,high,low
+P-00000203,Betty,Brown,betty.brown52@yahoo.com,8724815144,9751 Belmont Ave,Chicago,IL,60654,medium,medium
+P-00000204,Joseph,Green,joseph.green9@sbcglobal.net,3122244289,671 Roosevelt Rd,Chicago,IL,60601,low,high
+P-00000205,Michelle,Lee,michelle.lee34@att.net,8724889877,2347 Cermak Rd,Chicago,IL,60647,medium,low
+P-00000206,Nancy,Hall,nancy.hall69@gmail.com,8475105223,5040 Wacker Dr,Chicago,IL,60610,low,medium
+P-00000207,George,White,george.white24@gmail.com,8474293331,6520 Wacker Dr,Chicago,IL,60610,low,low
+P-00000208,Richard,Anderson,richard.anderson7@hotmail.com,6309481209,9064 Fullerton Ave,Chicago,IL,60610,high,low
+P-00000209,Elizabeth,Nguyen,elizabeth.nguyen95@att.net,3122257008,1927 Fullerton Ave,Chicago,IL,60601,low,low
+P-00000210,Anthony,Martinez,anthony.martinez36@att.net,7732370485,880 California Ave,Chicago,IL,60657,high,medium
+P-00000211,Ashley,King,ashley.king15@gmail.com,7739415414,5884 Wacker Dr,Evanston,IL,60201,medium,low
+P-00000212,Anthony,Perez,anthony.perez30@outlook.com,8471863403,785 Cermak Rd,Chicago,IL,60614,medium,low
+P-00000213,Ashley,Robinson,ashley.robinson39@gmail.com,6305113640,7797 California Ave,Chicago,IL,60647,medium,low
+P-00000214,Linda,Rivera,linda.rivera7@comcast.net,6308076042,8889 Kedzie Ave,Chicago,IL,60615,high,high
+P-00000215,Donald,Gonzalez,donald.gonzalez2@icloud.com,6306923098,9778 Ashland Ave,Chicago,IL,60654,low,low
+P-00000216,Lisa,Nelson,lisa.nelson61@gmail.com,8723892478,1753 Ashland Ave,Chicago,IL,60657,low,low
+P-00000217,Carol,Campbell,carol.campbell8@msn.com,7737524559,6372 Jackson Blvd,Oak Park,IL,60302,medium,major
+P-00000218,Michelle,Wright,michelle.wright98@sbcglobal.net,7731689556,4067 Congress Pkwy,Evanston,IL,60201,medium,low
+P-00000219,Kevin,Mitchell,kevin.mitchell36@aol.com,7731516409,3183 Cermak Rd,Oak Park,IL,60302,low,medium
+P-00000220,Karen,Hernandez,karen.hernandez95@comcast.net,8722033316,797 Dearborn St,Chicago,IL,60610,low,medium
+P-00000221,Elizabeth,White,elizabeth.white26@icloud.com,8479074037,2123 Franklin St,Chicago,IL,60622,low,medium
+P-00000222,Patricia,Hall,patricia.hall17@comcast.net,6308303693,3686 Cicero Ave,Chicago,IL,60614,low,low
+P-00000223,Patricia,White,patricia.white30@yahoo.com,8722243294,3490 Congress Pkwy,Chicago,IL,60654,low,medium
+P-00000224,Barbara,Robinson,barbara.robinson31@outlook.com,8726510493,6356 Pulaski Rd,Evanston,IL,60201,low,low
+P-00000225,Margaret,Campbell,margaret.campbell45@gmail.com,3124584197,1383 Western Ave,Oak Park,IL,60302,medium,low
+P-00000226,Jennifer,Campbell,jennifer.campbell9@msn.com,8474790328,8791 Belmont Ave,Chicago,IL,60647,high,low
+P-00000227,Brian,Robinson,brian.robinson70@gmail.com,8728948140,2710 California Ave,Chicago,IL,60622,low,high
+P-00000228,Betty,Jones,betty.jones84@gmail.com,8475963401,8995 LaSalle St,Chicago,IL,60657,medium,medium
+P-00000229,Kenneth,Hill,kenneth.hill35@gmail.com,3124651387,7631 Irving Park Rd,Chicago,IL,60654,low,high
+P-00000230,Anthony,Scott,anthony.scott30@att.net,6307984297,9657 Irving Park Rd,Chicago,IL,60657,low,low
+P-00000231,Susan,Martinez,susan.martinez95@msn.com,3121566088,5447 Cicero Ave,Chicago,IL,60622,low,medium
+P-00000232,Brian,Lee,brian.lee50@gmail.com,8723092101,9714 Archer Ave,Chicago,IL,60614,medium,medium
+P-00000233,Nancy,Anderson,nancy.anderson21@msn.com,7734541483,4059 Armitage Ave,Chicago,IL,60647,medium,low
+P-00000234,Daniel,Moore,daniel.moore3@comcast.net,7731450930,6076 California Ave,Chicago,IL,60657,medium,low
+P-00000235,Kevin,Allen,kevin.allen68@msn.com,3121688725,3162 Michigan Ave,Chicago,IL,60654,medium,low
+P-00000236,Kimberly,Ramirez,kimberly.ramirez43@sbcglobal.net,3123445840,1733 Wells St,Evanston,IL,60201,low,high
+P-00000237,Elizabeth,Lee,elizabeth.lee2@aol.com,3125525121,7085 State St,Chicago,IL,60657,high,low
+P-00000238,Kenneth,Perez,kenneth.perez40@aol.com,6303167354,710 Armitage Ave,Chicago,IL,60615,medium,low
+P-00000239,Ashley,Miller,ashley.miller20@msn.com,6301865139,5874 Cicero Ave,Chicago,IL,60657,low,medium
+P-00000240,Margaret,Wilson,margaret.wilson40@msn.com,6308440449,5979 Fullerton Ave,Oak Park,IL,60302,low,low
+P-00000241,Dorothy,Wright,dorothy.wright39@outlook.com,3127501553,5646 Ashland Ave,Chicago,IL,60622,medium,low
+P-00000242,Barbara,Martinez,barbara.martinez24@sbcglobal.net,6308601748,7339 Pulaski Rd,Chicago,IL,60615,medium,low
+P-00000243,Amanda,Flores,amanda.flores42@outlook.com,6309468865,2922 Roosevelt Rd,Chicago,IL,60654,high,high
+P-00000244,Brian,Flores,brian.flores33@gmail.com,8479370043,787 Adams St,Chicago,IL,60622,low,medium
+P-00000245,Amanda,Jackson,amanda.jackson12@comcast.net,3125226156,5208 California Ave,Oak Park,IL,60302,medium,low
+P-00000246,Margaret,Nguyen,margaret.nguyen95@comcast.net,8725990488,6374 Michigan Ave,Evanston,IL,60201,low,high
+P-00000247,Betty,Jones,betty.jones61@sbcglobal.net,6302027557,745 Ashland Ave,Chicago,IL,60610,medium,major
+P-00000248,Mary,Campbell,mary.campbell85@att.net,7731533634,687 Irving Park Rd,Oak Park,IL,60302,medium,low
+P-00000249,Margaret,Sanchez,margaret.sanchez85@hotmail.com,6302224744,6550 Harrison St,Chicago,IL,60601,low,medium
+P-00000250,Matthew,Mitchell,matthew.mitchell17@icloud.com,6301294746,9222 Michigan Ave,Chicago,IL,60622,low,medium
+P-00000251,Mary,Wright,mary.wright28@comcast.net,3123650235,6244 Wacker Dr,Chicago,IL,60615,low,low
+P-00000252,Michael,Brown,michael.brown25@aol.com,8479329442,9628 California Ave,Evanston,IL,60201,medium,medium
+P-00000253,Emily,Lopez,emily.lopez39@sbcglobal.net,8723148091,7474 Archer Ave,Chicago,IL,60601,medium,high
+P-00000254,Mark,Thompson,mark.thompson46@aol.com,6307417954,5761 Diversey Pkwy,Chicago,IL,60654,low,low
+P-00000255,Anthony,Flores,anthony.flores14@msn.com,3121515693,3046 Monroe St,Chicago,IL,60615,medium,high
+P-00000256,George,Miller,george.miller19@outlook.com,8478026492,2823 Wacker Dr,Oak Park,IL,60302,low,low
+P-00000257,Paul,Harris,paul.harris59@sbcglobal.net,6309552442,8359 Irving Park Rd,Chicago,IL,60657,high,medium
+P-00000258,Amanda,Perez,amanda.perez55@gmail.com,6304331106,878 Armitage Ave,Oak Park,IL,60302,medium,medium
+P-00000259,Daniel,Jones,daniel.jones67@gmail.com,8471460796,7468 Belmont Ave,Chicago,IL,60614,low,high
+P-00000260,Kimberly,White,kimberly.white8@comcast.net,6303234805,6417 Harrison St,Chicago,IL,60601,low,low
+P-00000261,Donald,Perez,donald.perez21@hotmail.com,6303770742,1578 Irving Park Rd,Chicago,IL,60615,low,low
+P-00000262,George,Williams,george.williams66@att.net,7732034586,9402 Wells St,Chicago,IL,60622,low,low
+P-00000263,Christopher,Lopez,christopher.lopez90@att.net,8724830121,7716 Central Ave,Chicago,IL,60622,low,low
+P-00000264,Michelle,Wilson,michelle.wilson48@outlook.com,3125070028,4896 Wells St,Chicago,IL,60610,high,low
+P-00000265,Linda,Nelson,linda.nelson97@msn.com,8475460276,2068 Armitage Ave,Chicago,IL,60614,medium,low
+P-00000266,Kevin,Rodriguez,kevin.rodriguez37@gmail.com,3128732752,955 California Ave,Chicago,IL,60615,low,medium
+P-00000267,Kevin,Hill,kevin.hill11@gmail.com,6304714379,6232 Van Buren St,Chicago,IL,60610,medium,low
+P-00000268,George,Sanchez,george.sanchez92@msn.com,8477722055,8465 Pulaski Rd,Chicago,IL,60647,medium,high
+P-00000269,Timothy,Martin,timothy.martin18@yahoo.com,6305408285,3844 Diversey Pkwy,Chicago,IL,60654,medium,low
+P-00000270,Timothy,Ramirez,timothy.ramirez84@gmail.com,3129143179,8022 Harrison St,Chicago,IL,60615,medium,low
+P-00000271,Donald,Green,donald.green66@hotmail.com,8725450252,9201 Archer Ave,Evanston,IL,60201,low,low
+P-00000272,Kenneth,Ramirez,kenneth.ramirez84@aol.com,8721470529,1728 Wells St,Chicago,IL,60610,high,major
+P-00000273,Mary,Taylor,mary.taylor12@hotmail.com,8727981440,8080 Harrison St,Oak Park,IL,60302,low,low
+P-00000274,Steven,Harris,steven.harris24@sbcglobal.net,6303894100,1230 Archer Ave,Chicago,IL,60647,medium,low
+P-00000275,William,Nguyen,william.nguyen30@yahoo.com,8724885250,3343 Harrison St,Evanston,IL,60201,medium,low
+P-00000276,Richard,Mitchell,richard.mitchell57@aol.com,6304887008,3461 Cicero Ave,Evanston,IL,60201,low,medium
+P-00000277,Joshua,Smith,joshua.smith47@outlook.com,8729634012,3373 Irving Park Rd,Chicago,IL,60601,low,low
+P-00000278,Timothy,Walker,timothy.walker38@icloud.com,7739072879,3799 Cicero Ave,Chicago,IL,60601,high,low
+P-00000279,Patricia,Hall,patricia.hall69@att.net,8723846274,6318 Van Buren St,Chicago,IL,60654,low,low
+P-00000280,Brian,Clark,brian.clark51@yahoo.com,8727407054,4440 Fullerton Ave,Evanston,IL,60201,low,high
+P-00000281,Joshua,Adams,joshua.adams35@comcast.net,6307049850,5719 Cermak Rd,Chicago,IL,60657,low,low
+P-00000282,Patricia,Jones,patricia.jones49@yahoo.com,8471786261,5016 Harlem Ave,Chicago,IL,60657,high,low
+P-00000283,Kimberly,Young,kimberly.young85@icloud.com,6308983939,9814 Michigan Ave,Chicago,IL,60610,medium,low
+P-00000284,Andrew,Gonzalez,andrew.gonzalez11@outlook.com,8725889084,6516 Clark St,Chicago,IL,60654,high,medium
+P-00000285,Nancy,Jackson,nancy.jackson85@att.net,6305274692,8948 LaSalle St,Chicago,IL,60657,medium,low
+P-00000286,Mark,King,mark.king45@aol.com,8477216074,9802 Irving Park Rd,Chicago,IL,60622,low,medium
+P-00000287,Kevin,Rivera,kevin.rivera12@aol.com,3128465106,4861 Roosevelt Rd,Evanston,IL,60201,low,medium
+P-00000288,Jennifer,Scott,jennifer.scott75@gmail.com,8724289791,2908 Ashland Ave,Chicago,IL,60622,medium,high
+P-00000289,Susan,Clark,susan.clark92@hotmail.com,6309168326,464 Clark St,Chicago,IL,60654,low,low
+P-00000290,George,Taylor,george.taylor97@att.net,8723801445,5542 Harlem Ave,Chicago,IL,60601,low,major
+P-00000291,Steven,Thomas,steven.thomas96@aol.com,8471217770,4006 Kedzie Ave,Chicago,IL,60654,medium,medium
+P-00000292,Daniel,Thomas,daniel.thomas41@att.net,8726301533,4252 Fullerton Ave,Chicago,IL,60654,low,major
+P-00000293,Linda,Sanchez,linda.sanchez71@comcast.net,8729326435,124 LaSalle St,Chicago,IL,60601,medium,low
+P-00000294,Michelle,Davis,michelle.davis60@sbcglobal.net,3124502626,3275 Pulaski Rd,Chicago,IL,60657,medium,low
+P-00000295,Patricia,Robinson,patricia.robinson75@hotmail.com,8729607009,2192 Belmont Ave,Chicago,IL,60622,low,high
+P-00000296,Mary,Flores,mary.flores34@msn.com,6301237199,7455 State St,Chicago,IL,60601,low,low
+P-00000297,Timothy,Walker,timothy.walker39@hotmail.com,8726081820,7498 California Ave,Chicago,IL,60654,high,medium
+P-00000298,Sandra,Gonzalez,sandra.gonzalez19@icloud.com,8728726360,282 Pulaski Rd,Chicago,IL,60657,high,low
+P-00000299,Emily,Davis,emily.davis52@outlook.com,7732195885,9303 California Ave,Chicago,IL,60622,high,medium
+P-00000300,Patricia,Gonzalez,patricia.gonzalez8@yahoo.com,6303584182,6146 Congress Pkwy,Chicago,IL,60647,high,high
+P-00000301,Richard,Green,richard.green79@sbcglobal.net,3128587676,1909 Armitage Ave,Chicago,IL,60601,medium,high
+P-00000302,Nancy,Davis,nancy.davis6@icloud.com,6303938687,5376 Irving Park Rd,Oak Park,IL,60302,low,low
+P-00000303,Charles,Rodriguez,charles.rodriguez44@outlook.com,6305079441,9110 Van Buren St,Chicago,IL,60654,medium,low
+P-00000304,Barbara,Torres,barbara.torres58@comcast.net,7734994528,7194 Monroe St,Chicago,IL,60601,low,low
+P-00000305,Brian,Gonzalez,brian.gonzalez33@att.net,6303982410,6004 Dearborn St,Chicago,IL,60657,medium,low
+P-00000306,Daniel,Martin,daniel.martin83@icloud.com,7733901092,5721 Roosevelt Rd,Chicago,IL,60610,low,high
+P-00000307,Andrew,Campbell,andrew.campbell78@hotmail.com,6307759291,5674 Madison St,Chicago,IL,60654,low,medium
+P-00000308,Emily,Walker,emily.walker16@sbcglobal.net,3121118581,2105 Michigan Ave,Chicago,IL,60654,medium,medium
+P-00000309,George,King,george.king88@att.net,6302358097,7270 Irving Park Rd,Oak Park,IL,60302,high,low
+P-00000310,Margaret,Flores,margaret.flores54@gmail.com,6301164074,1648 Central Ave,Chicago,IL,60622,high,medium
+P-00000311,Carol,Campbell,carol.campbell74@icloud.com,7731737954,8188 Clark St,Chicago,IL,60657,medium,medium
+P-00000312,Nancy,Lewis,nancy.lewis60@msn.com,3128704694,3327 Roosevelt Rd,Oak Park,IL,60302,medium,medium
+P-00000313,Barbara,Clark,barbara.clark53@msn.com,8723345704,9989 LaSalle St,Chicago,IL,60622,low,low
+P-00000314,Anthony,Allen,anthony.allen58@comcast.net,6306304120,3809 Jackson Blvd,Chicago,IL,60647,low,low
+P-00000315,Emily,Gonzalez,emily.gonzalez51@sbcglobal.net,8728035655,8935 Wacker Dr,Chicago,IL,60647,low,low
+P-00000316,Kimberly,King,kimberly.king44@msn.com,6304257945,5323 Madison St,Chicago,IL,60647,low,medium
+P-00000317,Karen,Hernandez,karen.hernandez17@msn.com,6301764265,125 Central Ave,Chicago,IL,60622,medium,medium
+P-00000318,Richard,Gonzalez,richard.gonzalez72@att.net,6307214638,7106 Irving Park Rd,Chicago,IL,60657,medium,high
+P-00000319,Timothy,Nguyen,timothy.nguyen54@sbcglobal.net,3124948401,7863 Western Ave,Chicago,IL,60615,low,low
+P-00000320,Paul,Nguyen,paul.nguyen15@msn.com,8476895725,7657 Wells St,Chicago,IL,60654,high,medium
+P-00000321,Susan,Martinez,susan.martinez94@aol.com,8474713543,592 Adams St,Chicago,IL,60610,medium,low
+P-00000322,Richard,Gonzalez,richard.gonzalez11@aol.com,3127928655,9567 Roosevelt Rd,Chicago,IL,60654,medium,major
+P-00000323,Barbara,Hernandez,barbara.hernandez89@yahoo.com,8722349590,9161 Kedzie Ave,Chicago,IL,60657,low,low
+P-00000324,Carol,Lewis,carol.lewis17@icloud.com,7737507660,2509 Wacker Dr,Chicago,IL,60654,medium,low
+P-00000325,Sandra,Smith,sandra.smith81@outlook.com,7737450219,2568 Monroe St,Chicago,IL,60647,medium,low
+P-00000326,Margaret,Adams,margaret.adams88@msn.com,6302657153,3738 Wacker Dr,Chicago,IL,60657,high,low
+P-00000327,Mark,Lewis,mark.lewis13@msn.com,6307284725,8027 Pulaski Rd,Chicago,IL,60610,high,major
+P-00000328,Ashley,Harris,ashley.harris67@outlook.com,6302540724,9921 Clark St,Chicago,IL,60647,low,low
+P-00000329,Betty,Wilson,betty.wilson18@outlook.com,8477760403,792 Harlem Ave,Chicago,IL,60601,medium,high
+P-00000330,James,Sanchez,james.sanchez87@msn.com,8728611432,4300 LaSalle St,Chicago,IL,60614,low,low
+P-00000331,Kimberly,Hall,kimberly.hall93@outlook.com,8472760511,2971 Ashland Ave,Oak Park,IL,60302,medium,low
+P-00000332,Charles,Hall,charles.hall47@comcast.net,7739303143,7912 California Ave,Chicago,IL,60647,medium,high
+P-00000333,Karen,Anderson,karen.anderson93@att.net,3121225391,714 Congress Pkwy,Chicago,IL,60654,low,low
+P-00000334,Patricia,Anderson,patricia.anderson37@gmail.com,8726596526,3707 Cicero Ave,Chicago,IL,60610,medium,low
+P-00000335,Matthew,Thompson,matthew.thompson95@icloud.com,3121049976,3932 Irving Park Rd,Chicago,IL,60657,medium,low
+P-00000336,Elizabeth,Flores,elizabeth.flores38@icloud.com,8477330034,8633 Harrison St,Chicago,IL,60647,low,low
+P-00000337,Emily,Campbell,emily.campbell69@comcast.net,7737483485,2849 LaSalle St,Oak Park,IL,60302,medium,high
+P-00000338,Susan,Mitchell,susan.mitchell39@att.net,8474410580,2091 Cermak Rd,Chicago,IL,60622,low,low
+P-00000339,Dorothy,Martinez,dorothy.martinez9@gmail.com,8727007509,2932 Dearborn St,Chicago,IL,60654,high,medium
+P-00000340,Daniel,Torres,daniel.torres65@sbcglobal.net,8729990499,1204 Madison St,Chicago,IL,60622,medium,low
+P-00000341,Thomas,Young,thomas.young70@gmail.com,7734668280,3764 State St,Chicago,IL,60647,high,low
+P-00000342,Joseph,Garcia,joseph.garcia84@outlook.com,8475589058,3508 Diversey Pkwy,Chicago,IL,60622,medium,medium
+P-00000343,George,Smith,george.smith67@msn.com,6305507167,1251 Dearborn St,Chicago,IL,60601,low,low
+P-00000344,Andrew,Flores,andrew.flores33@yahoo.com,8473570115,6971 Harlem Ave,Evanston,IL,60201,medium,medium
+P-00000345,Paul,Flores,paul.flores65@icloud.com,8728712079,489 Wacker Dr,Chicago,IL,60610,low,high
+P-00000346,Andrew,Jackson,andrew.jackson89@outlook.com,6301125355,9829 Cicero Ave,Evanston,IL,60201,high,medium
+P-00000347,Linda,Miller,linda.miller67@yahoo.com,8722881297,4695 Roosevelt Rd,Chicago,IL,60615,low,low
+P-00000348,Barbara,Hernandez,barbara.hernandez27@gmail.com,3124662340,6143 Congress Pkwy,Chicago,IL,60657,medium,low
+P-00000349,Paul,Mitchell,paul.mitchell19@aol.com,8478724922,9765 Fullerton Ave,Oak Park,IL,60302,low,high
+P-00000350,Joseph,Martin,joseph.martin7@comcast.net,8721483455,6041 Belmont Ave,Chicago,IL,60622,low,low
+P-00000351,Sarah,Martinez,sarah.martinez57@att.net,7734855933,5888 Monroe St,Oak Park,IL,60302,low,major
+P-00000352,Robert,Ramirez,robert.ramirez69@yahoo.com,7731652755,3902 Cermak Rd,Oak Park,IL,60302,low,low
+P-00000353,Elizabeth,King,elizabeth.king35@yahoo.com,6303173513,6409 Kedzie Ave,Oak Park,IL,60302,low,medium
+P-00000354,Mark,Lewis,mark.lewis20@sbcglobal.net,6306962859,3654 Harrison St,Chicago,IL,60622,medium,medium
+P-00000355,Lisa,Williams,lisa.williams79@msn.com,3121777567,4295 Harlem Ave,Chicago,IL,60622,medium,high
+P-00000356,James,Jackson,james.jackson89@msn.com,8477687666,8851 California Ave,Evanston,IL,60201,low,medium
+P-00000357,Kimberly,Robinson,kimberly.robinson28@gmail.com,3124843139,916 Madison St,Oak Park,IL,60302,medium,major
+P-00000358,Emily,Rodriguez,emily.rodriguez32@aol.com,3129360777,469 Harlem Ave,Evanston,IL,60201,medium,low
+P-00000359,Daniel,Harris,daniel.harris93@sbcglobal.net,8726332889,3062 Cicero Ave,Chicago,IL,60614,low,medium
+P-00000360,Kevin,Adams,kevin.adams84@att.net,3129432372,8442 Harrison St,Chicago,IL,60654,medium,low
+P-00000361,Paul,Rivera,paul.rivera43@yahoo.com,8729200252,5141 Clark St,Chicago,IL,60657,low,medium
+P-00000362,Jessica,Moore,jessica.moore10@yahoo.com,8726641379,7710 Diversey Pkwy,Chicago,IL,60647,medium,low
+P-00000363,Elizabeth,Nguyen,elizabeth.nguyen91@att.net,8726202413,589 Cermak Rd,Chicago,IL,60601,high,medium
+P-00000364,Anthony,Hill,anthony.hill60@gmail.com,8476241684,2917 Belmont Ave,Chicago,IL,60601,high,medium
+P-00000365,Donna,Flores,donna.flores37@yahoo.com,7731344126,7929 Armitage Ave,Chicago,IL,60614,medium,low
+P-00000366,Patricia,Perez,patricia.perez61@aol.com,6309686594,8412 Michigan Ave,Chicago,IL,60647,high,low
+P-00000367,Donald,Jones,donald.jones74@icloud.com,7738797698,2768 Harrison St,Chicago,IL,60601,medium,low
+P-00000368,Robert,Smith,robert.smith12@att.net,7732707542,8568 Belmont Ave,Chicago,IL,60614,low,high
+P-00000369,Anthony,Hall,anthony.hall46@comcast.net,8478421289,2954 Roosevelt Rd,Chicago,IL,60647,high,low
+P-00000370,William,Garcia,william.garcia35@comcast.net,3127514948,186 Cermak Rd,Chicago,IL,60610,low,low
+P-00000371,Sandra,Perez,sandra.perez29@icloud.com,8479551795,1747 Pulaski Rd,Oak Park,IL,60302,medium,medium
+P-00000372,Daniel,Johnson,daniel.johnson6@yahoo.com,3127356381,9012 Fullerton Ave,Chicago,IL,60657,low,high
+P-00000373,Susan,Martinez,susan.martinez36@yahoo.com,3125109545,7278 Congress Pkwy,Chicago,IL,60610,low,low
+P-00000374,Charles,Anderson,charles.anderson72@sbcglobal.net,3122609184,118 Clark St,Chicago,IL,60615,medium,medium
+P-00000375,James,Lewis,james.lewis98@hotmail.com,8476113728,4288 Roosevelt Rd,Chicago,IL,60654,high,medium
+P-00000376,Donald,Hill,donald.hill26@gmail.com,8476301572,5226 Oak Park Ave,Chicago,IL,60615,medium,low
+P-00000377,Christopher,Nelson,christopher.nelson3@icloud.com,8725860319,9459 Central Ave,Oak Park,IL,60302,medium,medium
+P-00000378,James,Lewis,james.lewis86@sbcglobal.net,8727859698,6873 Madison St,Oak Park,IL,60302,medium,medium
+P-00000379,Charles,Johnson,charles.johnson45@hotmail.com,8727360756,4737 Central Ave,Oak Park,IL,60302,high,high
+P-00000380,Melissa,Johnson,melissa.johnson22@aol.com,6309743662,6428 Wacker Dr,Chicago,IL,60615,high,low
+P-00000381,George,Moore,george.moore77@aol.com,6305675519,734 Monroe St,Chicago,IL,60654,low,low
+P-00000382,Susan,Flores,susan.flores62@outlook.com,8721350067,2990 Oak Park Ave,Chicago,IL,60647,low,high
+P-00000383,Sandra,Nelson,sandra.nelson62@gmail.com,3127043995,770 Irving Park Rd,Chicago,IL,60654,low,low
+P-00000384,Melissa,Harris,melissa.harris8@sbcglobal.net,7735970809,1992 Roosevelt Rd,Chicago,IL,60614,medium,high
+P-00000385,Christopher,Wright,christopher.wright83@comcast.net,6301558981,3072 Oak Park Ave,Chicago,IL,60657,high,medium
+P-00000386,Michael,Lee,michael.lee36@msn.com,8472953341,7181 Jackson Blvd,Evanston,IL,60201,medium,medium
+P-00000387,Jessica,Davis,jessica.davis59@sbcglobal.net,8471295866,1729 Fullerton Ave,Chicago,IL,60615,high,medium
+P-00000388,Thomas,Thomas,thomas.thomas90@yahoo.com,7737521689,4986 Archer Ave,Chicago,IL,60601,high,low
+P-00000389,Donna,Campbell,donna.campbell38@hotmail.com,8472258624,6211 Irving Park Rd,Chicago,IL,60610,medium,low
+P-00000390,Mark,Scott,mark.scott22@msn.com,8476735630,7747 Pulaski Rd,Chicago,IL,60647,high,medium
+P-00000391,Joshua,Martin,joshua.martin28@att.net,3128576126,2681 Wells St,Chicago,IL,60601,medium,high
+P-00000392,Thomas,Jones,thomas.jones46@yahoo.com,3128930221,8192 Franklin St,Chicago,IL,60615,high,high
+P-00000393,Mary,Davis,mary.davis54@aol.com,8724221131,8590 Belmont Ave,Chicago,IL,60601,medium,high
+P-00000394,Elizabeth,Williams,elizabeth.williams95@gmail.com,8725663754,3064 Ashland Ave,Chicago,IL,60610,medium,low
+P-00000395,Melissa,Wright,melissa.wright38@att.net,7733507743,6147 Pulaski Rd,Chicago,IL,60622,high,medium
+P-00000396,Andrew,Williams,andrew.williams85@msn.com,8727886940,4578 Ashland Ave,Chicago,IL,60657,medium,medium
+P-00000397,Brian,Harris,brian.harris48@hotmail.com,8722684449,6938 Irving Park Rd,Chicago,IL,60614,medium,low
+P-00000398,Daniel,Lopez,daniel.lopez4@aol.com,3121985257,3639 Wells St,Chicago,IL,60654,medium,low
+P-00000399,Richard,Moore,richard.moore54@yahoo.com,8722543812,3514 Madison St,Chicago,IL,60647,medium,major
+P-00000400,Elizabeth,Perez,elizabeth.perez65@comcast.net,6305473447,7186 Cermak Rd,Chicago,IL,60610,high,low
+P-00000401,Karen,Mitchell,karen.mitchell59@att.net,6301243877,2790 Irving Park Rd,Chicago,IL,60601,medium,low
+P-00000402,Joseph,Johnson,joseph.johnson49@aol.com,7732858997,9902 Wacker Dr,Chicago,IL,60657,low,medium
+P-00000403,Karen,Davis,karen.davis90@gmail.com,6309876659,6682 Roosevelt Rd,Chicago,IL,60615,medium,medium
+P-00000404,Jessica,Hall,jessica.hall48@icloud.com,3125914082,2359 LaSalle St,Chicago,IL,60615,high,medium
+P-00000405,Linda,Anderson,linda.anderson94@outlook.com,6303621158,5850 Jackson Blvd,Chicago,IL,60657,high,high
+P-00000406,Sandra,Lewis,sandra.lewis11@yahoo.com,7731641593,9054 Western Ave,Chicago,IL,60610,low,high
+P-00000407,Ashley,Anderson,ashley.anderson84@hotmail.com,8477356605,8875 Wacker Dr,Chicago,IL,60657,low,low
+P-00000408,Richard,Rivera,richard.rivera93@att.net,6308291916,4231 LaSalle St,Chicago,IL,60615,low,high
+P-00000409,Sarah,Nguyen,sarah.nguyen87@aol.com,7736107742,7642 Adams St,Chicago,IL,60615,medium,high
+P-00000410,Robert,Nguyen,robert.nguyen40@att.net,8721871535,5562 Cermak Rd,Evanston,IL,60201,medium,major
+P-00000411,Dorothy,Adams,dorothy.adams56@yahoo.com,3121295599,629 Ashland Ave,Chicago,IL,60657,high,medium
+P-00000412,Dorothy,Anderson,dorothy.anderson39@gmail.com,3122604243,7224 Archer Ave,Chicago,IL,60647,medium,medium
+P-00000413,Barbara,Baker,barbara.baker83@comcast.net,3122802466,4243 Archer Ave,Chicago,IL,60622,low,medium
+P-00000414,Anthony,Young,anthony.young13@gmail.com,3126673938,1981 Congress Pkwy,Chicago,IL,60615,medium,low
+P-00000415,Kenneth,Davis,kenneth.davis77@aol.com,6306324852,5670 Irving Park Rd,Oak Park,IL,60302,medium,low
+P-00000416,Jessica,Perez,jessica.perez72@comcast.net,3123091013,9521 Armitage Ave,Chicago,IL,60622,medium,low
+P-00000417,Barbara,Walker,barbara.walker62@outlook.com,3128730302,4920 Oak Park Ave,Chicago,IL,60657,medium,medium
+P-00000418,Patricia,Gonzalez,patricia.gonzalez49@outlook.com,6302141452,436 Kedzie Ave,Evanston,IL,60201,low,medium
+P-00000419,Joseph,Taylor,joseph.taylor58@att.net,7735280428,7546 Congress Pkwy,Chicago,IL,60615,medium,high
+P-00000420,Timothy,Gonzalez,timothy.gonzalez28@sbcglobal.net,8479471414,821 Diversey Pkwy,Chicago,IL,60647,medium,major
+P-00000421,Ashley,Lewis,ashley.lewis13@icloud.com,8473438710,7092 Wacker Dr,Chicago,IL,60654,low,medium
+P-00000422,Elizabeth,Baker,elizabeth.baker87@outlook.com,3127096696,2796 Kedzie Ave,Chicago,IL,60657,high,medium
+P-00000423,Richard,King,richard.king32@gmail.com,8474879928,5148 Wacker Dr,Oak Park,IL,60302,low,low
+P-00000424,James,Nelson,james.nelson42@hotmail.com,8729841830,7950 Diversey Pkwy,Chicago,IL,60615,medium,low
+P-00000425,Donald,Lee,donald.lee40@comcast.net,7738058021,8200 Van Buren St,Chicago,IL,60657,high,medium
+P-00000426,Kevin,Wright,kevin.wright11@att.net,3121748692,7382 State St,Chicago,IL,60610,medium,high
+P-00000427,Margaret,Taylor,margaret.taylor19@att.net,6302945537,9865 Pulaski Rd,Chicago,IL,60622,medium,medium
+P-00000428,Lisa,Sanchez,lisa.sanchez43@outlook.com,7736180703,3276 Dearborn St,Chicago,IL,60601,medium,major
+P-00000429,Andrew,Rivera,andrew.rivera56@gmail.com,7739333920,6703 Wacker Dr,Chicago,IL,60615,high,low
+P-00000430,Donna,Baker,donna.baker16@att.net,6309739287,9690 Congress Pkwy,Oak Park,IL,60302,medium,high
+P-00000431,Michael,White,michael.white73@msn.com,6307061266,8102 Cicero Ave,Chicago,IL,60622,high,medium
+P-00000432,Jessica,Anderson,jessica.anderson76@sbcglobal.net,8475472089,6405 Pulaski Rd,Chicago,IL,60610,high,high
+P-00000433,Matthew,Brown,matthew.brown48@comcast.net,3125461213,4070 Oak Park Ave,Chicago,IL,60647,medium,high
+P-00000434,Lisa,Lee,lisa.lee38@msn.com,7732592173,5143 Harrison St,Chicago,IL,60601,medium,low
+P-00000435,Robert,Garcia,robert.garcia47@comcast.net,6309020497,4159 Clark St,Chicago,IL,60601,medium,medium
+P-00000436,Michael,Flores,michael.flores10@sbcglobal.net,6304018439,6746 Adams St,Chicago,IL,60654,high,low
+P-00000437,George,Torres,george.torres59@aol.com,8474555912,7716 Wacker Dr,Chicago,IL,60615,low,medium
+P-00000438,Margaret,Baker,margaret.baker90@att.net,8471646012,9023 Oak Park Ave,Chicago,IL,60647,medium,low
+P-00000439,Daniel,Campbell,daniel.campbell31@outlook.com,3123598475,996 Pulaski Rd,Chicago,IL,60654,low,major
+P-00000440,James,Smith,james.smith63@msn.com,7732647824,4217 Wells St,Oak Park,IL,60302,high,medium
+P-00000441,Timothy,Taylor,timothy.taylor90@gmail.com,3128144013,4624 Wells St,Chicago,IL,60601,medium,low
+P-00000442,Linda,Anderson,linda.anderson27@gmail.com,8475817911,9375 Wells St,Chicago,IL,60622,medium,low
+P-00000443,Matthew,Harris,matthew.harris26@icloud.com,7737434323,4585 Wells St,Chicago,IL,60654,medium,medium
+P-00000444,Patricia,Taylor,patricia.taylor14@comcast.net,6303497934,4770 Adams St,Oak Park,IL,60302,low,medium
+P-00000445,Andrew,Jackson,andrew.jackson35@msn.com,6303906492,1173 Michigan Ave,Chicago,IL,60614,medium,medium
+P-00000446,Jennifer,Wilson,jennifer.wilson79@outlook.com,8728780047,4927 Roosevelt Rd,Chicago,IL,60657,low,low
+P-00000447,Margaret,Young,margaret.young31@hotmail.com,8723680990,3658 Van Buren St,Chicago,IL,60654,high,low
+P-00000448,Carol,Hill,carol.hill57@hotmail.com,7731189073,5416 California Ave,Evanston,IL,60201,medium,medium
+P-00000449,Brian,Hall,brian.hall69@aol.com,7737932973,6863 Dearborn St,Chicago,IL,60647,medium,medium
+P-00000450,Dorothy,Moore,dorothy.moore96@sbcglobal.net,8472549317,2771 Cicero Ave,Chicago,IL,60615,low,low
+P-00000451,Richard,Nelson,richard.nelson96@outlook.com,6308766824,9270 LaSalle St,Chicago,IL,60601,high,high
+P-00000452,Andrew,Perez,andrew.perez84@aol.com,8726489612,5734 Madison St,Chicago,IL,60601,medium,medium
+P-00000453,Paul,Moore,paul.moore73@comcast.net,7738128146,224 Harrison St,Chicago,IL,60601,medium,low
+P-00000454,Matthew,Robinson,matthew.robinson28@yahoo.com,8471756079,3196 Monroe St,Oak Park,IL,60302,high,low
+P-00000455,Sandra,Green,sandra.green78@hotmail.com,6303659786,1720 California Ave,Oak Park,IL,60302,high,low
+P-00000456,Christopher,Johnson,christopher.johnson42@yahoo.com,8722414474,9075 Cermak Rd,Oak Park,IL,60302,low,high
+P-00000457,Betty,Thomas,betty.thomas57@msn.com,6304571387,9648 Dearborn St,Chicago,IL,60622,high,medium
+P-00000458,Mark,Clark,mark.clark7@comcast.net,6302460235,240 Fullerton Ave,Chicago,IL,60615,low,low
+P-00000459,Christopher,Scott,christopher.scott8@icloud.com,7737918863,2951 Irving Park Rd,Chicago,IL,60657,low,medium
+P-00000460,Joshua,Robinson,joshua.robinson16@msn.com,8472494139,1504 LaSalle St,Chicago,IL,60647,medium,low
+P-00000461,Timothy,Rivera,timothy.rivera19@msn.com,8474199039,6408 Harlem Ave,Chicago,IL,60614,high,medium
+P-00000462,Anthony,Garcia,anthony.garcia2@aol.com,7739559556,9241 Dearborn St,Chicago,IL,60614,medium,low
+P-00000463,Kimberly,Gonzalez,kimberly.gonzalez93@outlook.com,6305976563,1031 Madison St,Chicago,IL,60622,low,low
+P-00000464,Jennifer,Campbell,jennifer.campbell20@sbcglobal.net,6301527409,1973 LaSalle St,Oak Park,IL,60302,low,medium
+P-00000465,Joshua,Perez,joshua.perez68@yahoo.com,8472693481,6892 Monroe St,Evanston,IL,60201,medium,low
+P-00000466,Dorothy,Robinson,dorothy.robinson57@icloud.com,8476081502,9922 California Ave,Chicago,IL,60610,medium,low
+P-00000467,Elizabeth,Johnson,elizabeth.johnson60@att.net,3124053407,243 Roosevelt Rd,Chicago,IL,60654,low,high
+P-00000468,Brian,White,brian.white11@comcast.net,8477999366,8597 Jackson Blvd,Chicago,IL,60601,low,high
+P-00000469,Margaret,Young,margaret.young47@icloud.com,7734896937,9423 Ashland Ave,Chicago,IL,60601,low,major
+P-00000470,Brian,Hernandez,brian.hernandez12@hotmail.com,7733112368,2329 State St,Chicago,IL,60610,medium,low
+P-00000471,Sandra,Martin,sandra.martin28@sbcglobal.net,8475071867,397 Wacker Dr,Chicago,IL,60622,low,medium
+P-00000472,Dorothy,Campbell,dorothy.campbell80@aol.com,3128688659,6997 Adams St,Chicago,IL,60657,low,major
+P-00000473,Ashley,Sanchez,ashley.sanchez66@att.net,3123118219,1981 Madison St,Oak Park,IL,60302,medium,high
+P-00000474,Melissa,Martin,melissa.martin60@yahoo.com,3125175282,1509 Diversey Pkwy,Chicago,IL,60647,high,low
+P-00000475,Thomas,Lopez,thomas.lopez28@outlook.com,8476354342,379 California Ave,Chicago,IL,60657,low,low
+P-00000476,Sarah,White,sarah.white58@aol.com,6302652131,7289 Congress Pkwy,Chicago,IL,60654,medium,major
+P-00000477,Anthony,Young,anthony.young45@outlook.com,6303629137,8486 Pulaski Rd,Chicago,IL,60601,low,low
+P-00000478,Robert,Brown,robert.brown78@comcast.net,6302553744,7248 Pulaski Rd,Chicago,IL,60657,medium,low
+P-00000479,Ashley,Anderson,ashley.anderson41@aol.com,6306800545,8040 Van Buren St,Chicago,IL,60601,high,medium
+P-00000480,Susan,Anderson,susan.anderson31@hotmail.com,3123469970,5329 Kedzie Ave,Chicago,IL,60601,low,high
+P-00000481,Joseph,Martin,joseph.martin5@sbcglobal.net,8479580504,7874 Kedzie Ave,Chicago,IL,60610,medium,major
+P-00000482,Mark,Harris,mark.harris1@outlook.com,6305791882,4178 Kedzie Ave,Chicago,IL,60615,medium,medium
+P-00000483,Betty,Thomas,betty.thomas20@hotmail.com,3125537454,8420 Cermak Rd,Chicago,IL,60610,medium,high
+P-00000484,Linda,Lewis,linda.lewis33@hotmail.com,6302578458,7631 Jackson Blvd,Chicago,IL,60610,medium,low
+P-00000485,Kenneth,Brown,kenneth.brown19@aol.com,8729526508,8462 Van Buren St,Chicago,IL,60610,medium,medium
+P-00000486,Margaret,Campbell,margaret.campbell86@hotmail.com,6302158343,8077 Oak Park Ave,Chicago,IL,60657,low,low
+P-00000487,Brian,Gonzalez,brian.gonzalez20@att.net,8722657583,6678 Jackson Blvd,Oak Park,IL,60302,medium,low
+P-00000488,Richard,Sanchez,richard.sanchez27@aol.com,7739745386,3446 Armitage Ave,Evanston,IL,60201,low,medium
+P-00000489,Dorothy,Ramirez,dorothy.ramirez72@outlook.com,8727379878,7933 Wells St,Chicago,IL,60601,medium,low
+P-00000490,Joshua,Rivera,joshua.rivera88@sbcglobal.net,8474875416,8672 Kedzie Ave,Chicago,IL,60657,low,major
+P-00000491,Patricia,Hernandez,patricia.hernandez7@msn.com,8725879797,7482 Van Buren St,Chicago,IL,60601,low,medium
+P-00000492,Timothy,Sanchez,timothy.sanchez54@hotmail.com,3129699043,2481 Clark St,Oak Park,IL,60302,medium,major
+P-00000493,Jessica,Rivera,jessica.rivera93@att.net,3124277746,606 Harrison St,Chicago,IL,60614,medium,low
+P-00000494,Donna,Thompson,donna.thompson7@aol.com,3127188753,1292 Monroe St,Oak Park,IL,60302,medium,medium
+P-00000495,Donna,Clark,donna.clark33@gmail.com,6305799412,1311 State St,Chicago,IL,60614,low,medium
+P-00000496,Betty,Brown,betty.brown71@yahoo.com,3125028604,4486 Wacker Dr,Chicago,IL,60601,low,high
+P-00000497,Brian,Clark,brian.clark18@hotmail.com,8722944606,4616 Cermak Rd,Oak Park,IL,60302,medium,low
+P-00000498,Melissa,Hill,melissa.hill4@aol.com,8726097579,6511 Fullerton Ave,Oak Park,IL,60302,low,low
+P-00000499,David,Smith,david.smith90@comcast.net,7736893868,6633 Wells St,Evanston,IL,60201,medium,high
+P-00000500,Charles,Torres,charles.torres95@icloud.com,3123293673,2180 Monroe St,Chicago,IL,60654,high,major
+P-00000501,Mark,Hill,mark.hill21@comcast.net,8473089706,1825 California Ave,Oak Park,IL,60302,medium,medium
+P-00000502,Carol,Moore,carol.moore7@yahoo.com,6307395300,9501 Michigan Ave,Chicago,IL,60610,high,low
+P-00000503,Richard,Brown,richard.brown68@gmail.com,7738313367,1573 Jackson Blvd,Chicago,IL,60654,high,low
+P-00000504,Daniel,Thomas,daniel.thomas28@hotmail.com,3126562632,9245 Van Buren St,Chicago,IL,60647,high,high
+P-00000505,Robert,Adams,robert.adams96@msn.com,8729507150,8234 Belmont Ave,Chicago,IL,60657,low,low
+P-00000506,Elizabeth,Ramirez,elizabeth.ramirez6@aol.com,8474230786,9195 Wacker Dr,Chicago,IL,60610,high,low
+P-00000507,Patricia,Lee,patricia.lee45@att.net,8472251661,7600 California Ave,Chicago,IL,60610,low,low
+P-00000508,Donna,King,donna.king22@att.net,3125470756,9743 Michigan Ave,Oak Park,IL,60302,low,medium
+P-00000509,Linda,Harris,linda.harris12@sbcglobal.net,3124739469,7180 Dearborn St,Chicago,IL,60654,low,major
+P-00000510,Timothy,Jones,timothy.jones18@yahoo.com,8722207739,1442 Central Ave,Oak Park,IL,60302,low,low
+P-00000511,Ashley,Campbell,ashley.campbell96@outlook.com,6306587757,5189 Roosevelt Rd,Oak Park,IL,60302,high,medium
+P-00000512,Jessica,White,jessica.white94@icloud.com,3121831635,1241 Archer Ave,Chicago,IL,60647,medium,medium
+P-00000513,George,Campbell,george.campbell55@hotmail.com,8724023846,5528 Oak Park Ave,Chicago,IL,60654,high,high
+P-00000514,Carol,White,carol.white65@hotmail.com,8728121782,6969 Pulaski Rd,Oak Park,IL,60302,low,low
+P-00000515,Barbara,Ramirez,barbara.ramirez19@outlook.com,8477605949,5396 LaSalle St,Chicago,IL,60601,medium,low
+P-00000516,Andrew,Flores,andrew.flores77@comcast.net,6302857845,6771 Irving Park Rd,Chicago,IL,60622,medium,low
+P-00000517,Amanda,Davis,amanda.davis86@icloud.com,7734401447,6140 Madison St,Chicago,IL,60647,low,low
+P-00000518,Matthew,Nelson,matthew.nelson96@yahoo.com,3129358827,5685 Cicero Ave,Chicago,IL,60647,medium,low
+P-00000519,Dorothy,Miller,dorothy.miller48@outlook.com,8725229228,8066 California Ave,Chicago,IL,60654,medium,medium
+P-00000520,Joseph,Thompson,joseph.thompson92@gmail.com,6309543144,2085 Central Ave,Chicago,IL,60614,low,low
+P-00000521,Richard,Nguyen,richard.nguyen45@yahoo.com,8727778519,5750 Archer Ave,Chicago,IL,60622,medium,low
+P-00000522,Nancy,Hall,nancy.hall62@gmail.com,6303583677,3653 Central Ave,Chicago,IL,60610,low,medium
+P-00000523,Matthew,Jackson,matthew.jackson16@aol.com,8728891784,9956 Monroe St,Oak Park,IL,60302,low,low
+P-00000524,Carol,Flores,carol.flores18@yahoo.com,3122916796,8336 Wells St,Chicago,IL,60647,medium,low
+P-00000525,Kevin,Mitchell,kevin.mitchell31@msn.com,7731239608,6999 Archer Ave,Chicago,IL,60647,low,low
+P-00000526,William,Walker,william.walker63@att.net,3121895596,6397 Dearborn St,Chicago,IL,60614,low,low
+P-00000527,Robert,Jones,robert.jones79@yahoo.com,7739817164,7015 Monroe St,Chicago,IL,60614,medium,low
+P-00000528,Kevin,Davis,kevin.davis63@sbcglobal.net,8474991818,5830 LaSalle St,Chicago,IL,60610,low,high
+P-00000529,Joseph,Lopez,joseph.lopez74@att.net,3123130118,671 Pulaski Rd,Chicago,IL,60657,medium,high
+P-00000530,Daniel,Thompson,daniel.thompson51@icloud.com,3124415473,9079 Jackson Blvd,Evanston,IL,60201,low,low
+P-00000531,Anthony,Gonzalez,anthony.gonzalez92@msn.com,8728238225,3033 Western Ave,Evanston,IL,60201,medium,low
+P-00000532,Charles,Campbell,charles.campbell68@sbcglobal.net,6307297042,3017 Dearborn St,Chicago,IL,60615,low,low
+P-00000533,Anthony,Thomas,anthony.thomas51@att.net,7733303707,6838 Monroe St,Chicago,IL,60622,medium,high
+P-00000534,David,Clark,david.clark34@outlook.com,3128139845,1013 Pulaski Rd,Evanston,IL,60201,high,low
+P-00000535,Christopher,Rivera,christopher.rivera75@msn.com,8726839741,9599 Clark St,Chicago,IL,60615,low,low
+P-00000536,Betty,Mitchell,betty.mitchell54@att.net,8721678066,3283 Armitage Ave,Chicago,IL,60657,medium,high
+P-00000537,George,Smith,george.smith56@aol.com,6309372602,3929 Van Buren St,Chicago,IL,60615,low,medium
+P-00000538,Mark,Thomas,mark.thomas71@comcast.net,3122029242,5038 Monroe St,Chicago,IL,60622,medium,low
+P-00000539,Emily,Torres,emily.torres59@gmail.com,8721404911,1512 Roosevelt Rd,Oak Park,IL,60302,high,medium
+P-00000540,Andrew,Wilson,andrew.wilson24@outlook.com,7737562865,4913 Archer Ave,Chicago,IL,60601,low,major
+P-00000541,Thomas,Scott,thomas.scott8@hotmail.com,8477002024,8133 Cicero Ave,Chicago,IL,60647,high,medium
+P-00000542,Sandra,Gonzalez,sandra.gonzalez34@sbcglobal.net,8475349025,9397 Kedzie Ave,Chicago,IL,60601,medium,low
+P-00000543,Anthony,Nguyen,anthony.nguyen91@aol.com,7739795492,4535 California Ave,Chicago,IL,60615,medium,high
+P-00000544,Joshua,Thomas,joshua.thomas43@gmail.com,7735881539,696 Franklin St,Chicago,IL,60654,low,medium
+P-00000545,Kenneth,Harris,kenneth.harris69@outlook.com,8721194152,6952 Monroe St,Chicago,IL,60657,low,low
+P-00000546,Emily,Perez,emily.perez22@yahoo.com,8476147501,9924 Archer Ave,Chicago,IL,60622,medium,low
+P-00000547,James,White,james.white4@yahoo.com,8728907386,1667 Michigan Ave,Chicago,IL,60614,medium,low
+P-00000548,Emily,Garcia,emily.garcia87@yahoo.com,7735592087,9371 Cermak Rd,Chicago,IL,60654,low,high
+P-00000549,Joseph,Torres,joseph.torres61@msn.com,3129893518,6901 Pulaski Rd,Chicago,IL,60647,medium,low
+P-00000550,Kimberly,Brown,kimberly.brown71@att.net,7733848039,4665 Oak Park Ave,Chicago,IL,60610,medium,major
+P-00000551,Brian,Lewis,brian.lewis90@sbcglobal.net,8728140782,1967 Monroe St,Chicago,IL,60657,low,high
+P-00000552,Karen,White,karen.white72@gmail.com,3122297776,4731 Armitage Ave,Chicago,IL,60622,low,low
+P-00000553,Andrew,Robinson,andrew.robinson75@outlook.com,8479722856,2701 State St,Chicago,IL,60622,high,low
+P-00000554,Sarah,Taylor,sarah.taylor14@comcast.net,3123426062,1233 Cicero Ave,Chicago,IL,60622,low,medium
+P-00000555,Charles,Baker,charles.baker35@yahoo.com,8475027187,7096 Belmont Ave,Chicago,IL,60654,low,low
+P-00000556,James,Clark,james.clark53@aol.com,7731265039,685 Armitage Ave,Chicago,IL,60657,high,high
+P-00000557,Matthew,Miller,matthew.miller71@yahoo.com,8473708685,8618 Armitage Ave,Chicago,IL,60657,medium,low
+P-00000558,Christopher,Torres,christopher.torres22@sbcglobal.net,6305444910,3229 Wells St,Chicago,IL,60622,medium,low
+P-00000559,Paul,Thompson,paul.thompson26@comcast.net,6304719194,7037 Michigan Ave,Chicago,IL,60647,low,low
+P-00000560,Mark,Jones,mark.jones55@msn.com,3122413967,9097 Pulaski Rd,Chicago,IL,60654,medium,low
+P-00000561,Andrew,Anderson,andrew.anderson87@yahoo.com,3123422952,2828 Pulaski Rd,Chicago,IL,60610,medium,high
+P-00000562,Steven,Moore,steven.moore1@outlook.com,7731297542,3261 State St,Chicago,IL,60647,medium,medium
+P-00000563,Christopher,Allen,christopher.allen63@msn.com,8723466511,2700 Armitage Ave,Evanston,IL,60201,low,high
+P-00000564,Christopher,Rivera,christopher.rivera58@yahoo.com,6308166065,7466 Van Buren St,Chicago,IL,60654,low,medium
+P-00000565,Lisa,Sanchez,lisa.sanchez75@msn.com,3122880164,2323 Adams St,Chicago,IL,60601,low,low
+P-00000566,Nancy,Flores,nancy.flores97@gmail.com,8476444408,3301 Armitage Ave,Chicago,IL,60615,medium,low
+P-00000567,William,Brown,william.brown17@icloud.com,7735245871,9409 Wacker Dr,Chicago,IL,60601,medium,low
+P-00000568,Sarah,Lewis,sarah.lewis74@gmail.com,7733928339,2248 Van Buren St,Chicago,IL,60615,low,low
+P-00000569,Donald,Walker,donald.walker82@outlook.com,8727630604,7346 Harlem Ave,Chicago,IL,60614,medium,low
+P-00000570,Charles,Sanchez,charles.sanchez26@sbcglobal.net,7731138925,6581 Armitage Ave,Chicago,IL,60614,medium,low
+P-00000571,Dorothy,Jackson,dorothy.jackson33@gmail.com,8721431978,7316 Pulaski Rd,Chicago,IL,60601,high,major
+P-00000572,Emily,Miller,emily.miller16@att.net,8473242365,9444 Cermak Rd,Chicago,IL,60614,low,low
+P-00000573,Jessica,Davis,jessica.davis92@aol.com,6307646854,9649 Adams St,Chicago,IL,60647,low,medium
+P-00000574,Paul,Sanchez,paul.sanchez45@outlook.com,8721458819,2606 State St,Oak Park,IL,60302,medium,low
+P-00000575,Barbara,Sanchez,barbara.sanchez13@att.net,7735051939,1701 Monroe St,Chicago,IL,60601,high,low
+P-00000576,Matthew,Taylor,matthew.taylor84@outlook.com,8726216813,5094 Pulaski Rd,Chicago,IL,60654,medium,medium
+P-00000577,Emily,Wilson,emily.wilson34@aol.com,8474658997,3222 Wacker Dr,Chicago,IL,60610,medium,high
+P-00000578,Jennifer,Martin,jennifer.martin48@comcast.net,8723993220,6766 Harrison St,Chicago,IL,60657,medium,low
+P-00000579,Matthew,Torres,matthew.torres15@hotmail.com,8476658565,4600 Wacker Dr,Oak Park,IL,60302,low,medium
+P-00000580,Linda,Adams,linda.adams35@comcast.net,7733051723,463 Pulaski Rd,Chicago,IL,60615,low,low
+P-00000581,Christopher,Taylor,christopher.taylor62@hotmail.com,3129231691,9162 Dearborn St,Chicago,IL,60610,low,medium
+P-00000582,Daniel,Perez,daniel.perez4@yahoo.com,8474129985,3183 Cermak Rd,Oak Park,IL,60302,medium,low
+P-00000583,Richard,Lopez,richard.lopez2@att.net,7737226659,1645 California Ave,Oak Park,IL,60302,high,low
+P-00000584,Donald,Adams,donald.adams85@aol.com,8471542955,9621 Fullerton Ave,Chicago,IL,60622,high,high
+P-00000585,David,Rodriguez,david.rodriguez26@aol.com,8472657387,6061 Pulaski Rd,Chicago,IL,60601,low,low
+P-00000586,Donna,White,donna.white10@att.net,8474886932,6300 Fullerton Ave,Chicago,IL,60610,medium,low
+P-00000587,Sarah,Ramirez,sarah.ramirez96@msn.com,8727215241,8401 Central Ave,Oak Park,IL,60302,medium,low
+P-00000588,Betty,Harris,betty.harris98@sbcglobal.net,6301303446,6018 Armitage Ave,Chicago,IL,60647,medium,high
+P-00000589,Mary,Moore,mary.moore98@outlook.com,8727115762,7264 Kedzie Ave,Chicago,IL,60601,medium,low
+P-00000590,Linda,Robinson,linda.robinson10@comcast.net,6305628656,238 State St,Chicago,IL,60657,high,high
+P-00000591,Timothy,Gonzalez,timothy.gonzalez89@outlook.com,7739006546,6453 LaSalle St,Chicago,IL,60615,low,low
+P-00000592,Jessica,Smith,jessica.smith34@icloud.com,3126408647,4252 Roosevelt Rd,Chicago,IL,60615,medium,medium
+P-00000593,Joseph,Jackson,joseph.jackson90@att.net,8724455673,9565 Diversey Pkwy,Chicago,IL,60610,low,low
+P-00000594,Margaret,Moore,margaret.moore86@yahoo.com,8477212695,6259 Pulaski Rd,Chicago,IL,60657,medium,medium
+P-00000595,Ashley,Anderson,ashley.anderson13@icloud.com,8724485001,2992 Madison St,Chicago,IL,60657,low,low
+P-00000596,Dorothy,Miller,dorothy.miller28@hotmail.com,6309186565,6254 Jackson Blvd,Chicago,IL,60615,medium,low
+P-00000597,Donald,Lee,donald.lee91@comcast.net,8477214294,2782 Roosevelt Rd,Chicago,IL,60601,low,major
+P-00000598,Michelle,Thomas,michelle.thomas25@msn.com,8475415743,1107 Michigan Ave,Chicago,IL,60657,low,medium
+P-00000599,Margaret,Wright,margaret.wright98@yahoo.com,8474590511,8861 Congress Pkwy,Chicago,IL,60657,low,low
+P-00000600,Paul,Miller,paul.miller72@icloud.com,8728204425,6620 Harrison St,Chicago,IL,60615,medium,low
+P-00000601,Charles,Martinez,charles.martinez4@yahoo.com,6301236824,4410 Jackson Blvd,Chicago,IL,60622,low,medium
+P-00000602,William,Moore,william.moore63@sbcglobal.net,7735063068,7522 Van Buren St,Chicago,IL,60610,low,low
+P-00000603,Jessica,Lopez,jessica.lopez69@yahoo.com,7731220326,3011 Oak Park Ave,Chicago,IL,60614,low,major
+P-00000604,Nancy,Wright,nancy.wright39@msn.com,3123906405,9210 Kedzie Ave,Evanston,IL,60201,low,low
+P-00000605,Patricia,Miller,patricia.miller2@gmail.com,8729355425,4122 Cicero Ave,Chicago,IL,60647,medium,low
+P-00000606,Timothy,Gonzalez,timothy.gonzalez80@outlook.com,8728961813,7097 Archer Ave,Chicago,IL,60614,high,low
+P-00000607,Barbara,Lee,barbara.lee68@msn.com,8474850404,7160 Harrison St,Chicago,IL,60615,medium,high
+P-00000608,Charles,Robinson,charles.robinson78@outlook.com,6303307539,8310 Van Buren St,Chicago,IL,60654,low,low
+P-00000609,Patricia,King,patricia.king69@comcast.net,7734674153,552 Oak Park Ave,Chicago,IL,60654,medium,medium
+P-00000610,Daniel,Davis,daniel.davis92@gmail.com,8472045533,7992 Cermak Rd,Chicago,IL,60601,low,medium
+P-00000611,Steven,Flores,steven.flores43@hotmail.com,6301735053,5211 Michigan Ave,Chicago,IL,60622,medium,medium
+P-00000612,Emily,Baker,emily.baker95@aol.com,3121144454,4125 Harlem Ave,Evanston,IL,60201,medium,high
+P-00000613,Amanda,Thompson,amanda.thompson20@aol.com,3128905435,1912 Archer Ave,Chicago,IL,60614,low,major
+P-00000614,Charles,Allen,charles.allen3@msn.com,8478052514,651 Clark St,Chicago,IL,60601,medium,low
+P-00000615,George,Martin,george.martin44@yahoo.com,8478364534,6202 Wells St,Chicago,IL,60614,low,medium
+P-00000616,Matthew,Rodriguez,matthew.rodriguez66@hotmail.com,8721074231,8170 Kedzie Ave,Chicago,IL,60601,low,major
+P-00000617,Karen,Rodriguez,karen.rodriguez27@yahoo.com,6309905808,5770 Dearborn St,Chicago,IL,60601,low,low
+P-00000618,Anthony,Jones,anthony.jones88@sbcglobal.net,6304514674,1787 Congress Pkwy,Chicago,IL,60614,low,low
+P-00000619,Charles,Lopez,charles.lopez17@att.net,8729344854,8500 Michigan Ave,Chicago,IL,60654,low,low
+P-00000620,Thomas,Ramirez,thomas.ramirez60@hotmail.com,8729779116,1199 Western Ave,Chicago,IL,60615,low,low
+P-00000621,James,Martinez,james.martinez86@yahoo.com,8721645649,778 Cermak Rd,Chicago,IL,60647,medium,high
+P-00000622,Steven,King,steven.king36@yahoo.com,6304732517,6754 Madison St,Chicago,IL,60647,high,low
+P-00000623,Andrew,Moore,andrew.moore14@outlook.com,6309731032,3583 Jackson Blvd,Chicago,IL,60657,low,low
+P-00000624,Steven,Thompson,steven.thompson38@comcast.net,6307184398,187 Central Ave,Chicago,IL,60614,low,low
+P-00000625,Barbara,Adams,barbara.adams50@msn.com,6305110993,6706 Fullerton Ave,Chicago,IL,60657,medium,medium
+P-00000626,David,Green,david.green34@aol.com,7736583161,3350 Fullerton Ave,Chicago,IL,60610,low,medium
+P-00000627,Jennifer,Torres,jennifer.torres32@hotmail.com,8725147413,8121 Monroe St,Chicago,IL,60654,low,low
+P-00000628,Donald,Mitchell,donald.mitchell7@att.net,7733763779,3309 Franklin St,Chicago,IL,60601,medium,low
+P-00000629,Charles,Jones,charles.jones9@hotmail.com,8472255959,3657 Dearborn St,Evanston,IL,60201,high,low
+P-00000630,Patricia,Torres,patricia.torres48@aol.com,8726023198,3227 Jackson Blvd,Chicago,IL,60615,medium,low
+P-00000631,Amanda,Wilson,amanda.wilson17@outlook.com,3124246849,3932 Van Buren St,Chicago,IL,60622,medium,low
+P-00000632,Brian,Sanchez,brian.sanchez55@hotmail.com,8725354489,2543 Cicero Ave,Chicago,IL,60622,high,high
+P-00000633,Joseph,Green,joseph.green53@att.net,7731481632,6283 Kedzie Ave,Oak Park,IL,60302,medium,low
+P-00000634,Michael,Jones,michael.jones11@comcast.net,8471026505,4045 Western Ave,Evanston,IL,60201,medium,low
+P-00000635,Richard,Hall,richard.hall66@aol.com,3121973215,2885 Archer Ave,Chicago,IL,60647,medium,medium
+P-00000636,Kenneth,Taylor,kenneth.taylor23@aol.com,7736607423,1975 Central Ave,Chicago,IL,60622,medium,low
+P-00000637,Linda,Torres,linda.torres52@gmail.com,7736856494,2933 Wells St,Chicago,IL,60601,low,high
+P-00000638,Steven,Martinez,steven.martinez48@yahoo.com,3128104527,921 Wells St,Evanston,IL,60201,low,high
+P-00000639,Sandra,Gonzalez,sandra.gonzalez80@icloud.com,6304487924,2890 Van Buren St,Oak Park,IL,60302,medium,medium
+P-00000640,Sandra,Hall,sandra.hall7@msn.com,8474099834,2600 Pulaski Rd,Evanston,IL,60201,high,major
+P-00000641,Ashley,Sanchez,ashley.sanchez9@aol.com,8475802738,7306 Dearborn St,Chicago,IL,60610,medium,medium
+P-00000642,Donald,Hernandez,donald.hernandez58@gmail.com,8478069222,6978 Wells St,Chicago,IL,60601,high,low
+P-00000643,Richard,Campbell,richard.campbell65@hotmail.com,8728514782,3583 Franklin St,Chicago,IL,60654,medium,medium
+P-00000644,Karen,Williams,karen.williams2@yahoo.com,6304507145,8872 Madison St,Chicago,IL,60610,medium,low
+P-00000645,Steven,Martinez,steven.martinez76@outlook.com,8473941616,486 Monroe St,Chicago,IL,60654,medium,high
+P-00000646,Daniel,Hall,daniel.hall26@att.net,8472079037,4466 Harlem Ave,Evanston,IL,60201,low,low
+P-00000647,Michael,Campbell,michael.campbell80@comcast.net,8725066981,8286 Wells St,Chicago,IL,60615,high,high
+P-00000648,Linda,Allen,linda.allen71@aol.com,8472515719,2082 California Ave,Chicago,IL,60657,medium,low
+P-00000649,Amanda,Walker,amanda.walker93@sbcglobal.net,7732734428,4697 Roosevelt Rd,Chicago,IL,60654,high,low
+P-00000650,Joshua,Perez,joshua.perez23@sbcglobal.net,8479045391,4809 Irving Park Rd,Chicago,IL,60647,low,low
+P-00000651,Paul,Rodriguez,paul.rodriguez91@att.net,8474665842,1940 Adams St,Oak Park,IL,60302,high,medium
+P-00000652,Donald,Jones,donald.jones7@msn.com,6305768026,1181 Congress Pkwy,Evanston,IL,60201,low,medium
+P-00000653,Mark,Smith,mark.smith74@msn.com,6301779957,166 Wells St,Chicago,IL,60647,medium,medium
+P-00000654,Mary,Moore,mary.moore2@aol.com,8475876691,4731 Roosevelt Rd,Chicago,IL,60647,low,low
+P-00000655,James,Hall,james.hall3@comcast.net,8725330453,5711 Van Buren St,Oak Park,IL,60302,high,low
+P-00000656,Elizabeth,Wright,elizabeth.wright28@outlook.com,8726998544,1394 Central Ave,Chicago,IL,60615,low,high
+P-00000657,Betty,Brown,betty.brown13@msn.com,8728939174,8588 Monroe St,Chicago,IL,60657,low,high
+P-00000658,Kenneth,Williams,kenneth.williams49@msn.com,3129214372,275 Harrison St,Chicago,IL,60647,low,medium
+P-00000659,Ashley,Brown,ashley.brown36@gmail.com,6304446839,646 Roosevelt Rd,Chicago,IL,60614,high,low
+P-00000660,Anthony,Thomas,anthony.thomas83@gmail.com,8474257983,4502 Kedzie Ave,Evanston,IL,60201,medium,medium
+P-00000661,Joshua,Scott,joshua.scott68@outlook.com,6305976820,7733 Archer Ave,Chicago,IL,60614,low,low
+P-00000662,Mary,Lee,mary.lee44@comcast.net,8472385049,1720 Cermak Rd,Chicago,IL,60614,high,medium
+P-00000663,William,Walker,william.walker2@outlook.com,8729839008,5318 Oak Park Ave,Chicago,IL,60601,medium,low
+P-00000664,Karen,Johnson,karen.johnson41@hotmail.com,8721171236,7923 Dearborn St,Chicago,IL,60610,medium,low
+P-00000665,Barbara,Wright,barbara.wright81@msn.com,7731239647,3245 Adams St,Chicago,IL,60657,low,high
+P-00000666,William,Allen,william.allen18@sbcglobal.net,3122572732,7381 Congress Pkwy,Chicago,IL,60614,low,low
+P-00000667,Dorothy,Lewis,dorothy.lewis82@yahoo.com,3128770032,7439 Franklin St,Chicago,IL,60614,low,medium
+P-00000668,Dorothy,Nguyen,dorothy.nguyen82@msn.com,6304472696,7241 Van Buren St,Evanston,IL,60201,low,medium
+P-00000669,Margaret,Torres,margaret.torres44@yahoo.com,6306449604,9218 Van Buren St,Chicago,IL,60615,high,low
+P-00000670,Michael,Robinson,michael.robinson76@hotmail.com,7735272513,4775 Central Ave,Chicago,IL,60654,medium,high
+P-00000671,Andrew,Thompson,andrew.thompson2@aol.com,3128299243,6819 Diversey Pkwy,Oak Park,IL,60302,medium,high
+P-00000672,Sarah,Gonzalez,sarah.gonzalez58@msn.com,6308587145,867 Cicero Ave,Chicago,IL,60657,low,low
+P-00000673,Joshua,Robinson,joshua.robinson70@aol.com,8721561548,9830 Oak Park Ave,Chicago,IL,60647,medium,high
+P-00000674,Jennifer,Nelson,jennifer.nelson49@msn.com,6304377136,9799 State St,Evanston,IL,60201,low,high
+P-00000675,Sarah,Lee,sarah.lee52@aol.com,8472968093,3797 Adams St,Chicago,IL,60614,medium,low
+P-00000676,Linda,King,linda.king73@hotmail.com,6303183448,9590 LaSalle St,Oak Park,IL,60302,low,low
+P-00000677,Charles,Thompson,charles.thompson96@msn.com,8728371858,8213 Monroe St,Chicago,IL,60615,medium,medium
+P-00000678,Paul,Jackson,paul.jackson83@gmail.com,7731676935,6975 California Ave,Chicago,IL,60657,high,low
+P-00000679,Lisa,Anderson,lisa.anderson23@gmail.com,8729269841,9089 Oak Park Ave,Chicago,IL,60601,low,major
+P-00000680,Betty,Mitchell,betty.mitchell38@yahoo.com,3128608965,777 Monroe St,Chicago,IL,60601,medium,medium
+P-00000681,Linda,Ramirez,linda.ramirez17@comcast.net,8472461433,6313 Congress Pkwy,Evanston,IL,60201,low,major
+P-00000682,Kenneth,Lopez,kenneth.lopez14@aol.com,8723037398,1043 Franklin St,Chicago,IL,60610,low,high
+P-00000683,Daniel,Green,daniel.green55@sbcglobal.net,6301353153,7164 Van Buren St,Evanston,IL,60201,high,high
+P-00000684,Andrew,Nguyen,andrew.nguyen59@aol.com,3121234898,2470 Archer Ave,Chicago,IL,60610,high,low
+P-00000685,Robert,Williams,robert.williams94@outlook.com,8471807040,3775 Diversey Pkwy,Oak Park,IL,60302,medium,low
+P-00000686,Kevin,Johnson,kevin.johnson45@att.net,8729840597,455 Adams St,Chicago,IL,60657,medium,low
+P-00000687,Andrew,Mitchell,andrew.mitchell15@msn.com,3121516394,5939 Monroe St,Chicago,IL,60622,low,medium
+P-00000688,Mary,White,mary.white66@aol.com,8728249127,8061 Belmont Ave,Chicago,IL,60647,low,medium
+P-00000689,Anthony,Mitchell,anthony.mitchell53@hotmail.com,7733518929,1516 Wells St,Chicago,IL,60601,medium,high
+P-00000690,Daniel,Clark,daniel.clark70@comcast.net,6303032656,2786 Harlem Ave,Evanston,IL,60201,low,high
+P-00000691,Barbara,Hill,barbara.hill46@aol.com,8471377224,1208 Adams St,Chicago,IL,60654,low,medium
+P-00000692,Mary,White,mary.white39@icloud.com,8726644219,8322 Adams St,Chicago,IL,60601,low,low
+P-00000693,Kevin,Clark,kevin.clark2@comcast.net,8478863353,9704 Western Ave,Chicago,IL,60610,medium,low
+P-00000694,Donna,Martin,donna.martin25@yahoo.com,3124932613,9996 Central Ave,Chicago,IL,60654,high,medium
+P-00000695,Robert,Gonzalez,robert.gonzalez12@sbcglobal.net,3127015346,9606 Jackson Blvd,Chicago,IL,60610,medium,medium
+P-00000696,Kenneth,Gonzalez,kenneth.gonzalez47@aol.com,8726193595,2968 Western Ave,Oak Park,IL,60302,medium,low
+P-00000697,Paul,Davis,paul.davis50@outlook.com,6301065867,6960 Van Buren St,Chicago,IL,60615,low,major
+P-00000698,Ashley,White,ashley.white87@yahoo.com,8473570746,7235 Archer Ave,Oak Park,IL,60302,medium,low
+P-00000699,Robert,Perez,robert.perez74@att.net,7738738672,4341 Franklin St,Oak Park,IL,60302,medium,low
+P-00000700,Jessica,Wright,jessica.wright82@comcast.net,8472407757,8724 Michigan Ave,Evanston,IL,60201,high,high
+P-00000701,Brian,Taylor,brian.taylor14@outlook.com,8724415398,5659 Van Buren St,Evanston,IL,60201,high,low
+P-00000702,Paul,Hill,paul.hill18@sbcglobal.net,3125065183,9846 Harlem Ave,Chicago,IL,60615,high,medium
+P-00000703,Kimberly,Martin,kimberly.martin68@msn.com,7731268116,958 Roosevelt Rd,Oak Park,IL,60302,low,low
+P-00000704,Jessica,Miller,jessica.miller16@att.net,6307949666,8206 Dearborn St,Chicago,IL,60610,low,low
+P-00000705,Jennifer,White,jennifer.white25@yahoo.com,3127951740,6185 Franklin St,Chicago,IL,60614,low,medium
+P-00000706,Jennifer,Hall,jennifer.hall47@msn.com,3125152109,866 Oak Park Ave,Chicago,IL,60654,medium,low
+P-00000707,Donald,Adams,donald.adams14@att.net,6303867695,5922 Kedzie Ave,Chicago,IL,60601,medium,low
+P-00000708,Sarah,Rivera,sarah.rivera37@msn.com,3122923298,4515 Wacker Dr,Chicago,IL,60654,low,medium
+P-00000709,Charles,Robinson,charles.robinson92@hotmail.com,8726259018,3970 Cermak Rd,Chicago,IL,60657,medium,medium
+P-00000710,Matthew,Jackson,matthew.jackson37@yahoo.com,8725197739,3301 Western Ave,Chicago,IL,60657,low,low
+P-00000711,Donna,Thompson,donna.thompson75@att.net,7735007324,9454 LaSalle St,Evanston,IL,60201,medium,low
+P-00000712,Susan,Martinez,susan.martinez9@hotmail.com,8728071422,9226 Congress Pkwy,Chicago,IL,60610,medium,medium
+P-00000713,Anthony,Lee,anthony.lee43@hotmail.com,8476579123,6223 Armitage Ave,Evanston,IL,60201,low,low
+P-00000714,Patricia,Ramirez,patricia.ramirez9@sbcglobal.net,8721480674,7211 Ashland Ave,Chicago,IL,60615,low,low
+P-00000715,Steven,King,steven.king86@hotmail.com,6306868555,5456 State St,Chicago,IL,60622,low,medium
+P-00000716,Christopher,Young,christopher.young94@gmail.com,8725713297,8520 Cicero Ave,Chicago,IL,60647,medium,medium
+P-00000717,Timothy,Anderson,timothy.anderson24@gmail.com,7739324458,4863 Wacker Dr,Chicago,IL,60622,medium,low
+P-00000718,Kimberly,Hernandez,kimberly.hernandez35@outlook.com,8474798057,3967 Harlem Ave,Chicago,IL,60622,low,low
+P-00000719,Nancy,Davis,nancy.davis53@att.net,6309468579,6504 Michigan Ave,Evanston,IL,60201,high,low
+P-00000720,Kenneth,Campbell,kenneth.campbell57@icloud.com,7731846462,3083 Irving Park Rd,Evanston,IL,60201,high,low
+P-00000721,Susan,Nguyen,susan.nguyen82@sbcglobal.net,6301230596,6135 Ashland Ave,Chicago,IL,60614,medium,medium
+P-00000722,Michael,Thompson,michael.thompson23@comcast.net,7735970345,4598 Oak Park Ave,Chicago,IL,60647,medium,low
+P-00000723,Kevin,Mitchell,kevin.mitchell25@outlook.com,6306360678,2266 Harrison St,Evanston,IL,60201,low,low
+P-00000724,Patricia,Jackson,patricia.jackson78@gmail.com,7732435986,6017 Kedzie Ave,Chicago,IL,60657,low,major
+P-00000725,Richard,Mitchell,richard.mitchell76@aol.com,8725741882,478 Fullerton Ave,Chicago,IL,60654,medium,medium
+P-00000726,Donald,Allen,donald.allen98@comcast.net,8474620597,1988 Harrison St,Evanston,IL,60201,high,medium
+P-00000727,George,Jackson,george.jackson33@att.net,8475010768,7877 Madison St,Chicago,IL,60601,low,low
+P-00000728,David,Anderson,david.anderson54@outlook.com,7734546434,4959 Fullerton Ave,Chicago,IL,60657,low,medium
+P-00000729,Amanda,Perez,amanda.perez39@hotmail.com,3128392053,1342 Irving Park Rd,Chicago,IL,60615,low,medium
+P-00000730,Carol,Taylor,carol.taylor47@outlook.com,8471769032,1924 Irving Park Rd,Chicago,IL,60601,low,medium
+P-00000731,Daniel,Jones,daniel.jones6@att.net,8728285880,164 Western Ave,Evanston,IL,60201,low,low
+P-00000732,Elizabeth,Rodriguez,elizabeth.rodriguez67@msn.com,3128016611,3722 California Ave,Chicago,IL,60601,low,medium
+P-00000733,Michelle,Smith,michelle.smith4@att.net,8724033932,5634 Wells St,Chicago,IL,60615,high,low
+P-00000734,Jessica,Miller,jessica.miller93@att.net,3122594362,4762 Franklin St,Chicago,IL,60622,high,major
+P-00000735,Michelle,Rodriguez,michelle.rodriguez98@comcast.net,6304547480,2811 Jackson Blvd,Oak Park,IL,60302,low,low
+P-00000736,Donald,Ramirez,donald.ramirez79@gmail.com,6309042153,1836 Pulaski Rd,Chicago,IL,60615,high,high
+P-00000737,Mark,Harris,mark.harris85@icloud.com,7734337013,9704 Van Buren St,Chicago,IL,60647,medium,low
+P-00000738,Andrew,Campbell,andrew.campbell71@aol.com,8722926252,9994 LaSalle St,Chicago,IL,60647,high,low
+P-00000739,Linda,Taylor,linda.taylor91@gmail.com,3127634699,8147 Congress Pkwy,Chicago,IL,60614,medium,low
+P-00000740,Matthew,Adams,matthew.adams64@yahoo.com,6306018768,1331 Ashland Ave,Chicago,IL,60601,medium,low
+P-00000741,Donna,Lewis,donna.lewis90@comcast.net,3123644046,4109 Roosevelt Rd,Oak Park,IL,60302,low,high
+P-00000742,Sarah,Anderson,sarah.anderson43@outlook.com,8722753313,8283 Kedzie Ave,Chicago,IL,60622,low,medium
+P-00000743,Jessica,Davis,jessica.davis96@msn.com,6302661342,493 Cicero Ave,Oak Park,IL,60302,medium,low
+P-00000744,Jennifer,Martin,jennifer.martin23@sbcglobal.net,7735886202,2368 Roosevelt Rd,Chicago,IL,60657,medium,medium
+P-00000745,Linda,Martin,linda.martin78@comcast.net,8471563889,8453 Adams St,Chicago,IL,60610,medium,low
+P-00000746,Carol,King,carol.king71@msn.com,3127900725,6561 Pulaski Rd,Chicago,IL,60654,high,low
+P-00000747,Anthony,Williams,anthony.williams84@yahoo.com,3122634461,9118 Monroe St,Chicago,IL,60622,medium,medium
+P-00000748,George,Baker,george.baker63@comcast.net,7731834938,4684 Fullerton Ave,Chicago,IL,60601,medium,medium
+P-00000749,Christopher,Flores,christopher.flores54@icloud.com,8725149570,6742 Armitage Ave,Chicago,IL,60615,low,low
+P-00000750,Linda,Mitchell,linda.mitchell52@comcast.net,3129809609,977 Pulaski Rd,Chicago,IL,60654,low,major
+P-00000751,Joshua,White,joshua.white25@comcast.net,7739677980,2474 Michigan Ave,Chicago,IL,60647,high,high
+P-00000752,William,Lopez,william.lopez63@outlook.com,6305394203,2588 Van Buren St,Chicago,IL,60610,high,medium
+P-00000753,Kenneth,White,kenneth.white12@yahoo.com,8723862750,7969 Van Buren St,Chicago,IL,60601,medium,low
+P-00000754,Richard,King,richard.king68@yahoo.com,8472615270,7856 LaSalle St,Chicago,IL,60647,high,low
+P-00000755,Charles,Miller,charles.miller8@icloud.com,7732768407,672 Oak Park Ave,Chicago,IL,60622,low,low
+P-00000756,Jennifer,Nelson,jennifer.nelson66@hotmail.com,6305294329,1449 Cermak Rd,Chicago,IL,60647,medium,low
+P-00000757,Sandra,Miller,sandra.miller25@gmail.com,3127077449,191 Adams St,Oak Park,IL,60302,low,medium
+P-00000758,Karen,Smith,karen.smith67@yahoo.com,3129919757,9090 Harlem Ave,Chicago,IL,60614,medium,low
+P-00000759,Emily,Torres,emily.torres53@gmail.com,8471941208,8805 Pulaski Rd,Evanston,IL,60201,medium,low
+P-00000760,Jennifer,Lee,jennifer.lee89@msn.com,6302653005,1179 Dearborn St,Chicago,IL,60622,medium,major
+P-00000761,Amanda,Thomas,amanda.thomas84@att.net,8729399122,7333 Harrison St,Chicago,IL,60615,high,medium
+P-00000762,Lisa,Rivera,lisa.rivera91@gmail.com,8477232474,9699 Congress Pkwy,Chicago,IL,60601,low,low
+P-00000763,Sandra,Wright,sandra.wright40@gmail.com,8476755327,4398 Central Ave,Chicago,IL,60601,medium,low
+P-00000764,Brian,Garcia,brian.garcia88@comcast.net,8728381740,904 Wells St,Chicago,IL,60614,medium,medium
+P-00000765,Kevin,White,kevin.white79@msn.com,8725357847,8544 Wells St,Oak Park,IL,60302,medium,medium
+P-00000766,Amanda,Scott,amanda.scott76@aol.com,8729190219,3341 Archer Ave,Evanston,IL,60201,medium,low
+P-00000767,Steven,Allen,steven.allen41@msn.com,3123648191,5506 Pulaski Rd,Chicago,IL,60654,low,low
+P-00000768,Mary,Nguyen,mary.nguyen43@aol.com,8723802743,5422 Harrison St,Chicago,IL,60610,low,medium
+P-00000769,Donna,Campbell,donna.campbell50@yahoo.com,7733241105,9687 Madison St,Oak Park,IL,60302,low,low
+P-00000770,Kimberly,Nelson,kimberly.nelson71@aol.com,7735826176,4964 Ashland Ave,Evanston,IL,60201,low,medium
+P-00000771,Matthew,Lee,matthew.lee68@aol.com,6307063389,964 Cicero Ave,Chicago,IL,60615,high,low
+P-00000772,Nancy,Walker,nancy.walker77@att.net,8473612761,521 Congress Pkwy,Chicago,IL,60647,high,medium
+P-00000773,Andrew,Nelson,andrew.nelson81@msn.com,7731632731,1408 Adams St,Chicago,IL,60657,low,medium
+P-00000774,Dorothy,Wilson,dorothy.wilson94@msn.com,7738318898,4580 Cicero Ave,Evanston,IL,60201,medium,low
+P-00000775,Christopher,Robinson,christopher.robinson71@outlook.com,8729531336,209 Cermak Rd,Chicago,IL,60615,medium,low
+P-00000776,Charles,Scott,charles.scott45@outlook.com,3127914152,2147 Kedzie Ave,Chicago,IL,60615,low,low
+P-00000777,Kenneth,Rodriguez,kenneth.rodriguez83@comcast.net,8477259471,5092 Ashland Ave,Chicago,IL,60622,low,high
+P-00000778,Joshua,Taylor,joshua.taylor86@att.net,8473603680,338 Western Ave,Evanston,IL,60201,low,low
+P-00000779,Elizabeth,White,elizabeth.white4@icloud.com,6308593548,2096 Archer Ave,Chicago,IL,60615,high,low
+P-00000780,Melissa,Allen,melissa.allen83@sbcglobal.net,6309173542,7904 Monroe St,Evanston,IL,60201,high,medium
+P-00000781,Timothy,Anderson,timothy.anderson57@icloud.com,3124876345,2467 Madison St,Chicago,IL,60610,medium,low
+P-00000782,Carol,Harris,carol.harris6@comcast.net,7732553416,2207 Belmont Ave,Oak Park,IL,60302,low,low
+P-00000783,Jennifer,Torres,jennifer.torres41@msn.com,6308820707,9835 Oak Park Ave,Chicago,IL,60654,low,medium
+P-00000784,Patricia,Thomas,patricia.thomas76@hotmail.com,7732250844,5741 Monroe St,Chicago,IL,60622,low,low
+P-00000785,Daniel,Smith,daniel.smith60@outlook.com,7735275542,6623 Congress Pkwy,Chicago,IL,60614,high,medium
+P-00000786,Elizabeth,Martin,elizabeth.martin77@gmail.com,8479512270,639 Diversey Pkwy,Chicago,IL,60601,high,low
+P-00000787,Christopher,King,christopher.king96@hotmail.com,8478292496,9208 Van Buren St,Evanston,IL,60201,low,medium
+P-00000788,Sandra,Walker,sandra.walker75@outlook.com,3124742849,3303 Dearborn St,Chicago,IL,60601,high,high
+P-00000789,William,Perez,william.perez76@msn.com,7733995785,3449 Wells St,Chicago,IL,60647,low,low
+P-00000790,Ashley,Adams,ashley.adams72@yahoo.com,8474890702,6296 Jackson Blvd,Chicago,IL,60601,high,high
+P-00000791,Charles,Campbell,charles.campbell11@icloud.com,8723949908,5045 Central Ave,Chicago,IL,60622,medium,medium
+P-00000792,Sandra,Rodriguez,sandra.rodriguez31@msn.com,6306818812,6845 Harrison St,Chicago,IL,60610,high,high
+P-00000793,Jennifer,Lewis,jennifer.lewis75@comcast.net,7738458136,6402 Oak Park Ave,Oak Park,IL,60302,low,low
+P-00000794,Timothy,Gonzalez,timothy.gonzalez66@yahoo.com,3125072091,9904 Clark St,Oak Park,IL,60302,medium,medium
+P-00000795,Ashley,King,ashley.king59@sbcglobal.net,7735076773,3267 Kedzie Ave,Chicago,IL,60615,medium,low
+P-00000796,Kevin,Smith,kevin.smith74@comcast.net,6303762594,4577 Monroe St,Oak Park,IL,60302,low,high
+P-00000797,Barbara,Hall,barbara.hall80@hotmail.com,7733086172,5493 Western Ave,Chicago,IL,60601,low,low
+P-00000798,Steven,Flores,steven.flores58@yahoo.com,3124776764,8310 Wacker Dr,Evanston,IL,60201,low,medium
+P-00000799,Michael,Baker,michael.baker81@outlook.com,3122644173,2668 Fullerton Ave,Chicago,IL,60622,high,low
+P-00000800,Ashley,Hernandez,ashley.hernandez35@icloud.com,8725957107,6891 Dearborn St,Chicago,IL,60614,high,medium
+P-00000801,Timothy,Robinson,timothy.robinson52@outlook.com,6303126028,6624 Madison St,Chicago,IL,60657,low,low
+P-00000802,Melissa,Sanchez,melissa.sanchez77@comcast.net,6302629040,3248 Van Buren St,Chicago,IL,60622,low,medium
+P-00000803,Elizabeth,Perez,elizabeth.perez73@gmail.com,8474462511,7351 Harrison St,Evanston,IL,60201,medium,medium
+P-00000804,Sandra,Gonzalez,sandra.gonzalez81@att.net,6304535443,7731 Harlem Ave,Chicago,IL,60654,medium,medium
+P-00000805,Brian,Allen,brian.allen92@comcast.net,3122346365,5682 Franklin St,Chicago,IL,60654,low,low
+P-00000806,Donna,Rivera,donna.rivera44@sbcglobal.net,6308352245,9628 Ashland Ave,Chicago,IL,60615,low,medium
+P-00000807,Linda,Harris,linda.harris98@sbcglobal.net,8476234748,1643 Roosevelt Rd,Oak Park,IL,60302,low,high
+P-00000808,Thomas,Smith,thomas.smith3@aol.com,6307923985,8629 Clark St,Chicago,IL,60622,medium,high
+P-00000809,James,Clark,james.clark27@gmail.com,8475910662,2230 Central Ave,Oak Park,IL,60302,low,low
+P-00000810,Timothy,Torres,timothy.torres76@outlook.com,8473074242,6365 Madison St,Chicago,IL,60647,low,low
+P-00000811,Matthew,Lee,matthew.lee13@hotmail.com,6307886608,3721 Dearborn St,Oak Park,IL,60302,high,major
+P-00000812,William,Gonzalez,william.gonzalez55@outlook.com,3127903538,3788 Monroe St,Chicago,IL,60615,low,medium
+P-00000813,George,Baker,george.baker94@icloud.com,6302702424,8559 California Ave,Chicago,IL,60654,low,medium
+P-00000814,Anthony,Wright,anthony.wright96@gmail.com,3126600068,8908 Clark St,Chicago,IL,60614,medium,low
+P-00000815,Sandra,Thomas,sandra.thomas2@gmail.com,7733868921,1523 Harrison St,Chicago,IL,60601,medium,medium
+P-00000816,Susan,Lewis,susan.lewis55@hotmail.com,7731454529,1406 Monroe St,Chicago,IL,60615,low,low
+P-00000817,Margaret,Thompson,margaret.thompson14@icloud.com,7734954780,1444 Dearborn St,Chicago,IL,60614,medium,medium
+P-00000818,Betty,Taylor,betty.taylor87@outlook.com,8474452097,1503 Ashland Ave,Chicago,IL,60647,low,medium
+P-00000819,Lisa,Anderson,lisa.anderson41@sbcglobal.net,6308642139,6820 Cermak Rd,Evanston,IL,60201,low,low
+P-00000820,Joshua,Lewis,joshua.lewis47@aol.com,3126811303,4399 California Ave,Chicago,IL,60654,high,major
+P-00000821,Karen,Anderson,karen.anderson58@sbcglobal.net,7734022345,3667 Belmont Ave,Chicago,IL,60647,medium,medium
+P-00000822,Michael,Nelson,michael.nelson52@icloud.com,6306010281,8383 Pulaski Rd,Chicago,IL,60657,high,low
+P-00000823,Carol,Perez,carol.perez51@msn.com,7737554845,2820 Roosevelt Rd,Chicago,IL,60615,low,low
+P-00000824,Brian,Moore,brian.moore90@att.net,7736408520,6058 Madison St,Chicago,IL,60647,low,high
+P-00000825,Paul,Lee,paul.lee34@sbcglobal.net,8725716302,873 Fullerton Ave,Chicago,IL,60614,medium,medium
+P-00000826,Charles,Allen,charles.allen98@hotmail.com,8729786301,6633 Western Ave,Chicago,IL,60657,low,medium
+P-00000827,Donna,Sanchez,donna.sanchez92@comcast.net,8721791624,2115 Harlem Ave,Chicago,IL,60654,medium,low
+P-00000828,Susan,Ramirez,susan.ramirez88@hotmail.com,8724958905,7478 Cicero Ave,Evanston,IL,60201,medium,major
+P-00000829,Sarah,Baker,sarah.baker29@gmail.com,6309309740,5792 Harlem Ave,Chicago,IL,60614,medium,low
+P-00000830,Steven,Williams,steven.williams89@gmail.com,7732991367,2686 Central Ave,Chicago,IL,60654,medium,medium
+P-00000831,Melissa,Hill,melissa.hill68@sbcglobal.net,8473285362,8562 Wacker Dr,Chicago,IL,60610,low,medium
+P-00000832,Timothy,Sanchez,timothy.sanchez10@aol.com,3122690792,9654 Fullerton Ave,Chicago,IL,60647,medium,low
+P-00000833,Charles,Walker,charles.walker88@yahoo.com,3125584470,7827 Van Buren St,Chicago,IL,60614,medium,low
+P-00000834,Emily,Clark,emily.clark57@gmail.com,6308556142,860 Harrison St,Chicago,IL,60657,low,low
+P-00000835,George,Sanchez,george.sanchez92@att.net,8473760451,9361 Cicero Ave,Chicago,IL,60622,medium,low
+P-00000836,Donald,Hill,donald.hill73@sbcglobal.net,8723444149,2929 Oak Park Ave,Evanston,IL,60201,medium,major
+P-00000837,Susan,Mitchell,susan.mitchell24@icloud.com,8721921806,1188 Cicero Ave,Chicago,IL,60647,low,low
+P-00000838,Brian,Rivera,brian.rivera11@msn.com,8727686269,3847 Cicero Ave,Chicago,IL,60622,low,medium
+P-00000839,Joseph,Rodriguez,joseph.rodriguez1@aol.com,8476169719,7102 Archer Ave,Chicago,IL,60622,medium,low
+P-00000840,Robert,Scott,robert.scott64@comcast.net,7733097711,813 Archer Ave,Chicago,IL,60654,medium,low
+P-00000841,Joseph,Smith,joseph.smith33@aol.com,3127251936,1932 Fullerton Ave,Chicago,IL,60601,high,high
+P-00000842,Timothy,Smith,timothy.smith88@aol.com,3128527872,356 Armitage Ave,Chicago,IL,60657,medium,high
+P-00000843,Charles,Nelson,charles.nelson2@sbcglobal.net,3123701243,9681 Dearborn St,Chicago,IL,60654,low,medium
+P-00000844,Karen,Williams,karen.williams50@outlook.com,3129683565,1293 Harrison St,Oak Park,IL,60302,medium,low
+P-00000845,Karen,Nguyen,karen.nguyen64@aol.com,7736710912,4283 Cicero Ave,Chicago,IL,60615,high,low
+P-00000846,Anthony,Ramirez,anthony.ramirez27@aol.com,7737162492,3714 Harlem Ave,Chicago,IL,60610,low,medium
+P-00000847,Ashley,Green,ashley.green53@icloud.com,7731483075,7063 Pulaski Rd,Chicago,IL,60610,high,low
+P-00000848,Karen,Scott,karen.scott54@comcast.net,3124682796,7169 Clark St,Chicago,IL,60622,medium,low
+P-00000849,Brian,Mitchell,brian.mitchell27@icloud.com,3128724578,1459 Roosevelt Rd,Chicago,IL,60610,high,low
+P-00000850,Charles,Taylor,charles.taylor22@comcast.net,7736878263,767 Michigan Ave,Evanston,IL,60201,medium,low
+P-00000851,Mary,Taylor,mary.taylor38@icloud.com,8471751240,6704 Adams St,Chicago,IL,60615,low,high
+P-00000852,Mary,Adams,mary.adams43@msn.com,8476613904,2122 Cicero Ave,Chicago,IL,60615,medium,low
+P-00000853,Charles,Miller,charles.miller83@aol.com,7737425148,2746 State St,Oak Park,IL,60302,medium,low
+P-00000854,Paul,Wilson,paul.wilson7@icloud.com,8721483791,6068 Harlem Ave,Chicago,IL,60601,low,medium
+P-00000855,William,Taylor,william.taylor54@aol.com,8479463331,7326 Dearborn St,Chicago,IL,60647,medium,low
+P-00000856,Christopher,Hill,christopher.hill68@comcast.net,8472035211,2680 Ashland Ave,Evanston,IL,60201,medium,medium
+P-00000857,Michael,Baker,michael.baker64@att.net,8473214979,1174 California Ave,Evanston,IL,60201,low,low
+P-00000858,Michael,Martinez,michael.martinez56@comcast.net,7736507200,2438 Armitage Ave,Evanston,IL,60201,low,low
+P-00000859,Carol,Smith,carol.smith67@icloud.com,8725172060,700 Michigan Ave,Chicago,IL,60610,low,high
+P-00000860,Betty,Brown,betty.brown14@yahoo.com,8724936642,9786 California Ave,Chicago,IL,60601,medium,low
+P-00000861,Joshua,Nelson,joshua.nelson26@sbcglobal.net,7736134629,4795 Adams St,Chicago,IL,60657,high,major
+P-00000862,Michael,Smith,michael.smith61@aol.com,8721872109,4116 Kedzie Ave,Chicago,IL,60614,low,high
+P-00000863,Susan,Baker,susan.baker77@aol.com,3125187442,1546 Michigan Ave,Chicago,IL,60601,low,low
+P-00000864,Steven,Thomas,steven.thomas46@gmail.com,8475495433,5772 Diversey Pkwy,Oak Park,IL,60302,low,low
+P-00000865,Kimberly,Ramirez,kimberly.ramirez87@gmail.com,7733791671,7387 Clark St,Chicago,IL,60610,high,high
+P-00000866,Lisa,Hall,lisa.hall30@yahoo.com,8479214491,7904 Wacker Dr,Chicago,IL,60647,medium,medium
+P-00000867,Robert,Allen,robert.allen69@aol.com,7735579097,2919 Franklin St,Oak Park,IL,60302,low,medium
+P-00000868,Paul,Davis,paul.davis16@icloud.com,8473854135,1506 Oak Park Ave,Chicago,IL,60614,medium,high
+P-00000869,Dorothy,Lopez,dorothy.lopez73@hotmail.com,6309173192,6349 Ashland Ave,Chicago,IL,60601,high,high
+P-00000870,Michael,King,michael.king24@sbcglobal.net,8478406465,810 Roosevelt Rd,Chicago,IL,60601,low,low
+P-00000871,Timothy,Perez,timothy.perez32@icloud.com,6303005464,1092 State St,Chicago,IL,60601,medium,low
+P-00000872,Kevin,Adams,kevin.adams17@sbcglobal.net,6307523229,6069 Oak Park Ave,Chicago,IL,60622,medium,high
+P-00000873,Christopher,Walker,christopher.walker97@outlook.com,7736253087,5691 Congress Pkwy,Chicago,IL,60657,medium,low
+P-00000874,Paul,Walker,paul.walker12@att.net,3122413285,2489 State St,Chicago,IL,60647,low,medium
+P-00000875,Susan,Allen,susan.allen80@outlook.com,8727622266,196 Roosevelt Rd,Evanston,IL,60201,low,medium
+P-00000876,William,Rodriguez,william.rodriguez44@sbcglobal.net,8471903057,1246 Michigan Ave,Chicago,IL,60601,low,low
+P-00000877,Robert,Thomas,robert.thomas49@yahoo.com,3129337746,1561 Belmont Ave,Chicago,IL,60654,low,low
+P-00000878,Robert,Flores,robert.flores82@yahoo.com,8471187486,5764 Harrison St,Chicago,IL,60610,low,medium
+P-00000879,Jessica,Thomas,jessica.thomas41@comcast.net,8727401391,3331 Wells St,Chicago,IL,60622,medium,low
+P-00000880,Donald,Thomas,donald.thomas64@sbcglobal.net,8478122759,6939 LaSalle St,Chicago,IL,60601,low,medium
+P-00000881,Paul,Perez,paul.perez56@sbcglobal.net,3123873382,8126 Dearborn St,Chicago,IL,60654,low,medium
+P-00000882,Amanda,Williams,amanda.williams14@hotmail.com,7738068566,1689 Monroe St,Chicago,IL,60657,medium,low
+P-00000883,Kimberly,Torres,kimberly.torres81@comcast.net,6308931827,9795 Cicero Ave,Chicago,IL,60622,low,high
+P-00000884,Brian,Gonzalez,brian.gonzalez59@gmail.com,3127363395,6192 Diversey Pkwy,Chicago,IL,60615,medium,medium
+P-00000885,David,Thompson,david.thompson69@icloud.com,3121823837,6134 Roosevelt Rd,Chicago,IL,60615,medium,high
+P-00000886,Joshua,Anderson,joshua.anderson43@yahoo.com,6303903561,8706 Michigan Ave,Chicago,IL,60615,high,low
+P-00000887,Matthew,Flores,matthew.flores67@comcast.net,6307965410,9330 Wacker Dr,Chicago,IL,60610,medium,low
+P-00000888,Sarah,Hernandez,sarah.hernandez60@aol.com,3129782153,5951 Central Ave,Chicago,IL,60601,low,high
+P-00000889,Brian,Anderson,brian.anderson41@hotmail.com,8479736857,9011 Dearborn St,Chicago,IL,60601,low,medium
+P-00000890,Robert,Torres,robert.torres14@att.net,6302599826,4882 Kedzie Ave,Chicago,IL,60647,medium,medium
+P-00000891,Steven,Rodriguez,steven.rodriguez77@comcast.net,6309420149,8109 Roosevelt Rd,Chicago,IL,60657,low,low
+P-00000892,Jennifer,Sanchez,jennifer.sanchez61@hotmail.com,7735863099,4214 Michigan Ave,Chicago,IL,60654,low,medium
+P-00000893,Donald,Johnson,donald.johnson38@comcast.net,8723165456,5402 Ashland Ave,Chicago,IL,60615,medium,medium
+P-00000894,Patricia,Hernandez,patricia.hernandez9@msn.com,7738031119,5976 California Ave,Chicago,IL,60615,medium,medium
+P-00000895,Linda,Wilson,linda.wilson44@icloud.com,7736026014,8470 Armitage Ave,Chicago,IL,60615,low,low
+P-00000896,Carol,Johnson,carol.johnson65@outlook.com,3123002507,5383 Madison St,Evanston,IL,60201,high,medium
+P-00000897,Dorothy,Rivera,dorothy.rivera89@yahoo.com,7735848243,691 Harrison St,Chicago,IL,60622,low,medium
+P-00000898,Brian,Miller,brian.miller50@aol.com,8726942712,8594 Pulaski Rd,Chicago,IL,60601,medium,medium
+P-00000899,James,Lewis,james.lewis35@comcast.net,7736171666,5320 Franklin St,Chicago,IL,60657,medium,low
+P-00000900,Elizabeth,Johnson,elizabeth.johnson72@outlook.com,3128457451,9119 Harrison St,Chicago,IL,60622,high,low
+P-00000901,Charles,Rivera,charles.rivera13@icloud.com,3126767034,6134 Belmont Ave,Chicago,IL,60622,low,low
+P-00000902,Michael,Clark,michael.clark28@aol.com,3128536381,580 Roosevelt Rd,Chicago,IL,60614,high,low
+P-00000903,Dorothy,Gonzalez,dorothy.gonzalez31@yahoo.com,6303801818,5062 Oak Park Ave,Chicago,IL,60657,low,low
+P-00000904,Sarah,Allen,sarah.allen56@icloud.com,8725062118,9550 Adams St,Oak Park,IL,60302,medium,major
+P-00000905,Kimberly,Hill,kimberly.hill54@icloud.com,8726416797,2414 Belmont Ave,Chicago,IL,60647,medium,low
+P-00000906,Melissa,Young,melissa.young95@outlook.com,8479745662,7442 Michigan Ave,Chicago,IL,60614,low,high
+P-00000907,Christopher,Wilson,christopher.wilson62@hotmail.com,7734583650,9189 Cicero Ave,Oak Park,IL,60302,high,medium
+P-00000908,Jessica,Moore,jessica.moore45@outlook.com,3126273897,332 Franklin St,Chicago,IL,60647,medium,low
+P-00000909,Brian,Torres,brian.torres55@att.net,3126910122,989 Diversey Pkwy,Chicago,IL,60654,low,low
+P-00000910,Carol,Garcia,carol.garcia18@outlook.com,3123744454,5483 Armitage Ave,Evanston,IL,60201,low,high
+P-00000911,Michael,Taylor,michael.taylor79@yahoo.com,6307945685,7271 Central Ave,Chicago,IL,60654,low,low
+P-00000912,Richard,Sanchez,richard.sanchez88@hotmail.com,8477032290,9522 Adams St,Chicago,IL,60601,high,low
+P-00000913,Melissa,Green,melissa.green35@outlook.com,8475773147,3530 Belmont Ave,Chicago,IL,60647,high,low
+P-00000914,Daniel,Wright,daniel.wright97@hotmail.com,8726082070,8624 Diversey Pkwy,Evanston,IL,60201,low,major
+P-00000915,Nancy,Thomas,nancy.thomas87@att.net,8721164486,6244 Cermak Rd,Oak Park,IL,60302,low,medium
+P-00000916,Matthew,Hall,matthew.hall97@comcast.net,6307284179,7318 Cermak Rd,Chicago,IL,60614,low,high
+P-00000917,Mark,Campbell,mark.campbell97@outlook.com,6304695611,8155 Harrison St,Chicago,IL,60615,low,low
+P-00000918,Joseph,Lewis,joseph.lewis79@att.net,7733466704,596 Cicero Ave,Chicago,IL,60622,low,medium
+P-00000919,Amanda,Martinez,amanda.martinez19@yahoo.com,6304275654,4861 Harrison St,Chicago,IL,60647,medium,medium
+P-00000920,Donna,Thomas,donna.thomas95@comcast.net,8727824125,6954 Dearborn St,Chicago,IL,60654,low,low
+P-00000921,Patricia,Lewis,patricia.lewis55@msn.com,8723442905,1416 Harlem Ave,Chicago,IL,60657,low,low
+P-00000922,Michael,Nelson,michael.nelson49@sbcglobal.net,3126310825,7730 Kedzie Ave,Chicago,IL,60647,low,low
+P-00000923,Mark,Clark,mark.clark32@outlook.com,7731587426,6304 Kedzie Ave,Chicago,IL,60615,medium,low
+P-00000924,Sandra,Perez,sandra.perez76@yahoo.com,7731776385,2629 Clark St,Chicago,IL,60657,low,low
+P-00000925,Karen,Harris,karen.harris11@gmail.com,7732675255,9564 Pulaski Rd,Chicago,IL,60654,low,medium
+P-00000926,George,Johnson,george.johnson31@yahoo.com,3125209229,4967 Cermak Rd,Chicago,IL,60615,medium,low
+P-00000927,Linda,Johnson,linda.johnson31@aol.com,7732233387,5453 Monroe St,Chicago,IL,60622,low,low
+P-00000928,Elizabeth,Lewis,elizabeth.lewis52@hotmail.com,7739584036,8352 Belmont Ave,Oak Park,IL,60302,medium,high
+P-00000929,Carol,Moore,carol.moore93@sbcglobal.net,8476636589,7142 Archer Ave,Chicago,IL,60610,low,high
+P-00000930,Mark,Lopez,mark.lopez17@gmail.com,7739227953,125 Harrison St,Chicago,IL,60647,low,medium
+P-00000931,Joshua,Campbell,joshua.campbell65@att.net,6309305530,1625 Central Ave,Chicago,IL,60610,low,medium
+P-00000932,Barbara,Gonzalez,barbara.gonzalez51@aol.com,6301770008,4281 Irving Park Rd,Chicago,IL,60601,high,low
+P-00000933,Patricia,Campbell,patricia.campbell56@sbcglobal.net,7733821562,6292 Roosevelt Rd,Chicago,IL,60657,medium,medium
+P-00000934,Kimberly,Hernandez,kimberly.hernandez33@msn.com,7736325910,5772 Kedzie Ave,Chicago,IL,60654,medium,medium
+P-00000935,Elizabeth,Anderson,elizabeth.anderson93@sbcglobal.net,8726237264,4127 Madison St,Evanston,IL,60201,medium,high
+P-00000936,Emily,Mitchell,emily.mitchell97@comcast.net,7737153283,4953 Kedzie Ave,Chicago,IL,60610,low,low
+P-00000937,Donald,Garcia,donald.garcia75@att.net,8475327219,173 Belmont Ave,Evanston,IL,60201,medium,low
+P-00000938,Brian,Sanchez,brian.sanchez76@sbcglobal.net,8722676099,9983 Franklin St,Evanston,IL,60201,high,low
+P-00000939,Emily,Johnson,emily.johnson50@msn.com,8729536341,165 Franklin St,Evanston,IL,60201,low,high
+P-00000940,Anthony,Mitchell,anthony.mitchell23@icloud.com,8474226250,4519 Central Ave,Chicago,IL,60654,low,low
+P-00000941,Betty,Scott,betty.scott98@sbcglobal.net,6307616243,8633 LaSalle St,Chicago,IL,60610,low,medium
+P-00000942,Donald,Perez,donald.perez80@msn.com,8472732329,5792 Ashland Ave,Evanston,IL,60201,low,medium
+P-00000943,Robert,Garcia,robert.garcia59@sbcglobal.net,8722398705,2279 Wacker Dr,Chicago,IL,60615,high,low
+P-00000944,Andrew,Martinez,andrew.martinez36@aol.com,8729762127,4376 Ashland Ave,Chicago,IL,60654,low,low
+P-00000945,Kevin,Taylor,kevin.taylor54@comcast.net,8728642897,4477 Wacker Dr,Chicago,IL,60647,low,medium
+P-00000946,Jennifer,Smith,jennifer.smith97@hotmail.com,8726423444,4667 Central Ave,Chicago,IL,60615,high,low
+P-00000947,Brian,Jackson,brian.jackson10@att.net,6304567008,4827 Franklin St,Chicago,IL,60657,low,low
+P-00000948,Elizabeth,Walker,elizabeth.walker17@yahoo.com,8472079229,2900 Kedzie Ave,Chicago,IL,60622,low,medium
+P-00000949,Donald,Young,donald.young80@aol.com,8725961826,6020 Archer Ave,Chicago,IL,60615,low,low
+P-00000950,Betty,Rivera,betty.rivera64@gmail.com,3124118113,1994 Monroe St,Chicago,IL,60601,high,major
+P-00000951,Jessica,Torres,jessica.torres48@outlook.com,7732418351,2870 Oak Park Ave,Chicago,IL,60601,high,medium
+P-00000952,Kimberly,Miller,kimberly.miller15@gmail.com,7733302690,6780 Monroe St,Chicago,IL,60610,high,medium
+P-00000953,Jennifer,Anderson,jennifer.anderson21@comcast.net,3121137980,2403 Fullerton Ave,Chicago,IL,60615,medium,low
+P-00000954,Robert,Brown,robert.brown18@hotmail.com,3127702705,7451 Cicero Ave,Chicago,IL,60622,medium,low
+P-00000955,Thomas,Jones,thomas.jones37@icloud.com,8477586242,7714 Clark St,Chicago,IL,60610,medium,high
+P-00000956,Sandra,Moore,sandra.moore36@gmail.com,7738797551,9962 Central Ave,Evanston,IL,60201,low,low
+P-00000957,Steven,Lopez,steven.lopez63@msn.com,6308785363,3528 Roosevelt Rd,Chicago,IL,60610,high,low
+P-00000958,Susan,Hernandez,susan.hernandez29@msn.com,8475827976,7111 Roosevelt Rd,Chicago,IL,60647,low,low
+P-00000959,Christopher,Rodriguez,christopher.rodriguez34@att.net,3128310982,5875 Ashland Ave,Chicago,IL,60601,low,medium
+P-00000960,Richard,Lopez,richard.lopez42@icloud.com,7738745073,8967 Irving Park Rd,Evanston,IL,60201,low,medium
+P-00000961,Barbara,Wright,barbara.wright54@yahoo.com,7732740584,6032 Franklin St,Chicago,IL,60615,medium,medium
+P-00000962,Lisa,Campbell,lisa.campbell76@gmail.com,6305151538,7987 Diversey Pkwy,Chicago,IL,60657,medium,medium
+P-00000963,Sarah,Sanchez,sarah.sanchez18@hotmail.com,7731734459,1978 Clark St,Evanston,IL,60201,high,medium
+P-00000964,Carol,Clark,carol.clark89@att.net,3124197860,9409 California Ave,Chicago,IL,60614,high,low
+P-00000965,Carol,Lee,carol.lee40@comcast.net,8478356148,2000 Monroe St,Chicago,IL,60614,medium,low
+P-00000966,Linda,White,linda.white85@sbcglobal.net,7736433962,915 Jackson Blvd,Chicago,IL,60601,low,low
+P-00000967,Betty,Allen,betty.allen72@comcast.net,7739975979,1521 Roosevelt Rd,Chicago,IL,60622,low,high
+P-00000968,Christopher,Lopez,christopher.lopez19@sbcglobal.net,8478401628,1577 Harlem Ave,Chicago,IL,60622,low,high
+P-00000969,Anthony,Thomas,anthony.thomas80@aol.com,8477424788,447 Wells St,Chicago,IL,60614,high,high
+P-00000970,David,Perez,david.perez65@outlook.com,3126827278,6709 Clark St,Chicago,IL,60610,medium,low
+P-00000971,Richard,Clark,richard.clark39@att.net,8726133783,6074 Jackson Blvd,Chicago,IL,60615,high,medium
+P-00000972,Lisa,Baker,lisa.baker51@comcast.net,8474465495,1718 Dearborn St,Oak Park,IL,60302,low,low
+P-00000973,Emily,Nguyen,emily.nguyen93@att.net,8473554293,5389 Pulaski Rd,Chicago,IL,60615,medium,medium
+P-00000974,Kenneth,Lewis,kenneth.lewis6@comcast.net,8471287249,6735 Wells St,Chicago,IL,60614,medium,low
+P-00000975,Carol,Campbell,carol.campbell87@msn.com,6305319230,2915 Adams St,Chicago,IL,60610,medium,low
+P-00000976,Robert,Martin,robert.martin70@msn.com,6307371332,688 Armitage Ave,Evanston,IL,60201,high,low
+P-00000977,Richard,Davis,richard.davis40@att.net,6303807501,9543 Armitage Ave,Oak Park,IL,60302,medium,medium
+P-00000978,Thomas,Clark,thomas.clark45@sbcglobal.net,6308527467,5137 Congress Pkwy,Chicago,IL,60657,high,low
+P-00000979,Jessica,Moore,jessica.moore79@att.net,3121924914,1580 Cicero Ave,Chicago,IL,60647,low,medium
+P-00000980,Andrew,White,andrew.white16@att.net,8476361878,1858 Wacker Dr,Chicago,IL,60601,low,high
+P-00000981,Sandra,Hill,sandra.hill6@comcast.net,3123950161,7027 Jackson Blvd,Chicago,IL,60610,low,high
+P-00000982,Donald,Robinson,donald.robinson22@gmail.com,7736638132,3146 Harrison St,Evanston,IL,60201,low,low
+P-00000983,William,White,william.white13@icloud.com,8475785613,3759 Dearborn St,Chicago,IL,60614,high,low
+P-00000984,Michelle,Lewis,michelle.lewis34@outlook.com,8479306946,4175 Ashland Ave,Chicago,IL,60601,low,low
+P-00000985,Elizabeth,Lewis,elizabeth.lewis29@gmail.com,8474380795,3296 Cermak Rd,Chicago,IL,60622,low,medium
+P-00000986,David,Adams,david.adams69@sbcglobal.net,8477118225,3698 LaSalle St,Chicago,IL,60647,low,low
+P-00000987,Daniel,Torres,daniel.torres71@msn.com,7731456195,6776 Diversey Pkwy,Chicago,IL,60622,medium,major
+P-00000988,Thomas,Wright,thomas.wright43@sbcglobal.net,8474701339,4512 Congress Pkwy,Chicago,IL,60601,high,low
+P-00000989,Barbara,Allen,barbara.allen20@icloud.com,8725650215,8071 Wells St,Chicago,IL,60615,high,high
+P-00000990,Matthew,Lopez,matthew.lopez21@msn.com,6303203087,3698 Monroe St,Chicago,IL,60601,medium,medium
+P-00000991,Donald,Green,donald.green52@sbcglobal.net,8472070648,7118 Adams St,Chicago,IL,60657,medium,high
+P-00000992,Robert,Jones,robert.jones92@sbcglobal.net,6308249602,7000 Archer Ave,Oak Park,IL,60302,medium,low
+P-00000993,Margaret,Sanchez,margaret.sanchez83@hotmail.com,3122919587,355 Diversey Pkwy,Chicago,IL,60654,medium,low
+P-00000994,Matthew,King,matthew.king69@hotmail.com,8723153883,9574 Wells St,Oak Park,IL,60302,medium,high
+P-00000995,George,Hernandez,george.hernandez65@sbcglobal.net,3125248949,7332 Clark St,Chicago,IL,60657,low,low
+P-00000996,Betty,Thompson,betty.thompson72@sbcglobal.net,8721699438,6842 California Ave,Evanston,IL,60201,medium,medium
+P-00000997,Charles,Wilson,charles.wilson12@msn.com,8725053492,7520 Michigan Ave,Chicago,IL,60615,high,medium
+P-00000998,Michael,Moore,michael.moore60@yahoo.com,8478349336,6141 Franklin St,Chicago,IL,60614,medium,low
+P-00000999,Dorothy,Perez,dorothy.perez38@hotmail.com,8725369535,1517 Harlem Ave,Chicago,IL,60601,medium,medium
