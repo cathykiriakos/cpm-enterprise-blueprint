@@ -179,3 +179,180 @@ SELECT MAX(load_date) FROM stg_sales;
  - No table without load mechanism 
  - No deployment without liniage update   
 
+## High Level Architecture 
+
+SQL Server(s)
+   ↓
+Python Extractors (pyodbc / sqlalchemy)
+   ↓
+Lineage Engine (rules + parsers)
+   ↓
+Metadata Store (SQL / Azure SQL)
+   ↓
+Purview REST APIs
+   ↓
+Governance UI / Impact Analysis
+
+## *Establish Object Level Lineage: simple yaml config 
+```yaml: 
+sql_servers:
+  - name: PROD-SQL-01
+    auth: integrated
+    databases:
+      - SalesDW
+      - FinanceDW
+
+metadata_db:
+  connection_string: "Driver={ODBC Driver 17 for SQL Server};..."
+
+purview:
+  account_name: mypurview
+  collection: SQL-Lineage
+```
+## Python Extraction Layer 
+ - Libraries 
+    - pyodbc
+    - sqlalchemy
+    - pandas
+    - sqlparse
+    - re
+    - requests
+    - pyyaml
+
+```python:  extractor returns normalized dataframes
+def extract_objects(engine) -> pd.DataFrame:
+    return pd.read_sql("SELECT ... FROM sys.objects", engine)
+
+def extract_dependencies(engine) -> pd.DataFrame:
+    return pd.read_sql("SELECT ... FROM sys.sql_expression_dependencies", engine)
+
+```
+### Dependency Extraction Modules 
+*Core extractors
+- objects.py
+- columns.py
+- dependencies.py
+- procedures.py
+- jobs.py
+- dynamic_sql.py
+
+*Each module:
+- Executes known-safe SQL
+- Tags rows with source_system, extract_time
+
+### Lineage Inference Engine (Rule-Based)
+```Python: Rule Examples
+if is_updated == 1:
+    lineage_type = "WRITE"
+else:
+    lineage_type = "READ"
+#-------------------------------------------------------------------------
+#-------------------------------------------------------------------------
+if object_type == "VIEW":
+    confidence = "High"
+elif uses_dynamic_sql:
+    confidence = "Medium"
+else:
+    confidence = "High"
+```
+
+### Metadata store layer: 
+Python writes directly into:
+- md_asset
+- md_lineage
+- md_column (optional for MVP)
+Use UPSERT logic to stay idempotent
+
+``` python
+def upsert_asset(df):
+    # merge into md_asset
+
+```
+### Purview Push (MVP Scope) - other options beyond purview in snowflake
+
+Let Purview scan assets automatically.
+You only push:
+- Process entities
+- Lineage edges
+
+Use Purview REST API:
+- Create Process
+- Link Inputs/Outputs
+Python handles auth via Azure AD (service principal)
+
+### Production Hardening
+#### Dynamic SQL Parsing Automation
+Python regex + sqlparse:
+
+```python
+TABLE_REGEX = r"(from|join|into|update)\s+([\w\.\[\]]+)"
+```
+- Extract candidate table names
+- Cross-check against known assets
+- Assign confidence = Medium
+
+#### Column-Level Lineage (Selective)
+Only for:
+- Views
+- Critical fact tables
+- Algorithm:
+    - Parse SELECT lists
+    - Map aliases
+- Store only resolved mappings
+- Don’t aim for 100%. Aim for material tables only.
+
+#### Execution Order & Temporal Lineage
+Python maps:
+-SQL Agent job → step → proc → table
+This enables:
+- “What breaks if this job fails?”
+- “What data is stale?”
+
+#### Change Detection
+Nightly run compares:
+- Object hashes
+- Definition hashes
+
+Only recompute lineage for:
+- Changed objects
+- New dependencies
+
+This keeps runtime low.
+
+### Alignment to Data Governance Best Practices (Perview or other)
+|  Feature |  Implementation |
+|----------|-----------------|
+| Data Onwer/Steward | Assing via metadata |
+| Data Dictionary | Link Business Terms |
+| Sensitivity | Tag columns |
+| Confidence | Custom Attribute|
+
+### Automated Exceptions Workflow 
+Python flags:
+- Dynamic SQL
+- Missing sources
+- Circular dependencies
+
+Writes to:
+- Jira/ADO/et al 
+- ServiceNow
+- Teams webhook
+
+Humans only see exceptions, established SLAs and SOPs define time boxed outcomes and outreach 
+
+### Operation Model Considerations 
+*Daily*
+- Automated Extraction
+- Delta Lineage updates
+- Sync with DG/Purview - automated in Snowflake 
+
+*Weekly*
+ - Exception Review
+ - Confidence updates if needed 
+
+*Monthly*
+- Coverage Metrics 
+    - % assets with lineage
+    - % assets with high confidence 
+
+    
